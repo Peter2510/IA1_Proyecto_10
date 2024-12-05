@@ -52,86 +52,94 @@ const trainingData = [
     { input: "Historia de Don Quijote de la Mancha", output: "Don Quijote de la Mancha es el protagonista de la famosa novela Don Quijote de la Mancha, escrita por el autor español Miguel de Cervantes. La obra fue publicada en dos partes: la primera en 1605 y la segunda en 1615. Es una de las novelas más importantes y representativas de la literatura mundial."}, 
 ];
 
-//convierte el texto en vectores numéricos ( para esto se usa los coigos ASCII de las letras -> tipo parser) 
+// Función de tokenización
 const tokenize = (text) => {
-  return text.split(' ').map(word => word.charCodeAt(0)); //se convierte cada palabra en su código ASCII
+  return text.split(' ').map(word => word.charCodeAt(0)); // tokenización sencilla basada en ASCII
 };
 
-//preprocesar los datos de entrada y salida
+// Preprocesamiento de datos
 const inputs = trainingData.map(data => tokenize(data.input));
-const outputs = trainingData.map((data, index) => index); //convertimos las respuestas en índices únicos para simplificar
+const outputs = trainingData.map((data, index) => index); // etiquetas numéricas para las salidas
 
-// convertir las etiquetas a formato one-hot
+// Convertir las etiquetas a formato one-hot
 const oneHotOutputs = outputs.map(output => {
   const oneHot = Array(trainingData.length).fill(0); 
   oneHot[output] = 1; 
   return oneHot;
 });
 
-// calcular el tamaño máximo de la secuencia de entrada
+// Calcular el tamaño máximo de las secuencias
 const maxInputLength = Math.max(...inputs.map(input => input.length));
 
-// asegurarnos de que todas las entradas tengan el mismo tamaño
+// Asegurarse de que todas las entradas tengan el mismo tamaño
 const paddedInputs = inputs.map(input => {
   const paddedInput = [...input];
   while (paddedInput.length < maxInputLength) {
-    paddedInput.push(0); // rellenar con ceros si la secuencia es más corta que el máximo
+    paddedInput.push(0);  // Rellenar con ceros si la secuencia es más corta que el máximo
   }
-  return paddedInput.slice(0, maxInputLength); // asegurarse de que no exceda la longitud máxima
+  return paddedInput.slice(0, maxInputLength);  // Ajustar para no exceder la longitud máxima
 });
 
-// convertir los datos a tensores
-const x = tf.tensor2d(paddedInputs).toFloat(); // convertir la entrada a float32
-const y = tf.tensor2d(oneHotOutputs); // convertir las salidas a one-hot y a tensor
+// Convertir los datos a tensores
+const x = tf.tensor2d(paddedInputs).toFloat(); // Convertir a tipo float32
+const y = tf.tensor2d(oneHotOutputs); // Convertir a one-hot
 
-// crear el modelo
+// Crear el modelo
 const model = tf.sequential();
 
-// capa de embeddings para convertir palabras en vectores
+// Capa de embeddings
 model.add(tf.layers.embedding({
-  inputDim: 256,  // tamaño del vocabulario (usamos 256 para cubrir el rango ASCII)
-  outputDim: 32,  // dimensión del embedding (puedes cambiarla)
-  inputLength: maxInputLength,  // longitud máxima de entrada
+  inputDim: 256,  // Tamaño del vocabulario
+  outputDim: 32,  // Dimensión del embedding
+  inputLength: maxInputLength,
+  embeddingsInitializer: 'glorotNormal'  // Usar un inicializador eficiente para los embeddings
 }));
 
-// capa LSTM para procesar secuencias de longitud variable
-model.add(tf.layers.lstm({ units: 64, returnSequences: false }));
+// Capa LSTM
+model.add(tf.layers.lstm({
+  units: 64, // El número de unidades de la capa LSTM
+  returnSequences: false,
+  kernelInitializer: 'glorotNormal', // Usar un inicializador eficiente
+  recurrentInitializer: 'glorotNormal' // Inicializar también los pesos recurrentes
+}));
 
-// capa densa para la clasificación
-model.add(tf.layers.dense({ units: trainingData.length, activation: 'softmax' }));
-//model.add(tf.layers.dense({ units: 8, activation: 'relu', inputShape: [maxLength] }));
+// Capa densa con inicialización eficiente
+model.add(tf.layers.dense({
+  units: trainingData.length,  // número de respuestas posibles
+  activation: 'softmax',  // activación para clasificación
+  kernelInitializer: 'glorotNormal'  // Usar glorotNormal para la inicialización
+}));
 
-// compilar el modelo con categoricalCrossentropy
+// Compilar el modelo
 model.compile({
   optimizer: 'adam',
-  loss: 'categoricalCrossentropy',
-  metrics: ['accuracy'],
+  loss: 'categoricalCrossentropy',  // Función de pérdida adecuada para clasificación multiclase
+  metrics: ['accuracy'],  // Métricas para evaluar el modelo
 });
 
-// entrenar el modelo
+// Entrenamiento del modelo
 model.fit(x, y, {
-  epochs: 110,
-  batchSize: 4,
+  epochs: 1000,
 }).then(() => {
   console.log("Entrenamiento completado.");
 
-  // función para predecir una respuesta
+  // Función para predecir la respuesta
   const predictResponse = (inputText) => {
-    const tokenizedInput = tokenize(inputText); // convertimos el texto a códigos ASCII
+    const tokenizedInput = tokenize(inputText); // Convertir el texto a códigos ASCII
     const paddedInput = [...tokenizedInput];
     while (paddedInput.length < maxInputLength) {
-      paddedInput.push(0); // rellenar con ceros
+      paddedInput.push(0); // Rellenar con ceros
     }
-    const inputTensor = tf.tensor2d([paddedInput.slice(0, maxInputLength)]).toFloat(); // convertir a float32
+    const inputTensor = tf.tensor2d([paddedInput.slice(0, maxInputLength)]).toFloat();
 
     model.predict(inputTensor).data().then(predictions => {
-      const predictedIndex = predictions.indexOf(Math.max(...predictions)); // seleccionar la clase con la mayor probabilidad
-      console.log("Respuesta: " + trainingData[predictedIndex].output);
+      const predictedIndex = predictions.indexOf(Math.max(...predictions));  // Seleccionar la clase con la mayor probabilidad
+      console.log("Respuesta: " + trainingData[predictedIndex].output);  // Imprimir la respuesta
     });
   };
 
-  // simular la interacción con el chatbot
+  // Simular interacción con el chatbot
   const userInput = "Como naciste?";
   console.log("Usuario: " + userInput);
-  predictResponse(userInput); // predice la respuesta para la entrada del usuario
+  predictResponse(userInput); // Predecir la respuesta para la entrada del usuario
 });
