@@ -5,26 +5,25 @@ const path = require('path');
 const modelPath = path.join(__dirname, 'modelo_chatbot', 'model.json');
 const weightsPath = path.join(__dirname, 'modelo_chatbot', 'modelo_weights.bin');
 
-// Crear el directorio si no existe
-const dirPath = path.dirname(modelPath); // Usamos la ruta de 'model.json' para obtener el directorio
+//crear el directorio si no existe
+const dirPath = path.dirname(modelPath); //usamos la ruta de 'model.json' para obtener el directorio
 if (!fs.existsSync(dirPath)) {
-    fs.mkdirSync(dirPath, { recursive: true }); // Crea el directorio y cualquier directorio necesario
+    fs.mkdirSync(dirPath, { recursive: true }); //crea el directorio y cualquier directorio necesario
 }
 
 // Función para cargar el modelo si existe
 const loadModel = async () => {
   try {
-    // En el navegador, debes proporcionar la URL del modelo, por ejemplo:
-    const modelUrl = './modelo_chatbot/model.json';  // URL o ruta relativa donde está el modelo
+    //URL del modelo, por ejemplo:
+    const modelUrl = './modelo_chatbot/model.json';  //url o ruta relativa donde está el modelo
 
-    // Intentamos cargar el modelo
+    //intnto cargar el modelo
     const model = await tf.loadLayersModel(modelUrl);
     console.log("Modelo cargado exitosamente.");
-    // Aquí puedes usar el modelo cargado para hacer predicciones o más acciones
+    //usar el modelo cargado para hacer predicciones o más acciones
 
   } catch (error) {
     console.error("Error al cargar el modelo:", error);
-    // Aquí puedes agregar código para entrenar un nuevo modelo si ocurre un error
   }
 };
 
