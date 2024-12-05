@@ -122,21 +122,21 @@ const trainModel = async () => {
   model.add(tf.layers.lstm({
     units: 64, // El número de unidades de la capa LSTM
     returnSequences: false,
-    kernelInitializer: 'glorotNormal', // Usar un inicializador eficiente
-    recurrentInitializer: 'glorotNormal' // Inicializar también los pesos recurrentes
+  //  kernelInitializer: 'glorotNormal', // Usar un inicializador eficiente
+    //recurrentInitializer: 'glorotNormal' // Inicializar también los pesos recurrentes
   }));
 
   // Capa densa con inicialización eficiente
   model.add(tf.layers.dense({
     units: trainingData.length,  // número de respuestas posibles
     activation: 'softmax',  // activación para clasificación
-    kernelInitializer: 'glorotNormal'  // Usar glorotNormal para la inicialización
+//    kernelInitializer: 'glorotNormal'  // Usar glorotNormal para la inicialización
   }));
 
   // Compilar el modelo
   model.compile({
     optimizer: 'adam',
-    loss: 'categoricalCrossentropy',  // Función de pérdida adecuada para clasificación multiclase
+    loss: 'binary_crossentropy',  // Función de pérdida adecuada para clasificación multiclase
     metrics: ['accuracy'],  // Métricas para evaluar el modelo
   });
 
@@ -255,8 +255,11 @@ const predictResponse = async (inputText, model, maxInputLength) => {
   // Realizar la predicción
   const predictions = await model.predict(inputTensor).data();
 
+  console.log(predictions)
+
   // Obtener el índice de la clase con la mayor probabilidad
   const predictedIndex = predictions.indexOf(Math.max(...predictions));
+  console.log(predictedIndex)
 
   // Imprimir la respuesta correspondiente
   console.log("Respuesta: ", trainingData[predictedIndex].output);
@@ -270,7 +273,7 @@ const prueba = async () => {
   console.log(model, 'hollll')
 
   // Simulación de interacción con el chatbot
-  const userInput = "Quijote de la mancha";
+  const userInput = "continentes";
   console.log("Usuario:", userInput);
 
   // Llamar a predictResponse con el modelo cargado y la longitud máxima de entrada
