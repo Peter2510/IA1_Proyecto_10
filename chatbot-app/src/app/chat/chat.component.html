@@ -1,0 +1,37 @@
+<nb-layout>
+  <nb-layout-header fixed class="chat-header">
+    Chatbot Uwu
+  </nb-layout-header>
+
+  <nb-layout-column>
+    <nb-chat title="Asistente Virtual" size="large">
+      <!-- Mostrar los mensajes -->
+      <nb-chat-message *ngFor="let message of messages"
+                       [type]="'text'"
+                       [message]="message.text"
+                       [sender]="message.sender"
+                       [date]="message.date"
+                       [avatar]="message.image"
+                       >
+        <ng-template nbChatMessageTitle>
+          <div class="message-header">
+            <!-- Avatar -->
+            <img [src]="message.image" alt="Avatar" class="avatar" />
+            <span class="sender">{{ message.sender }}</span>
+            <span class="date">{{ message.date | date: 'yyyy-MM-dd HH:mm:ss' }}</span>
+          </div>
+        </ng-template>
+      </nb-chat-message>
+    </nb-chat>
+
+    <div class="input-container">
+      <input
+        nbInput
+        placeholder="Escribe tu mensaje"
+        [(ngModel)]="userInput"
+        (keyup.enter)="sendMessage()"
+      />
+      <button nbButton status="primary" (click)="sendMessage()">Enviar</button>
+    </div>
+  </nb-layout-column>
+</nb-layout>
