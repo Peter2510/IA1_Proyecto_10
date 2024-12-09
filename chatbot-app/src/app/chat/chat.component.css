@@ -16,7 +16,7 @@ nb-layout {
 
 /* Contenedor del chat */
 nb-chat {
-  width: 200%;
+  width: 100%;
   max-width: 500px; /* Ancho máximo del chat */
   background-color: #f9f9f9;
   border-radius: 8px;
