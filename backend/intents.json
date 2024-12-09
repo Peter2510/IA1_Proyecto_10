@@ -1,0 +1,349 @@
+{
+  "intents": [
+     { 
+      "tag": "saludo", 
+      "patterns": [
+        "Hola", "Hey", "¿Hay alguien ahí?", "Buenas", "¿Cómo estás?", "¿Qué tal?", 
+        "¡Saludos!", "¿Qué haces?", "Encantado", "¿Cómo te encuentras?", 
+        "¡Buen día!", "¿Cómo amaneciste?", "¡Hola, amigo!", "¡Hola, colega!", 
+        "¿Listo para el día?", "Hey, ¿cómo estás?", "¿Qué novedades?", 
+        "¡Mucho gusto!", "¡Hola por aquí!", "¡Qué alegría verte!"
+      ], 
+      "responses": [
+        "¡Hola!", "¡Qué gusto saludarte!", "¡Buenas!", "Todo bien, ¿y tú?", 
+        "Encantado de verte.", "¡Saludos!", "¡Qué alegría saludarte!", 
+        "¡Buen día!", "¡Hola, amigo!", "¡Espero que estés bien!"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós", "Nos vemos", "Hasta luego", "Cuídate", "Bye", 
+        "Te veo después", "Hasta mañana", "Hasta la próxima", 
+        "Nos vemos pronto", "¡Hasta siempre!", "Que te vaya bien", 
+        "Que tengas un buen día", "Hasta el próximo encuentro", 
+        "¡Cuídate mucho!", "¡Hasta el viernes!", "Nos vemos en otra ocasión", 
+        "Adiós por ahora", "Te espero pronto", "¡Que tengas un buen día!", "Hasta la tarde"
+      ],
+      "responses": [
+        "¡Hasta luego!", "Que tengas un buen día.", "¡Nos vemos pronto!", 
+        "Cuídate mucho.", "Adiós, vuelve pronto."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "Gracias", "Muchas gracias", "Eso es útil", "Gracias por la ayuda", 
+        "Te agradezco", "¡Qué amable!", "Estoy muy agradecido", 
+        "¡Gracias mil!", "Te lo agradezco mucho", "Gracias infinitas"
+      ],
+      "responses": [
+        "¡Feliz de ayudarte!", "¡Cuando quieras!", "¡Es un placer!", 
+        "¡De nada!", "¡Siempre a tu disposición!", "¡Me alegra ser útil!"
+      ]
+    },
+    {
+      "tag": "nombre",
+      "patterns": [
+        "¿Cómo te llamas?", "¿Cuál es tu nombre?", "¿Cómo debería llamarte?", 
+        "¿Qué nombre tienes?", "¿Quién eres tú por nombre?", "Me gustaría saber tu nombre", 
+        "¿Cómo debería dirigirme a ti?", "¿Cuál es tu nombre completo?", 
+        "¿Te puedo llamar algo específico?", "¿Qué nombre prefieres que use?"
+      ],
+      "responses": [
+        "Puedes llamarme Joana.", "Soy Joana.", "Llámame Joana.", 
+        "Me llamo Joana.", "Soy tu asistente virtual, Joana.", "Puedes referirte a mí como Joana."
+      ]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": [
+        "¿Puedes ayudarme?",
+        "Ayúdame, por favor",
+        "¿Me puedes ayudar?",
+        "¿Qué puedes hacer por mí?",
+        "Necesito apoyo",
+        "Necesito ayuda",
+        "Apóyame, por favor"
+      ],
+      "responses": ["Dime cómo puedo ayudarte", "Cuéntame tu problema para asistirte", "Claro, ¿en qué puedo apoyarte?"]
+    },
+    {
+      "tag": "queja",
+      "patterns": ["Tengo una queja", "Quiero poner una queja", "Hay un problema con un servicio"],
+      "responses": [
+        "Por favor, dinos tu queja para poder asistirte.",
+        "Menciona tu queja, nos pondremos en contacto contigo. Lamentamos cualquier inconveniente causado."
+      ]
+    },
+  {
+    "tag": "programacion",
+    "patterns": [
+      "¿Qué es Python?", "¿Cómo empiezo a programar?", "¿Qué es un lenguaje de programación?", "¿Qué significa 'debuggear'?", "¿Qué es una clase en programación?", 
+      "¿Qué es una función?", "¿Cómo uso bucles?", "¿Qué es una variable?", "¿Qué es JavaScript?", "¿Por qué usar TypeScript?",
+      "¿Qué es una API?", "¿Cómo funciona un servidor web?", "¿Qué es el HTML?", "¿Qué es CSS?", "¿Qué es GitHub?",
+      "¿Por qué usar bases de datos?", "¿Qué es una arquitectura MVC?", "¿Qué es el desarrollo frontend?", "¿Qué es el backend?", "¿Qué son los algoritmos?"
+    ],
+    "responses": [
+      "Python es un lenguaje de programación versátil.", "Empieza aprendiendo la lógica básica.", "Un lenguaje de programación permite instrucciones para computadoras.",
+      "'Debuggear' significa encontrar y corregir errores en el código.", "Las clases son plantillas para crear objetos.", "Las funciones son bloques reutilizables.",
+      "HTML es el lenguaje de diseño de páginas web.", "JavaScript es fundamental para el desarrollo web interactivo.", "TypeScript agrega seguridad con tipos estáticos.",
+      "Las bases de datos permiten almacenar información para aplicaciones.", "Los algoritmos son procesos sistemáticos para resolver problemas."
+    ]
+  },
+  {
+    "tag": "cultura_general",
+    "patterns": [
+      "¿Quién fue Newton?", "¿Qué es el Renacimiento?", "¿Qué es la fotosíntesis?", "¿Qué es el arte barroco?", "¿Qué inventó Leonardo da Vinci?", 
+      "¿Cuántos océanos hay?", "¿Qué es el arte abstracto?", "¿Qué países conforman América del Sur?", "¿Cuántos planetas hay?", "¿Qué es la gravedad?",
+      "¿Qué es la teoría de la relatividad?", "¿Quién fue Aristóteles?", "¿Qué es la era espacial?", "¿Qué es el Big Bang?", "¿Qué es una galaxia?",
+      "¿Qué es una revolución industrial?", "¿Qué es la electricidad?", "¿Por qué existió la Guerra Fría?", "¿Qué es el teatro clásico?", "¿Qué es la evolución?"
+    ],
+    "responses": [
+      "Newton formuló la ley de la gravedad.", "El Renacimiento fue un período de esplendor cultural en Europa.", "La fotosíntesis es el proceso mediante el cual las plantas producen su alimento.",
+      "Leonardo da Vinci inventó el paracaídas y fue un pionero del arte.", "Hay cinco océanos en el mundo.", "El arte abstracto es una corriente basada en la forma y el color.",
+      "América del Sur está conformada por doce países.", "Hay ocho planetas en el sistema solar.", "La gravedad es la fuerza que mantiene los objetos en el suelo.",
+      "Aristóteles fue un filósofo griego muy influyente.", "El Big Bang es la teoría más aceptada sobre el origen del universo."
+    ]
+  },
+  {
+    "tag": "ciencia",
+    "patterns": [
+      "¿Qué es la teoría de la evolución?", "¿Qué es la gravedad?", "¿Qué es la energía solar?", "¿Cómo funciona la física cuántica?", "¿Qué es la fotosíntesis?", 
+      "¿Qué es el ADN?", "¿Qué es el bosón de Higgs?", "¿Cómo se forma un huracán?", "¿Qué es un agujero negro?", "¿Qué es la teoría del todo?",
+      "¿Qué es el cambio climático?", "¿Por qué llueve?", "¿Qué es la antimateria?", "¿Cómo se forma un volcán?", "¿Qué es la luz?",
+      "¿Qué es el ADN en genética?", "¿Por qué ocurre el efecto invernadero?", "¿Qué es un cometa?", "¿Qué es la expansión del universo?", "¿Cómo funciona la fotosíntesis?"
+    ],
+    "responses": [
+      "La evolución es un proceso natural por selección natural.", "La gravedad es la fuerza que atrae los cuerpos hacia el centro de la Tierra.",
+      "La energía solar es una fuente de energía limpia y renovable.", "La física cuántica estudia partículas subatómicas y su comportamiento.",
+      "El ADN es el código genético que lleva la información hereditaria.", "El bosón de Higgs es una partícula fundamental en la física de partículas.",
+      "Los huracanes se forman por la interacción de aire caliente y agua.", "Los agujeros negros tienen una gravedad tan fuerte que nada puede escapar.",
+      "El cambio climático es un fenómeno provocado por el exceso de gases de efecto invernadero."
+    ]
+  },
+  {
+    "tag": "historia",
+    "patterns": [
+      "¿Quién fue Napoleón?", "¿Qué fue la Revolución Francesa?", "¿Qué ocurrió en la Segunda Guerra Mundial?", "¿Qué fue la Edad Media?", "¿Qué es el Renacimiento?",
+      "¿Quién fue Julio César?", "¿Qué fue el imperio romano?", "¿Qué fue el descubrimiento de América?", "¿Quién fue Cleopatra?", "¿Qué fue el Tratado de Versalles?",
+      "¿Por qué se inició la Guerra Fría?", "¿Qué fue la Guerra de los Cien Años?", "¿Qué fue el Imperio Otomano?", "¿Qué es la Revolución Industrial?", "¿Qué fue la batalla de Waterloo?",
+      "¿Qué fue el pacto de no agresión entre Alemania y la URSS?", "¿Qué fue el muro de Berlín?", "¿Qué son los nazis?", "¿Por qué ocurrió la independencia de las colonias americanas?", "¿Qué fue el Imperio Británico?"
+    ],
+    "responses": [
+      "Napoleón fue un líder militar y político francés.", "La Revolución Francesa fue un período de cambio social y político en Francia.",
+      "La Segunda Guerra Mundial fue un conflicto global entre las Potencias del Eje y los Aliados.", "La Edad Media fue un período de la historia europea.",
+      "El Renacimiento fue un período de redescubrimiento del conocimiento en Europa.", "Julio César fue un líder romano clave en la historia de Roma.",
+      "El Imperio Romano fue una civilización clave en la historia occidental.", "El descubrimiento de América fue en 1492 por Cristóbal Colón.",
+      "Cleopatra fue la última reina del antiguo Egipto.", "El Tratado de Versalles fue un acuerdo de paz al final de la Primera Guerra Mundial."
+    ]
+  },
+  {
+    "tag": "música",
+    "patterns": [
+      "¿Quién es Beethoven?", "¿Qué es el jazz?", "¿Qué es el pop?", "¿Quién es Mozart?", "¿Qué instrumentos forman una orquesta?",
+      "¿Qué es el rock clásico?", "¿Cuál es el origen del reggae?", "¿Qué es el rap?", "¿Qué es la música electrónica?", "¿Quién es David Bowie?",
+      "¿Qué es un concierto?", "¿Qué es una sinfonía?", "¿Qué significa una improvisación musical?", "¿Qué es una nota musical?", "¿Qué es un acorde?",
+      "¿Quién inventó el piano?", "¿Cuál es la canción más escuchada de todos los tiempos?", "¿Qué es una melodía?", "¿Qué es un instrumento de viento?", "¿Qué es un remix musical?"
+    ],
+    "responses": [
+      "Beethoven fue un compositor alemán clave para el Clasicismo y Romanticismo.", "El jazz es un estilo musical nacido en los Estados Unidos.",
+      "El pop es un género musical con un estilo moderno y pegajoso.", "Mozart fue un compositor austriaco muy influyente.",
+      "Una orquesta se compone de instrumentos de cuerdas, viento y percusión.", "El rock clásico surgió en los años 60 y 70.",
+      "El reggae tiene su origen en Jamaica.", "El rap es una expresión musical basada en rimas y ritmo.",
+      "La música electrónica utiliza tecnología para crear sonidos.", "David Bowie fue un artista revolucionario en el pop y el glam rock.",
+      "Un concierto es una presentación en vivo para el público de un artista o banda."
+    ]
+  },
+  {
+    "tag": "deportes",
+    "patterns": [
+      "¿Qué es el fútbol?", "¿Qué es el baloncesto?", "¿Quién es Lionel Messi?", "¿Qué es el tenis?", "¿Qué es el atletismo?",
+      "¿Cuál es la historia del fútbol?", "¿Qué significa 'gol'?", "¿Cuántos jugadores tiene un equipo de baloncesto?", "¿Qué es el mundial de fútbol?", "¿Quién es Usain Bolt?",
+      "¿Qué es el hockey?", "¿Qué es el ciclismo?", "¿Por qué es popular el fútbol?", "¿Qué es la maratón?", "¿Qué es el deporte olímpico?",
+      "¿Qué es el surf?", "¿Cuántos deportes se practican en los Juegos Olímpicos?", "¿Qué es la gimnasia rítmica?", "¿Quién es Serena Williams?", "¿Qué es la Formula 1?"
+    ],
+    "responses": [
+      "El fútbol es el deporte más popular del mundo.", "El baloncesto es un deporte que se juega con una pelota y un aro.",
+      "Lionel Messi es uno de los futbolistas más famosos de la historia.", "El tenis es un deporte jugado individualmente o en dobles.",
+      "El atletismo es un conjunto de deportes que incluyen carreras y saltos.",
+      "Usain Bolt es considerado el hombre más rápido del mundo.",
+      "El deporte olímpico es una competencia internacional multidisciplinaria."
+    ]
+  },
+   {
+      "tag": "tecnologia",
+      "patterns": [
+        "¿Qué es la inteligencia artificial?",
+        "¿Qué es el IoT?",
+        "¿Cómo funcionan los algoritmos?",
+        "¿Qué es el machine learning?",
+        "¿Qué es el blockchain?",
+        "¿Qué es la nube?",
+        "Explícame el funcionamiento de un servidor",
+        "¿Cómo funciona el 5G?",
+        "¿Qué es el big data?",
+        "¿Qué es una criptomoneda?",
+        "¿Qué aplicaciones tiene la realidad aumentada?",
+        "¿Cómo se utiliza la realidad virtual?"
+      ],
+      "responses": [
+        "La inteligencia artificial es el campo de la informática que busca crear máquinas que puedan imitar el comportamiento humano.",
+        "IoT significa Internet de las Cosas, y se refiere a objetos físicos conectados a internet.",
+        "Un algoritmo es un conjunto de reglas o instrucciones para resolver un problema o realizar una tarea.",
+        "Machine learning es el aprendizaje automático de una máquina basado en datos.",
+        "Blockchain es una tecnología de registro seguro descentralizado.",
+        "La nube es un servicio de almacenamiento de datos accesible a través de Internet.",
+        "Un servidor es una máquina que gestiona recursos y proporciona servicios a otros dispositivos.",
+        "El 5G es la quinta generación de tecnología móvil con una velocidad de red mucho más rápida.",
+        "El big data hace referencia a grandes volúmenes de datos que se analizan para encontrar patrones.",
+        "Una criptomoneda es una moneda digital descentralizada que funciona con blockchain.",
+        "La realidad aumentada mezcla el entorno físico con elementos digitales.",
+        "La realidad virtual es una experiencia inmersiva completamente digital."
+      ]
+    },
+    {
+      "tag": "ciencias_computacionales",
+      "patterns": [
+        "¿Qué es el sistema operativo?",
+        "¿Qué es un servidor web?",
+        "¿Cómo funciona una red?",
+        "¿Qué es una base de datos?",
+        "Explícame la arquitectura de redes.",
+        "¿Qué significa HTML?",
+        "¿Qué es CSS?",
+        "¿Cómo funciona JavaScript?",
+        "¿Qué es un contenedor Docker?",
+        "¿Cómo es una arquitectura microservicio?",
+        "¿Qué es un proxy?"
+      ],
+      "responses": [
+        "El sistema operativo es el software principal que gestiona los recursos de una computadora.",
+        "Un servidor web es un programa que entrega contenido web a través de HTTP.",
+        "Una red es una conexión de computadoras que comparten recursos e información.",
+        "Una base de datos es un sistema que almacena información de manera organizada.",
+        "La arquitectura de redes describe cómo se conectan varios sistemas entre sí.",
+        "HTML es el lenguaje estándar para crear y estructurar páginas web.",
+        "CSS es un lenguaje de diseño utilizado para el diseño visual de las páginas web.",
+        "JavaScript es un lenguaje de programación que permite crear interactividad en la web.",
+        "Un contenedor Docker es un paquete que contiene una aplicación y todas sus dependencias.",
+        "La arquitectura de microservicios es una manera de organizar aplicaciones en servicios pequeños e independientes.",
+        "Un proxy es un servidor intermediario entre el usuario y el servidor destino."
+      ]
+    },
+    {
+      "tag": "seguridad",
+      "patterns": [
+        "¿Qué es el cifrado?",
+        "¿Cómo funciona un firewall?",
+        "¿Qué es la criptografía?",
+        "¿Por qué es importante la seguridad informática?",
+        "¿Qué es un ataque DDoS?",
+        "Explícame qué es la autenticación multifactor",
+        "¿Qué es un virus informático?",
+        "¿Qué es el hacking ético?",
+        "¿Qué es la protección contra malware?",
+        "¿Cómo puedo proteger mis contraseñas?"
+      ],
+      "responses": [
+        "El cifrado es un proceso que convierte la información en códigos para protegerla.",
+        "Un firewall es un sistema de seguridad que filtra el tráfico entre una red interna y externa.",
+        "La criptografía es la práctica de proteger información a través de técnicas seguras.",
+        "La seguridad informática es vital para proteger la información contra accesos no autorizados.",
+        "Un ataque DDoS es un intento de saturar un servidor con tráfico para hacerlo inaccesible.",
+        "La autenticación multifactor añade una capa extra de seguridad al inicio de sesión.",
+        "Un virus informático es un código malicioso que afecta el funcionamiento de una computadora.",
+        "El hacking ético es el uso de prácticas de seguridad para detectar vulnerabilidades.",
+        "La protección contra malware implica el uso de programas antivirus y prácticas seguras.",
+        "Puedes proteger tus contraseñas utilizando gestores de contraseñas y autenticación de dos factores."
+      ]
+    },
+    {
+      "tag": "negocios",
+      "patterns": [
+        "¿Qué es un modelo de negocio?",
+        "¿Cómo crear una startup?",
+        "¿Qué es el análisis FODA?",
+        "¿Qué es el plan de negocio?",
+        "Explícame el concepto de mercado objetivo.",
+        "¿Qué es la inversión inicial?",
+        "¿Qué significa 'estrategia de marketing'?",
+        "¿Qué es la competencia en negocios?",
+        "¿Qué es una estrategia de crecimiento?",
+        "¿Cómo analizo mi rentabilidad?"
+      ],
+      "responses": [
+        "Un modelo de negocio es la estructura que define cómo una empresa crea, entrega y captura valor.",
+        "Crear una startup implica validar tu idea, buscar financiamiento y ejecutarla de manera escalable.",
+        "El análisis FODA es una herramienta para identificar fortalezas, debilidades, oportunidades y amenazas.",
+        "El plan de negocio es un documento que detalla cómo funcionará tu empresa.",
+        "El mercado objetivo es el grupo de clientes a los que quieres dirigir tu producto o servicio.",
+        "La inversión inicial es el monto de dinero necesario para poner en marcha un negocio.",
+        "La estrategia de marketing es el plan para posicionar un producto en el mercado.",
+        "La competencia es el análisis de otras empresas que ofrecen productos similares.",
+        "Una estrategia de crecimiento busca aumentar la participación de mercado de una empresa.",
+        "Analizar la rentabilidad implica estudiar ingresos, costos y beneficios para evaluar el éxito financiero."
+      ]
+    },
+  {
+    "tag": "astronomia",
+    "patterns": [
+      "¿Qué es un planeta?", "¿Qué es una estrella?", "¿Qué es una galaxia?", "¿Qué es un agujero negro?", "¿Qué es un cometa?",
+      "¿Qué significa la órbita de un planeta?", "¿Por qué la Tierra tiene estaciones?", "¿Qué es el sistema solar?", "¿Qué es la vía láctea?", "¿Qué es una supernova?",
+      "¿Qué es la gravedad en el espacio?", "¿Por qué las estrellas brillan?", "¿Qué es la expansión del universo?", "¿Qué es un pulsar?", "¿Cómo se forman los planetas?"
+    ],
+    "responses": [
+      "Un planeta es un cuerpo celeste que orbita una estrella.", 
+      "Una estrella es una esfera de gas que genera su propia energía a través de reacciones nucleares.",
+      "Una galaxia es un conjunto de estrellas, gas y polvo unidos por la gravedad.",
+      "Un agujero negro es una región donde la gravedad es tan fuerte que nada puede escapar.",
+      "Un cometa es un pequeño objeto helado que pasa cerca del Sol y desarrolla una cola visible."
+    ]
+  },
+  {
+    "tag": "cine",
+    "patterns": [
+      "¿Quién dirigió Titanic?", "¿Qué es una película independiente?", "¿Cuál es la saga de Star Wars?", "¿Qué es el cine clásico?", "¿Quién es Steven Spielberg?",
+      "¿Qué es el cine mudo?", "¿Qué es un género cinematográfico?", "¿Qué es un premio Oscar?", "¿Qué es el cine de animación?", "¿Qué es el cine de ciencia ficción?",
+      "¿Qué es un director de cine?", "¿Qué son los efectos especiales?", "¿Qué es el guion en una película?", "¿Por qué es importante el montaje en el cine?", "¿Qué es una película de culto?"
+    ],
+    "responses": [
+      "Titanic fue dirigida por James Cameron.",
+      "Una película independiente es una producción realizada fuera del sistema tradicional de grandes estudios.",
+      "Star Wars es una famosa saga de ciencia ficción creada por George Lucas.",
+      "El cine clásico hace referencia al cine de las primeras décadas del siglo XX.",
+      "Steven Spielberg es uno de los directores más influyentes de la historia del cine."
+    ]
+  },
+  {
+    "tag": "viajes",
+    "patterns": [
+      "¿Cuál es el mejor destino turístico del mundo?", "¿Qué es el turismo sostenible?", "¿Qué países tienen playas hermosas?", "¿Qué es un paquete turístico?", "¿Cómo planificar un viaje?",
+      "¿Qué es el turismo de aventura?", "¿Qué son las rutas históricas?", "¿Qué es el ecoturismo?", "¿Cuáles son los mejores lugares para vacaciones?", "¿Qué es el turismo cultural?",
+      "¿Qué es el backpacking?", "¿Por qué viajar en grupo es una mejor opción?", "¿Qué es un tour guiado?", "¿Qué es un resort?", "¿Cómo reservar un hotel barato?"
+    ],
+    "responses": [
+      "El mejor destino turístico depende de lo que busques: cultura, naturaleza o aventura.",
+      "El turismo sostenible respeta el medio ambiente y las comunidades locales.",
+      "Las playas en el Caribe y el Mediterráneo son muy populares para vacacionar.",
+      "Un paquete turístico incluye transporte, alojamiento y actividades planificadas.",
+      "Planificar un viaje requiere establecer presupuesto, transporte y actividades a realizar."
+    ]
+  },
+  {
+    "tag": "comida",
+    "patterns": [
+      "¿Cuál es la comida más popular del mundo?", "¿Qué es la comida rápida?", "¿Qué es un plato típico italiano?", "¿Qué es la comida vegana?", "¿Qué es la dieta mediterránea?",
+      "¿Qué es el sushi?", "¿Cómo preparar una receta casera?", "¿Qué es un menú degustación?", "¿Qué es la cocina molecular?", "¿Qué es la gastronomía?",
+      "¿Qué son los postres franceses?", "¿Qué es una dieta balanceada?", "¿Cómo cocinar comida saludable?", "¿Por qué comer saludable es importante?", "¿Qué es la panadería artesanal?"
+    ],
+    "responses": [
+      "La comida más popular del mundo incluye pizza, hamburguesas y comida asiática.",
+      "La comida rápida es rápida de preparar y consumir, pero puede no ser muy saludable.",
+      "La comida italiana es muy conocida por sus pastas y pizzas.",
+      "La comida vegana excluye todos los productos de origen animal.",
+      "La dieta mediterránea es rica en verduras, pescado y aceite de oliva."
+    ]
+  }
+  ]
+}
