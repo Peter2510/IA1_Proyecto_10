@@ -1,21 +1,22 @@
 <nb-layout>
   <nb-layout-header fixed class="chat-header">
-    Chatbot Ia
+    Chatbot IA
   </nb-layout-header>
 
   <nb-layout-column>
-    <nb-chat title="Asistente Virtual" size="large">
-      <!-- Mostrar los mensajes -->
-      <nb-chat-message *ngFor="let message of messages"
-                       [type]="'text'"
-                       [message]="message.text"
-                       [sender]="message.sender"
-                       [date]="message.date"
-                       [avatar]="message.image"
-                       >
+    <nb-chat title="Chatbot" size="large">
+      <nb-chat-message
+        *ngFor="let message of messages"
+        [type]="'text'"
+        [message]="message.text"
+        [sender]="message.sender"
+        [date]="message.date"
+        [avatar]="message.image"
+        [class.user-message]="message.sender === userName"
+        [class.bot-message]="message.sender === botName"
+      >
         <ng-template nbChatMessageTitle>
           <div class="message-header">
-            <!-- Avatar -->
             <img [src]="message.image" alt="Avatar" class="avatar" />
             <span class="sender">{{ message.sender }}</span>
             <span class="date">{{ message.date | date: 'yyyy-MM-dd HH:mm:ss' }}</span>
