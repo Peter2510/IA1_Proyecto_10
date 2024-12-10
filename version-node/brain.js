@@ -121,8 +121,8 @@ const train = () => {
   fs.readFile("eassy.txt", "utf8", (err, data) => {
     array = data.toString().split("."); //separar por oraciones
     net.train(array, {
-      iterations: 20000,
-      errorThresh: 0.01,
+      iterations: 500,
+      errorThresh: 0.05,
       log: true,
       logPeriod: 100,
       //learningRate: 0.3,
