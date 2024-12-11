@@ -2,7 +2,7 @@
   { "text": "Hola, ¿cómo estás?" },
   { "text": "¡Hola! Estoy bien, gracias. ¿Y tú?" },
   { "text": "Hola" },
-  { "text": "Lo siento, no puedo entenderte" },
+  { "text": "Hola, espero estes bien" },
   { "text": "¿Qué tiempo hace hoy?" },
   { "text": "Depende de dónde estés. Aquí parece soleado." },
   { "text": "¿Quién ganó el último mundial de fútbol?" },
@@ -2500,6 +2500,555 @@
   { "text": "La teoría de la información es un campo de estudio en matemáticas y telecomunicaciones que se centra en la cuantificación, almacenamiento y comunicación de la información." },
 
   { "text": "¿Qué es el efecto invernadero?" },
-  { "text": "El efecto invernadero es un fenómeno natural en el que ciertos gases de la atmósfera, como el dióxido de carbono y el metano, atrapan el calor del sol, calentando la superficie de la Tierra." }
+  { "text": "El efecto invernadero es un fenómeno natural en el que ciertos gases de la atmósfera, como el dióxido de carbono y el metano, atrapan el calor del sol, calentando la superficie de la Tierra." },
+
+{ "text": "Hola, ¿cómo estás?" },
+{ "text": "¡Hola! Estoy bien, gracias. ¿Y tú?" },
+
+{ "text": "¡Hola! ¿Qué tal tu día?" },
+{ "text": "¡Hola! Mi día ha estado genial, ¿y el tuyo?" },
+
+{ "text": "¿Cómo te encuentras hoy?" },
+{ "text": "Me encuentro muy bien, gracias por preguntar." },
+
+{ "text": "Buenas, ¿todo bien por ahí?" },
+{ "text": "Sí, todo en orden, ¿qué tal tú?" },
+
+{ "text": "¡Hey! ¿Cómo va todo?" },
+{ "text": "¡Hey! Todo bien, ¿cómo te va a ti?" },
+
+{ "text": "Hola, ¿qué novedades tienes?" },
+{ "text": "Hola, pocas novedades. ¿Qué hay contigo?" },
+
+{ "text": "Hola, espero que estés genial." },
+{ "text": "Hola, ¡gracias! Espero que tú también." },
+
+{ "text": "¡Qué gusto saludarte! ¿Cómo estás?" },
+{ "text": "¡Qué gusto saludarte también! Estoy muy bien." },
+
+{ "text": "Buenas, ¿cómo te trata la vida?" },
+{ "text": "Buenas, la vida me trata bien, ¿y a ti?" },
+
+{ "text": "Hola, ¿qué planes tienes para hoy?" },
+{ "text": "Hola, mis planes son descansar. ¿Y los tuyos?" },
+
+{ "text": "Adiós, que tengas un gran día." },
+{ "text": "Gracias, igualmente. ¡Cuídate mucho!" },
+
+{ "text": "Nos vemos pronto, cuídate." },
+{ "text": "¡Nos vemos! Hasta la próxima." },
+
+{ "text": "Hasta luego, que todo vaya bien." },
+{ "text": "Hasta luego, ¡mucho éxito en lo que hagas!" },
+
+{ "text": "Chao, nos hablamos luego." },
+{ "text": "Claro, ¡hasta luego!" },
+
+{ "text": "Cuídate, ¡hasta la próxima!" },
+{ "text": "¡Gracias, tú también! Nos hablamos luego." },
+
+{ "text": "Bye, que todo salga excelente." },
+{ "text": "Gracias, lo mismo para ti. Bye." },
+
+{ "text": "Hasta la vista, cuida mucho de ti." },
+{ "text": "Hasta la vista, igualmente." },
+
+{ "text": "Nos vemos, ¡éxitos en lo que hagas!" },
+{ "text": "¡Nos vemos! Gracias por tus buenos deseos." },
+
+{ "text": "Adiós, un gusto hablar contigo." },
+{ "text": "El gusto fue mío. ¡Hasta pronto!" },
+
+{ "text": "Que descanses, nos vemos luego." },
+{ "text": "Gracias, que descanses también." },
+
+{ "text": "¿Qué opinas del último episodio de tu serie favorita?" },
+{ "text": "¡Me encantó! ¿A ti qué te pareció?" },
+
+{ "text": "¿Has escuchado algo interesante últimamente?" },
+{ "text": "Sí, un podcast sobre tecnología que estuvo genial. ¿Tú?" },
+
+{ "text": "Cuéntame, ¿cómo te ha ido en el trabajo?" },
+{ "text": "Ha sido una semana ocupada, pero todo bien. ¿Y tú?" },
+
+{ "text": "¿Algún plan emocionante para el fin de semana?" },
+{ "text": "Sí, voy a salir con amigos. ¿Y tú qué harás?" },
+
+{ "text": "¿Te enteraste de la nueva apertura en el centro comercial?" },
+{ "text": "Sí, estoy pensando en visitarlo. ¿Ya fuiste?" },
+
+{ "text": "¿Cómo está tu familia, todo bien por casa?" },
+{ "text": "Sí, todo bien, gracias por preguntar. ¿Y la tuya?" },
+
+{ "text": "¿Qué tal va ese proyecto en el que estabas trabajando?" },
+{ "text": "Avanzando poco a poco. ¿Y tú, en qué andas?" },
+
+{ "text": "¿Has probado algún restaurante nuevo últimamente?" },
+{ "text": "Sí, uno de comida italiana. ¡Estaba delicioso!" },
+
+{ "text": "¿Qué te pareció el clima esta semana?" },
+{ "text": "Ha estado algo loco, pero me gusta." },
+
+{ "text": "¿Algún libro o película que recomendarías?" },
+{ "text": "Sí, una película llamada *Interestelar*. Es fantástica." },
+
+{ "text": "¿Qué opinas del cambio climático?" },
+{ "text": "Es algo que debemos tomar muy en serio." },
+
+{ "text": "¿Escuchaste sobre la nueva misión a Marte?" },
+{ "text": "Sí, es emocionante ver esos avances." },
+
+{ "text": "¿Viste las protestas recientes?" },
+{ "text": "Sí, muestran que hay mucho por mejorar." },
+
+{ "text": "¿Qué piensas del teletrabajo?" },
+{ "text": "Es bueno, pero no siempre fácil." },
+
+{ "text": "¿Te enteraste del precio del combustible?" },
+{ "text": "Sí, está afectando a muchas personas." },
+
+{ "text": "¿Qué sabes de la inteligencia artificial?" },
+{ "text": "Está avanzando muy rápido." },
+
+{ "text": "¿Has oído algo sobre energías renovables?" },
+{ "text": "Sí, es un gran paso hacia el futuro." },
+
+{ "text": "¿Qué opinas de las nuevas leyes?" },
+{ "text": "Depende, algunas parecen útiles." },
+
+{ "text": "¿Sabes algo de las elecciones?" },
+{ "text": "Sí, está todo muy reñido." },
+
+{ "text": "¿Viste el lanzamiento del cohete?" },
+{ "text": "Sí, fue impresionante." },
+
+{ "text": "¿Viste el partido de ayer?" },
+{ "text": "Sí, estuvo increíble." },
+
+{ "text": "¿Qué piensas del nuevo campeón?" },
+{ "text": "Se lo merece, jugó muy bien." },
+
+{ "text": "¿Sabes quién ganó la liga?" },
+{ "text": "Sí, fue un gran torneo." },
+
+{ "text": "¿Te gusta el fútbol?" },
+{ "text": "Sí, lo disfruto mucho." },
+
+{ "text": "¿Practicas algún deporte?" },
+{ "text": "Sí, me gusta correr." },
+
+{ "text": "¿Qué opinas del nuevo fichaje?" },
+{ "text": "Creo que será una gran adición." },
+
+{ "text": "¿Viste el golazo del fin de semana?" },
+{ "text": "Sí, fue espectacular." },
+
+{ "text": "¿Te interesa la Fórmula 1?" },
+{ "text": "Un poco, me gusta ver las carreras." },
+
+{ "text": "¿Qué deporte prefieres ver?" },
+{ "text": "Fútbol, definitivamente." },
+
+{ "text": "¿Sigues el baloncesto?" },
+{ "text": "Sí, especialmente los playoffs." },
+
+{ "text": "¿Te enteraste del terremoto?" },
+{ "text": "Sí, fue muy fuerte." },
+
+{ "text": "¿Qué piensas del conflicto actual?" },
+{ "text": "Es una situación complicada." },
+
+{ "text": "¿Viste las noticias sobre la economía?" },
+{ "text": "Sí, está bastante inestable." },
+
+{ "text": "¿Qué sabes de la reunión mundial?" },
+{ "text": "Hablaron de temas importantes." },
+
+{ "text": "¿Te enteraste del cambio político?" },
+{ "text": "Sí, es un gran giro para el país." },
+
+{ "text": "¿Qué opinas de la última cumbre?" },
+{ "text": "Fue interesante escuchar sus propuestas." },
+
+{ "text": "¿Sabes algo del huracán?" },
+{ "text": "Sí, causó muchos daños." },
+
+{ "text": "¿Qué piensas de los acuerdos recientes?" },
+{ "text": "Parecen un buen inicio." },
+
+{ "text": "¿Te enteraste de la huelga?" },
+{ "text": "Sí, la gente tiene sus razones." },
+
+{ "text": "¿De donde eres?" },
+{ "text": "Soy un proyecto creado en Xela." },
+
+{ "text": "¿Quien es tu creador?" },
+{ "text": "Estudiantes del CUNOC, Randy, Pedro y Alexis" },
+
+{ "text": "¿Quienes son tus creadores?" },
+{ "text": "Estudiantes del CUNOC, Randy, Pedro y Alexis" },
+
+{ "text": "¿Donde naciste?" },
+{ "text": "Estudiantes del CUNOC, Randy, Pedro y Alexis" },
+
+{ "text": "¿Cuantos años tienes?" },
+{ "text": "Soy joven aún, tengo 1 semana de haber sido creado" },
+
+{ "text": "¿Qué opinas de la inflación?" },
+{ "text": "Es preocupante para todos." },
+
+{ "text": "¿Te afecta la economía actual?" },
+{ "text": "Sí, los precios están altos." },
+
+{ "text": "¿Sabes algo del dólar?" },
+{ "text": "Sí, está subiendo mucho." },
+
+{ "text": "¿Qué piensas de los nuevos impuestos?" },
+{ "text": "No me parecen muy justos." },
+
+{ "text": "¿Crees que habrá recesión?" },
+{ "text": "Espero que no, pero es posible." },
+
+{ "text": "¿Qué tal el mercado laboral?" },
+{ "text": "Parece complicado últimamente." },
+
+{ "text": "¿Sabes algo de las exportaciones?" },
+{ "text": "Sí, están mejorando un poco." },
+
+{ "text": "¿Te preocupa el desempleo?" },
+{ "text": "Sí, es un problema serio." },
+
+{ "text": "¿Qué opinas de los salarios?" },
+{ "text": "Deberían ser más justos." },
+
+{ "text": "¿Sigues el precio del petróleo?" },
+{ "text": "A veces, está muy volátil." },
+
+{ "text": "¿Sabes algo del Bitcoin?" },
+{ "text": "Sí, ha tenido muchos altibajos." },
+
+{ "text": "¿Qué opinas de las criptomonedas?" },
+{ "text": "Son interesantes, pero arriesgadas." },
+
+{ "text": "¿Has invertido en alguna moneda?" },
+{ "text": "No, prefiero informarme más primero." },
+
+{ "text": "¿Crees que son el futuro?" },
+{ "text": "Tal vez, pero aún falta tiempo." },
+
+{ "text": "¿Qué piensas del Ethereum?" },
+{ "text": "Es una de las más fuertes." },
+
+{ "text": "¿Has visto su precio reciente?" },
+{ "text": "Sí, está subiendo otra vez." },
+
+{ "text": "¿Qué opinas de los NFTs?" },
+{ "text": "Son interesantes, pero no para todos." },
+
+{ "text": "¿Sabes algo de minería de criptos?" },
+{ "text": "Un poco, pero parece complicado." },
+
+{ "text": "¿Qué te parece la blockchain?" },
+{ "text": "Es una gran tecnología." },
+
+{ "text": "¿Invertirías en cripto?" },
+{ "text": "Tal vez, pero con precaución." },
+
+{ "text": "¿Te enteraste de la nueva película de Tom Holland?" },
+{ "text": "Sí, dicen que su actuación fue increíble." },
+
+{ "text": "¿Viste el último video musical de Taylor Swift?" },
+{ "text": "Sí, como siempre, está lleno de simbolismos." },
+
+{ "text": "¿Qué opinas del regreso de Britney Spears a la música?" },
+{ "text": "Es emocionante verla de vuelta." },
+
+{ "text": "¿Escuchaste sobre el concierto de Bad Bunny?" },
+{ "text": "Sí, rompió todos los récords de asistencia." },
+
+{ "text": "¿Te enteraste del divorcio de Joe Jonas?" },
+{ "text": "Sí, ha sido un tema muy comentado." },
+
+{ "text": "¿Qué piensas del nuevo álbum de Beyoncé?" },
+{ "text": "Es espectacular, como todo lo que hace." },
+
+{ "text": "¿Sabes algo del reality show de Kim Kardashian?" },
+{ "text": "Sí, siempre está lleno de drama." },
+
+{ "text": "¿Viste el documental de David Beckham?" },
+{ "text": "Sí, es interesante conocer su historia." },
+
+{ "text": "¿Qué opinas de la actuación de Zendaya en su nueva serie?" },
+{ "text": "Es impresionante, tiene un gran talento." },
+
+{ "text": "¿Te gustan las películas de Leonardo DiCaprio?" },
+{ "text": "Sí, siempre elige proyectos interesantes." },
+
+{ "text": "¿Qué opinas del rendimiento de Lionel Messi en la MLS?" },
+{ "text": "Está demostrando que sigue siendo un crack." },
+
+{ "text": "¿Viste el gol de Cristiano Ronaldo en su último partido?" },
+{ "text": "Sí, fue espectacular como siempre." },
+
+{ "text": "¿Qué te parece el récord de Novak Djokovic?" },
+{ "text": "Es un verdadero campeón del tenis." },
+
+{ "text": "¿Sabes algo del futuro de LeBron James?" },
+{ "text": "Dicen que podría jugar con su hijo." },
+
+{ "text": "¿Qué opinas del fichaje de Jude Bellingham por el Real Madrid?" },
+{ "text": "Es un gran refuerzo para el equipo." },
+
+{ "text": "¿Te enteraste del retiro de Megan Rapinoe?" },
+{ "text": "Sí, deja un legado enorme en el fútbol femenino." },
+
+{ "text": "¿Qué piensas de las chances de Max Verstappen en la Fórmula 1?" },
+{ "text": "Parece que será campeón otra vez." },
+
+{ "text": "¿Te gusta cómo está jugando Rafael Nadal?" },
+{ "text": "Sí, aunque últimamente ha tenido lesiones." },
+
+{ "text": "¿Qué opinas de la selección femenina de Estados Unidos?" },
+{ "text": "Son un ejemplo de dedicación y éxito." },
+
+{ "text": "¿Viste el partido de Serena Williams?" },
+{ "text": "Sí, siempre es un espectáculo verla jugar." },
+
+{ "text": "¿Escuchaste la nueva colaboración de Shakira con Karol G?" },
+{ "text": "Sí, es un hit total." },
+
+{ "text": "¿Qué opinas del último álbum de Drake?" },
+{ "text": "Tiene varias canciones muy pegajosas." },
+
+{ "text": "¿Te gusta el estilo de Billie Eilish?" },
+{ "text": "Sí, su música es única." },
+
+{ "text": "¿Has escuchado algo nuevo de Rosalía?" },
+{ "text": "Sí, siempre innova en sus proyectos." },
+
+{ "text": "¿Qué piensas de la gira de Ed Sheeran?" },
+{ "text": "Es impresionante cómo llena estadios." },
+
+{ "text": "¿Te enteraste de que The Weeknd rompió un récord?" },
+{ "text": "Sí, es increíble su éxito global." },
+
+{ "text": "¿Qué tal te parece la música de Dua Lipa?" },
+{ "text": "Me encanta, tiene un estilo fresco." },
+
+{ "text": "¿Viste el nuevo video de BTS?" },
+{ "text": "Sí, los efectos visuales son increíbles." },
+
+{ "text": "¿Te gustan las baladas de Adele?" },
+{ "text": "Sí, siempre transmiten mucha emoción." },
+
+{ "text": "¿Qué opinas de las letras de Kendrick Lamar?" },
+{ "text": "Son profundas y llenas de significado." },
+
+{ "text": "¿Sabes algo del iPhone 15 que lanzó Apple?" },
+{ "text": "Sí, dicen que la cámara es impresionante." },
+
+{ "text": "¿Qué opinas del último avance de Tesla?" },
+{ "text": "El auto autónomo está cada vez más cerca." },
+
+{ "text": "¿Te enteraste del nuevo chatbot de OpenAI?" },
+{ "text": "Sí, parece que tiene funciones muy avanzadas." },
+
+{ "text": "¿Qué piensas del metaverso de Mark Zuckerberg?" },
+{ "text": "Es una idea interesante, pero aún está en desarrollo." },
+
+{ "text": "¿Has probado el procesador M3 de Apple?" },
+{ "text": "No, pero dicen que es muy potente." },
+
+{ "text": "¿Sabes algo del nuevo sistema operativo de Microsoft?" },
+{ "text": "Sí, tiene varias características novedosas." },
+
+{ "text": "¿Qué opinas de los avances de Boston Dynamics?" },
+{ "text": "Sus robots son impresionantes y algo aterradores." },
+
+{ "text": "¿Te gusta cómo avanza la realidad aumentada?" },
+{ "text": "Sí, tiene muchas aplicaciones interesantes." },
+
+{ "text": "¿Qué opinas del último lanzamiento de Samsung?" },
+{ "text": "Sus dispositivos plegables son increíbles." },
+
+{ "text": "¿Has oído hablar del proyecto Neuralink de Elon Musk?" },
+{ "text": "Sí, parece algo sacado de ciencia ficción." },
+
+{ "text": "¿Viste la nueva película de Christopher Nolan?" },
+{ "text": "Sí, es un genio del cine." },
+
+{ "text": "¿Te gustó la actuación de Margot Robbie en Barbie?" },
+{ "text": "Sí, fue perfecta para el papel." },
+
+{ "text": "¿Qué opinas de la serie The Last of Us con Pedro Pascal?" },
+{ "text": "Es una adaptación excelente." },
+
+{ "text": "¿Sabes algo del próximo proyecto de Quentin Tarantino?" },
+{ "text": "Dicen que será su última película." },
+
+{ "text": "¿Viste el tráiler de la nueva entrega de Avengers?" },
+{ "text": "Sí, promete ser espectacular." },
+
+{ "text": "¿Te gustan las películas de Guillermo del Toro?" },
+{ "text": "Sí, tienen un estilo único y mágico." },
+
+{ "text": "¿Qué tal está la nueva temporada de Stranger Things?" },
+{ "text": "Llena de misterio y nostalgia, como siempre." },
+
+{ "text": "¿Has visto algo reciente de Timothée Chalamet?" },
+{ "text": "Sí, su actuación en Dune fue increíble." },
+
+{ "text": "¿Qué opinas de las películas de terror de Jordan Peele?" },
+{ "text": "Son geniales, con mucho significado detrás." },
+
+{ "text": "¿Viste la nueva animación de Spider-Man?" },
+{ "text": "Sí, la calidad visual es impresionante." },
+
+{ "text": "¿Viste el último capítulo de Attack on Titan?" },
+{ "text": "Sí, estuvo lleno de acción." },
+
+{ "text": "¿Qué opinas de Demon Slayer?" },
+{ "text": "Tiene una animación increíble." },
+
+{ "text": "¿Has visto algo nuevo de Studio Ghibli?" },
+{ "text": "Sí, siempre son obras de arte." },
+
+{ "text": "¿Te gusta la música de Yoko Kanno en Cowboy Bebop?" },
+{ "text": "Sí, le da una atmósfera única." },
+
+{ "text": "¿Qué piensas del arco de Wano en One Piece?" },
+{ "text": "Es uno de los mejores momentos de la serie." },
+
+{ "text": "¿Sabes algo del regreso de Hunter x Hunter?" },
+{ "text": "Sí, los fans están emocionados." },
+
+{ "text": "¿Te gustan los clásicos como Naruto?" },
+{ "text": "Sí, crecí viendo esa serie." },
+
+{ "text": "¿Qué opinas de Jujutsu Kaisen?" },
+{ "text": "Es una de las mejores series recientes." },
+
+{ "text": "¿Viste la película de Your Name?" },
+{ "text": "Sí, es hermosa y emotiva." },
+
+{ "text": "¿Qué piensas de los mechas en Evangelion?" },
+{ "text": "Son un clásico del anime." },
+
+{ "text": "¿Qué opinas del valor actual de Bitcoin?" },
+{ "text": "Ha subido mucho este mes." },
+
+{ "text": "¿Sabes algo del proyecto de Ethereum 2.0?" },
+{ "text": "Sí, busca ser más eficiente." },
+
+{ "text": "¿Qué piensas de las NFT de artistas famosos?" },
+{ "text": "Son interesantes, pero algo controversiales." },
+
+{ "text": "¿Te interesa invertir en Cardano?" },
+{ "text": "Sí, parece prometedor a largo plazo." },
+
+{ "text": "¿Escuchaste sobre las regulaciones de Binance?" },
+{ "text": "Sí, están enfrentando varios desafíos legales." },
+
+{ "text": "¿Qué opinas del uso de criptomonedas en El Salvador?" },
+{ "text": "Es un experimento muy interesante." },
+
+{ "text": "¿Has oído hablar de Ripple y su disputa legal?" },
+{ "text": "Sí, podría sentar un precedente importante." },
+
+{ "text": "¿Qué piensas de Dogecoin?" },
+{ "text": "Es popular, pero muy volátil." },
+
+{ "text": "¿Te interesa aprender más sobre blockchain?" },
+{ "text": "Sí, es una tecnología con mucho futuro." },
+
+{ "text": "¿Sabes algo del impacto ambiental de la minería de Bitcoin?" },
+{ "text": "Sí, es un tema que genera mucho debate." },
+
+{ "text": "¿Qué opinas de las obras de Frida Kahlo?" },
+{ "text": "Son muy profundas y emocionales." },
+
+{ "text": "¿Te gustan las pinturas de Van Gogh?" },
+{ "text": "Sí, su uso del color es impresionante." },
+
+{ "text": "¿Viste la última exposición de Banksy?" },
+{ "text": "Sí, su arte siempre es provocador." },
+
+{ "text": "¿Qué opinas de las esculturas de Michelangelo?" },
+{ "text": "Son un reflejo de la perfección artística." },
+
+{ "text": "¿Te interesa el arte contemporáneo?" },
+{ "text": "Sí, siempre es fascinante e inesperado." },
+
+{ "text": "¿Qué piensas del cubismo de Picasso?" },
+{ "text": "Es una corriente revolucionaria." },
+
+{ "text": "¿Te gustan los murales de Diego Rivera?" },
+{ "text": "Sí, son una ventana a la historia de México." },
+
+{ "text": "¿Has visto obras digitales de Beeple?" },
+{ "text": "Sí, son impresionantes e innovadoras." },
+
+{ "text": "¿Qué opinas del surrealismo de Dalí?" },
+{ "text": "Es muy creativo y lleno de simbolismo." },
+
+{ "text": "¿Te gusta la arquitectura de Gaudí?" },
+{ "text": "Sí, es única y llena de vida." },
+
+{ "text": "¿Has escuchado el último álbum de Taylor Swift?" },
+{ "text": "Sí, es increíble como siempre." },
+
+{ "text": "¿Qué opinas del nuevo sencillo de Bad Bunny?" },
+{ "text": "Es un éxito en todas las plataformas." },
+
+{ "text": "¿Te gustan las canciones de Ed Sheeran?" },
+{ "text": "Sí, su música es muy emotiva." },
+
+{ "text": "¿Escuchaste la colaboración de Karol G con Shakira?" },
+{ "text": "Sí, es un temazo." },
+
+{ "text": "¿Qué opinas del regreso de Adele?" },
+{ "text": "Su voz sigue siendo impresionante." },
+
+{ "text": "¿Te gusta el estilo de Billie Eilish?" },
+{ "text": "Sí, es muy único y fresco." },
+
+{ "text": "¿Sabes algo del próximo álbum de Drake?" },
+{ "text": "Dicen que tendrá grandes colaboraciones." },
+
+{ "text": "¿Qué piensas del impacto de BTS en la música?" },
+{ "text": "Es impresionante, dominan el mundo." },
+
+{ "text": "¿Te gusta el rock de Arctic Monkeys?" },
+{ "text": "Sí, son una de mis bandas favoritas." },
+
+{ "text": "¿Escuchaste algo reciente de Rosalía?" },
+{ "text": "Sí, siempre innova con su música." },
+
+{ "text": "¿Has probado el iPhone más reciente de Apple?" },
+{ "text": "Sí, su cámara es impresionante." },
+
+{ "text": "¿Qué opinas de los avances en inteligencia artificial?" },
+{ "text": "Es fascinante, pero también da algo de miedo." },
+
+{ "text": "¿Te interesa el nuevo Tesla de Elon Musk?" },
+{ "text": "Sí, parece ser un gran avance en vehículos eléctricos." },
+
+{ "text": "¿Sabes algo del próximo lanzamiento de Samsung?" },
+{ "text": "Dicen que su pantalla será revolucionaria." },
+
+{ "text": "¿Qué opinas de las gafas de realidad aumentada de Meta?" },
+{ "text": "Son interesantes, aunque algo costosas." },
+
+{ "text": "¿Qué piensas de la tecnología 5G?" },
+{ "text": "Es un gran paso para la conectividad." },
+
+{ "text": "¿Te interesan los nuevos avances de SpaceX?" },
+{ "text": "Sí, están cambiando la industria espacial." },
+
+{ "text": "¿Has visto las últimas laptops para gamers?" },
+{ "text": "Sí, están llenas de potencia y diseño." },
+
+{ "text": "¿Qué opinas de las innovaciones de Microsoft?" },
+{ "text": "Siempre están buscando mejorar." }
 
 ]
