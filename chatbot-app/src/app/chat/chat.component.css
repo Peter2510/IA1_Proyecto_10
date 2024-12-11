@@ -1,5 +1,5 @@
 .chat-header {
-  background-color: #1e90ff;
+  background-color: #1e7055;
   color: white;
   text-align: center;
   font-size: 32px; 
@@ -119,3 +119,5 @@ button[nbButton]:hover {
   transform: scale(1.1);
   background-color: #1e90ff;
 }
+
+
