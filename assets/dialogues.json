@@ -1041,14 +1041,8 @@
   { "text": "¿Qué es el paradigma declarativo?" },
   { "text": "El paradigma declarativo es un enfoque de programación en el que se especifican los resultados deseados sin definir explícitamente los pasos para alcanzarlos. Los lenguajes declarativos incluyen SQL y HTML." },
 
-  { "text": "¿Qué es Python?" },
-  { "text": "Python es un lenguaje de programación de alto nivel, interpretado, que enfatiza la legibilidad y la simplicidad. Es ampliamente utilizado en desarrollo web, análisis de datos, inteligencia artificial y automatización." },
-
   { "text": "¿Qué es JavaScript?" },
   { "text": "JavaScript es un lenguaje de programación interpretado utilizado principalmente en el desarrollo web. Permite la creación de interactividad en las páginas web y se ejecuta en el navegador del usuario." },
-
-  { "text": "¿Qué es Java?" },
-  { "text": "Java es un lenguaje de programación de alto nivel, orientado a objetos, utilizado para crear aplicaciones de software para diversas plataformas. Se caracteriza por ser independiente de la plataforma gracias a su máquina virtual (JVM)." },
 
   { "text": "¿Qué es C++?" },
   { "text": "C++ es un lenguaje de programación de alto nivel que extiende C añadiendo características de programación orientada a objetos. Es utilizado en sistemas operativos, aplicaciones de alto rendimiento y videojuegos." },
@@ -1122,8 +1116,6 @@
 
 
 
-  { "text": "¿Qué es C++?" },
-  { "text": "C++ es un lenguaje de programación de alto nivel que extiende a C añadiendo características de programación orientada a objetos. Es ampliamente utilizado en el desarrollo de software de alto rendimiento, videojuegos, sistemas operativos y aplicaciones embebidas." },
 
   { "text": "¿Qué es la sobrecarga de operadores en C++?" },
   { "text": "La sobrecarga de operadores en C++ permite que los operadores estándar, como '+', '-', etc., se comporten de manera diferente según el tipo de los operandos. Esto permite hacer que las clases personalizadas tengan su propio comportamiento para estos operadores." },
@@ -1146,8 +1138,6 @@
   { "text": "¿Qué son los constructores y destructores en C++?" },
   { "text": "Los constructores en C++ son funciones especiales que se ejecutan al crear un objeto, mientras que los destructores se ejecutan cuando el objeto es destruido. Los constructores son utilizados para inicializar objetos, y los destructores para liberar recursos." },
 
-{ "text": "¿Qué es JavaScript?" },
-  { "text": "JavaScript es un lenguaje de programación interpretado, utilizado principalmente en el desarrollo web para crear páginas interactivas. Es un lenguaje de alto nivel, basado en eventos, y soporta la programación orientada a objetos y funcional." },
 
   { "text": "¿Qué es el DOM en JavaScript?" },
   { "text": "El DOM (Document Object Model) es una interfaz de programación que permite a JavaScript interactuar con los elementos de una página web. A través del DOM, JavaScript puede acceder y modificar el contenido, la estructura y el estilo de los documentos HTML y XML." },
@@ -1609,12 +1599,6 @@
 
   { "text": "¿Qué es la Edad Media?" },
   { "text": "La Edad Media es el período histórico que abarca desde la caída del Imperio Romano en el siglo V hasta el inicio del Renacimiento en el siglo XV." },
-
-  { "text": "¿Qué es la teoría heliocéntrica?" },
-  { "text": "La teoría heliocéntrica, propuesta por Nicolás Copérnico, sostiene que el Sol es el centro del sistema solar y que los planetas giran alrededor de él." },
-
-  { "text": "¿Qué fue la Revolución Industrial?" },
-  { "text": "La Revolución Industrial fue un cambio radical en las formas de producción que comenzó en el Reino Unido en el siglo XVIII, caracterizado por la mecanización y la urbanización." },
 
   { "text": "¿Qué es el Monte Everest?" },
   { "text": "El Monte Everest es la montaña más alta del mundo, con una altitud de 8,848 metros sobre el nivel del mar, ubicada en la frontera entre Nepal y China." },
@@ -2469,15 +2453,6 @@
   { "text": "¿Qué es la teoría de cuerdas?" },
   { "text": "La teoría de cuerdas es una hipótesis en física teórica que sugiere que las partículas fundamentales no son puntos, sino pequeñas cuerdas que vibran en diferentes formas, lo que explicaría las fuerzas fundamentales del universo." },
 
-  { "text": "¿Qué es la 'antimateria'?" },
-  { "text": "La antimateria está compuesta por partículas que son opuestas a las partículas de materia común, como el positrón (la antipartícula del electrón), y cuando la antimateria y la materia se encuentran, se aniquilan mutuamente, liberando energía." },
-
-  { "text": "¿Qué es la 'teoría del Big Bang'?" },
-  { "text": "La teoría del Big Bang sostiene que el universo comenzó hace unos 13.8 mil millones de años en un estado extremadamente denso y caliente, y ha estado expandiéndose desde entonces." },
-
-  { "text": "¿Qué es la 'electromagnetismo'?" },
-  { "text": "El electromagnetismo es una de las cuatro fuerzas fundamentales de la naturaleza que describe la interacción entre partículas cargadas, que da lugar a fenómenos como la electricidad, el magnetismo y las ondas electromagnéticas." },
-
   { "text": "¿Qué es el genoma humano?" },
   { "text": "El genoma humano es el conjunto completo de material genético que se encuentra en las células humanas, compuesto por 23 pares de cromosomas y aproximadamente 3.2 mil millones de pares de bases de ADN." },
 
@@ -2683,13 +2658,13 @@
 { "text": "Soy un proyecto creado en Xela." },
 
 { "text": "¿Quien es tu creador?" },
-{ "text": "Estudiantes del CUNOC, Randy, Pedro y Alexis" },
+{ "text": "me crearon los estudiantes del CUNOC, Randy, Pedro y Alexis" },
 
 { "text": "¿Quienes son tus creadores?" },
-{ "text": "Estudiantes del CUNOC, Randy, Pedro y Alexis" },
+{ "text": "mi creadores han sido un grupo de estudiantes del CUNOC, Randy, Pedro y Alexis" },
 
 { "text": "¿Donde naciste?" },
-{ "text": "Estudiantes del CUNOC, Randy, Pedro y Alexis" },
+{ "text": "yo naci en diciembre de 2024 en Guatemala" },
 
 { "text": "¿Cuantos años tienes?" },
 { "text": "Soy joven aún, tengo 1 semana de haber sido creado" },
@@ -3049,6 +3024,648 @@
 { "text": "Sí, están llenas de potencia y diseño." },
 
 { "text": "¿Qué opinas de las innovaciones de Microsoft?" },
-{ "text": "Siempre están buscando mejorar." }
+{ "text": "Siempre están buscando mejorar." },
+
+ { "text": "¿Qué opinas del próximo partido de la Champions League?" },
+  { "text": "Será emocionante, especialmente con los equipos en tan buena forma." },
+
+  { "text": "¿Crees que Messi ganará otro Balón de Oro?" },
+  { "text": "Tiene grandes posibilidades, considerando su actuación reciente." },
+
+  { "text": "¿Qué te parece el regreso de la Fórmula 1 este año?" },
+  { "text": "Siempre es emocionante, especialmente con las nuevas reglas en juego." },
+
+  { "text": "¿Sabías que los Juegos Olímpicos se acercan?" },
+  { "text": "Sí, estoy emocionado por ver las nuevas disciplinas." },
+
+  { "text": "¿Qué opinas de la popularidad del fútbol americano fuera de Estados Unidos?" },
+  { "text": "Está creciendo rápidamente, especialmente en Europa y México." },
+ { "text": "¿Quién ganó el último Mundial de fútbol?" },
+  { "text": "Argentina ganó el Mundial de 2022." },
+
+  { "text": "¿Cuál es el deporte más practicado en el mundo?" },
+  { "text": "El fútbol es el deporte más practicado globalmente." },
+
+  { "text": "¿Sabías que el baloncesto fue inventado en 1891?" },
+  { "text": "Sí, lo creó James Naismith como una actividad para sus estudiantes." },
+
+  { "text": "¿Qué equipo tiene más títulos de la NBA?" },
+  { "text": "Los Boston Celtics y Los Angeles Lakers están empatados en títulos." },
+
+  { "text": "¿Quién es el máximo goleador de la historia del fútbol?" },
+  { "text": "Cristiano Ronaldo es el máximo goleador en competiciones oficiales." },
+
+  { "text": "¿Cuál es el evento deportivo más visto del mundo?" },
+  { "text": "La final del Mundial de fútbol tiene la mayor audiencia global." },
+
+  { "text": "¿Qué país tiene más medallas olímpicas?" },
+  { "text": "Estados Unidos lidera el medallero histórico de los Juegos Olímpicos." },
+
+  { "text": "¿Sabías que el rugby se originó en Inglaterra?" },
+  { "text": "Así es, su origen se remonta al siglo XIX." },
+
+  { "text": "¿Quién es considerado el mejor jugador de tenis de la historia?" },
+  { "text": "Muchos consideran a Roger Federer como uno de los mejores." },
+
+  { "text": "¿Qué récord tiene Usain Bolt en atletismo?" },
+  { "text": "Tiene el récord mundial en los 100 y 200 metros planos." },
+
+  { "text": "¿Qué país ha ganado más Copas América?" },
+  { "text": "Uruguay tiene la mayor cantidad de títulos en la Copa América." },
+
+  { "text": "¿Sabías que el Tour de Francia es la competencia ciclista más importante?" },
+  { "text": "Sí, es la más prestigiosa y difícil del ciclismo." },
+
+  { "text": "¿Cuál es el deporte nacional de Japón?" },
+  { "text": "El sumo es considerado el deporte nacional de Japón." },
+
+  { "text": "¿Qué equipo de fútbol ha ganado más Champions League?" },
+  { "text": "El Real Madrid ha ganado la Champions League más veces." },
+
+  { "text": "¿Cuál es el origen del béisbol?" },
+  { "text": "Se cree que se originó en Estados Unidos en el siglo XIX." },
+
+  { "text": "¿Quién es el máximo anotador de la historia de la NFL?" },
+  { "text": "Adam Vinatieri lidera como el máximo anotador histórico." },
+
+  { "text": "¿Cuál es la rivalidad más grande del fútbol sudamericano?" },
+  { "text": "La rivalidad entre Brasil y Argentina es icónica." },
+
+  { "text": "¿Sabías que el hockey sobre hielo es muy popular en Canadá?" },
+  { "text": "Sí, es prácticamente el deporte nacional de Canadá." },
+
+  { "text": "¿Quién ganó el último Super Bowl?" },
+  { "text": "Los Kansas City Chiefs ganaron el Super Bowl más reciente." },
+
+  { "text": "¿Qué deporte combina natación, ciclismo y carrera?" },
+  { "text": "Ese deporte es el triatlón." },
+
+  { "text": "¿Cuál es el deporte más popular en India?" },
+  { "text": "El críquet es el deporte más popular en India." },
+
+  { "text": "¿Sabías que el ajedrez es considerado un deporte mental?" },
+  { "text": "Así es, incluso tiene torneos mundiales organizados por la FIDE." },
+
+  { "text": "¿Qué país es famoso por su desempeño en gimnasia artística?" },
+  { "text": "Rusia y China son reconocidos por su excelencia en gimnasia." },
+
+  { "text": "¿Quién tiene el récord de más goles en una temporada de la NBA?" },
+  { "text": "Wilt Chamberlain tiene ese récord histórico." },
+
+  { "text": "¿Cuál es la carrera más prestigiosa en la Fórmula 1?" },
+  { "text": "El Gran Premio de Mónaco es el más prestigioso." },
+
+  { "text": "¿Qué es el biatlón?" },
+  { "text": "Es un deporte de invierno que combina esquí de fondo y tiro con rifle." },
+
+  { "text": "¿Quién es el atleta con más medallas olímpicas?" },
+  { "text": "Michael Phelps tiene el récord con 28 medallas olímpicas." },
+
+  { "text": "¿Cuál es el deporte más practicado en América Latina?" },
+  { "text": "El fútbol es el deporte más practicado en la región." },
+
+  { "text": "¿Qué significa la palabra 'Grand Slam' en tenis?" },
+  { "text": "Es cuando un jugador gana los cuatro torneos principales en un año." },
+
+  { "text": "¿Quién es el mejor corredor de Fórmula 1 de todos los tiempos?" },
+  { "text": "Ayrton Senna es considerado uno de los mejores de la historia." },
+
+  { "text": "¿Cuál es el torneo de fútbol más antiguo del mundo?" },
+  { "text": "La FA Cup de Inglaterra es el torneo más antiguo." },
+
+  { "text": "¿Qué equipo ha ganado más Series Mundiales de béisbol?" },
+  { "text": "Los New York Yankees tienen el mayor número de títulos." },
+
+  { "text": "¿Sabías que el boxeo es uno de los deportes más antiguos?" },
+  { "text": "Así es, sus orígenes se remontan a la antigua Grecia." },
+
+  { "text": "¿Qué es un maratón?" },
+  { "text": "Es una carrera de larga distancia de 42,195 kilómetros." },
+
+  { "text": "¿Cuál es el mayor logro en el golf?" },
+  { "text": "Ganar los cuatro majors en un año se considera el mayor logro." },
+
+  { "text": "¿Qué es el salto con pértiga?" },
+  { "text": "Es una disciplina de atletismo donde se usa una pértiga para superar una barra." },
+
+  { "text": "¿Quién es el mejor jugador de rugby de la historia?" },
+  { "text": "Jonah Lomu es uno de los jugadores más legendarios del rugby." },
+
+  { "text": "¿Qué son los deportes extremos?" },
+  { "text": "Son deportes de alto riesgo como el surf, paracaidismo o escalada." },
+
+  { "text": "¿Cuál es el deporte más popular en Australia?" },
+  { "text": "El cricket y el rugby son muy populares en Australia." },
+
+  { "text": "¿Qué son los eSports?" },
+  { "text": "Son competiciones de videojuegos a nivel profesional." },
+
+  { "text": "¿Sabías que el waterpolo es un deporte olímpico?" },
+  { "text": "Sí, es uno de los deportes acuáticos más intensos." },
+
+  { "text": "¿Qué significa MMA?" },
+  { "text": "Significa Artes Marciales Mixtas, un deporte de combate." },
+  { "text": "¿Cuántos Balones de Oro ha ganado Lionel Messi?" },
+  { "text": "Lionel Messi ha ganado 7 Balones de Oro hasta 2024." },
+
+  { "text": "¿Cuál fue el primer club profesional de Cristiano Ronaldo?" },
+  { "text": "El primer club profesional de Cristiano Ronaldo fue el Sporting de Lisboa." },
+
+  { "text": "¿Sabías que Neymar jugó en el Santos antes de llegar a Europa?" },
+  { "text": "Sí, Neymar destacó en el Santos antes de fichar por el Barcelona." },
+
+  { "text": "¿Cuántos goles tiene Messi con la selección de Argentina?" },
+  { "text": "Messi es el máximo goleador histórico de Argentina, con más de 100 goles." },
+
+  { "text": "¿Qué récord ostenta Cristiano Ronaldo en la Champions League?" },
+  { "text": "Cristiano Ronaldo es el máximo goleador histórico de la Champions League." },
+
+  { "text": "¿Cuánto pagó el PSG por Neymar en 2017?" },
+  { "text": "El PSG pagó 222 millones de euros, siendo el fichaje más caro de la historia." },
+
+  { "text": "¿Sabías que Messi debutó con el Barcelona a los 17 años?" },
+  { "text": "Sí, su debut oficial fue en 2004 contra el Espanyol." },
+
+  { "text": "¿En qué clubes ha jugado Cristiano Ronaldo?" },
+  { "text": "Cristiano ha jugado en el Sporting de Lisboa, Manchester United, Real Madrid, Juventus y Al-Nassr." },
+
+  { "text": "¿Qué títulos ganó Neymar con el Barcelona?" },
+  { "text": "Con el Barcelona, Neymar ganó la Champions League, LaLiga y la Copa del Rey, entre otros." },
+
+  { "text": "¿Cuántas veces Messi ha ganado la Champions League?" },
+  { "text": "Lionel Messi ha ganado la Champions League en 4 ocasiones." },
+
+  { "text": "¿Cuál es el récord de hat-tricks de Cristiano Ronaldo?" },
+  { "text": "Cristiano Ronaldo tiene más de 60 hat-tricks en su carrera profesional." },
+
+  { "text": "¿Sabías que Neymar ganó el oro olímpico con Brasil en 2016?" },
+  { "text": "Sí, lideró a Brasil para ganar su primer oro olímpico en fútbol." },
+
+  { "text": "¿Cuál es el apodo más famoso de Lionel Messi?" },
+  { "text": "Messi es conocido como 'La Pulga'." },
+
+  { "text": "¿Qué selección tiene más goles marcados por Cristiano Ronaldo?" },
+  { "text": "Cristiano ha marcado más goles a Luxemburgo que a cualquier otra selección." },
+
+  { "text": "¿Cuántos goles ha marcado Neymar con Brasil?" },
+  { "text": "Neymar ha superado los 80 goles con la selección brasileña." },
+
+  { "text": "¿Sabías que Messi ganó su primer Mundial en 2022?" },
+  { "text": "Sí, lideró a Argentina para ganar el Mundial de Catar." },
+
+  { "text": "¿Cuántos títulos de liga ha ganado Cristiano Ronaldo?" },
+  { "text": "Cristiano ha ganado títulos de liga en Inglaterra, España e Italia." },
+
+  { "text": "¿Qué habilidad distingue a Neymar en el campo?" },
+  { "text": "Es conocido por su habilidad para driblar y hacer regates espectaculares." },
+
+  { "text": "¿Qué número ha usado Messi en la selección argentina?" },
+  { "text": "Messi ha usado el número 10 durante la mayor parte de su carrera con Argentina." },
+
+  { "text": "¿En qué año ganó Cristiano Ronaldo su primer Balón de Oro?" },
+  { "text": "Cristiano ganó su primer Balón de Oro en 2008." },
+
+  { "text": "¿Cuál es el gol más famoso de Neymar?" },
+  { "text": "Su gol contra el Flamengo en 2011 es considerado uno de los mejores de su carrera." },
+
+  { "text": "¿Cuántas asistencias tiene Messi en su carrera profesional?" },
+  { "text": "Messi ha superado las 350 asistencias en su carrera profesional." },
+
+  { "text": "¿Qué récord tiene Cristiano Ronaldo con la selección de Portugal?" },
+  { "text": "Cristiano es el jugador con más goles internacionales en la historia del fútbol." },
+
+  { "text": "¿En qué año Neymar debutó como profesional?" },
+  { "text": "Neymar debutó profesionalmente en 2009 con el Santos." },
+
+  { "text": "¿Cuál es el gol más recordado de Messi?" },
+  { "text": "El gol que Messi marcó contra el Getafe en 2007 es considerado una obra maestra." },
+
+  { "text": "¿Cuántos títulos ha ganado Cristiano Ronaldo en su carrera?" },
+  { "text": "Cristiano ha ganado más de 30 títulos a nivel de clubes y selección." },
+
+  { "text": "¿Qué apodo tiene Neymar?" },
+  { "text": "Es conocido como 'Ney' o 'Neymar Jr.'." },
+
+  { "text": "¿Qué jugador ha sido más veces rival directo de Messi?" },
+  { "text": "Cristiano Ronaldo ha sido su principal rival durante más de una década." },
+  { "text": "¿Sabías que el Real Madrid tiene más Champions League que cualquier otro equipo?" },
+  { "text": "Sí, el Real Madrid ha ganado 14 Champions League hasta 2024." },
+
+  { "text": "¿Qué club ha ganado más títulos de la Premier League?" },
+  { "text": "El Manchester United lidera con 20 títulos de liga." },
+
+  { "text": "¿Cuál es el apodo del FC Barcelona?" },
+  { "text": "El FC Barcelona es conocido como 'Barça' o 'Los Blaugranas'." },
+
+  { "text": "¿En qué año el PSG se convirtió en propiedad de Qatar Sports Investments?" },
+  { "text": "El PSG fue adquirido por Qatar Sports Investments en 2011." },
+
+  { "text": "¿Sabías que el Bayern Múnich ha ganado la Bundesliga más de 30 veces?" },
+  { "text": "Sí, el Bayern Múnich domina el fútbol alemán con más de 30 títulos de Bundesliga." },
+
+  { "text": "¿Qué equipo argentino es conocido como Los Millonarios?" },
+  { "text": "River Plate es conocido como 'Los Millonarios'." },
+
+  { "text": "¿Cuál es el club de fútbol más antiguo del mundo?" },
+  { "text": "El Sheffield FC, fundado en 1857, es reconocido como el club más antiguo del mundo." },
+
+  { "text": "¿Qué equipo italiano ha ganado más títulos de Serie A?" },
+  { "text": "La Juventus lidera con más de 35 títulos de Serie A." },
+
+  { "text": "¿Sabías que el Chelsea ganó su primera Champions League en 2012?" },
+  { "text": "Sí, derrotaron al Bayern Múnich en la final para ganar su primera Champions." },
+
+  { "text": "¿Qué equipo se conoce como Los Galácticos?" },
+  { "text": "El término 'Los Galácticos' se refiere al Real Madrid de principios de los 2000." },
+
+  { "text": "¿Qué rivalidad es conocida como El Clásico?" },
+  { "text": "El Clásico es el enfrentamiento entre el Real Madrid y el FC Barcelona." },
+
+  { "text": "¿En qué año se fundó el Liverpool FC?" },
+  { "text": "El Liverpool FC fue fundado en 1892." },
+
+  { "text": "¿Qué equipo sudamericano ha ganado más títulos de Copa Libertadores?" },
+  { "text": "Independiente de Argentina lidera con 7 títulos de Copa Libertadores." },
+
+  { "text": "¿Sabías que el Manchester City ganó su primera Champions en 2023?" },
+  { "text": "Sí, derrotaron al Inter de Milán en la final." },
+
+  { "text": "¿Qué equipo se conoce como La Vecchia Signora?" },
+  { "text": "La Juventus es conocida como 'La Vecchia Signora'." },
+
+  { "text": "¿Cuál es el club brasileño con más títulos de Serie A?" },
+  { "text": "El Palmeiras lidera con más títulos de Serie A brasileña." },
+
+  { "text": "¿Qué equipo español ganó la Liga en 2021?" },
+  { "text": "El Atlético de Madrid ganó LaLiga en 2021." },
+
+  { "text": "¿Cuál es el estadio más grande del mundo?" },
+  { "text": "El estadio Rungrado Primero de Mayo, en Corea del Norte, es el más grande del mundo." },
+
+  { "text": "¿Qué equipo mexicano es conocido como Las Águilas?" },
+  { "text": "El Club América es conocido como 'Las Águilas'." },
+
+  { "text": "¿Qué club fue fundado por trabajadores del ferrocarril en Argentina?" },
+  { "text": "El club Ferro Carril Oeste fue fundado por trabajadores ferroviarios." },
+
+  { "text": "¿Qué equipo tiene como himno You'll Never Walk Alone?" },
+  { "text": "El Liverpool FC usa 'You'll Never Walk Alone' como su himno." },
+
+  { "text": "¿Sabías que el Ajax ganó 4 Champions League?" },
+  { "text": "Sí, el Ajax de Ámsterdam ganó 4 Champions League, 3 de ellas consecutivas entre 1971 y 1973." },
+
+  { "text": "¿Qué equipo italiano tiene el récord de más finales de Champions perdidas?" },
+  { "text": "La Juventus ha perdido 7 finales de Champions League, más que cualquier otro equipo." },
+
+  { "text": "¿Cuál es el equipo con más títulos en la Copa del Rey?" },
+  { "text": "El FC Barcelona lidera con más de 30 títulos de Copa del Rey." },
+
+  { "text": "¿Qué equipo ganó la primera edición de la Champions League?" },
+  { "text": "El Real Madrid ganó la primera Champions League en 1956." },
+
+  { "text": "¿Qué club inglés es conocido como The Gunners?" },
+  { "text": "El Arsenal FC es conocido como 'The Gunners'." },
+
+  { "text": "¿Sabías que el Boca Juniors tiene un estadio llamado La Bombonera?" },
+  { "text": "Sí, el estadio de Boca Juniors es uno de los más icónicos del fútbol mundial." },
+
+  { "text": "¿Qué equipo alemán es conocido como los Borussos?" },
+  { "text": "El Borussia Dortmund es conocido como 'Los Borussos'." },
+
+  { "text": "¿Sabías que Albert Einstein ganó el Premio Nobel de Física en 1921?" },
+  { "text": "Sí, lo ganó por su explicación del efecto fotoeléctrico." },
+
+  { "text": "¿Qué actriz protagonizó Breakfast at Tiffany's?" },
+  { "text": "Audrey Hepburn protagonizó esta icónica película." },
+
+  { "text": "¿Sabías que Leonardo da Vinci pintó La Última Cena?" },
+  { "text": "Sí, es una de sus obras más famosas junto con La Mona Lisa." },
+
+  { "text": "¿Qué científico descubrió la penicilina?" },
+  { "text": "Alexander Fleming descubrió la penicilina en 1928." },
+
+  { "text": "¿Quién es conocido como El Rey del Pop?" },
+  { "text": "Michael Jackson es conocido como El Rey del Pop." },
+
+  { "text": "¿En qué año murió la Princesa Diana?" },
+  { "text": "La Princesa Diana falleció en 1997 en un trágico accidente de coche." },
+
+  { "text": "¿Quién fue la primera mujer en ganar el Premio Nobel?" },
+  { "text": "Marie Curie fue la primera mujer en ganar un Premio Nobel, en Física, en 1903." },
+
+  { "text": "¿Qué famoso director dirigió Jurassic Park?" },
+  { "text": "Steven Spielberg dirigió Jurassic Park en 1993." },
+
+  { "text": "¿Sabías que Pablo Picasso cofundó el movimiento cubista?" },
+  { "text": "Sí, Picasso es una de las figuras clave del arte moderno." },
+
+  { "text": "¿Quién escribió Cien años de soledad?" },
+  { "text": "Gabriel García Márquez escribió esta famosa novela." },
+
+  { "text": "¿Qué famoso físico desarrolló la teoría de la relatividad?" },
+  { "text": "Albert Einstein desarrolló la teoría de la relatividad." },
+
+  { "text": "¿Quién fue el primer presidente afroamericano de los Estados Unidos?" },
+  { "text": "Barack Obama fue el primer presidente afroamericano de los Estados Unidos." },
+
+  { "text": "¿En qué película ganó Leonardo DiCaprio su primer Oscar?" },
+  { "text": "Leonardo DiCaprio ganó su primer Oscar por The Revenant en 2016." },
+
+  { "text": "¿Quién es conocido como El Rey del Rock and Roll?" },
+  { "text": "Elvis Presley es conocido como El Rey del Rock and Roll." },
+
+  { "text": "¿Qué famosa cantante es conocida por su álbum 1989?" },
+  { "text": "Taylor Swift es conocida por su álbum 1989." },
+
+  { "text": "¿Quién fue la primera persona en pisar la Luna?" },
+  { "text": "Neil Armstrong fue la primera persona en pisar la Luna en 1969." },
+
+  { "text": "¿Qué autor escribió Don Quijote de la Mancha?" },
+  { "text": "Miguel de Cervantes escribió Don Quijote de la Mancha." },
+
+  { "text": "¿Sabías que Frida Kahlo es conocida por sus autorretratos?" },
+  { "text": "Sí, Frida Kahlo es una de las artistas más reconocidas de México." },
+
+  { "text": "¿Qué científico desarrolló la vacuna contra la rabia?" },
+  { "text": "Louis Pasteur desarrolló la vacuna contra la rabia." },
+
+  { "text": "¿Quién es conocido como El Sol de México?" },
+  { "text": "Luis Miguel es conocido como El Sol de México." },
+
+  { "text": "¿Qué famoso músico compuso La Novena Sinfonía?" },
+  { "text": "Ludwig van Beethoven compuso La Novena Sinfonía." },
+
+  { "text": "¿Quién es el creador de la serie de libros Harry Potter?" },
+  { "text": "J.K. Rowling es la autora de Harry Potter." },
+
+  { "text": "¿En qué año murió Steve Jobs?" },
+  { "text": "Steve Jobs falleció en 2011." },
+
+  { "text": "¿Quién es conocido como La Reina del Pop?" },
+  { "text": "Madonna es conocida como La Reina del Pop." },
+
+  { "text": "¿Qué actor interpretó a Iron Man en el Universo Cinematográfico de Marvel?" },
+  { "text": "Robert Downey Jr. interpretó a Iron Man." },
+
+  { "text": "¿Quién es el creador de Tesla y SpaceX?" },
+  { "text": "Elon Musk es el creador de Tesla y SpaceX." },
+
+  { "text": "¿Quién pintó La noche estrellada?" },
+  { "text": "Vincent van Gogh pintó La noche estrellada." },
+
+  { "text": "¿Qué famosa cantante es conocida por su álbum Lemonade?" },
+  { "text": "Beyoncé es conocida por su álbum Lemonade." },
+{ "text": "¿Sabías que Salvador Dalí es famoso por su obra La persistencia de la memoria?" },
+  { "text": "Sí, ese cuadro es conocido por sus relojes derretidos." },
+
+  { "text": "¿Quién fue el creador de Star Wars?" },
+  { "text": "George Lucas fue el creador de Star Wars." },
+
+  { "text": "¿En qué año murió la Reina Isabel II del Reino Unido?" },
+  { "text": "La Reina Isabel II falleció en 2022." },
+
+  { "text": "¿Qué famoso boxeador es conocido como El Rey del Boxeo?" },
+  { "text": "Muhammad Ali es conocido como El Rey del Boxeo." },
+
+  { "text": "¿Qué actor protagonizó Titanic junto a Kate Winslet?" },
+  { "text": "Leonardo DiCaprio protagonizó Titanic." },
+
+  { "text": "¿Quién fue la primera mujer piloto en cruzar el Atlántico?" },
+  { "text": "Amelia Earhart fue la primera mujer piloto en cruzar el Atlántico." },
+
+  { "text": "¿Sabías que Malala Yousafzai ganó el Premio Nobel de la Paz?" },
+  { "text": "Sí, lo ganó en 2014 por su lucha por el derecho a la educación." },
+
+  { "text": "¿Qué futbolista es conocido como O Rei?" },
+  { "text": "Pelé es conocido como O Rei." },
+
+  { "text": "¿Qué famoso científico desarrolló las tres leyes del movimiento?" },
+  { "text": "Isaac Newton desarrolló las tres leyes del movimiento." },
+
+  { "text": "¿Quién es conocido como La Voz en el mundo de la música?" },
+  { "text": "Frank Sinatra es conocido como La Voz." },
+
+  { "text": "¿Qué famosa escritora creó Orgullo y prejuicio?" },
+  { "text": "Jane Austen creó Orgullo y prejuicio." },
+
+  { "text": "¿Quién es conocido como El Zorro del Desierto en la Segunda Guerra Mundial?" },
+  { "text": "Erwin Rommel es conocido como El Zorro del Desierto." },
+
+  { "text": "¿Qué director ganó el Oscar por la película La forma del agua?" },
+  { "text": "Guillermo del Toro ganó el Oscar por La forma del agua." },
+
+  { "text": "¿Quién fue la primera mujer en viajar al espacio?" },
+  { "text": "Valentina Tereshkova fue la primera mujer en viajar al espacio." },
+
+  { "text": "¿Sabías que Elon Musk planea llevar humanos a Marte?" },
+  { "text": "Sí, a través de su compañía SpaceX." },
+
+  { "text": "¿Qué famoso cantante lideró la banda Queen?" },
+  { "text": "Freddie Mercury lideró la banda Queen." },
+
+  { "text": "¿Quién es el creador del personaje de Sherlock Holmes?" },
+  { "text": "Arthur Conan Doyle es el creador de Sherlock Holmes." },
+
+  { "text": "¿Qué famoso pintor cortó parte de su propia oreja?" },
+  { "text": "Vincent van Gogh cortó parte de su oreja." },
+
+  { "text": "¿Quién escribió Las aventuras de Alicia en el país de las maravillas?" },
+  { "text": "Lewis Carroll escribió Las aventuras de Alicia en el país de las maravillas." },
+
+  { "text": "¿Qué científico es conocido por sus experimentos con electricidad y cometas?" },
+  { "text": "Benjamin Franklin es conocido por sus experimentos con electricidad." },
+
+  { "text": "¿Quién fue el presidente más joven de los Estados Unidos?" },
+  { "text": "Theodore Roosevelt fue el presidente más joven de los Estados Unidos." },
+
+  { "text": "¿Qué famosa cantante lanzó el éxito Like a Prayer?" },
+  { "text": "Madonna lanzó el éxito Like a Prayer." },
+
+  { "text": "¿Quién es conocido como el padre de la informática?" },
+  { "text": "Alan Turing es conocido como el padre de la informática." },
+
+  { "text": "¿Qué actor interpretó a Jack Sparrow en Piratas del Caribe?" },
+  { "text": "Johnny Depp interpretó a Jack Sparrow." },
+
+  { "text": "¿Quién fue el primer ministro británico durante la Segunda Guerra Mundial?" },
+  { "text": "Winston Churchill fue el primer ministro británico durante la Segunda Guerra Mundial." },
+
+  { "text": "¿Qué famoso chef es conocido por su temperamento en la cocina?" },
+  { "text": "Gordon Ramsay es conocido por su temperamento en la cocina." },
+
+  { "text": "¿Quién escribió la obra Hamlet?" },
+  { "text": "William Shakespeare escribió la obra Hamlet." },
+
+  { "text": "¿Qué atleta ganó ocho medallas de oro en los Juegos Olímpicos de Pekín 2008?" },
+  { "text": "Michael Phelps ganó ocho medallas de oro en los Juegos Olímpicos de Pekín 2008." },
+  { "text": "¿Quién pintó la Capilla Sixtina en el Vaticano?" },
+  { "text": "Miguel Ángel pintó la Capilla Sixtina." },
+
+  { "text": "¿Qué poeta chileno ganó el Premio Nobel de Literatura en 1971?" },
+  { "text": "Pablo Neruda ganó el Premio Nobel de Literatura en 1971." },
+
+  { "text": "¿Quién es conocido como el Rey del Pop?" },
+  { "text": "Michael Jackson es conocido como el Rey del Pop." },
+
+  { "text": "¿Qué explorador europeo llegó a América en 1492?" },
+  { "text": "Cristóbal Colón llegó a América en 1492." },
+
+  { "text": "¿Qué actor protagonizó Misión Imposible?" },
+  { "text": "Tom Cruise protagonizó Misión Imposible." },
+
+  { "text": "¿Quién fue la emperatriz de Austria conocida como Sissi?" },
+  { "text": "Isabel de Baviera, conocida como Sissi, fue emperatriz de Austria." },
+
+  { "text": "¿Qué diseñador fundó la marca Chanel?" },
+  { "text": "Coco Chanel fundó la marca Chanel." },
+
+  { "text": "¿Quién es el autor de Don Quijote de la Mancha?" },
+  { "text": "Miguel de Cervantes es el autor de Don Quijote de la Mancha." },
+
+  { "text": "¿Qué científica descubrió el radio y el polonio?" },
+  { "text": "Marie Curie descubrió el radio y el polonio." },
+
+  { "text": "¿Quién interpretó a Wolverine en las películas de X-Men?" },
+  { "text": "Hugh Jackman interpretó a Wolverine." },
+
+  { "text": "¿Qué cantautor escribió la canción Imagine?" },
+  { "text": "John Lennon escribió la canción Imagine." },
+
+  { "text": "¿Qué rey francés fue conocido como el Rey Sol?" },
+  { "text": "Luis XIV fue conocido como el Rey Sol." },
+
+  { "text": "¿Quién fue el primer hombre en pisar la Luna?" },
+  { "text": "Neil Armstrong fue el primer hombre en pisar la Luna." },
+
+  { "text": "¿Qué revolucionario argentino lideró junto a Fidel Castro la revolución cubana?" },
+  { "text": "El Che Guevara lideró junto a Fidel Castro la revolución cubana." },
+
+  { "text": "¿Quién es la creadora de la saga de libros de Harry Potter?" },
+  { "text": "J.K. Rowling es la creadora de la saga de Harry Potter." },
+
+  { "text": "¿Qué músico es conocido por éxitos como Purple Rain?" },
+  { "text": "Prince es conocido por éxitos como Purple Rain." },
+
+  { "text": "¿Qué actriz interpretó a Cleopatra en una película épica de 1963?" },
+  { "text": "Elizabeth Taylor interpretó a Cleopatra." },
+
+  { "text": "¿Quién fue el emperador que llevó al Imperio Romano a su máxima expansión?" },
+  { "text": "Trajano llevó al Imperio Romano a su máxima expansión." },
+
+  { "text": "¿Qué filósofo griego fue el maestro de Alejandro Magno?" },
+  { "text": "Aristóteles fue el maestro de Alejandro Magno." },
+
+  { "text": "¿Quién fue el creador del psicoanálisis?" },
+  { "text": "Sigmund Freud fue el creador del psicoanálisis." },
+
+  { "text": "¿Qué cantante colombiana es conocida por su álbum Pies descalzos?" },
+  { "text": "Shakira es conocida por su álbum Pies descalzos." },
+
+  { "text": "¿Qué escultor italiano creó la estatua de David?" },
+  { "text": "Miguel Ángel creó la estatua de David." },
+
+  { "text": "¿Quién dirigió la película Titanic?" },
+  { "text": "James Cameron dirigió la película Titanic." },
+
+  { "text": "¿Qué mujer británica lideró el movimiento sufragista en el siglo XIX?" },
+  { "text": "Emmeline Pankhurst lideró el movimiento sufragista." },
+
+  { "text": "¿Qué jugador de baloncesto es conocido como Air Jordan?" },
+  { "text": "Michael Jordan es conocido como Air Jordan." },
+
+  { "text": "¿Quién fue el autor de la teoría de la evolución por selección natural?" },
+  { "text": "Charles Darwin fue el autor de la teoría de la evolución." },
+
+  { "text": "¿Qué pintor español creó Las Meninas?" },
+  { "text": "Diego Velázquez creó Las Meninas." },
+ { "text": "¿Quién fue el líder del movimiento por los derechos civiles en los EE. UU. en la década de 1960?" },
+  { "text": "Martin Luther King Jr. fue el líder del movimiento por los derechos civiles." },
+
+  { "text": "¿Qué cantante mexicano es conocido por su apodo El Sol de México?" },
+  { "text": "Luis Miguel es conocido como El Sol de México." },
+
+  { "text": "¿Qué emperador romano es conocido por sus reformas y luchas contra los visigodos?" },
+  { "text": "Teodosio I es conocido por sus reformas y luchas contra los visigodos." },
+
+  { "text": "¿Qué cantante canadiense es famoso por canciones como Baby?" },
+  { "text": "Justin Bieber es famoso por canciones como Baby." },
+
+  { "text": "¿Qué escritora británica escribió el libro Orgullo y Prejuicio?" },
+  { "text": "Jane Austen escribió Orgullo y Prejuicio." },
+
+  { "text": "¿Qué físico contribuyó al desarrollo de la teoría de la relatividad general?" },
+  { "text": "Albert Einstein contribuyó al desarrollo de la teoría de la relatividad general." },
+
+  { "text": "¿Quién fue la primera mujer en ganar el Premio Nobel?" },
+  { "text": "Marie Curie fue la primera mujer en ganar el Premio Nobel." },
+
+  { "text": "¿Quién fue el líder de la Revolución Francesa?" },
+  { "text": "Napoleón Bonaparte fue un líder destacado de la Revolución Francesa." },
+
+  { "text": "¿Qué matemático inglés es famoso por su contribución a las leyes del movimiento?" },
+  { "text": "Isaac Newton es famoso por sus contribuciones a las leyes del movimiento." },
+
+  { "text": "¿Qué autor escribió la famosa novela 1984?" },
+  { "text": "George Orwell escribió la famosa novela 1984." },
+
+  { "text": "¿Qué actriz mexicana es conocida por su participación en Frida?" },
+  { "text": "Salma Hayek es conocida por su participación en Frida." },
+
+  { "text": "¿Qué filósofo griego es conocido por su teoría de las Ideas?" },
+  { "text": "Platón es conocido por su teoría de las Ideas." },
+
+  { "text": "¿Qué cantante estadounidense es conocida por canciones como Like a Virgin?" },
+  { "text": "Madonna es conocida por canciones como Like a Virgin." },
+
+  { "text": "¿Qué inventor estadounidense es conocido por la bombilla eléctrica?" },
+  { "text": "Thomas Edison es conocido por la bombilla eléctrica." },
+
+  { "text": "¿Quién pintó la famosa obra El Grito?" },
+  { "text": "Edvard Munch pintó El Grito." },
+
+  { "text": "¿Qué líder soviético dirigió la Unión Soviética durante la Segunda Guerra Mundial?" },
+  { "text": "Josef Stalin dirigió la Unión Soviética durante la Segunda Guerra Mundial." },
+
+  { "text": "¿Qué famoso científico desarrolló la teoría de la gravedad?" },
+  { "text": "Isaac Newton desarrolló la teoría de la gravedad." },
+
+  { "text": "¿Quién fue el creador de la teoría psicoanalítica?" },
+  { "text": "Sigmund Freud fue el creador de la teoría psicoanalítica." },
+
+  { "text": "¿Qué artista del Renacimiento italiano pintó La Última Cena?" },
+  { "text": "Leonardo da Vinci pintó La Última Cena." },
+
+  { "text": "¿Qué cantante argentino es conocido por su canción Los Fabulosos Cadillacs?" },
+  { "text": "Vicentico es conocido por su trabajo con Los Fabulosos Cadillacs." },
+
+  { "text": "¿Quién dirigió la película La Guerra de las Galaxias?" },
+  { "text": "George Lucas dirigió La Guerra de las Galaxias." },
+
+  { "text": "¿Qué cantante brasileña es conocida como la Reina del Samba?" },
+  { "text": "Carmen Miranda es conocida como la Reina del Samba." },
+
+  { "text": "¿Qué cantante británica fue famosa por su canción Rolling in the Deep?" },
+  { "text": "Adele fue famosa por su canción Rolling in the Deep." },
+
+  { "text": "¿Quién pintó el Guernica, una de sus obras más famosas?" },
+  { "text": "Pablo Picasso pintó el Guernica." },
+
+  { "text": "¿Quién fundó la teoría de los derechos humanos?" },
+  { "text": "John Locke es uno de los filósofos que fundó la teoría de los derechos humanos." },
+
+  { "text": "¿Qué escritor estadounidense es conocido por su novela Matar a un ruiseñor?" },
+  { "text": "Harper Lee es conocida por su novela Matar a un ruiseñor." },
+
+  { "text": "¿Quién es conocido como el padre de la computación moderna?" },
+  { "text": "Alan Turing es conocido como el padre de la computación moderna." },
+
+  { "text": "¿Qué artista pintó El Jardín de las Delicias?" },
+  { "text": "Hieronymus Bosch pintó El Jardín de las Delicias." },
+
+  { "text": "¿Quién descubrió la penicilina?" },
+  { "text": "Alexander Fleming descubrió la penicilina." },
+
+  { "text": "¿Qué cantante mexicano es conocido como El Divo de Juárez?" },
+  { "text": "Juan Gabriel es conocido como El Divo de Juárez." }
 
 ]
