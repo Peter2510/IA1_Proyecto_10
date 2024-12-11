@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NbThemeModule, NbLayoutModule, NbChatModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
@@ -25,7 +25,7 @@ import { FormsModule } from '@angular/forms';
     NbEvaIconsModule,
     NbChatModule.forRoot({ messageGoogleMapKey: 'MAP_KEY' }),
     FormsModule, 
-    
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
