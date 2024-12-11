@@ -1,0 +1,15 @@
+{
+    "inputs": [
+      "Hola", 
+      "¿Cómo estás?", 
+      "¿Qué puedes hacer?", 
+      "Adiós"
+    ],
+    "targets": [
+      "Hola, ¿en qué puedo ayudarte?", 
+      "Estoy bien, gracias. ¿Y tú?", 
+      "Puedo responder preguntas básicas.", 
+      "Hasta luego, ¡que tengas un buen día!"
+    ]
+  }
+  
