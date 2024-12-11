@@ -121,3 +121,7 @@ button[nbButton]:hover {
 }
 
 
+mat-icon {
+  font-size: 24px; /* Ajusta el tamaño */
+  color: #4CAF50;  /* Cambia el color */
+}

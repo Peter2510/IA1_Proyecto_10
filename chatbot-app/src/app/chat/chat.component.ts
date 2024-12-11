@@ -1,8 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ChatbotService } from '../services/chatbot.service';
 import * as tf from '@tensorflow/tfjs';
-import { HttpClient} from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
+interface HistorialConversacion {
+  pregunta: string;
+  respuesta: string;
+  fecha: Date;
+}
 
 @Component({
   selector: 'app-chat',
@@ -10,7 +15,8 @@ import { HttpClient} from '@angular/common/http';
   styleUrls: ['./chat.component.css'],
 })
 export class ChatComponent implements OnInit {
-  
+  todaConversacion: HistorialConversacion[] = [];
+
   messages: { text: string; sender: string; date: Date; image: string }[] = [];
   private model: tf.LayersModel | null = null;
   userInput: string = '';
@@ -26,7 +32,10 @@ export class ChatComponent implements OnInit {
   outputs: any = null;
   indexToResponse: any;
 
-  constructor(private chatbotService: ChatbotService, private http: HttpClient) {}
+  constructor(
+    private chatbotService: ChatbotService,
+    private http: HttpClient
+  ) {}
 
   async ngOnInit(): Promise<void> {
     await this.loadModel(); // Carga el modelo
@@ -37,19 +46,28 @@ export class ChatComponent implements OnInit {
       this.vocab = this.createVocabulary(this.pairs.map((p) => p.input));
       this.vocabSize = this.vocab.length;
 
-      this.uniqueResponses = Array.from(new Set(this.pairs.map((pair) => pair.output)));
-      this.responseToIndex = this.uniqueResponses.reduce((obj, response, index) => {
-        obj[response] = index;
-        return obj;
-      }, {});
+      this.uniqueResponses = Array.from(
+        new Set(this.pairs.map((pair) => pair.output))
+      );
+      this.responseToIndex = this.uniqueResponses.reduce(
+        (obj, response, index) => {
+          obj[response] = index;
+          return obj;
+        },
+        {}
+      );
       this.indexToResponse = Object.fromEntries(
         Object.entries(this.responseToIndex).map(([k, v]) => [v, k])
       );
-      this.inputs = this.pairs.map((pair) => this.encodeText(pair.input, this.vocab));
-      this.outputs = this.pairs.map((pair) => this.responseToIndex[pair.output]);
-      console.log("Preprocesamiento de datos completo.");
+      this.inputs = this.pairs.map((pair) =>
+        this.encodeText(pair.input, this.vocab)
+      );
+      this.outputs = this.pairs.map(
+        (pair) => this.responseToIndex[pair.output]
+      );
+      console.log('Preprocesamiento de datos completo.');
     } else {
-      console.error("No se cargaron los datos correctamente.");
+      console.error('No se cargaron los datos correctamente.');
     }
   }
 
@@ -57,7 +75,7 @@ export class ChatComponent implements OnInit {
     try {
       const modelUrl = 'assets/modelo/model.json';
       this.model = await tf.loadLayersModel(modelUrl);
-      console.log("Modelo cargado exitosamente");
+      console.log('Modelo cargado exitosamente');
     } catch (error) {
       console.error('Error al cargar el modelo:', error);
     }
@@ -84,46 +102,78 @@ export class ChatComponent implements OnInit {
   createVocabulary(data: any[]) {
     const vocab = new Set();
     data.forEach((text) => {
-      text.split(" ").forEach((word) => vocab.add(word.toLowerCase()));
+      text.split(' ').forEach((word) => vocab.add(word.toLowerCase()));
     });
     return Array.from(vocab);
   }
 
   encodeText(text: string, vocab: any[]) {
     const encoded = Array(this.vocabSize).fill(0);
-    text.toLowerCase().split(" ").forEach((word) => {
-      const index = vocab.indexOf(word);
-      if (index !== -1) {
-        encoded[index] = 1;
-      }
-    });
+    text
+      .toLowerCase()
+      .split(' ')
+      .forEach((word) => {
+        const index = vocab.indexOf(word);
+        if (index !== -1) {
+          encoded[index] = 1;
+        }
+      });
     return encoded;
   }
 
   async predictionsModel(input: string): Promise<string> {
     if (!this.model) {
-      console.error("El modelo aún no está cargado.");
+      console.error('El modelo aún no está cargado.');
       return 'Error: Modelo no cargado';
     }
 
     const encodedInput = this.encodeText(input.toLowerCase(), this.vocab);
 
-    const predictionTensor = this.model?.predict(tf.tensor2d([encodedInput])) as tf.Tensor;
+    const predictionTensor = this.model?.predict(
+      tf.tensor2d([encodedInput])
+    ) as tf.Tensor;
 
     if (predictionTensor) {
       try {
         const array = await predictionTensor.array();
         const responseIndex = array[0].indexOf(Math.max(...array[0]));
-        console.log("Respuesta obtenida:", this.indexToResponse[responseIndex]);
-        return this.indexToResponse[responseIndex] || "No entiendo eso.";
+        console.log('Respuesta obtenida:', this.indexToResponse[responseIndex]);
+        return this.indexToResponse[responseIndex] || 'No entiendo eso.';
       } catch (error) {
-        console.error("Error procesando predicción:", error);
+        console.error('Error procesando predicción:', error);
         return 'Error';
       }
     }
 
-    console.error("No se pudo realizar la predicción correctamente.");
+    console.error('No se pudo realizar la predicción correctamente.');
     return 'Error';
+  }
+
+  descargar() {
+    let textoPlano = '';
+
+    this.todaConversacion.forEach((valores) => {
+      textoPlano += `Pregunta: ${valores.pregunta}\n`;
+      textoPlano += `Respuesta: ${valores.respuesta}\n`;
+      textoPlano += `Fecha: ${valores.fecha.toISOString()}\n\n`;
+    });
+
+    console.log(textoPlano);
+
+    // Crear un Blob con el contenido del archivo de texto
+    const blob = new Blob([textoPlano], { type: 'text/plain' });
+
+    // Crear una URL de descarga para el archivo
+    const url = window.URL.createObjectURL(blob);
+
+    // Crear un enlace para descargar el archivo
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'historial_conversacion.txt';
+    link.click();
+
+    // Liberar la URL del objeto
+    window.URL.revokeObjectURL(url);
   }
 
   async sendMessage(): Promise<void> {
@@ -136,6 +186,14 @@ export class ChatComponent implements OnInit {
       });
 
       const botResponse = await this.predictionsModel(this.userInput);
+      let historialConversacion: HistorialConversacion = {
+        pregunta: this.userInput,
+        respuesta: botResponse,
+        fecha: new Date(),
+      };
+      this.todaConversacion.push(historialConversacion);
+
+      console.log(this.todaConversacion);
 
       setTimeout(() => {
         this.messages.push({
@@ -149,7 +207,6 @@ export class ChatComponent implements OnInit {
       this.userInput = '';
     }
   }
-
 
   // predict(input: any): any {
   //   if (!this.model) {
@@ -213,7 +270,6 @@ export class ChatComponent implements OnInit {
   //   { input: "Historia de Don Quijote de la Mancha", output: "Don Quijote de la Mancha es el protagonista de la famosa novela Don Quijote de la Mancha, escrita por el autor español Miguel de Cervantes. La obra fue publicada en dos partes: la primera en 1605 y la segunda en 1615. Es una de las novelas más importantes y representativas de la literatura mundial." },
   // ];
 
-
   // async predict(inputText: any): Promise<any> {
   //   //await this.loadModel();
 
@@ -242,7 +298,6 @@ export class ChatComponent implements OnInit {
 
   //   const predictions = await (this.model.predict(inputTensor) as tf.Tensor).data();
 
-    
   //   //this.model.predict(inputTensor).data().then(predictions => {
   //   const predictedIndex = Array.from(predictions).indexOf(Math.max(...predictions));
   //   //this.trainingData[predictedIndex].output;
@@ -252,5 +307,4 @@ export class ChatComponent implements OnInit {
   //   return respuesta;
   //   //});
   // };
-
 }

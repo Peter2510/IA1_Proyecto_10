@@ -1,7 +1,5 @@
 <nb-layout>
-  <nb-layout-header fixed class="chat-header">
-    Botsi
-  </nb-layout-header>
+  <nb-layout-header fixed class="chat-header">Botsi</nb-layout-header>
 
   <nb-layout-column>
     <nb-chat title="Chatbot" size="large" status="success">
@@ -19,20 +17,36 @@
           <div class="message-header">
             <img [src]="message.image" alt="Avatar" class="avatar" />
             <span class="sender">{{ message.sender }}</span>
-            <span class="date">{{ message.date | date: 'yyyy-MM-dd HH:mm:ss' }}</span>
+            <span class="date">{{
+              message.date | date : "yyyy-MM-dd HH:mm:ss"
+            }}</span>
           </div>
         </ng-template>
       </nb-chat-message>
     </nb-chat>
 
-    <div class="input-container">
-      <input
-        nbInput
-        placeholder="Escribe tu mensaje"
-        [(ngModel)]="userInput"
-        (keyup.enter)="sendMessage()"
-      />
-      <button nbButton status="primary" (click)="sendMessage()">Enviar</button>
+    <div class="row">
+      <!-- Botón de descarga -->
+
+      <div class="input-container">
+        <!-- Input para el mensaje -->
+        <input
+          nbInput
+          placeholder="Escribe tu mensaje"
+          [(ngModel)]="userInput"
+          (keyup.enter)="sendMessage()"
+        />
+        <!-- Icono de descarga dentro del contenedor -->
+        <button mat-raised-button color="primary">
+          <mat-icon class="download-icon" (click)="descargar()">
+            download
+          </mat-icon>
+        </button>
+
+        <button nbButton status="primary" (click)="sendMessage()">
+          Enviar
+        </button>
+      </div>
     </div>
   </nb-layout-column>
 </nb-layout>
