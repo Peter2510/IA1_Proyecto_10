@@ -4,6 +4,15 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ServicioCuadernosService {
-  //aca seria de guardar cada una de las preguntas de cuadernos
+  cuadernoSeleccionadoActualmente!: number;
+
   constructor() {}
+  setItem(index: number): void {
+    localStorage.setItem('cuadernoSeleccionado', index.toString());
+  }
+
+  getItem(): number | null {
+    const storedValue = localStorage.getItem('cuadernoSeleccionado');
+    return storedValue !== null ? +storedValue : null;
+  }
 }

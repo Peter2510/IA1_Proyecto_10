@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ChatbotService } from '../services/chatbot.service';
 import * as tf from '@tensorflow/tfjs';
 import { HttpClient } from '@angular/common/http';
-import { cuadernos } from '../models/cuadernos.interface';
+import { cuadernos, preguntasRespuesta } from '../models/cuadernos.interface';
+import { ServicioCuadernosService } from '../services/servicio-cuadernos.service';
 
 interface HistorialConversacion {
   pregunta: string;
@@ -75,7 +76,8 @@ export class ChatComponent implements OnInit {
 
   constructor(
     private chatbotService: ChatbotService,
-    private http: HttpClient
+    private http: HttpClient,
+    private servicioCuadernos: ServicioCuadernosService
   ) {}
 
   async ngOnInit(): Promise<void> {
@@ -238,6 +240,21 @@ export class ChatComponent implements OnInit {
       };
       this.todaConversacion.push(historialConversacion);
 
+      //aca se agregan las conversaciones
+      const indice = this.servicioCuadernos.getItem();
+
+      // Verifica si el índice no es nulo antes de usarlo
+      if (indice !== null) {
+        let preguntas: preguntasRespuesta = {
+          pregunta: this.userInput,
+          respuesta: botResponse,
+          fecha: new Date(),
+        };
+        this.todosCuadernos.at(indice)?.todasPreguntas.push(preguntas);
+      } else {
+        console.error('No hay un índice válido en localStorage.');
+      }
+
       console.log(this.todaConversacion);
 
       setTimeout(() => {
@@ -266,6 +283,28 @@ export class ChatComponent implements OnInit {
   //funcion de seleccion del cuaderno
   seleccionCuaderno(indice: number) {
     console.log(this.todosCuadernos.at(indice));
+    this.servicioCuadernos.setItem(indice);
+
+    //elimina los mensajes actuales
+    this.messages = [];
+
+    // se define los mensajes por cuaderno
+    this.todosCuadernos.at(indice)?.todasPreguntas.forEach((valores) => {
+      //usuario
+      this.messages.push({
+        text: valores.pregunta,
+        sender: this.userName,
+        date: valores.fecha,
+        image: 'assets/user-avatar.png',
+      });
+      //bot
+      this.messages.push({
+        text: valores.respuesta,
+        sender: this.botName,
+        date: valores.fecha,
+        image: 'assets/bot-avatar.png',
+      });
+    });
   }
 
   //funcion para eliminar el cuaderno

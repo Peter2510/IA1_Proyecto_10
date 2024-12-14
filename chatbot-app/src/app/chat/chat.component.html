@@ -1,6 +1,6 @@
 <mat-drawer-container class="example-container">
   <!-- Drawer: barra lateral -->
-  <mat-drawer #drawer mode="side" opened class="custom-drawer">
+  <mat-drawer #drawer mode="push" opened class="custom-drawer">
     <div class="drawer-header">
       <h3>Cuadernos Disponibles</h3>
     </div>
@@ -49,7 +49,9 @@
   <!-- Contenido Principal -->
   <mat-drawer-content>
     <nb-layout>
-      <nb-layout-header fixed class="chat-header">Botsi</nb-layout-header>
+      <nb-layout-header fixed class="chat-header" (click)="drawer.toggle()"
+        >Botsi</nb-layout-header
+      >
 
       <nb-layout-column>
         <nb-chat title="Chatbot" size="large" status="success">
