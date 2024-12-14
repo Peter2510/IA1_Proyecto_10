@@ -10,6 +10,9 @@ import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { ChatComponent } from './chat/chat.component';
 import { FormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [AppComponent, ChatComponent],
@@ -24,6 +27,9 @@ import { MatIconModule } from '@angular/material/icon';
     FormsModule,
     HttpClientModule,
     MatIconModule,
+    MatSidenavModule,
+    MatButtonModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

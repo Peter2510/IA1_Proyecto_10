@@ -1,52 +1,104 @@
-<nb-layout>
-  <nb-layout-header fixed class="chat-header">Botsi</nb-layout-header>
-
-  <nb-layout-column>
-    <nb-chat title="Chatbot" size="large" status="success">
-      <nb-chat-message
-        *ngFor="let message of messages"
-        [type]="'text'"
-        [message]="message.text"
-        [sender]="message.sender"
-        [date]="message.date"
-        [avatar]="message.image"
-        [class.user-message]="message.sender === userName"
-        [class.bot-message]="message.sender === botName"
-      >
-        <ng-template nbChatMessageTitle>
-          <div class="message-header">
-            <img [src]="message.image" alt="Avatar" class="avatar" />
-            <span class="sender">{{ message.sender }}</span>
-            <span class="date">{{
-              message.date | date : "yyyy-MM-dd HH:mm:ss"
-            }}</span>
-          </div>
-        </ng-template>
-      </nb-chat-message>
-    </nb-chat>
-
-    <div class="row">
-      <!-- Botón de descarga -->
-
-      <div class="input-container">
-        <!-- Input para el mensaje -->
-        <input
-          nbInput
-          placeholder="Escribe tu mensaje"
-          [(ngModel)]="userInput"
-          (keyup.enter)="sendMessage()"
-        />
-        <!-- Icono de descarga dentro del contenedor -->
-        <button mat-raised-button color="primary">
-          <mat-icon class="download-icon" (click)="descargar()">
-            download
-          </mat-icon>
-        </button>
-
-        <button nbButton status="primary" (click)="sendMessage()">
-          Enviar
-        </button>
+<mat-drawer-container class="example-container">
+  <!-- Drawer: barra lateral -->
+  <mat-drawer #drawer mode="side" opened class="custom-drawer">
+    <div class="drawer-header">
+      <h3>Cuadernos Disponibles</h3>
+    </div>
+    <div class="drawer-content">
+      <ul class="drawer-list">
+        <li
+          *ngFor="let item of todosCuadernos; index as i"
+          class="drawer-list-item"
+        >
+          <button
+            mat-button
+            color="primary"
+            class="ingreso-button"
+            (click)="this.seleccionCuaderno(i)"
+          >
+            {{ item.nombre }}
+          </button>
+          -
+          <button
+            mat-button
+            color="warn"
+            class="delete-button"
+            (click)="this.eliminarCuaderno(i)"
+          >
+            <mat-icon>delete</mat-icon> Eliminar
+          </button>
+        </li>
+      </ul>
+      <hr />
+      <div class="creacion-cuaderno">
+        <h3>Crear Nuevo Cuaderno</h3>
+        <div class="container">
+          <input
+            matInput
+            placeholder="Nombre del cuaderno"
+            [(ngModel)]="nuevoNombre"
+          />
+          <button mat-flat-button (click)="this.creacionCuaderno()">
+            Crear Nuevo
+          </button>
+        </div>
       </div>
     </div>
-  </nb-layout-column>
-</nb-layout>
+  </mat-drawer>
+
+  <!-- Contenido Principal -->
+  <mat-drawer-content>
+    <nb-layout>
+      <nb-layout-header fixed class="chat-header">Botsi</nb-layout-header>
+
+      <nb-layout-column>
+        <nb-chat title="Chatbot" size="large" status="success">
+          <nb-chat-message
+            *ngFor="let message of messages"
+            [type]="'text'"
+            [message]="message.text"
+            [sender]="message.sender"
+            [date]="message.date"
+            [avatar]="message.image"
+            [class.user-message]="message.sender === userName"
+            [class.bot-message]="message.sender === botName"
+          >
+            <ng-template nbChatMessageTitle>
+              <div class="message-header">
+                <img [src]="message.image" alt="Avatar" class="avatar" />
+                <span class="sender">{{ message.sender }}</span>
+                <span class="date">{{
+                  message.date | date : "yyyy-MM-dd HH:mm:ss"
+                }}</span>
+              </div>
+            </ng-template>
+          </nb-chat-message>
+        </nb-chat>
+
+        <div class="row">
+          <!-- Botón de descarga -->
+
+          <div class="input-container">
+            <!-- Input para el mensaje -->
+            <input
+              nbInput
+              placeholder="Escribe tu mensaje"
+              [(ngModel)]="userInput"
+              (keyup.enter)="sendMessage()"
+            />
+            <!-- Icono de descarga dentro del contenedor -->
+            <button mat-raised-button color="primary">
+              <mat-icon class="download-icon" (click)="descargar()">
+                download
+              </mat-icon>
+            </button>
+
+            <button nbButton status="primary" (click)="sendMessage()">
+              Enviar
+            </button>
+          </div>
+        </div>
+      </nb-layout-column>
+    </nb-layout>
+  </mat-drawer-content>
+</mat-drawer-container>

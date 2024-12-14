@@ -125,3 +125,54 @@ mat-icon {
   font-size: 24px; /* Ajusta el tamaño */
   color: #4CAF50;  /* Cambia el color */
 }
+
+mat-drawer-content {
+  margin-left: 20%; /* Coincidir con el ancho del drawer */
+}
+
+.custom-drawer {
+  width: 25%; /* Ajusta el ancho del drawer */
+  background-color: #f9f9f9; /* Fondo suave */
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1); /* Sombra para un efecto de profundidad */
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.drawer-header {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.drawer-content {
+  padding: 0 10px;
+  overflow-y: auto; /* Permite desplazamiento si el contenido supera la altura */
+}
+
+.drawer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.drawer-list-item {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #ffffff; /* Fondo para cada elemento */
+  border-radius: 6px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  color: #555;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s; /* Transición suave */
+  cursor: pointer;
+}
+
+.drawer-list-item:hover {
+  background-color: #e0f7fa; /* Cambio de color al pasar el mouse */
+  transform: scale(1.05); /* Zoom suave */
+}

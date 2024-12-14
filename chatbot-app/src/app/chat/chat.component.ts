@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ChatbotService } from '../services/chatbot.service';
 import * as tf from '@tensorflow/tfjs';
 import { HttpClient } from '@angular/common/http';
+import { cuadernos } from '../models/cuadernos.interface';
 
 interface HistorialConversacion {
   pregunta: string;
@@ -15,8 +16,48 @@ interface HistorialConversacion {
   styleUrls: ['./chat.component.css'],
 })
 export class ChatComponent implements OnInit {
+  // para el historial de las conversaciones
   todaConversacion: HistorialConversacion[] = [];
 
+  // para mostrar multiples cuadernos
+  nuevoNombre!: string;
+
+  mostrarCuadernos: boolean = false;
+  cuadernoActual: any;
+  todosCuadernos: cuadernos[] = [];
+  miCuaderno: cuadernos = {
+    nombre: 'cuaderno 1',
+    todasPreguntas: [
+      {
+        pregunta: '¿Qué es TypeScript?',
+        respuesta:
+          'Es un superconjunto de JavaScript que añade tipado estático.',
+        fecha: new Date('2024-12-11'),
+      },
+      {
+        pregunta: '¿Cuál es la capital de Guatemala?',
+        respuesta: 'Ciudad de Guatemala.',
+        fecha: new Date('2024-12-10'),
+      },
+    ],
+  };
+  miCuaderno2: cuadernos = {
+    nombre: 'cuaderno 2',
+    todasPreguntas: [
+      {
+        pregunta: '¿Qué es Javascript?',
+        respuesta: 'simon.',
+        fecha: new Date('2024-12-11'),
+      },
+      {
+        pregunta: '¿hola?',
+        respuesta: 'que tal?',
+        fecha: new Date('2024-12-10'),
+      },
+    ],
+  };
+
+  // para el funcionamiento de la consola
   messages: { text: string; sender: string; date: Date; image: string }[] = [];
   private model: tf.LayersModel | null = null;
   userInput: string = '';
@@ -38,6 +79,10 @@ export class ChatComponent implements OnInit {
   ) {}
 
   async ngOnInit(): Promise<void> {
+    // mostrar cuadernos
+    this.todosCuadernos.push(this.miCuaderno);
+    this.todosCuadernos.push(this.miCuaderno2);
+
     await this.loadModel(); // Carga el modelo
     await this.loadDialogs(); // Carga el diálogo
 
@@ -206,6 +251,28 @@ export class ChatComponent implements OnInit {
 
       this.userInput = '';
     }
+  }
+
+  //funcion parfa crear nuevos cuadernos
+  creacionCuaderno() {
+    let nuevoCuaderno: cuadernos = {
+      nombre: this.nuevoNombre,
+      todasPreguntas: [],
+    };
+    //se agrega
+    this.todosCuadernos.push(nuevoCuaderno);
+  }
+
+  //funcion de seleccion del cuaderno
+  seleccionCuaderno(indice: number) {
+    console.log(this.todosCuadernos.at(indice));
+  }
+
+  //funcion para eliminar el cuaderno
+  eliminarCuaderno(indice: number) {
+    this.todosCuadernos.splice(indice, 1);
+
+    console.log(this.todosCuadernos);
   }
 
   // predict(input: any): any {
