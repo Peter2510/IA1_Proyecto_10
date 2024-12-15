@@ -62,7 +62,7 @@ const outputsOneHot = tf.oneHot(tf.tensor1d(outputs, "int32"), uniqueResponses.l
 const createModel = () => {
   const model = tf.sequential();
   model.add(
-    tf.layers.dense({ inputShape: [vocabSize], units: 240, activation: "relu" })
+    tf.layers.dense({ inputShape: [vocabSize], units: 128, activation: "relu" })
   );
   model.add(tf.layers.dense({ units: uniqueResponses.length, activation: "softmax" }));
   model.compile({
@@ -96,7 +96,7 @@ if (!fs.existsSync(dirPath)) {
 const train = async () => {
   const inputTensors = tf.tensor2d(inputs);
   await model.fit(inputTensors, outputsOneHot, {
-    epochs: 800,
+    epochs: 30,
     batchSize: 16,
   }).then(async()=>{
     await model.save('file://'+dirPath);
