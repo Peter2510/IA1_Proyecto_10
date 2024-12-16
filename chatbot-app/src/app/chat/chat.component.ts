@@ -17,6 +17,9 @@ interface HistorialConversacion {
   styleUrls: ['./chat.component.css'],
 })
 export class ChatComponent implements OnInit {
+  // para los cambios de temas
+  temaActual: string = 'light';
+
   // para el historial de las conversaciones
   todaConversacion: HistorialConversacion[] = [];
 
@@ -312,6 +315,12 @@ export class ChatComponent implements OnInit {
     this.todosCuadernos.splice(indice, 1);
 
     console.log(this.todosCuadernos);
+  }
+
+  //funcion par cambia de temas
+  toggleTheme(): void {
+    this.temaActual = this.temaActual === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', this.temaActual);
   }
 
   // predict(input: any): any {
