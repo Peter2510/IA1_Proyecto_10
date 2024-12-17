@@ -171,19 +171,89 @@ export class ChatComponent implements OnInit {
     return encoded;
   }
 
-  async predictionsModel(input: string): Promise<string> {
+  async predictionsModel(input: string): Promise<string | any> {
     if (!this.model) {
       console.error('El modelo aún no está cargado.');
       return 'Error: Modelo no cargado';
     }
 
     const encodedInput = this.encodeText(input.toLowerCase(), this.vocab);
+    //en caso de alguna operacion solo que determine una palabra de entrada
 
     const predictionTensor = this.model?.predict(
       tf.tensor2d([encodedInput])
     ) as tf.Tensor;
+    const valores = {
+      resta: ['restar', '-', 'resta', 'quita'],
+      suma: ['suma', 'sumar', 'agrega', '+'],
+      division: ['divide', '/', 'division', 'dividir'],
+      multiplicacion: ['multiplicar', 'multiplica', '*', 'multiplicacion'],
+    };
+    let valorOperacion = input.toLowerCase().split(/\s+/);
+    let cleanInput = input.trim();
+    console.log(cleanInput.replace(/([+\-*/])/g, ' $1 '));
 
-    if (predictionTensor) {
+    let generacionOperacion = false;
+    console.log(input.toLowerCase().split(/\s+/), predictionTensor);
+    const operacionEncontrada = Object.keys(valores).find((operacion) =>
+      valorOperacion.some((palabra) => valores[operacion].includes(palabra))
+    );
+    let arregloNumeros: number[] = [];
+    let resultado: number | null = null;
+
+    if (operacionEncontrada) {
+      console.log(`Operación detectada: ${operacionEncontrada}`);
+      console.log(
+        valorOperacion.forEach((valores) => {
+          let numeros = valores.match(/-?\d+(\.\d+)?/g);
+          console.log(typeof numeros, numeros);
+          if (numeros) {
+            //que no sea null
+            numeros.forEach((numero) => {
+              arregloNumeros.push(Number(numero));
+            });
+          }
+        })
+      );
+
+      if (arregloNumeros.length <= 1) {
+        console.log('Necesita más números');
+      } else {
+        switch (operacionEncontrada) {
+          case 'resta':
+            resultado = arregloNumeros.reduce((acc, num) => acc - num);
+            console.log(`Resultado de la resta: ${resultado}`);
+            break;
+
+          case 'suma':
+            resultado = arregloNumeros.reduce((acc, num) => acc + num, 0);
+            console.log(`Resultado de la suma: ${resultado}`);
+            break;
+
+          case 'division':
+            resultado = arregloNumeros.reduce((acc, num) => acc / num);
+            console.log(`Resultado de la división: ${resultado}`);
+            break;
+
+          case 'multiplicacion':
+            resultado = arregloNumeros.reduce((acc, num) => acc * num, 1);
+            console.log(`Resultado de la multiplicación: ${resultado}`);
+            break;
+
+          default:
+            console.log('Operación no reconocida.');
+        }
+      }
+
+      console.log('Resultado final:', resultado);
+    } else {
+      console.log('No se detectó ninguna operación válida.');
+    }
+
+    //aca haria el ciclo de la operacion
+    if (operacionEncontrada) {
+      return resultado;
+    } else if (predictionTensor) {
       try {
         const array = await predictionTensor.array();
         const responseIndex = array[0].indexOf(Math.max(...array[0]));
