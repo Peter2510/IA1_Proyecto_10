@@ -1,4 +1,4 @@
-/* Tema Claro - Ajustado */
+/* tema Claro */
 .light-theme .chat-header {
   background-color: #00bcd4;
   color: white;
@@ -141,8 +141,7 @@
   transform: scale(1.05);
 }
 
-
-/* Tema Oscuro */
+/* tema Oscuro */
 .dark-theme .chat-header {
   background-color: #121212;
   color: white;
@@ -336,17 +335,27 @@
   box-shadow: 0 0 6px rgba(0, 137, 123, 0.5);
 }
 
-/* Estilo para el texto Botsi en Light Mode */
 .botsi-light {
-  color: #000000; /* Verde agua */
+  color: #000000;
   font-weight: bold;
   transition: color 0.3s ease-in-out;
 }
 
-/* Estilo para el texto Botsi en Dark Mode */
 .botsi-dark {
-  color: #fafafa; /* Naranja */
+  color: #fafafa;
   font-weight: bold;
   transition: color 0.3s ease-in-out;
 }
+
+.custom-drawer {
+  width: 250px;
+}
+
+.theme-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 

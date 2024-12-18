@@ -5,6 +5,7 @@ import { HttpClient } from '@angular/common/http';
 import { cuadernos, preguntasRespuesta } from '../models/cuadernos.interface';
 import { ServicioCuadernosService } from '../services/servicio-cuadernos.service';
 import Swal from 'sweetalert2';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 interface HistorialConversacion {
   pregunta: string;
@@ -53,17 +54,22 @@ export class ChatComponent implements OnInit {
   inputs: any = null;
   outputs: any = null;
   indexToResponse: any;
+  isMobileView = false;
+
 
   constructor(
     private chatbotService: ChatbotService,
     private http: HttpClient,
-    private servicioCuadernos: ServicioCuadernosService
+    private servicioCuadernos: ServicioCuadernosService,
+    private breakpointObserver: BreakpointObserver
   ) { }
 
   async ngOnInit(): Promise<void> {
     // mostrar cuadernos
     this.todosCuadernos.push(this.miCuaderno);
-
+    this.breakpointObserver.observe([Breakpoints.Handset]).subscribe(result => {
+      this.isMobileView = result.matches;
+    });
     await this.loadModel(); //se carga el modelo
     await this.loadDialogs(); //se crga el dialogo
 

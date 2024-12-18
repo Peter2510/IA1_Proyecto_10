@@ -1,7 +1,7 @@
 <div class="{{ temaActual === 'dark' ? 'dark-theme' : 'light-theme' }}">
   <mat-drawer-container class="example-container">
     <!-- Drawer: barra lateral -->
-    <mat-drawer #drawer mode="push" opened class="custom-drawer">
+    <mat-drawer #drawer mode="push" class="custom-drawer">
       <div class="drawer-header">
         <h3 [ngClass]="{'botsi-light': temaActual === 'light', 'botsi-dark': temaActual === 'dark'}">Chats</h3>
       </div>
