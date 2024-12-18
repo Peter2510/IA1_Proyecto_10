@@ -283,21 +283,35 @@
 .theme-button-container {
   display: flex;
   align-items: center;
-  gap: 18px;
+  justify-content: space-between;
+  gap: 18px; 
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .theme-button {
   display: flex;
   align-items: center;
+  justify-content: center; 
   background: transparent;
   border: none;
   color: inherit;
   cursor: pointer;
+  padding: 8px 12px; 
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  flex-shrink: 0; 
+}
+
+.theme-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .theme-button mat-icon {
-  margin-right: 10px;
+  margin-right: 8px;
+  font-size: 20px; 
 }
+
 
 .light-theme .sidebar-input {
   width: 100%;
@@ -351,11 +365,6 @@
   width: 250px;
 }
 
-.theme-button-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
+
 
 
