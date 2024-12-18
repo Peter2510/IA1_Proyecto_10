@@ -4,6 +4,7 @@ import * as tf from '@tensorflow/tfjs';
 import { HttpClient } from '@angular/common/http';
 import { cuadernos, preguntasRespuesta } from '../models/cuadernos.interface';
 import { ServicioCuadernosService } from '../services/servicio-cuadernos.service';
+import Swal from 'sweetalert2';
 
 interface HistorialConversacion {
   pregunta: string;
@@ -260,7 +261,11 @@ export class ChatComponent implements OnInit {
   creacionCuaderno() {
 
     if (this.nuevoNombre == undefined || this.nuevoNombre == null || this.nuevoNombre.length == 0) {
-      alert('Debes ingresar un nombre')
+      Swal.fire({
+        title: "Ingresa un nombre",
+        text: "Debes ingresar un nombre para el chat",
+        icon: "warning"
+      });
     } else {
       let nuevoCuaderno: cuadernos = {
         nombre: this.nuevoNombre,

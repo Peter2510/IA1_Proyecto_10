@@ -3,12 +3,12 @@
     <!-- Drawer: barra lateral -->
     <mat-drawer #drawer mode="push" opened class="custom-drawer">
       <div class="drawer-header">
-        <h3>Chats</h3>
+        <h3 [ngClass]="{'botsi-light': temaActual === 'light', 'botsi-dark': temaActual === 'dark'}">Chats</h3>
       </div>
       <div class="drawer-content">
         <div class="drawer-item-container">
           <div *ngFor="let item of todosCuadernos; index as i" class="drawer-list-item">
-            <button mat-button color="primary" class="ingreso-button" (click)="this.seleccionCuaderno(i)">
+            <button mat-button color="success" class="ingreso-button" (click)="this.seleccionCuaderno(i)">
               {{ item.nombre }}
             </button>
             -
@@ -18,10 +18,13 @@
           </div>
         </div>
         <hr />
-        <div class="creacion-cuaderno">
-          <h3>Crear chat</h3>
+        <div class="creacion-cuaderno drawer-header">
+          <h3 [ngClass]="{'botsi-light': temaActual === 'light', 'botsi-dark': temaActual === 'dark'}">Crear chat</h3>
           <div class="container">
-            <input matInput placeholder="Ingresa un nombre" [(ngModel)]="nuevoNombre" />
+            <mat-form-field class="example-full-width">
+              <mat-label>Ingresa un nombre</mat-label>
+              <input matInput placeholder="" [(ngModel)]="nuevoNombre" >
+            </mat-form-field>
             <button mat-flat-button (click)="this.creacionCuaderno()">
               Crear
             </button>
@@ -38,7 +41,9 @@
             <button mat-icon-button (click)="drawer.toggle()" class="theme-button">
               <mat-icon>menu</mat-icon>
             </button>
-            <h4>Botsi</h4>
+            <h4 [ngClass]="{'botsi-light': temaActual === 'light', 'botsi-dark': temaActual === 'dark'}">
+              Botsi
+            </h4>
             <button mat-button (click)="toggleTheme()" class="theme-button">
               <mat-icon>{{ temaActual === "light" ? "dark_mode" : "light_mode" }}</mat-icon>
             </button>
