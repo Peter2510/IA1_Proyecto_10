@@ -7,25 +7,12 @@
       </div>
       <div class="drawer-content">
         <ul class="drawer-list">
-          <li
-            *ngFor="let item of todosCuadernos; index as i"
-            class="drawer-list-item"
-          >
-            <button
-              mat-button
-              color="primary"
-              class="ingreso-button"
-              (click)="this.seleccionCuaderno(i)"
-            >
+          <li *ngFor="let item of todosCuadernos; index as i" class="drawer-list-item">
+            <button mat-button color="primary" class="ingreso-button" (click)="this.seleccionCuaderno(i)">
               {{ item.nombre }}
             </button>
             -
-            <button
-              mat-button
-              color="warn"
-              class="delete-button"
-              (click)="this.eliminarCuaderno(i)"
-            >
+            <button mat-button color="warn" class="delete-button" (click)="this.eliminarCuaderno(i)">
               <mat-icon>delete</mat-icon> Eliminar
             </button>
           </li>
@@ -34,11 +21,7 @@
         <div class="creacion-cuaderno">
           <h3>Crear Nuevo Cuaderno</h3>
           <div class="container">
-            <input
-              matInput
-              placeholder="Nombre del cuaderno"
-              [(ngModel)]="nuevoNombre"
-            />
+            <input matInput placeholder="Nombre del cuaderno" [(ngModel)]="nuevoNombre" />
             <button mat-flat-button (click)="this.creacionCuaderno()">
               Crear Nuevo
             </button>
@@ -50,10 +33,15 @@
     <!-- Contenido Principal -->
     <mat-drawer-content>
       <nb-layout>
-        <nb-layout-header fixed class="chat-header" (click)="drawer.toggle()">
+        <nb-layout-header fixed class="chat-header">
           <ul class="theme-list">
-            <li>Botsi</li>
             <li>
+              <nb-icon icon="menu" nbButton (click)="drawer.toggle()"></nb-icon>
+            </li>
+            <li>
+              <h4>Botsi</h4>
+            </li>
+            <li class="theme-toggle">
               <button mat-button (click)="toggleTheme()" class="theme-button">
                 <mat-icon>
                   {{ temaActual === "light" ? "dark_mode" : "light_mode" }}
@@ -64,28 +52,15 @@
         </nb-layout-header>
 
         <nb-layout-column>
-          <nb-chat
-            title="Chatbot"
-            size="large"
-            [status]="temaActual === 'dark' ? 'warning' : 'success'"
-          >
-            <nb-chat-message
-              *ngFor="let message of messages"
-              [type]="'text'"
-              [message]="message.text"
-              [sender]="message.sender"
-              [date]="message.date"
-              [avatar]="message.image"
-              [class.user-message]="message.sender === userName"
-              [class.bot-message]="message.sender === botName"
-            >
+          <nb-chat title="Chatbot" size="large" [status]="temaActual === 'dark' ? 'warning' : 'success'">
+            <nb-chat-message *ngFor="let message of messages" [type]="'text'" [message]="message.text"
+              [sender]="message.sender" [date]="message.date" [avatar]="message.image"
+              [class.user-message]="message.sender === userName" [class.bot-message]="message.sender === botName">
               <ng-template nbChatMessageTitle>
                 <div class="message-header">
                   <img [src]="message.image" alt="Avatar" class="avatar" />
                   <span class="sender">{{ message.sender }}</span>
-                  <span class="date">{{
-                    message.date | date : "yyyy-MM-dd HH:mm:ss"
-                  }}</span>
+                  <span class="date">{{ message.date | date: "yyyy-MM-dd HH:mm:ss" }}</span>
                 </div>
               </ng-template>
             </nb-chat-message>
@@ -93,15 +68,9 @@
 
           <div class="row">
             <!-- Botón de descarga -->
-
             <div class="input-container">
               <!-- Input para el mensaje -->
-              <input
-                nbInput
-                placeholder="Escribe tu mensaje"
-                [(ngModel)]="userInput"
-                (keyup.enter)="sendMessage()"
-              />
+              <input nbInput placeholder="Escribe tu mensaje" [(ngModel)]="userInput" (keyup.enter)="sendMessage()" />
               <!-- Icono de descarga dentro del contenedor -->
               <button mat-raised-button color="primary">
                 <mat-icon class="download-icon" (click)="descargar()">

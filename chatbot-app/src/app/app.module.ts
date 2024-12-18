@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NbThemeModule, NbLayoutModule, NbChatModule } from '@nebular/theme';
+import { NbThemeModule, NbLayoutModule, NbChatModule, NbIconModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { ChatComponent } from './chat/chat.component';
 import { FormsModule } from '@angular/forms';
@@ -30,6 +30,7 @@ import { MatInputModule } from '@angular/material/input';
     MatSidenavModule,
     MatButtonModule,
     MatInputModule,
+    NbIconModule
   ],
   providers: [],
   bootstrap: [AppComponent],

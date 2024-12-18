@@ -1,9 +1,9 @@
 /* Tema Claro */
 .light-theme .chat-header {
-  background-color: #1e7055;
-  color: white;
+  background-color: #1e7055; /* Verde claro */
+  color: white; /* Texto blanco */
   text-align: center;
-  font-size: 32px; 
+  font-size: 32px;
   font-weight: bold;
   padding: 10px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -42,8 +42,8 @@
 }
 
 .light-theme .user-message {
-  background-color: #e6f7ff;
-  color: #333;
+  background-color: #e6f7ff; /* Fondo más claro */
+  color: #333; /* Texto oscuro */
   text-align: left;
   border-radius: 15px;
   padding: 10px 15px;
@@ -105,8 +105,8 @@
 
 .light-theme button[nbButton] {
   border-radius: 20px;
-  color: white; 
-  background-color: #2651ac; 
+  color: white;
+  background-color: #2651ac;
   padding: 8px 15px;
   border: none;
   cursor: pointer;
@@ -120,28 +120,28 @@
 
 /* Tema Oscuro */
 .dark-theme .chat-header {
-  background-color: #341e40;
-  color: #e0f7fa;
+  background-color: #000000; /* Fondo negro */
+  color: #ffffff; /* Texto blanco */
   text-align: center;
   font-size: 32px;
   font-weight: bold;
   padding: 10px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .dark-theme .sender {
   font-weight: bold;
-  color: #cfd8dc;
+  color: #ffffff; /* Texto blanco */
 }
 
 .dark-theme .date {
   font-size: 12px;
-  color: #8c8c8c;
+  color: #b0b0b0; /* Texto gris claro */
 }
 
 .dark-theme .user-message {
-  background-color: #34495e;
-  color: #e0f7fa;
+  background-color: #2c3e50; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
   text-align: left;
   border-radius: 15px;
   padding: 10px 15px;
@@ -157,8 +157,8 @@
 }
 
 .dark-theme .bot-message {
-  background-color: #f0f0f0;
-  color: #555;
+  background-color: #444; /* Fondo oscuro para el bot */
+  color: #ffffff; /* Texto blanco */
   text-align: right;
   border-radius: 15px;
   padding: 10px 15px;
@@ -177,9 +177,9 @@
   display: flex;
   gap: 10px;
   padding: 10px;
-  background: #2e2e38;
+  background: #333; /* Fondo más oscuro */
   border-radius: 8px;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.7);
   align-items: center;
   transition: box-shadow 0.2s ease;
 }
@@ -190,7 +190,7 @@
   border-radius: 20px;
   padding: 10px 15px;
   background-color: #444;
-  color: #e0f7fa;
+  color: #ffffff; /* Texto blanco */
   font-size: 14px;
   transition: border-color 0.2s ease;
 }
@@ -201,7 +201,7 @@
 
 .dark-theme button[nbButton] {
   border-radius: 20px;
-  color: #e0f7fa;
+  color: #ffffff; /* Texto blanco */
   background-color: #4c2375;
   padding: 8px 15px;
   border: none;
@@ -216,13 +216,13 @@
 
 .dark-theme mat-icon {
   font-size: 24px;
-  color: #4d1abc;
+  color: #ffffff; /* Iconos blancos */
 }
 
 .dark-theme .custom-drawer {
   width: 25%;
-  background-color: #2e2e38;
-  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.5);
+  background-color: #333; /* Fondo oscuro */
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.7);
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -232,7 +232,7 @@
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  color: #e0f7fa;
+  color: #ffffff; /* Texto blanco */
   border-bottom: 2px solid #444;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -244,7 +244,7 @@
   background-color: #444;
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  color: #e0f7fa;
+  color: #ffffff; /* Texto blanco */
   font-size: 16px;
   transition: background-color 0.3s, transform 0.2s;
   cursor: pointer;
@@ -255,31 +255,7 @@
   transform: scale(1.05);
 }
 
-
-.theme-list {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-}
-
-.theme-list li {
-  margin-right: 15px;
-}
-
-.theme-button {
-  display: flex;
-  align-items: center;
-  background: transparent;
-  border: none;
-  color: inherit;
-  cursor: pointer;
-}
-
-.theme-button i {
-  margin-right: 8px; /* Espacio entre el ícono y el texto */
-}
-
+/* Estilo para el cambio de tema */
 .theme-list {
   display: flex;
   align-items: center;
@@ -303,3 +279,5 @@
 .theme-button mat-icon {
   margin-right: 8px;
 }
+
+

@@ -32,34 +32,10 @@ export class ChatComponent implements OnInit {
   miCuaderno: cuadernos = {
     nombre: 'cuaderno 1',
     todasPreguntas: [
-      {
-        pregunta: '¿Qué es TypeScript?',
-        respuesta:
-          'Es un superconjunto de JavaScript que añade tipado estático.',
-        fecha: new Date('2024-12-11'),
-      },
-      {
-        pregunta: '¿Cuál es la capital de Guatemala?',
-        respuesta: 'Ciudad de Guatemala.',
-        fecha: new Date('2024-12-10'),
-      },
+
     ],
   };
-  miCuaderno2: cuadernos = {
-    nombre: 'cuaderno 2',
-    todasPreguntas: [
-      {
-        pregunta: '¿Qué es Javascript?',
-        respuesta: 'simon.',
-        fecha: new Date('2024-12-11'),
-      },
-      {
-        pregunta: '¿hola?',
-        respuesta: 'que tal?',
-        fecha: new Date('2024-12-10'),
-      },
-    ],
-  };
+
 
   // para el funcionamiento de la consola
   messages: { text: string; sender: string; date: Date; image: string }[] = [];
@@ -81,12 +57,11 @@ export class ChatComponent implements OnInit {
     private chatbotService: ChatbotService,
     private http: HttpClient,
     private servicioCuadernos: ServicioCuadernosService
-  ) {}
+  ) { }
 
   async ngOnInit(): Promise<void> {
     // mostrar cuadernos
     this.todosCuadernos.push(this.miCuaderno);
-    this.todosCuadernos.push(this.miCuaderno2);
 
     await this.loadModel(); // Carga el modelo
     await this.loadDialogs(); // Carga el diálogo
@@ -275,12 +250,17 @@ export class ChatComponent implements OnInit {
 
   //funcion parfa crear nuevos cuadernos
   creacionCuaderno() {
-    let nuevoCuaderno: cuadernos = {
-      nombre: this.nuevoNombre,
-      todasPreguntas: [],
-    };
-    //se agrega
-    this.todosCuadernos.push(nuevoCuaderno);
+
+    if (this.nuevoNombre == undefined || this.nuevoNombre == null || this.nuevoNombre.length == 0) {
+      alert('Debes ingresar un nombre')
+    } else {
+      let nuevoCuaderno: cuadernos = {
+        nombre: this.nuevoNombre,
+        todasPreguntas: [],
+      };
+      //se agrega
+      this.todosCuadernos.push(nuevoCuaderno);
+    }
   }
 
   //funcion de seleccion del cuaderno
@@ -312,9 +292,15 @@ export class ChatComponent implements OnInit {
 
   //funcion para eliminar el cuaderno
   eliminarCuaderno(indice: number) {
-    this.todosCuadernos.splice(indice, 1);
 
-    console.log(this.todosCuadernos);
+    if (this.todosCuadernos.length == 1) {
+      this.messages = [];
+    } else {
+      this.todosCuadernos.splice(indice, 1);
+
+      console.log(this.todosCuadernos);
+    }
+
   }
 
   //funcion par cambia de temas
