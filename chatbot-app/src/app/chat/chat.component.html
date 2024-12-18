@@ -6,8 +6,8 @@
         <h3>Chats</h3>
       </div>
       <div class="drawer-content">
-        <ul class="drawer-list">
-          <li *ngFor="let item of todosCuadernos; index as i" class="drawer-list-item">
+        <div class="drawer-item-container">
+          <div *ngFor="let item of todosCuadernos; index as i" class="drawer-list-item">
             <button mat-button color="primary" class="ingreso-button" (click)="this.seleccionCuaderno(i)">
               {{ item.nombre }}
             </button>
@@ -15,8 +15,8 @@
             <button mat-button color="warn" class="delete-button" (click)="this.eliminarCuaderno(i)">
               <mat-icon>delete</mat-icon> Eliminar
             </button>
-          </li>
-        </ul>
+          </div>
+        </div>
         <hr />
         <div class="creacion-cuaderno">
           <h3>Crear chat</h3>
@@ -34,21 +34,15 @@
     <mat-drawer-content>
       <nb-layout>
         <nb-layout-header fixed class="chat-header">
-          <ul class="theme-list">
-            <li>
-              <nb-icon icon="menu" nbButton (click)="drawer.toggle()"></nb-icon>
-            </li>
-            <li>
-              <h4>Botsi</h4>
-            </li>
-            <li class="theme-toggle">
-              <button mat-button (click)="toggleTheme()" class="theme-button">
-                <mat-icon>
-                  {{ temaActual === "light" ? "dark_mode" : "light_mode" }}
-                </mat-icon>
-              </button>
-            </li>
-          </ul>
+          <div class="theme-button-container">
+            <button mat-icon-button (click)="drawer.toggle()" class="theme-button">
+              <mat-icon>menu</mat-icon>
+            </button>
+            <h4>Botsi</h4>
+            <button mat-button (click)="toggleTheme()" class="theme-button">
+              <mat-icon>{{ temaActual === "light" ? "dark_mode" : "light_mode" }}</mat-icon>
+            </button>
+          </div>
         </nb-layout-header>
 
         <nb-layout-column>
@@ -67,15 +61,10 @@
           </nb-chat>
 
           <div class="row">
-            <!-- Botón de descarga -->
             <div class="input-container">
-              <!-- Input para el mensaje -->
               <input nbInput placeholder="Escribe tu mensaje" [(ngModel)]="userInput" (keyup.enter)="sendMessage()" />
-              <!-- Icono de descarga dentro del contenedor -->
               <button mat-raised-button color="primary" (click)="descargar()">
-                <mat-icon class="download-icon">
-                  download
-                </mat-icon>
+                <mat-icon class="download-icon">download</mat-icon>
               </button>
 
               <button nbButton status="primary" (click)="sendMessage()">
