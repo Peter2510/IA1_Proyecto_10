@@ -118,6 +118,12 @@
   background-color: #1e90ff;
 }
 
+.light-theme li *{
+  
+  color: white;
+}
+
+
 /* Tema Oscuro */
 .dark-theme .chat-header {
   background-color: #000000; /* Fondo negro */
@@ -280,4 +286,7 @@
   margin-right: 8px;
 }
 
+.dark-theme li *{
+  color: white
+}
 

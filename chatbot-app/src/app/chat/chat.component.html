@@ -72,8 +72,8 @@
               <!-- Input para el mensaje -->
               <input nbInput placeholder="Escribe tu mensaje" [(ngModel)]="userInput" (keyup.enter)="sendMessage()" />
               <!-- Icono de descarga dentro del contenedor -->
-              <button mat-raised-button color="primary">
-                <mat-icon class="download-icon" (click)="descargar()">
+              <button mat-raised-button color="primary" (click)="descargar()">
+                <mat-icon class="download-icon">
                   download
                 </mat-icon>
               </button>
