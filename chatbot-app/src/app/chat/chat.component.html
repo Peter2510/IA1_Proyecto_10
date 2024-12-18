@@ -3,7 +3,7 @@
     <!-- Drawer: barra lateral -->
     <mat-drawer #drawer mode="push" opened class="custom-drawer">
       <div class="drawer-header">
-        <h3>Cuadernos Disponibles</h3>
+        <h3>Chats</h3>
       </div>
       <div class="drawer-content">
         <ul class="drawer-list">
@@ -19,11 +19,11 @@
         </ul>
         <hr />
         <div class="creacion-cuaderno">
-          <h3>Crear Nuevo Cuaderno</h3>
+          <h3>Crear chat</h3>
           <div class="container">
-            <input matInput placeholder="Nombre del cuaderno" [(ngModel)]="nuevoNombre" />
+            <input matInput placeholder="Ingresa un nombre" [(ngModel)]="nuevoNombre" />
             <button mat-flat-button (click)="this.creacionCuaderno()">
-              Crear Nuevo
+              Crear
             </button>
           </div>
         </div>

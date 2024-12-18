@@ -63,8 +63,8 @@ export class ChatComponent implements OnInit {
     // mostrar cuadernos
     this.todosCuadernos.push(this.miCuaderno);
 
-    await this.loadModel(); // Carga el modelo
-    await this.loadDialogs(); // Carga el diálogo
+    await this.loadModel(); //se carga el modelo
+    await this.loadDialogs(); //se crga el dialogo
 
     if (this.data) {
       this.pairs = this.preprocessData(this.data);
@@ -229,7 +229,7 @@ export class ChatComponent implements OnInit {
       //aca se agregan las conversaciones
       const indice = this.servicioCuadernos.getItem();
 
-      // Verifica si el índice no es nulo antes de usarlo
+      //verifica si el índice no es nulo antes de usarlo
       if (indice !== null) {
         let preguntas: preguntasRespuesta = {
           pregunta: this.userInput,
@@ -268,6 +268,7 @@ export class ChatComponent implements OnInit {
       };
       //se agrega
       this.todosCuadernos.push(nuevoCuaderno);
+      this.nuevoNombre = ''
     }
   }
 
