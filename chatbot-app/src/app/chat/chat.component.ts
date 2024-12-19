@@ -225,7 +225,8 @@ export class ChatComponent implements OnInit {
         image: 'assets/user-avatar.png',
       });
 
-      const botResponse = await this.predictionsModel(this.userInput);
+      //const botResponse = await this.predictionsModel(this.userInput);
+      const botResponse = await this.predictionsModel(this.userInput.normalize('NFD').replace(/([aeio])\u0301|(u)[\u0301\u0308]/gi, "$1$2").normalize());
       let historialConversacion: HistorialConversacion = {
         pregunta: this.userInput,
         respuesta: botResponse,
