@@ -58,6 +58,7 @@
 .light-theme .input-container {
   display: flex;
   gap: 12px;
+  flex-wrap: wrap;
   padding: 12px;
   background: #f1f1f1;
   border-radius: 10px;
@@ -201,6 +202,7 @@
 .dark-theme .input-container {
   display: flex;
   gap: 12px;
+  flex-wrap: wrap;
   padding: 12px;
   background: #222;
   border-radius: 10px;
@@ -365,6 +367,219 @@
   width: 250px;
 }
 
+/*responsividad General */
+@media (max-width: 768px) {
+  /*tema Light */
+  .light-theme .chat-header {
+    font-size: 24px;
+    padding: 10px 0;
+  }
+  
+  .light-theme .user-message,
+  .light-theme .bot-message {
+    font-size: 14px;
+    padding: 10px 14px;
+    border-radius: 14px;
+  }
+  
+  .light-theme .drawer-header {
+    font-size: 16px;
+  }
+  
+  .light-theme .drawer-list-item {
+    font-size: 14px;
+    padding: 8px;
+  }
+  
+  .light-theme .custom-drawer {
+    width: 100%;
+  }
+
+  /*tema Dark */
+  .dark-theme .chat-header {
+    font-size: 24px;
+    padding: 10px 0;
+  }
+  
+  .dark-theme .user-message,
+  .dark-theme .bot-message {
+    font-size: 14px;
+    padding: 10px 14px;
+    border-radius: 14px;
+  }
+  
+  .dark-theme .drawer-header {
+    font-size: 16px;
+  }
+  
+  .dark-theme .drawer-list-item {
+    font-size: 14px;
+    padding: 8px;
+  }
+  
+  .dark-theme .custom-drawer {
+    width: 100%;
+  }
+  
+  /*contenedor para el botón de tema */
+  .theme-button-container {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  /*tema Light */
+  .light-theme .chat-header {
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .light-theme .user-message,
+  .light-theme .bot-message {
+    font-size: 12px;
+    padding: 8px 10px;
+    margin: 8px 0;
+  }
+  
+  .light-theme input[nbInput] {
+    font-size: 14px;
+    padding: 8px;
+  }
+  
+  .light-theme button[nbButton] {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  
+  .theme-button {
+    padding: 6px 8px;
+  }
+
+  /*tema Dark */
+  .dark-theme .chat-header {
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .dark-theme .user-message,
+  .dark-theme .bot-message {
+    font-size: 12px;
+    padding: 8px 10px;
+    margin: 8px 0;
+  }
+  
+  .dark-theme input[nbInput] {
+    font-size: 14px;
+    padding: 8px;
+  }
+  
+  .dark-theme button[nbButton] {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  
+  .theme-button {
+    padding: 6px 8px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /*tema Light */
+  .light-theme .custom-drawer {
+    width: 20%; 
+  }
+  
+  .light-theme .chat-header {
+    font-size: 36px;
+    padding: 14px 0;
+  }
+  
+  .light-theme .user-message,
+  .light-theme .bot-message {
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+
+  /*tema Dark */
+  .dark-theme .custom-drawer {
+    width: 20%;
+    background-color: #171313;
+  }
+  
+  .dark-theme .chat-header {
+    font-size: 36px;
+    padding: 14px 0;
+  }
+  
+  .dark-theme .user-message,
+  .dark-theme .bot-message {
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+}
+
+/*drawer Responsivo -> barra lateral*/
+@media (max-width: 768px) {
+  /*tema Light */
+  .light-theme .custom-drawer {
+    width: 75%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    background-color: inherit;
+    padding: 16px;
+  }
+  
+  .light-theme .drawer-header {
+    font-size: 16px;
+    padding: 8px 0;
+    margin-bottom: 8px;
+  }
+  
+  .light-theme .drawer-list-item {
+    padding: 10px;
+    font-size: 14px;
+    margin: 4px 0;
+  }
+
+  /*tema dark */
+  .dark-theme .custom-drawer {
+    width: 75%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    background-color: #171313;
+    padding: 16px;
+  }
+  
+  .dark-theme .drawer-header {
+    font-size: 16px;
+    padding: 8px 0;
+    margin-bottom: 8px;
+  }
+  
+  .dark-theme .drawer-list-item {
+    padding: 10px;
+    font-size: 14px;
+    margin: 4px 0;
+  }
+}
 
 
 
+
+
+
+
+
+
+  
