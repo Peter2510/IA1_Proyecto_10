@@ -10,7 +10,9 @@
 
 ## Detalles del proyecto
 
- Este es un modelo de inteligencia artificial desarrollado con **TensorFlow.js**, el cual se ejecuta directamente en el navegador utilizando el framework **Angular**. Esta combinación permite realizar interactura con el Chatbot de manera eficiente y dinámica, sin necesidad de enviar datos al servidor, mejorando así el rendimiento y la privacidad.
+ Este es un modelo de inteligencia artificial desarrollado con **TensorFlow.js**, el cual se ejecuta directamente en el navegador utilizando el framework **Angular**. Esta combinación permite realizar interacción con el Chatbot de manera eficiente y dinámica, sin necesidad de enviar datos al servidor, mejorando así el rendimiento y la privacidad.
+
+ Botsi es capaz de reponder a preguntas sobre inteligencia artificial, machine learning, lenguajes de programación (Java, JavaScript, Python, C++ y Go) tanto en inglés como español.
 
 ## Manual técnico
 [Descargar Manual Técnico](./documentacion/Manual-Tecnico.pdf)
@@ -21,18 +23,21 @@
 [Click aqui para la demostración](https://peter2510.github.io/IA1_Proyecto_10/)
 
 # Ejemplo de entradas
-- ¿Cuál es el animal más rápido del mundo?
-- cuall es el animal más rápido del mundo?
-- ¿Quién escribió Don Quijote?
-- ¿Qué es una función en programación?
-- ¿Qué es la herencia en Java?
-- ¿Qué es Python?
-- ¿Qué equipo español ganó la Liga en 2021?
-- ¿Qué récord ostenta Cristiano Ronaldo en la Champions League?
-- ¿Quién fue el primer presidente afroamericano de los Estados Unidos?
+- ¿Qué es un lenguaje de programación?
+- que es un lenguaje de programación?
+- ¿Qué es Machine Learning?
+- ¿Qué es aprendizaje supervisado?
+- What is Machine Learning?
+- What is unsupervised learning?
+- How does Google Maps use Machine Learning?
 
 # Vista del Botsi
 
 ![](./img/img1.png)
 ![](./img/img2.png)
 ![](./img/img3.png)
+![](./img/img4.png)
+![](./img/img5.png)
+![](./img/img6.png)
+![](./img/img7.png)
+![](./img/img8.png)
