@@ -15,10 +15,12 @@
  Botsi es capaz de reponder a preguntas sobre inteligencia artificial, machine learning, lenguajes de programación (Java, JavaScript, Python, C++ y Go) tanto en inglés como español.
 
 ## Manual técnico
-[Descargar Manual Técnico](./documentacion/Manual-Tecnico.pdf)
+[Descargar Manual Técnico](./documentacion/manual-tecnico.pdf)
 
 ## Manual de usuario
-[Descargar Manual de usuario](./documentacion/Manual-de-Usuario.pdf)
+[Descargar Manual de usuario](./documentacion/manual-usuario.pdf)
+
+## Demostración
 
 [Click aqui para la demostración](https://peter2510.github.io/IA1_Proyecto_10/)
 
