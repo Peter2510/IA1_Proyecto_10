@@ -1,0 +1,7 @@
+
+
+Flask-Cors==4.0.0
+jsonpointer==2.1
+### aca lo nuevo
+ttkbootstrap>=1.0  # Librería moderna para temas Tkinter
+Pillow>=9.0        # Para imágenes en Tkinter
