@@ -1,97 +1,177 @@
-import ttkbootstrap as ttk
-from ttkbootstrap.constants import *
-from datetime import datetime
-# Función para cambiar el tema
-def cambiar_tema():
-    tema_actual = root.style.theme_use()
-    print(tema_actual)
-    nuevo_tema = "superhero" if tema_actual == "flatly" else "flatly"
-    root.style.theme_use(nuevo_tema)
-    actualizar_estilo_texto()
-    icono_actualizado = actualizar_tema()
-    boton_tema.config(image=icono_actualizado)
+import tkinter as tk
+from tkinter import ttk
+from tkinter import filedialog
 
-# Estilo para el recuadro
-def actualizar_estilo_texto():
-    if root.style.theme_use() == "superhero":  # Tema oscuro
-        chat_box.config(bg="#333", fg="#fff", insertbackground="#fff")
-    else:  # Tema claro
-        chat_box.config(bg="#fff", fg="#000", insertbackground="#000")
+# Configuración principal
+root = tk.Tk()
+root.title("Chatbot con Múltiples Chats")
+root.geometry("800x700")  # Ventana más ancha
+root.resizable(False, False)
 
-# Estilo de la imagen tema
-def actualizar_tema():
-    if root.style.theme_use() == "superhero":  
-        if not hasattr(root, "icono_tema_oscuro"):
-            root.icono_tema_oscuro = ttk.PhotoImage(file="./img/iconmonstr-brightness-7-240.png")
-            root.icono_tema_oscuro = root.icono_tema_oscuro.subsample(8)  
-        return root.icono_tema_oscuro
-    else: 
-        if not hasattr(root, "icono_tema_claro"):
-            root.icono_tema_claro = ttk.PhotoImage(file="./img/iconmonstr-weather-115-240.png")
-            root.icono_tema_claro = root.icono_tema_claro.subsample(8)  
-        return root.icono_tema_claro
+# Colores
+BG_COLOR = "#222831"
+TEXT_COLOR = "#eeeeee"
+ENTRY_BG = "#393e46"
+BUTTON_BG = "#00adb5"
+BUTTON_FG = "#ffffff"
+CHAT_BG = "#30475e"
+CHAT_ENTRY_BG = "#1c1e21"
 
+# Notebook para múltiples chats
+notebook = ttk.Notebook(root)
+notebook.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
-def enviar_mensaje():
-    mensaje_usuario = entrada.get()
-    if mensaje_usuario:
-        fecha_hora = obtener_fecha_hora()
-        chat_box.config(state="normal")
-        chat_box.insert("end", f"{fecha_hora} - Usuario: {mensaje_usuario}\n", "usuario")
-        chat_box.yview("end")  # Desplazar hacia abajo
-        entrada.delete(0, "end")
+# Diccionario para almacenar frames y textos de chat
+chats = {}
 
-        respuesta_bot = f"Este es un mensaje simulado del bot."
-        chat_box.insert("end", f"{fecha_hora} - Bot: {respuesta_bot}\n", "bot")
-        chat_box.yview("end")  # Desplazar hacia abajo
-        chat_box.config(state="disabled")
+# Función para agregar un nuevo chat
+def agregar_chat():
+    chat_id = f"Chat {len(chats) + 1}"
+    frame = tk.Frame(notebook, bg=CHAT_BG)
+    
+    # Crear el botón de cerrar
+    close_button = tk.Button(frame, text="X", bg="#FF5733", fg="#ffffff", font=("Helvetica", 10, "bold"), bd=0, command=lambda: cerrar_chat(chat_id))
+    close_button.pack(side=tk.TOP, anchor="ne", padx=5, pady=5)
 
+    notebook.add(frame, text=chat_id)
 
-def obtener_fecha_hora():
-    return datetime.now().strftime("%b %d, %Y")
+    # Scrollbar
+    scrollbar = ttk.Scrollbar(frame, orient=tk.VERTICAL)
+    scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
+    # Cuadro de texto para el chat
+    chat_text = tk.Text(
+        frame,
+        bg=CHAT_BG,
+        fg=TEXT_COLOR,
+        font=("Helvetica", 12),
+        wrap=tk.WORD,
+        yscrollcommand=scrollbar.set,
+        state=tk.DISABLED,
+        bd=0,
+        padx=10,
+        pady=10,
+    )
+    chat_text.pack(fill=tk.BOTH, expand=True)
+    scrollbar.config(command=chat_text.yview)
 
-############################    
-############################    
-############################    
-############################    
-# Crear ventana principal
-root = ttk.Window(themename="flatly")
-root.title("Botsy")
-root.geometry("500x400")
+    # Guardar el texto de chat en el diccionario
+    chats[chat_id] = chat_text
 
-# Etiqueta principal
-ttk.Label(
-    root, text="Botsy", font=("Arial", 30), bootstyle=INFO
-).pack(pady=20)
+# Función para cerrar un chat
+def cerrar_chat(chat_id):
+    # Eliminar la pestaña del chat
+    notebook.forget(chats[chat_id].master)
+    del chats[chat_id]
 
-# Caja de texto
-chat_box = ttk.Text(root, width=60, height=15, wrap="word", state="disabled", font=("Arial", 12))
-chat_box.tag_configure("usuario", foreground="#000000", justify="left", background="#34a416")  # Estilo para el mensaje del usuario (a la izquierda)
-chat_box.tag_configure("bot", foreground="#000000", justify="right", background="#33a8ff")  # Estilo para el mensaje del bot (a la derecha)
-chat_box.pack(padx=10, pady=10)
+# Frame izquierdo (apartado para el botón de nuevo chat)
+left_frame = tk.Frame(root, bg=BG_COLOR, width=150)  # Amplié el ancho del frame izquierdo
+left_frame.pack(side=tk.LEFT, fill=tk.Y, padx=10, pady=10)
 
-# Entrada de texto
-entrada = ttk.Entry(root, width=50, bootstyle="success")
-entrada.pack(pady=10)
+# Botón para agregar un nuevo chat
+new_chat_button = tk.Button(
+    left_frame,
+    text="Nuevo Chat",
+    bg=BUTTON_BG,
+    fg=BUTTON_FG,
+    font=("Helvetica", 12, "bold"),
+    command=agregar_chat,
+    bd=0,
+    padx=5,
+    pady=5,
+)
+new_chat_button.pack(side=tk.TOP, pady=10)
 
-# Frame 
-botones_frame = ttk.Frame(root)
-botones_frame.pack(pady=10)
+# Frame para el área de entrada y botones
+entry_frame = tk.Frame(root, bg=BG_COLOR)
+entry_frame.pack(fill=tk.X, padx=10, pady=10)
 
-# botones
-boton = ttk.Button(botones_frame, text="Enviar", bootstyle=PRIMARY, command=enviar_mensaje)
-boton.pack(side="left", padx=10)
+# Campo de entrada
+entry = tk.Entry(
+    entry_frame,
+    bg=CHAT_ENTRY_BG,
+    fg=TEXT_COLOR,
+    font=("Helvetica", 14),
+    insertbackground=TEXT_COLOR,
+    bd=0,
+)
+entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=10, pady=5)
 
-#cambiar tema
-icono_inicial = actualizar_tema()
-boton_tema = ttk.Button(botones_frame, text="Cambiar Tema", command=cambiar_tema, bootstyle=SECONDARY, image=icono_inicial, compound="left", padding=(1, 1))
-boton_tema.pack(side="left", padx=10)
+# Función para enviar mensajes
+def enviar_mensaje(event=None):
+    user_msg = entry.get().strip()
+    if user_msg:
+        current_tab = notebook.tab(notebook.select(), "text")
+        chat_text = chats[current_tab]
 
-# descargar
-icono_descargar = ttk.PhotoImage(file="./img/iconmonstr-save-lined-240.png")
-icono_descargar = icono_descargar.subsample(8)
-boton_descargar = ttk.Button(botones_frame, text="Descargar", image=icono_descargar, command=cambiar_tema, bootstyle=DANGER, compound="left", padding=(1, 1))
-boton_descargar.pack(side="left", padx=10, pady=10)
+        chat_text.config(state=tk.NORMAL)
 
+        # Mensaje del usuario (izquierda)
+        chat_text.insert(tk.END, f"Tú: {user_msg}\n", "user")
+        chat_text.tag_config("user", justify="left", foreground="#00adb5", font=("Helvetica", 12, "bold"))
+
+        # Respuesta del chatbot (derecha)
+        bot_msg = "Bot: Lo siento, aún estoy aprendiendo."
+        chat_text.insert(tk.END, f"{bot_msg}\n", "bot")
+        chat_text.tag_config("bot", justify="right", foreground=TEXT_COLOR, font=("Helvetica", 12))
+
+        chat_text.config(state=tk.DISABLED)
+        chat_text.yview(tk.END)
+        entry.delete(0, tk.END)
+
+# Función para guardar el chat actual
+def guardar_chat():
+    current_tab = notebook.tab(notebook.select(), "text")
+    chat_text = chats[current_tab]
+
+    chat_text.config(state=tk.NORMAL)
+    chat_content = chat_text.get("1.0", tk.END).strip()
+    chat_text.config(state=tk.DISABLED)
+
+    if chat_content:
+        file_path = filedialog.asksaveasfilename(
+            defaultextension=".txt",
+            filetypes=[("Archivos de texto", "*.txt")],
+            title="Guardar Chat",
+            initialfile=current_tab,
+        )
+        if file_path:
+            with open(file_path, "w", encoding="utf-8") as file:
+                file.write(chat_content)
+
+# Botón de enviar
+send_button = tk.Button(
+    entry_frame,
+    text="Enviar",
+    bg=BUTTON_BG,
+    fg=BUTTON_FG,
+    font=("Helvetica", 12, "bold"),
+    command=enviar_mensaje,
+    bd=0,
+    padx=10,
+    pady=5,
+)
+send_button.pack(side=tk.RIGHT)
+
+# Botón para guardar el chat actual
+save_chat_button = tk.Button(
+    entry_frame,
+    text="Guardar Chat",
+    bg=BUTTON_BG,
+    fg=BUTTON_FG,
+    font=("Helvetica", 12, "bold"),
+    command=guardar_chat,
+    bd=0,
+    padx=10,
+    pady=5,
+)
+save_chat_button.pack(side=tk.LEFT, padx=5)
+
+# Agregar el primer chat por defecto
+agregar_chat()
+
+# Asignar la tecla Enter para enviar mensajes
+root.bind("<Return>", enviar_mensaje)
+
+# Iniciar la ventana
 root.mainloop()
