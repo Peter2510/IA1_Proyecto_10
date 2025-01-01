@@ -95,14 +95,12 @@
   {
     "text": "Machine Learning es una rama de la inteligencia artificial que permite que las máquinas aprendan de datos y mejoren sus predicciones o acciones sin ser explícitamente programadas. Existen tres formas de aprendizaje, el supervisado, no supervisado y por refuerzo"
   },
-
   {
     "text": "¿Qué son los datos?"
   },
   {
     "text": "Los datos en las aplicaciones de IA se utilizan para entrenar modelos de aprendizaje automático, hacer predicciones y mejorar la toma de decisiones "
   },
-
   {
     "text": "¿Qué es la inteligencia artificial?"
   },
@@ -335,7 +333,7 @@
     "text": "¿Quién te creó?"
   },
   {
-    "text": "Fui creado por un equipo de estudiantes del curso de Inteligencia Artificial del CUNOC Xela: Randy, Pedro y Alexis."
+    "text": "Fui creado por un equipo de estudiantes del curso de Inteligencia Artificial del CUNOC de Xela: Randy, Pedro y Alexis"
   },
   {
     "text": "¿Quién eres?"
@@ -1759,14 +1757,12 @@
   {
     "text": "Machine Learning is a branch of artificial intelligence that allows machines to learn from data and improve their predictions or actions without being explicitly programmed. There are three forms of learning: supervised, unsupervised and reinforcement learning"
   },
-
   {
     "text": "What is data?"
   },
   {
     "text": "Data in AI applications is used to train machine learning models, make predictions and improve decision-making"
   },
-
   {
     "text": "What is artificial intelligence?"
   },
@@ -1999,7 +1995,7 @@
     "text": "Who created you?"
   },
   {
-    "text": "I was created by a team of students from the Artificial Intelligence course at CUNOC Xela: Randy, Pedro and Alexis."
+    "text": "I was created by a team of students from the Artificial Intelligence course at CUNOC Xela: Randy, Pedro and Alexis"
   },
   {
     "text": "Who are you?"
@@ -3363,38 +3359,24 @@
   {
     "text": "Aquí tienes un ejemplo de quicksort en JavaScript:\n\n```javascript\nfunction quickSort(arr) {\n    if (arr.length <= 1) return arr;\n    let pivot = arr[Math.floor(arr.length / 2)];\n    let left = arr.filter(x => x < pivot);\n    let middle = arr.filter(x => x === pivot);\n    let right = arr.filter(x => x > pivot);\n    return [...quickSort(left), ...middle, ...quickSort(right)];\n}\n\nlet array = [3, 6, 8, 10, 1, 2, 1];\nconsole.log(quickSort(array));\n```"
   },
-
-
-
   {
     "text": "dame un ejemplo de quicksort "
   },
   {
     "text": "ejmplo doble"
   },
-
-
   {
     "text": "dame un ejemplo de quicksort en JavaScript"
   },
   {
     "text": "Aquí tienes un ejemplo de quicksort en JavaScript:\n\n```javascript\nfunction quickSort(arr) {\n    if (arr.length <= 1) return arr;\n    let pivot = arr[Math.floor(arr.length / 2)];\n    let left = arr.filter(x => x < pivot);\n    let middle = arr.filter(x => x === pivot);\n    let right = arr.filter(x => x > pivot);\n    return [...quickSort(left), ...middle, ...quickSort(right)];\n}\n\nlet array = [3, 6, 8, 10, 1, 2, 1];\nconsole.log(quickSort(array));\n```"
   },
-
   {
     "text": "dame un ejemplo de quicksort en python"
   },
   {
     "text": "Aquí tienes un ejemplo de quicksort en python:\n\n```python\nfunction quickSort(arr) {\n    if (arr.length <= 1) return arr;\n    let pivot = arr[Math.floor(arr.length / 2)];\n    let left = arr.filter(x => x < pivot);\n    let middle = arr.filter(x => x === pivot);\n    let right = arr.filter(x => x > pivot);\n    return [...quickSort(left), ...middle, ...quickSort(right)];\n}\n\nlet array = [3, 6, 8, 10, 1, 2, 1];\nconsole.log(quickSort(array));\n```"
   },
-
-
-
-
-
-
-
-
   {
     "text": "¿Cómo implemento un algoritmo para encontrar el máximo común divisor (MCD) en Python?"
   },
@@ -3416,6 +3398,469 @@
   {
     "text": "¿Cómo implemento el algoritmo de Fibonacci en JavaScript?"
   },
-  {"text": "Aquí tienes un ejemplo de la secuencia de Fibonacci en JavaScript:\n\n```javascript\nfunction fibonacci(n) {\n    let a = 0, b = 1;\n    for (let i = 0; i < n; i++) {\n        console.log(a);\n        let temp = a;\n        a = b;\n        b = temp + b;\n    }\n}\n\nfibonacci(10);\n```"
-}
+  {
+    "text": "Aquí tienes un ejemplo de la secuencia de Fibonacci en JavaScript:\n\n```javascript\nfunction fibonacci(n) {\n    let a = 0, b = 1;\n    for (let i = 0; i < n; i++) {\n        console.log(a);\n        let temp = a;\n        a = b;\n        b = temp + b;\n    }\n}\n\nfibonacci(10);\n```"
+  },
+
+
+
+
+
+
+
+
+  {"text": "¿Qué son los parámetros en las funciones?"},
+  {
+    "text": "Los parámetros en las funciones son valores que puedes pasarle a una función para que los utilice en su ejecución. Se definen dentro de los paréntesis al declarar la función."
+  },
+  {
+    "text": "¿Para qué sirven los parámetros en una función?"
+  },
+  {
+    "text": "Los parámetros en las funciones son valores que puedes pasarle a una función para que los utilice en su ejecución. Se definen dentro de los paréntesis al declarar la función."
+  },
+  {
+    "text": "¿Cómo se usan los parámetros en funciones de JavaScript?"
+  },
+  {
+    "text": "Los parámetros en las funciones son valores que puedes pasarle a una función para que los utilice en su ejecución. Se definen dentro de los paréntesis al declarar la función."
+  },
+  {
+    "text": "¿Qué hacen los parámetros en una función?"
+  },
+  {
+    "text": "Los parámetros en las funciones son valores que puedes pasarle a una función para que los utilice en su ejecución. Se definen dentro de los paréntesis al declarar la función."
+  },
+
+
+
+  {
+    "text": "¿Cómo puedo escribir una función en JavaScript?"
+  },
+  {
+    "text": "Una función en JavaScript se define utilizando la palabra clave `function`, seguida de un nombre, paréntesis y un bloque de código entre llaves. Por ejemplo: `function saludar() { console.log('Hola'); }`."
+  },
+  {
+    "text": "¿Cómo puedo escribir una función en js?"
+  },
+  {
+    "text": "Una función en JavaScript se define utilizando la palabra clave `function`, seguida de un nombre, paréntesis y un bloque de código entre llaves. Por ejemplo: `function saludar() { console.log('Hola'); }`."
+  },
+
+
+
+  {
+    "text": "¿Puedes darme un ejemplo de función en JavaScript?"
+  },
+  {
+    "text": "Claro, aquí tienes un ejemplo de una función que imprime un mensaje: `function saludar() { console.log('Hola Mundo'); }`."
+  },
+  {
+    "text": "¿Puedes darme un ejemplo de función en js?"
+  },
+  {
+    "text": "Claro, aquí tienes un ejemplo de una función que imprime un mensaje: `function saludar() { console.log('Hola Mundo'); }`."
+  },
+
+
+  {
+    "text": "Dame un ejemplo de una función en JavaScript"
+  },
+  {
+    "text": "Aquí tienes una función que no recibe parámetros: `function mostrarFecha() { console.log(new Date()); }`."
+  },
+  {
+    "text": "Dame un ejemplo de una función en js"
+  },
+  {
+    "text": "Aquí tienes una función que no recibe parámetros: `function mostrarFecha() { console.log(new Date()); }`."
+  },
+
+
+  {
+    "text": "Genera una función en JavaScript sin parámetros"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de una función sin parámetros: `function despedir() { console.log('Adiós'); }`."
+  },
+  {
+    "text": "Genera una función en js sin parámetros"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de una función sin parámetros: `function despedir() { console.log('Adiós'); }`."
+  },
+
+
+
+  {
+    "text": "¿Cómo se define una función con parámetros en JavaScript?"
+  },
+  {
+    "text": "Para definir una función con parámetros, debes incluir los parámetros entre los paréntesis. Por ejemplo: `function saludar(nombre) { console.log('Hola, ' + nombre); }`."
+  },
+  {
+    "text": "¿Puedes darme un ejemplo de función con parámetros en JavaScript?"
+  },
+  {
+    "text": "Claro, aquí tienes una función que recibe un parámetro y lo utiliza: `function multiplicar(a, b) { return a * b; }`."
+  },
+  {
+    "text": "Genera una función en JavaScript que reciba un parámetro."
+  },
+  {
+    "text": "Aquí tienes un ejemplo de una función con un parámetro: `function imprimirNombre(nombre) { console.log('Tu nombre es: ' + nombre); }`."
+  },
+
+  
+  {
+    "text": "Dame un ejemplo de función en JavaScript con parámetros."
+  },
+  {
+    "text": "Aquí tienes un ejemplo de función con parámetros: `function calcularEdad(añoNacimiento) { return 2024 - añoNacimiento; }`."
+  },
+  {
+    "text": "Dame una función en JavaScript con parámetros."
+  },
+  {
+    "text": "Aquí tienes un ejemplo de función con parámetros: `function calcularEdad(añoNacimiento) { return 2024 - añoNacimiento; }`."
+  },
+  {
+    "text": "Dame una función en js con parámetros."
+  },
+  {
+    "text": "Aquí tienes un ejemplo de función con parámetros: `function calcularEdad(añoNacimiento) { return 2024 - añoNacimiento; }`."
+  },
+
+
+
+
+  {
+    "text": "¿Cómo ejecutar una función sin parámetros en js?"
+  },
+  {
+    "text": "Para llamar a una función sin parámetros, solo debes escribir su nombre seguido de paréntesis. Por ejemplo: `saludar();`."
+  },
+
+  {
+    "text": "¿Cómo ejecutar una función en sin parámetros en JavaScript?"
+  },
+  {
+    "text": "Para llamar a una función sin parámetros, solo debes escribir su nombre seguido de paréntesis. Por ejemplo: `saludar();`."
+  },
+
+
+
+  {
+    "text": "¿Cómo invocar una función sin parámetros en Javascript?"
+  },
+  {
+    "text": "Para invocar una función sin parámetros, simplemente escribe su nombre y pon paréntesis: `mostrarFecha();`."
+  },
+  {
+    "text": "¿Cómo invocar una función sin parámetros en js?"
+  },
+  {
+    "text": "Para invocar una función sin parámetros, simplemente escribe su nombre y pon paréntesis: `mostrarFecha();`."
+  },
+
+  
+  {
+    "text": "Dame un ejemplo de cómo llamar una función sin parámetros en JavaScript."
+  },
+  {
+    "text": "Aquí tienes un ejemplo de llamada a una función sin parámetros: `despedir();`."
+  },
+  {
+    "text": "Dame un ejemplo de cómo llamar una función sin parámetros en js."
+  },
+  {
+    "text": "Aquí tienes un ejemplo de llamada a una función sin parámetros: `despedir();`."
+  },
+
+  
+  {
+    "text": "¿Cómo invocar una función con parámetros en JavaScript?"
+  },
+  {
+    "text": "Para invocar una función con parámetros, debes pasar los valores que espera en los paréntesis. Por ejemplo: `saludar('Angela');`."
+  },
+  {
+    "text": "¿Cómo invocar una función con parámetros en js?"
+  },
+  {
+    "text": "Para invocar una función con parámetros, debes pasar los valores que espera en los paréntesis. Por ejemplo: `saludar('Angle');`."
+  },
+
+
+  {
+    "text": "¿Cómo ejecutar una función con parámetros en JavaScript?"
+  },
+  {
+    "text": "Para ejecutar una función que tiene parámetros, debes pasar los valores que espera entre los paréntesis. Por ejemplo: `nombreFuncion(valor1, valor2);`."
+  },
+  {
+    "text": "¿Cómo ejecutar una función con parámetros en js?"
+  },
+  {
+    "text": "Para ejecutar una función que tiene parámetros, debes pasar los valores que espera entre los paréntesis. Por ejemplo: `nombreFuncion(valor1, valor2);`."
+  },
+
+
+  {
+    "text": "¿Cómo llamar una función con parámetros en JavaScript?"
+  },
+  {
+    "text": "Si la función tiene varios parámetros, puedes llamarla pasando los valores en el mismo orden en que fueron definidos, por ejemplo: `nombreFuncion(valor1, valor2, valor3);`."
+  },
+  {
+    "text": "¿Cómo llamar una función con parámetros en js?"
+  },
+  {
+    "text": "Si la función tiene varios parámetros, puedes llamarla pasando los valores en el mismo orden en que fueron definidos, por ejemplo: `nombreFuncion(valor1, valor2, valor3);`."
+  },
+
+
+
+  {
+    "text": "¿Cómo se estructura un método en JavaScript?"
+  },
+  {
+    "text": "Un método en JavaScript es una función asociada a un objeto. Se define de la siguiente manera: `const objeto = { metodo: function() { console.log('Mensaje'); } };`."
+  },
+  {
+    "text": "¿Cómo se define un método en JavaScript?"
+  },
+  {
+    "text": "Un método en JavaScript es una función que pertenece a un objeto. Se puede definir de esta manera: `const objeto = { metodo() { console.log('Hola!'); } };`."
+  },
+  {
+    "text": "¿Qué es un método en JavaScript y cómo se define?"
+  },
+  {
+    "text": "Un método en JavaScript es una función asociada a un objeto. Se define utilizando la sintaxis de una función dentro del objeto. Ejemplo: `const objeto = { metodo() { console.log('Mensaje desde el método'); } };`."
+  },
+  {
+    "text": "¿Cómo crear un método en JavaScript?"
+  },
+  {
+    "text": "Para crear un método en JavaScript, escribe una función dentro de un objeto. Ejemplo: `const persona = { saludar: function() { console.log('Hola!'); } };`."
+  },
+  {
+    "text": "¿Cómo definir un método en un objeto en JavaScript?"
+  },
+  {
+    "text": "Un método en un objeto se define como una función dentro de ese objeto. Ejemplo: `const objeto = { decirHola() { console.log('Hola Mundo!'); } };`."
+  },
+
+
+
+
+  {
+    "text": "¿Cómo se estructura un método en js?"
+  },
+  {
+    "text": "Un método en JavaScript es una función asociada a un objeto. Se define de la siguiente manera: `const objeto = { metodo: function() { console.log('Mensaje'); } };`."
+  },
+  {
+    "text": "¿Cómo se define un método en js?"
+  },
+  {
+    "text": "Un método en JavaScript es una función que pertenece a un objeto. Se puede definir de esta manera: `const objeto = { metodo() { console.log('Hola!'); } };`."
+  },
+  {
+    "text": "¿Qué es un método en js?"
+  },
+  {
+    "text": "Un método en JavaScript es una función asociada a un objeto. Se define utilizando la sintaxis de una función dentro del objeto. Ejemplo: `const objeto = { metodo() { console.log('Mensaje desde el método'); } };`."
+  },
+  {
+    "text": "¿Cómo crear un método en js?"
+  },
+  {
+    "text": "Para crear un método en JavaScript, escribe una función dentro de un objeto. Ejemplo: `const persona = { saludar: function() { console.log('Hola!'); } };`."
+  },
+  {
+    "text": "¿Cómo definir un método en un objeto en js?"
+  },
+  {
+    "text": "Un método en un objeto se define como una función dentro de ese objeto. Ejemplo: `const objeto = { decirHola() { console.log('Hola Mundo!'); } };`."
+  },
+
+
+  
+
+  
+
+  {
+    "text": "¿Cómo se estructura una función en JavaScript?"
+  },
+  {
+    "text": "Una función en JavaScript se define utilizando la palabra clave `function` seguida del nombre de la función y los paréntesis. Ejemplo: `function saludar() { console.log('Hola Mundo'); }`."
+  },
+  {
+    "text": "¿Cómo se define una función en JavaScript?"
+  },
+  {
+    "text": "Se define una función en JavaScript con la palabra clave `function`, seguida del nombre de la función y un bloque de código. Ejemplo: `function mostrarMensaje() { console.log('Mensaje mostrado'); }`."
+  },
+  {
+    "text": "¿Qué es una función en JavaScript y cómo se define?"
+  },
+  {
+    "text": "Una función en JavaScript es un bloque de código que se puede ejecutar cuando se llama. Se define de la siguiente manera: `function miFuncion() { console.log('Ejemplo de función'); }`."
+  },
+  {
+    "text": "¿Cómo crear una función en JavaScript?"
+  },
+  {
+    "text": "Para crear una función en JavaScript, se utiliza la palabra clave `function`, seguida de su nombre y cuerpo. Ejemplo: `function ejemplo() { console.log('Función creada'); }`."
+  },
+
+
+
+
+
+  {
+    "text": "¿Cómo se estructura una función en js?"
+  },
+  {
+    "text": "Una función en JavaScript se define utilizando la palabra clave `function` seguida del nombre de la función y los paréntesis. Ejemplo: `function saludar() { console.log('Hola Mundo'); }`."
+  },
+  {
+    "text": "¿Cómo se define una función en js?"
+  },
+  {
+    "text": "Se define una función en JavaScript con la palabra clave `function`, seguida del nombre de la función y un bloque de código. Ejemplo: `function mostrarMensaje() { console.log('Mensaje mostrado'); }`."
+  },
+  {
+    "text": "¿Qué es una función en js y cómo se define?"
+  },
+  {
+    "text": "Una función en JavaScript es un bloque de código que se puede ejecutar cuando se llama. Se define de la siguiente manera: `function miFuncion() { console.log('Ejemplo de función'); }`."
+  },
+  {
+    "text": "¿Cómo crear una función en js?"
+  },
+  {
+    "text": "Para crear una función en JavaScript, se utiliza la palabra clave `function`, seguida de su nombre y cuerpo. Ejemplo: `function ejemplo() { console.log('Función creada'); }`."
+  },
+  
+  
+
+
+  {
+    "text": "¿Cómo se estructura una función flecha en JavaScript?"
+  },
+  {
+    "text": "Una función flecha en JavaScript se define utilizando la sintaxis `() => {}`. Ejemplo: `const saludar = () => { console.log('Hola desde la función flecha'); };`."
+  },
+  {
+    "text": "¿Cómo se define una función flecha en JavaScript?"
+  },
+  {
+    "text": "Una función flecha se define con `() => {}`. Ejemplo: `const multiplicar = (a, b) => { return a * b; };`."
+  },
+  {
+    "text": "¿Qué es una función flecha en JavaScript?"
+  },
+  {
+    "text": "Una función flecha es una forma más corta de escribir una función. Se define con la sintaxis `() => {}`. Ejemplo: `const sumar = (x, y) => x + y;`."
+  },
+  {
+    "text": "¿Cómo crear una función flecha en JavaScript?"
+  },
+  {
+    "text": "Para crear una función flecha, usa la sintaxis `() => {}`. Ejemplo: `const restar = (a, b) => a - b;`."
+  },
+
+
+  {
+    "text": "¿Cómo se estructura una función flecha en js?"
+  },
+  {
+    "text": "Una función flecha en JavaScript se define utilizando la sintaxis `() => {}`. Ejemplo: `const saludar = () => { console.log('Hola desde la función flecha'); };`."
+  },
+  {
+    "text": "¿Cómo se define una función flecha en js?"
+  },
+  {
+    "text": "Una función flecha se define con `() => {}`. Ejemplo: `const multiplicar = (a, b) => { return a * b; };`."
+  },
+  {
+    "text": "¿Qué es una función flecha en js?"
+  },
+  {
+    "text": "Una función flecha es una forma más corta de escribir una función. Se define con la sintaxis `() => {}`. Ejemplo: `const sumar = (x, y) => x + y;`."
+  },
+  {
+    "text": "¿Cómo crear una función flecha en js?"
+  },
+  {
+    "text": "Para crear una función flecha, usa la sintaxis `() => {}`. Ejemplo: `const restar = (a, b) => a - b;`."
+  },
+
+  
+
+
+  {
+    "text": "¿Cómo se estructura una función anónima en JavaScript?"
+  },
+  {
+    "text": "Una función anónima en JavaScript es una función que no tiene nombre y puede ser asignada a una variable. Ejemplo: `const miFuncion = function() { console.log('Función anónima ejecutada'); };`."
+  },
+  {
+    "text": "¿Cómo se define una función anónima en JavaScript?"
+  },
+  {
+    "text": "Una función anónima se define sin un nombre y se puede asignar a una variable. Ejemplo: `const saludar = function() { console.log('Hola desde función anónima'); };`."
+  },
+  {
+    "text": "¿Qué es una función anónima en JavaScript?"
+  },
+  {
+    "text": "Una función anónima en JavaScript es una función sin nombre. Se define generalmente así: `const calculo = function(a, b) { return a + b; };`."
+  },
+  {
+    "text": "¿Cómo crear una función anónima en JavaScript?"
+  },
+  {
+    "text": "Para crear una función anónima en JavaScript, solo debes omitir el nombre de la función y asignarla a una variable. Ejemplo: `const mostrarMensaje = function() { console.log('Función anónima creada'); };`."
+  },
+
+
+
+  {
+    "text": "¿Cómo se estructura una función anónima en js?"
+  },
+  {
+    "text": "Una función anónima en JavaScript es una función que no tiene nombre y puede ser asignada a una variable. Ejemplo: `const miFuncion = function() { console.log('Función anónima ejecutada'); };`."
+  },
+  {
+    "text": "¿Cómo se define una función anónima en js?"
+  },
+  {
+    "text": "Una función anónima se define sin un nombre y se puede asignar a una variable. Ejemplo: `const saludar = function() { console.log('Hola desde función anónima'); };`."
+  },
+  {
+    "text": "¿Qué es una función anónima en js?"
+  },
+  {
+    "text": "Una función anónima en JavaScript es una función sin nombre. Se define generalmente así: `const calculo = function(a, b) { return a + b; };`."
+  },
+  {
+    "text": "¿Cómo crear una función anónima en js?"
+  },
+  {
+    "text": "Para crear una función anónima en JavaScript, solo debes omitir el nombre de la función y asignarla a una variable. Ejemplo: `const mostrarMensaje = function() { console.log('Función anónima creada'); };`."
+  }
+
+
+
+
+  
+  
+
+
+
+
 ]

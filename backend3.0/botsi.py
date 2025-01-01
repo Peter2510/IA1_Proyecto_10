@@ -144,21 +144,14 @@ train()
 
 
 
-
 import tkinter as tk
-from tkinter import ttk
-from tkinter import filedialog
-# import ttkbootstrap as ttk
-# from ttkbootstrap.constants import *
-# from datetime import datetime
+from tkinter import ttk, filedialog
+from datetime import datetime
 
-
-#hora, el tema, iconos y que este centrado y boton del chat
-
-#configuración principal
+# Configuración principal
 root = tk.Tk()
 root.title("Botsi")
-root.geometry("1200x700")
+root.geometry("800x700")
 root.resizable(False, False)
 
 # Colores
@@ -169,30 +162,40 @@ BUTTON_BG = "#00adb5"
 BUTTON_FG = "#ffffff"
 CHAT_BG = "#30475e"
 CHAT_ENTRY_BG = "#1c1e21"
+USER_BG = "#00adb5"  # Fondo para los mensajes del usuario
+BOT_BG = "#1c1e21"  # Fondo para los mensajes del bot
 
-#notebook para múltiples chats
+# Centrar ventana
+screen_width = root.winfo_screenwidth()
+screen_height = root.winfo_screenheight()
+window_width, window_height = 800, 700
+center_x = (screen_width - window_width) // 2
+center_y = (screen_height - window_height) // 2
+root.geometry(f"{window_width}x{window_height}+{center_x}+{center_y}")
+
+# Notebook para múltiples chats
 notebook = ttk.Notebook(root)
 notebook.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
-#diccionario para almacenar frames y textos de chat
+# Diccionario para almacenar frames y textos de chat
 chats = {}
 
-#función para agregar un nuevo chat
+# Función para agregar un nuevo chat
 def agregar_chat():
     chat_id = f"Chat {len(chats) + 1}"
     frame = tk.Frame(notebook, bg=CHAT_BG)
     
-    #crear el botón de cerrar
+    # Crear el botón de cerrar
     close_button = tk.Button(frame, text="X", bg="#FF5733", fg="#ffffff", font=("Helvetica", 10, "bold"), bd=0, command=lambda: cerrar_chat(chat_id))
     close_button.pack(side=tk.TOP, anchor="ne", padx=5, pady=5)
 
     notebook.add(frame, text=chat_id)
 
-    #scrollbar
+    # Scrollbar
     scrollbar = ttk.Scrollbar(frame, orient=tk.VERTICAL)
     scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
-    #cuadro de texto para el chat
+    # Cuadro de texto para el chat
     chat_text = tk.Text(
         frame,
         bg=CHAT_BG,
@@ -200,28 +203,102 @@ def agregar_chat():
         font=("Helvetica", 12),
         wrap=tk.WORD,
         yscrollcommand=scrollbar.set,
-        state=tk.DISABLED,
         bd=0,
         padx=10,
         pady=10,
+        state="disabled",  # Iniciar en modo de solo lectura
     )
     chat_text.pack(fill=tk.BOTH, expand=True)
     scrollbar.config(command=chat_text.yview)
 
-    #guardar el texto de chat en el diccionario
+    # Configurar etiquetas para el fondo de los mensajes
+    chat_text.tag_configure("user", background=USER_BG, foreground=TEXT_COLOR, justify=tk.LEFT)
+    chat_text.tag_configure("bot", background=BOT_BG, foreground=TEXT_COLOR, justify=tk.RIGHT)
+    chat_text.tag_configure("highlight", background="#FFCCCB")  # Resaltado en rojo claro
+
+    # Vincular el evento para resaltar la selección
+    chat_text.bind("<B1-Motion>", resaltar_seleccion)
+
+    # Guardar el texto de chat en el diccionario
     chats[chat_id] = chat_text
 
-#función para cerrar un chat
+# Función para cerrar un chat
 def cerrar_chat(chat_id):
-    # Eliminar la pestaña del chat
     notebook.forget(chats[chat_id].master)
     del chats[chat_id]
 
-#frame izquierdo (apartado para el botón de nuevo chat)
-left_frame = tk.Frame(root, bg=BG_COLOR, width=150)  # Amplié el ancho del frame izquierdo
+# Función para enviar mensajes
+def enviar_mensaje(event=None):
+    user_msg = entry.get().strip()
+    if user_msg:
+        current_tab = notebook.tab(notebook.select(), "text")
+        chat_text = chats[current_tab]
+
+        # Habilitar temporalmente el cuadro de texto para agregar contenido
+        chat_text.config(state="normal")
+
+        # Mensaje del usuario
+        timestamp = datetime.now().strftime("[%d-%m-%Y %H:%M:%S]")
+        chat_text.insert(tk.END, f"Tú {timestamp}:\n{user_msg}\n\n", "user")
+
+        #respuesta del chatbot (derecha)
+        encoded_input = encode_text(user_msg, vocab)
+        prediction = model.predict(np.array([encoded_input]))
+        response_index = np.argmax(prediction)
+        print(index_to_response.get(response_index, "No entiendo eso."))      
+        bot_msg = index_to_response.get(response_index, "No entiendo eso.")
+        chat_text.insert(tk.END, f"Botsi {timestamp}:\n{bot_msg}\n\n", "bot")
+        chat_text.tag_config("bot", justify="right", foreground=TEXT_COLOR, font=("Helvetica", 12))
+
+        # Deshabilitar nuevamente el cuadro de texto
+        chat_text.config(state="disabled")
+
+        # Asegurar que el texto sea visible
+        chat_text.yview(tk.END)
+        entry.delete(0, tk.END)
+
+
+# Función para guardar el chat actual
+def guardar_chat():
+    current_tab = notebook.tab(notebook.select(), "text")
+    chat_text = chats[current_tab]
+
+    chat_content = chat_text.get("1.0", tk.END).strip()
+
+    if chat_content:
+        file_path = filedialog.asksaveasfilename(
+            defaultextension=".txt",
+            filetypes=[("Archivos de texto", "*.txt")],
+            title="Guardar Chat",
+            initialfile=current_tab,
+        )
+        if file_path:
+            with open(file_path, "w", encoding="utf-8") as file:
+                file.write(chat_content)
+
+# Función para resaltar texto seleccionado
+def resaltar_seleccion(event):
+    current_tab = notebook.tab(notebook.select(), "text")
+    chat_text = chats[current_tab]
+    
+    try:
+        # Obtener el rango seleccionado
+        start = chat_text.index(tk.SEL_FIRST)
+        end = chat_text.index(tk.SEL_LAST)
+        
+        # Eliminar cualquier resaltado anterior
+        chat_text.tag_remove("highlight", "1.0", tk.END)
+        
+        # Aplicar la etiqueta de resaltado
+        chat_text.tag_add("highlight", start, end)
+    except tk.TclError:
+        # Si no hay selección, eliminar el resaltado
+        chat_text.tag_remove("highlight", "1.0", tk.END)
+
+# Frame izquierdo (botón de nuevo chat)
+left_frame = tk.Frame(root, bg=BG_COLOR, width=150)
 left_frame.pack(side=tk.LEFT, fill=tk.Y, padx=10, pady=10)
 
-#botón para agregar un nuevo chat
 new_chat_button = tk.Button(
     left_frame,
     text="Nuevo Chat",
@@ -235,11 +312,10 @@ new_chat_button = tk.Button(
 )
 new_chat_button.pack(side=tk.TOP, pady=10)
 
-#frame para el área de entrada y botones
+# Frame para el área de entrada y botones
 entry_frame = tk.Frame(root, bg=BG_COLOR)
 entry_frame.pack(fill=tk.X, padx=10, pady=10)
 
-#campo de entrada
 entry = tk.Entry(
     entry_frame,
     bg=CHAT_ENTRY_BG,
@@ -250,55 +326,6 @@ entry = tk.Entry(
 )
 entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=10, pady=5)
 
-#función para enviar mensajes
-def enviar_mensaje(event=None):
-    user_msg = entry.get().strip()
-    if user_msg:
-        current_tab = notebook.tab(notebook.select(), "text")
-        chat_text = chats[current_tab]
-
-        chat_text.config(state=tk.NORMAL)
-
-        #mensaje del usuario (izquierda)
-        chat_text.insert(tk.END, f"Tú: {user_msg}\n", "user")
-        chat_text.tag_config("user", justify="left", foreground="#00adb5", font=("Helvetica", 12, "bold"))
-
-        #respuesta del chatbot (derecha)
-        encoded_input = encode_text(user_msg, vocab)
-        prediction = model.predict(np.array([encoded_input]))
-        response_index = np.argmax(prediction)
-        print(index_to_response.get(response_index, "No entiendo eso."))
-
-        
-        bot_msg = index_to_response.get(response_index, "No entiendo eso.")
-        chat_text.insert(tk.END, f"{bot_msg}\n", "bot")
-        chat_text.tag_config("bot", justify="right", foreground=TEXT_COLOR, font=("Helvetica", 12))
-
-        chat_text.config(state=tk.DISABLED)
-        chat_text.yview(tk.END)
-        entry.delete(0, tk.END)
-
-#función para guardar el chat actual
-def guardar_chat():
-    current_tab = notebook.tab(notebook.select(), "text")
-    chat_text = chats[current_tab]
-
-    chat_text.config(state=tk.NORMAL)
-    chat_content = chat_text.get("1.0", tk.END).strip()
-    chat_text.config(state=tk.DISABLED)
-
-    if chat_content:
-        file_path = filedialog.asksaveasfilename(
-            defaultextension=".txt",
-            filetypes=[("Archivos de texto", "*.txt")],
-            title="Guardar Chat",
-            initialfile=current_tab,
-        )
-        if file_path:
-            with open(file_path, "w", encoding="utf-8") as file:
-                file.write(chat_content)
-
-#botón de enviar
 send_button = tk.Button(
     entry_frame,
     text="Enviar",
@@ -312,7 +339,6 @@ send_button = tk.Button(
 )
 send_button.pack(side=tk.RIGHT)
 
-#botón para guardar el chat actual
 save_chat_button = tk.Button(
     entry_frame,
     text="Guardar Chat",
@@ -324,13 +350,13 @@ save_chat_button = tk.Button(
     padx=10,
     pady=5,
 )
-save_chat_button.pack(side=tk.LEFT, padx=5)
+save_chat_button.pack(side=tk.RIGHT, padx=5)
 
-#agregar el primer chat por defecto
+# Agregar el primer chat por defecto
 agregar_chat()
 
-#asignar la tecla Enter para enviar mensajes
+# Asignar la tecla Enter para enviar mensajes
 root.bind("<Return>", enviar_mensaje)
 
-#iniciar la ventana
+# Iniciar la ventana
 root.mainloop()
