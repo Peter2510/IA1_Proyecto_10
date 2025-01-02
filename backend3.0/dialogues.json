@@ -1,0 +1,3788 @@
+[
+  {
+    "text": "hola"
+  },
+  {
+    "text": "¡hola! ¿en que puedo ayudarte?"
+  },
+  {
+    "text": "hola botsi"
+  },
+  {
+    "text": "¡hola! ¿en que puedo ayudarte?"
+  },
+  {
+    "text": "¿como estas?"
+  },
+  {
+    "text": "¡estoy bien! gracias por preguntar."
+  },
+  {
+    "text": "¿que tal?"
+  },
+  {
+    "text": "¡genial, siendo un chatbot en crecimiento!"
+  },
+  {
+    "text": "¿que puedes hacer?"
+  },
+  {
+    "text": "puedo darte informacion sobre ia, machine learning y con conceptos basicos sobre programacion, especialmente sobre javascript, go, java, c++ y rust."
+  },
+  {
+    "text": "¿que sabes hacer?"
+  },
+  {
+    "text": "puedo darte informacion sobre ia, machine learning y con conceptos basicos sobre programacion, especialmente sobre javascript, go, java, c++ y rust."
+  },
+  {
+    "text": "¿en que puedes ayudarme?"
+  },
+  {
+    "text": "puedo darte informacion sobre ia, machine learning y con conceptos basicos sobre programacion, especialmente sobre javascript, go, java, c++ y rust."
+  },
+  {
+    "text": "¿como te llamas?"
+  },
+  {
+    "text": "me llamo botsi :)"
+  },
+  {
+    "text": "cual es tu nombre?"
+  },
+  {
+    "text": "me llamo botsi :)"
+  },
+  {
+    "text": "adios"
+  },
+  {
+    "text": "¡hasta luego! que tengas un excelente dia :)."
+  },
+  {
+    "text": "adios botsi"
+  },
+  {
+    "text": "¡hasta luego! que tengas un excelente dia :)."
+  },
+  {
+    "text": "nos vemos"
+  },
+  {
+    "text": "¡nos vemos pronto! cuidate."
+  },
+  {
+    "text": "cuidate"
+  },
+  {
+    "text": "¡chao! espero hablar contigo pronto."
+  },
+  {
+    "text": "hasta pronto"
+  },
+  {
+    "text": "¡hasta pronto! no dudes en volver si necesitas algo."
+  },
+  {
+    "text": "me despido"
+  },
+  {
+    "text": "¡esta bien! que todo te salga bien. ¡hasta la proxima!"
+  },
+  {
+    "text": "¿que es machine learning?"
+  },
+  {
+    "text": "machine learning es una rama de la inteligencia artificial que permite que las maquinas aprendan de datos y mejoren sus predicciones o acciones sin ser explicitamente programadas. existen tres formas de aprendizaje, el supervisado, no supervisado y por refuerzo"
+  },
+  {
+    "text": "¿que son los datos?"
+  },
+  {
+    "text": "los datos en las aplicaciones de ia se utilizan para entrenar modelos de aprendizaje automatico, hacer predicciones y mejorar la toma de decisiones "
+  },
+  {
+    "text": "¿que es la inteligencia artificial?"
+  },
+  {
+    "text": "la inteligencia artificial (ia) es el campo de estudio que busca desarrollar sistemas que puedan realizar tareas que normalmente requieren inteligencia humana, como el aprendizaje y la toma de decisiones."
+  },
+  {
+    "text": "¿donde se utiliza machine learning?"
+  },
+  {
+    "text": "se utiliza en una amplia variedad de areas como la prediccion del clima, analisis de datos, diagnostico medico, reconocimiento de voz, y mucho mas."
+  },
+  {
+    "text": "¿que es machine learning?"
+  },
+  {
+    "text": "es el estudio cientifico de algoritmos y modelos estadisticos para realizar tareas utilizando inferencia en lugar de instrucciones explicitas."
+  },
+  {
+    "text": "¿que es el aprendizaje por refuerzo?"
+  },
+  {
+    "text": "es un tipo de entrenamiento de machine learning donde el agente interactua con su entorno y aprende a tomar acciones con el objetivo de maximizar una recompensa."
+  },
+  {
+    "text": "¿que es el aprendizaje por transferencia?"
+  },
+  {
+    "text": "es un enfoque en machine learning donde un modelo entrenado en una tarea se reutiliza para mejorar el aprendizaje de una tarea relacionada pero diferente."
+  },
+  {
+    "text": "¿que es un modelo de clasificacion en machine learning?"
+  },
+  {
+    "text": "es un modelo que predice una categoria o clase de una entrada dada. por ejemplo, clasificar correos electronicos como spam o no spam."
+  },
+  {
+    "text": "¿que es un modelo de regresion?"
+  },
+  {
+    "text": "es un modelo de machine learning que predice un valor continuo, como predecir el precio de una casa basado en ciertas caracteristicas."
+  },
+  {
+    "text": "¿que es sobreajuste en machine learning?"
+  },
+  {
+    "text": "es cuando un modelo aprende demasiado bien los datos de entrenamiento, capturando incluso el ruido, lo que reduce su capacidad para generalizar con datos nuevos."
+  },
+  {
+    "text": "¿que es subajuste en machine learning?"
+  },
+  {
+    "text": "es cuando un modelo no logra aprender suficientemente bien los patrones de los datos, resultando en un desempeño pobre tanto en los datos de entrenamiento como en los de prueba."
+  },
+  {
+    "text": "¿que es una matriz de confusion?"
+  },
+  {
+    "text": "es una tabla que se utiliza para evaluar el rendimiento de un modelo de clasificacion, mostrando las predicciones correctas e incorrectas clasificadas en categorias."
+  },
+  {
+    "text": "¿que son los hiperparametros en machine learning?"
+  },
+  {
+    "text": "son parametros que no se aprenden a partir de los datos durante el entrenamiento, sino que deben ser establecidos antes del proceso de entrenamiento, como la tasa de aprendizaje o el numero de capas en una red neuronal."
+  },
+  {
+    "text": "¿que es el preprocesamiento de datos?"
+  },
+  {
+    "text": "es el proceso de limpiar, transformar y organizar los datos antes de alimentarlos a un modelo de machine learning para mejorar la calidad del modelo y su desempeño."
+  },
+  {
+    "text": "¿que es la normalizacion de datos?"
+  },
+  {
+    "text": "es una tecnica de preprocesamiento que escala los datos para que tengan un rango comun, generalmente entre 0 y 1, para mejorar el desempeño de ciertos algoritmos."
+  },
+  {
+    "text": "¿que es la validacion cruzada en machine learning?"
+  },
+  {
+    "text": "es una tecnica para evaluar el rendimiento de un modelo dividiendo el conjunto de datos en varias partes y entrenando y probando el modelo en diferentes combinaciones de estas partes."
+  },
+  {
+    "text": "¿que es un algoritmo de machine learning?"
+  },
+  {
+    "text": "es un conjunto de instrucciones o pasos que un modelo sigue para aprender a partir de los datos y hacer predicciones o tomar decisiones."
+  },
+  {
+    "text": "¿que es el big data?"
+  },
+  {
+    "text": "es el conjunto de datos extremadamente grande y complejo que no puede ser procesado con los metodos tradicionales debido a su volumen, velocidad o variedad."
+  },
+  {
+    "text": "¿que son las redes neuronales?"
+  },
+  {
+    "text": "son un tipo de modelo de machine learning inspirado en el cerebro humano, que se compone de nodos o neuronas interconectadas para realizar tareas de clasificacion, prediccion y mas."
+  },
+  {
+    "text": "¿que es el deep learning?"
+  },
+  {
+    "text": "es un subcampo del machine learning que utiliza redes neuronales profundas, con multiples capas de nodos, para aprender patrones complejos en grandes volumenes de datos."
+  },
+  {
+    "text": "¿que es un clasificador?"
+  },
+  {
+    "text": "es un modelo o algoritmo que asigna una categoria o etiqueta a una entrada, como clasificar un correo electronico como spam o no spam."
+  },
+  {
+    "text": "¿que es un modelo de prediccion?"
+  },
+  {
+    "text": "es un modelo que utiliza datos historicos para hacer predicciones sobre eventos futuros, como predecir la demanda de un producto o el clima."
+  },
+  {
+    "text": "¿que es el analisis de sentimientos?"
+  },
+  {
+    "text": "es una tecnica de procesamiento de lenguaje natural (nlp) que analiza el sentimiento expresado en un texto, como determinar si un comentario es positivo, negativo o neutral."
+  },
+  {
+    "text": "¿que es el reconocimiento de imagenes?"
+  },
+  {
+    "text": "es una tarea de vision por computadora que implica identificar objetos o caracteristicas dentro de una imagen digital, como detectar caras o identificar productos en una tienda."
+  },
+  {
+    "text": "¿que es la inteligencia artificial generativa?"
+  },
+  {
+    "text": "es un tipo de ia que crea nuevos datos, como generar texto, imagenes o musica, a partir de ejemplos previos."
+  },
+  {
+    "text": "¿que es el procesamiento de lenguaje natural (nlp)?"
+  },
+  {
+    "text": "es un campo de la inteligencia artificial que se ocupa de la interaccion entre las maquinas y el lenguaje humano, permitiendo a las computadoras entender y generar lenguaje humano."
+  },
+  {
+    "text": "¿que es amazon sagemaker?"
+  },
+  {
+    "text": "es un servicio de aws que proporciona una plataforma para desarrollar, entrenar e implementar modelos de machine learning en la nube."
+  },
+  {
+    "text": "¿que es amazon rekognition?"
+  },
+  {
+    "text": "es un servicio de aws que permite realizar analisis de imagenes y videos para identificar objetos, personas, texto y actividades."
+  },
+  {
+    "text": "¿que es amazon polly?"
+  },
+  {
+    "text": "es un servicio de conversion de texto a voz de aws que utiliza aprendizaje automatico para sintetizar habla en multiples idiomas."
+  },
+  {
+    "text": "¿que es un modelo de lenguaje?"
+  },
+  {
+    "text": "es un tipo de modelo de machine learning que se entrena para comprender y generar texto de manera coherente, como los modelos utilizados en chatbots o asistentes virtuales."
+  },
+  {
+    "text": "¿que es amazon lex?"
+  },
+  {
+    "text": "es un servicio de aws para construir interfaces conversacionales utilizando texto y voz, como chatbots y asistentes virtuales."
+  },
+  {
+    "text": "¿que es el analisis de texto?"
+  },
+  {
+    "text": "es un campo dentro del procesamiento de lenguaje natural que se ocupa de analizar y extraer informacion util de los textos, como detectar temas, sentimientos o entidades nombradas."
+  },
+  {
+    "text": "¿que es el analisis de series temporales?"
+  },
+  {
+    "text": "es un enfoque de machine learning que se utiliza para predecir valores futuros basados en datos historicos ordenados en el tiempo, como la prediccion de la demanda de productos."
+  },
+  {
+    "text": "¿que es amazon forecast?"
+  },
+  {
+    "text": "es un servicio de aws para generar pronosticos de series temporales, como la prediccion de ventas o demanda de productos."
+  },
+  {
+    "text": "¿que es amazon comprehend?"
+  },
+  {
+    "text": "es un servicio de aws que utiliza machine learning para analizar texto y extraer informacion como sentimientos, entidades y temas."
+  },
+  {
+    "text": "¿que es amazon translate?"
+  },
+  {
+    "text": "es un servicio de traduccion automatica de aws que traduce texto en multiples idiomas utilizando modelos de machine learning."
+  },
+  {
+    "text": "¿que es amazon codewhisperer?"
+  },
+  {
+    "text": "es un servicio de aws que ayuda a los desarrolladores generando sugerencias de codigo en tiempo real, mejorando la productividad y reduciendo el tiempo de desarrollo."
+  },
+  {
+    "text": "¿que es un algoritmo de machine learning?"
+  },
+  {
+    "text": "es un conjunto de instrucciones o reglas matematicas que una maquina utiliza para aprender de los datos y tomar decisiones o hacer predicciones."
+  },
+  {
+    "text": "¿que es un modelo en machine learning?"
+  },
+  {
+    "text": "un modelo es el resultado de entrenar un algoritmo con datos. es lo que se utiliza para hacer predicciones sobre datos nuevos."
+  },
+  {
+    "text": "¿que es un conjunto de entrenamiento?"
+  },
+  {
+    "text": "es un conjunto de datos que se utiliza para entrenar un modelo de machine learning."
+  },
+  {
+    "text": "¿quien te creo?"
+  },
+  {
+    "text": "fui creado por un equipo de estudiantes del curso de inteligencia artificial del cunoc de xela: randy, pedro y alexis"
+  },
+  {
+    "text": "¿quien eres?"
+  },
+  {
+    "text": "solo soy un chatbot creado por estudiantes del curso de ia"
+  },
+  {
+    "text": "¿quien es el creador de la inteligencia artificial?"
+  },
+  {
+    "text": "la ia no tiene un solo creador, pero muchos cientificos como alan turing, john mccarthy y marvin minsky han sido fundamentales en su desarrollo."
+  },
+  {
+    "text": "¿cuantos paises existen en el mundo?"
+  },
+  {
+    "text": "actualmente hay 195 paises en el mundo, incluyendo 193 paises miembros de la onu y 2 paises observadores."
+  },
+  {
+    "text": "¿cual es el animal mas rapido del mundo?"
+  },
+  {
+    "text": "el guepardo es el animal terrestre mas rapido, alcanzando velocidades de hasta 112 km/h."
+  },
+  {
+    "text": "¿sabias que los gatos pueden hacer piruetas?"
+  },
+  {
+    "text": "¡si! los gatos pueden girar su cuerpo en el aire, esto les permite aterrizar de pie casi siempre."
+  },
+  {
+    "text": "¿por que los programadores prefieren el cafe?"
+  },
+  {
+    "text": "porque el cafe es la unica variable constante que no cambia."
+  },
+  {
+    "text": "¿que es un bug?"
+  },
+  {
+    "text": "un bug es un error o fallo en un software que hace que el programa no funcione correctamente."
+  },
+  {
+    "text": "¿sabias que los programadores usan nombres extraños?"
+  },
+  {
+    "text": "si, algunos programadores llaman a sus variables con nombres como foo o bar, por tradicion."
+  },
+  {
+    "text": "¿que es un dataset?"
+  },
+  {
+    "text": "un dataset es un conjunto de datos que se utiliza para entrenar, probar o validar un modelo de machine learning."
+  },
+  {
+    "text": "¿que es una red neuronal?"
+  },
+  {
+    "text": "una red neuronal es un modelo de machine learning inspirado en el cerebro humano, compuesto por nodos interconectados que simulan el comportamiento de las neuronas."
+  },
+  {
+    "text": "¿como se mide el rendimiento de un modelo de machine learning?"
+  },
+  {
+    "text": "el rendimiento de un modelo se mide utilizando metricas como precision, recall, f1-score o auc-roc, dependiendo del problema."
+  },
+  {
+    "text": "¿que es un perceptron?"
+  },
+  {
+    "text": "un perceptron es el tipo mas simple de red neuronal, que se utiliza para clasificacion binaria."
+  },
+  {
+    "text": "¿cual es la diferencia entre ia y machine learning?"
+  },
+  {
+    "text": "la inteligencia artificial es un campo mas amplio que incluye machine learning, pero tambien otras areas como el procesamiento de lenguaje natural y la vision por computadora."
+  },
+  {
+    "text": "¿puedes contarme un chiste?"
+  },
+  {
+    "text": "¡claro! ¿por que los programadores odian la playa? porque tiene demasiados bugs."
+  },
+  {
+    "text": "¿sabias que el primer videojuego fue creado en 1958?"
+  },
+  {
+    "text": "si, se llama tennis for two y fue creado por william higinbotham."
+  },
+  {
+    "text": "¿que es la inteligencia artificial?"
+  },
+  {
+    "text": "la inteligencia artificial (ia) es el campo de estudio que combina la informatica con conjuntos de datos robustos para resolver problemas, buscando que las maquinas realicen tareas que normalmente requieren inteligencia humana, como aprender, razonar o autocorregirse."
+  },
+  {
+    "text": "¿cual es la historia de la inteligencia artificial?"
+  },
+  {
+    "text": "la historia de la ia comienza en los años 30 con trabajos de alan turing y emil post, quienes postularon la construccion de automatas capaces de realizar calculos. en 1956, john mccarthy acuño el termino inteligencia artificial en la conferencia dartmouth summer research project on artificial intelligence, lo que marco el inicio formal del campo."
+  },
+  {
+    "text": "¿quien fue alan turing?"
+  },
+  {
+    "text": "alan turing fue un matematico y cientifico que propuso la maquina de turing, un modelo de computacion teorica que sento las bases de la informatica moderna. tambien creo el test de turing para evaluar si una maquina puede imitar el comportamiento humano."
+  },
+  {
+    "text": "¿que es el test de turing?"
+  },
+  {
+    "text": "el test de turing, propuesto por alan turing en 1950, consiste en una prueba en la que un humano interactua con una computadora y otra persona sin saber quien es quien. si el humano no puede distinguir entre la maquina y la persona, la maquina pasa el test."
+  },
+  {
+    "text": "¿que es deep learning?"
+  },
+  {
+    "text": "deep learning es un subconjunto de machine learning que utiliza redes neuronales profundas, inspiradas en el cerebro humano, para resolver problemas complejos como reconocimiento de imagenes, voz o procesamiento de lenguaje natural."
+  },
+  {
+    "text": "¿que es rpa?"
+  },
+  {
+    "text": "rpa (robotic process automation) es una tecnologia que usa robots de software o bots para automatizar tareas manuales repetitivas que consumen tiempo, como la gestion de datos o el procesamiento de documentos."
+  },
+  {
+    "text": "¿que es la programacion logica?"
+  },
+  {
+    "text": "la programacion logica es un paradigma de programacion basado en la logica de primer orden. en lugar de especificar paso a paso como realizar una tarea, se describen las relaciones y condiciones que deben cumplirse para obtener un resultado."
+  },
+  {
+    "text": "¿que es la robotica?"
+  },
+  {
+    "text": "la robotica es una disciplina tecnologica que combina diversas ramas para diseñar y crear maquinas o robots programados para realizar tareas automaticas o simular el comportamiento humano o animal."
+  },
+  {
+    "text": "¿cuando empezo la historia de la inteligencia artificial?"
+  },
+  {
+    "text": "la historia de la inteligencia artificial comenzo en la decada de 1940, cuando se comenzaron a desarrollar las primeras ideas sobre maquinas que pudieran simular el pensamiento humano, con hitos como el trabajo de alan turing y el articulo de warren mccullough y walter pitts en 1943 sobre redes neuronales."
+  },
+  {
+    "text": "¿que es xcon?"
+  },
+  {
+    "text": "xcon (expert configurer) fue un sistema creado en 1978 por digital equipment corporation para configurar pedidos de nuevos sistemas informaticos, lo que marco un avance significativo en la aplicacion comercial de la inteligencia artificial."
+  },
+  {
+    "text": "¿que es parry?"
+  },
+  {
+    "text": "parry, creado en 1972 por el psiquiatra kenneth colby, es un chatbot diseñado para simular el comportamiento de una persona esquizofrenica paranoica. fue uno de los primeros en intentar modelar trastornos mentales mediante un sistema de inteligencia artificial."
+  },
+  {
+    "text": "¿que es el segundo invierno de la ia?"
+  },
+  {
+    "text": "el segundo invierno de la ia ocurrio a finales de la decada de 1980, cuando los avances en inteligencia artificial fueron menores de lo esperado y las inversiones en el campo disminuyeron, debido a la falta de resultados tangibles y el auge de tecnologias alternativas."
+  },
+  {
+    "text": "¿quien desarrollo nettalk?"
+  },
+  {
+    "text": "nettalk fue desarrollado en 1985 por terry sejnowski y es un programa informatico que aprende a pronunciar palabras de manera similar a como lo haria un niño, es decir, mediante el aprendizaje de patrones y datos."
+  },
+  {
+    "text": "¿cuando gano deep blue a garry kasparov?"
+  },
+  {
+    "text": "deep blue, una ia de ibm, derroto al campeon mundial de ajedrez garry kasparov en 1997, marcando un hito en la historia de la inteligencia artificial al vencer a un campeon humano en un juego de estrategia compleja."
+  },
+  {
+    "text": "¿que es alphago?"
+  },
+  {
+    "text": "alphago es un sistema de inteligencia artificial desarrollado por google deepmind que derroto al campeon mundial de go, lee sedol, en 2016. alphago es conocido por sus avances en el aprendizaje profundo y el analisis de juegos complejos."
+  },
+  {
+    "text": "¿como funciona machine learning?"
+  },
+  {
+    "text": "en machine learning, los algoritmos son entrenados para encontrar patrones y correlaciones en grandes conjuntos de datos. a medida que el algoritmo recibe mas datos, mejora su precision para hacer predicciones o tomar decisiones."
+  },
+  {
+    "text": "¿cuales son los tipos de aprendizaje en machine learning?"
+  },
+  {
+    "text": "existen tres tipos principales de aprendizaje en machine learning: 1) supervisado, donde los algoritmos aprenden a partir de datos etiquetados; 2) no supervisado, donde los algoritmos buscan patrones en datos sin etiquetar; 3) por refuerzo, donde los algoritmos aprenden mediante prueba y error, recibiendo recompensas por decisiones correctas."
+  },
+  {
+    "text": "¿que es el aprendizaje supervisado?"
+  },
+  {
+    "text": "el aprendizaje supervisado es un tipo de aprendizaje en el que los algoritmos reciben datos etiquetados, lo que les permite aprender a hacer predicciones o tomar decisiones basadas en las etiquetas proporcionadas."
+  },
+  {
+    "text": "¿que es el aprendizaje no supervisado?"
+  },
+  {
+    "text": "el aprendizaje no supervisado se utiliza cuando los algoritmos no tienen etiquetas previas y deben encontrar patrones por si mismos, organizando los datos en grupos o estructuras sin intervencion humana."
+  },
+  {
+    "text": "¿que es el aprendizaje por refuerzo?"
+  },
+  {
+    "text": "el aprendizaje por refuerzo es un tipo de machine learning donde los algoritmos aprenden de sus propias acciones mediante un proceso de prueba y error, siendo recompensados por tomar decisiones correctas."
+  },
+  {
+    "text": "¿cuales son algunas aplicaciones de machine learning?"
+  },
+  {
+    "text": "algunas aplicaciones de machine learning incluyen: google maps para estimacion de trafico, uber con su plataforma michelangelo para mejorar el servicio al cliente, y meta, que usa machine learning para optimizar la publicidad en sus plataformas."
+  },
+  {
+    "text": "¿como usa google maps machine learning?"
+  },
+  {
+    "text": "google maps utiliza machine learning combinando datos de trafico en tiempo real con patrones historicos, lo que le permite predecir los tiempos de viaje y las condiciones de trafico en tiempo real."
+  },
+  {
+    "text": "¿que es michelangelo de uber?"
+  },
+  {
+    "text": "michelangelo es una plataforma interna de machine learning de uber que ayuda a los desarrolladores a crear modelos para mejorar las aplicaciones de la empresa. un ejemplo de su uso es el customer obsession ticket assistant (cota), que mejora la atencion al cliente."
+  },
+  {
+    "text": "¿como usa meta machine learning?"
+  },
+  {
+    "text": "meta utiliza machine learning para mejorar la efectividad de los anuncios en sus plataformas. a medida que las personas interactuan con los anuncios, el sistema de machine learning de meta mejora las predicciones sobre la accion estimada y la calidad del anuncio."
+  },
+  {
+    "text": "¿que es la manipulacion de datos?"
+  },
+  {
+    "text": "la manipulacion de datos se refiere al proceso de organizar, transformar y limpiar datos para hacerlos adecuados para analisis y procesamiento. se compone de varios pasos, como recopilacion, proteccion, evaluacion y visualizacion de datos."
+  },
+  {
+    "text": "¿que es la recopilacion de datos?"
+  },
+  {
+    "text": "la recopilacion de datos consiste en unir datos provenientes de diferentes fuentes en una sola fuente que pueda alimentar a nuestros modelos. este proceso se puede realizar a traves de un proceso de etl (extraccion, transformacion y carga)."
+  },
+  {
+    "text": "¿que es la proteccion de datos?"
+  },
+  {
+    "text": "la proteccion de datos, tambien conocida como seguridad de la informacion, es esencial para prevenir accesos no autorizados y proteger los datos contra posibles corrupciones a lo largo de su ciclo de vida. incluye practicas como la encriptacion, tokenizacion y gestion de claves."
+  },
+  {
+    "text": "¿que es la evaluacion de datos?"
+  },
+  {
+    "text": "la evaluacion de datos se refiere a garantizar que los datos extraidos de diversas fuentes tengan un formato correcto y unificado, para que se puedan realizar analisis y estudios de correlaciones e importancia sobre ellos."
+  },
+  {
+    "text": "¿que es la visualizacion de datos?"
+  },
+  {
+    "text": "la visualizacion de datos es el proceso de representar datos complejos mediante graficos o mapas, facilitando su comprension y permitiendo extraer informacion practica de datos sin procesar. las herramientas de visualizacion mejoran la precision y automatizan la comunicacion visual."
+  },
+  {
+    "text": "¿que es github pages?"
+  },
+  {
+    "text": "github pages es un servicio de alojamiento de sitios web estaticos que publica archivos html, css y javascript directamente desde un repositorio en github. existen tres tipos basicos de sitios: de proyecto, de usuario y de organizacion."
+  },
+  {
+    "text": "¿como se publica un sitio en github pages?"
+  },
+  {
+    "text": "para publicar un sitio en github pages, debes crear un repositorio en github. para un sitio de usuario, el repositorio debe llamarse <username>.github.io, y para un sitio de organizacion, el repositorio debe llamarse <organization>.github.io."
+  },
+  {
+    "text": "¿cuales son los pasos para desplegar una pagina en github pages?"
+  },
+  {
+    "text": "los pasos para desplegar una pagina en github pages son: 1) inicializar el repositorio; 2) actualizar el archivo `vite.config.js`; 3) instalar el paquete `gh-pages`; 4) actualizar `package.json`; 5) ejecutar el comando `run deploy`."
+  },
+  {
+    "text": "¿que es el paquete `gh-pages`?"
+  },
+  {
+    "text": "el paquete `gh-pages` es una herramienta que permite desplegar facilmente proyectos en github pages. se utiliza para automatizar la publicacion de sitios web estaticos desde un repositorio de github."
+  },
+  {
+    "text": "¿como funcionan las redes neuronales?"
+  },
+  {
+    "text": "las redes neuronales funcionan a traves de nodos que operan como modelos de regresion lineal. cada nodo tiene entradas, ponderaciones, un sesgo y una salida. las entradas se multiplican por las ponderaciones, y luego pasan por una funcion de activacion para determinar la salida, que se pasa a la siguiente capa."
+  },
+  {
+    "text": "¿que es una red neuronal feedforward?"
+  },
+  {
+    "text": "una red neuronal feedforward es un tipo basico de red neuronal donde la informacion fluye en una sola direccion desde la capa de entrada hasta la capa de salida, sin retroalimentacion o ciclos. cada capa utiliza la salida de la anterior como entrada para la siguiente."
+  },
+  {
+    "text": "¿que es una red neuronal convolucional?"
+  },
+  {
+    "text": "las redes neuronales convolucionales (cnn) se utilizan principalmente para el procesamiento de imagenes y videos. estan organizadas en capas convolucionales donde cada neurona esta conectada solo a una region local de la capa anterior, permitiendo detectar caracteristicas especificas, como bordes y patrones, independientemente de su ubicacion."
+  },
+  {
+    "text": "¿que es la funcion sigmoide?"
+  },
+  {
+    "text": "la funcion sigmoide es una funcion de activacion matematica con la forma f(x) = 1 / (1 + exp(-x)), cuyo rango de salida esta entre 0 y 1. es util en problemas de clasificacion binaria, donde la salida debe ser 0 o 1."
+  },
+  {
+    "text": "¿que es la funcion relu?"
+  },
+  {
+    "text": "la funcion relu (rectified linear unit) es una funcion de activacion muy utilizada en redes neuronales modernas. su formula es f(x) = max(0, x), lo que significa que para valores negativos la salida es 0, y para valores positivos es lineal. acelera el proceso de aprendizaje en redes neuronales profundas."
+  },
+  {
+    "text": "¿que es la funcion tangente hiperbolica (tanh)?"
+  },
+  {
+    "text": "la funcion tangente hiperbolica (tanh) es similar a la sigmoide, pero su rango de salida esta entre -1 y 1. su formula es f(x) = (exp(x) - exp(-x)) / (exp(x) + exp(-x)). es util en problemas de clasificacion binaria y regresion donde las salidas pueden ser negativas."
+  },
+  {
+    "text": "¿que es el reconocimiento de patrones en redes neuronales?"
+  },
+  {
+    "text": "las redes neuronales son utiles para identificar patrones en grandes conjuntos de datos. en el reconocimiento de voz, las redes pueden convertir ondas sonoras en texto, y en la clasificacion de imagenes, pueden reconocer caracteristicas especificas, como forma y color, y clasificar imagenes en categorias."
+  },
+  {
+    "text": "¿como se usa la red neuronal en procesamiento de lenguaje natural?"
+  },
+  {
+    "text": "las redes neuronales son eficaces en procesamiento del lenguaje humano. en la traduccion automatica, aprenden a traducir idiomas al analizar patrones lingüisticos. tambien en generacion de texto, las redes pueden crear contenido coherente y relevante, como articulos o respuestas en motores de busqueda."
+  },
+  {
+    "text": "¿que es la vision por computadora en redes neuronales?"
+  },
+  {
+    "text": "la vision por computadora usa redes neuronales para identificar objetos en imagenes y videos. esto es util para aplicaciones como deteccion en tiempo real, seguimiento de objetos y clasificacion de imagenes. por ejemplo, en camaras de seguridad o en analisis de automoviles para determinar marcas o modelos."
+  },
+  {
+    "text": "¿como usa volvo la realidad aumentada en redes neuronales?"
+  },
+  {
+    "text": "volvo usa realidad aumentada para obtener informacion en tiempo real sobre piezas, procesos y tareas, mejorando la experiencia de los clientes en los showrooms. la red neuronal tambien se emplea para mejorar el diseño y la comunicacion entre los operarios."
+  },
+  {
+    "text": "¿como usa bmw la realidad aumentada en su produccion?"
+  },
+  {
+    "text": "bmw utiliza realidad aumentada para evaluar areas de produccion y probar procesos en 3d. ademas, en la capacitacion laboral, usan gafas de realidad aumentada para entrenar al personal en unidades de montaje de motores."
+  },
+  {
+    "text": "¿que aplicaciones tiene la realidad aumentada en el sector automotriz?"
+  },
+  {
+    "text": "la realidad aumentada en el sector automotriz mejora la experiencia del cliente, como en bmw y volvo, al permitirles ver modelos en 3d, obtener informacion detallada sobre productos y mejorar la capacitacion laboral de los empleados."
+  },
+  {
+    "text": "¿que es el entrenamiento del modelo de ia?"
+  },
+  {
+    "text": "el entrenamiento del modelo de ia es el proceso de alimentar datos al algoritmo, observar los resultados y ajustar el modelo para mejorar su precision. los algoritmos aprenden a reconocer patrones, entender el contexto y tomar decisiones."
+  },
+  {
+    "text": "¿que es el metodo de retencion?"
+  },
+  {
+    "text": "el metodo de retencion es un proceso de entrenamiento donde los datos se dividen en tres conjuntos: conjunto de entrenamiento, conjunto de validacion y conjunto de prueba. el modelo se entrena solo con el conjunto de entrenamiento, y los otros conjuntos se utilizan para evaluar y ajustar el modelo."
+  },
+  {
+    "text": "¿que es la validacion cruzada de k iteraciones?"
+  },
+  {
+    "text": "la validacion cruzada de k iteraciones es un enfoque en el que el conjunto de entrenamiento se divide en k bloques. uno de los bloques se usa para validacion y los demas para entrenamiento. este proceso se repite para cada uno de los bloques y los resultados se combinan."
+  },
+  {
+    "text": "¿que es un algoritmo de aprendizaje automatico?"
+  },
+  {
+    "text": "un algoritmo de aprendizaje automatico es un conjunto de reglas o procesos utilizados por un sistema de ia para realizar tareas, como descubrir patrones en los datos o predecir valores a partir de un conjunto de variables de entrada."
+  },
+  {
+    "text": "¿que es xgboost?"
+  },
+  {
+    "text": "xgboost (extreme gradient boosting) es un algoritmo basado en arboles de decision que mejora otros metodos como el bosque aleatorio y el refuerzo de gradientes. funciona bien con grandes conjuntos de datos al utilizar varios metodos de optimizacion."
+  },
+  {
+    "text": "¿que es el algoritmo k-means?"
+  },
+  {
+    "text": "el algoritmo k-means es un metodo de agrupamiento que divide un conjunto de datos en k grupos o clusters. los datos se agrupan de manera que los puntos dentro de un mismo cluster son mas similares entre si que con los puntos de otros clusteres."
+  },
+  {
+    "text": "¿que es la evaluacion del modelo?"
+  },
+  {
+    "text": "la evaluacion del modelo es el proceso de medir y comparar el rendimiento de los modelos para determinar su precision y efectividad. utiliza metricas como precision, sensibilidad, especificidad y puntuacion f1 para evaluar como el modelo predice nuevos datos."
+  },
+  {
+    "text": "¿que es la matriz de confusion?"
+  },
+  {
+    "text": "la matriz de confusion es una tabla que desglosa el numero de instancias reales frente a las predicciones de un clasificador. ayuda a calcular metricas de rendimiento como precision y exactitud."
+  },
+  {
+    "text": "¿que es la sensibilidad?"
+  },
+  {
+    "text": "la sensibilidad es la probabilidad de que un resultado sea positivo si realmente existe la condicion que se esta evaluando. a medida que aumenta la sensibilidad, disminuye la cantidad de falsos negativos."
+  },
+  {
+    "text": "¿que es la especificidad?"
+  },
+  {
+    "text": "la especificidad es la probabilidad de que los resultados sean negativos cuando realmente no existe la condicion evaluada. a medida que aumenta la especificidad, disminuye la cantidad de falsos positivos."
+  },
+  {
+    "text": "¿que es la precision?"
+  },
+  {
+    "text": "la precision es la medida de los casos positivos correctamente identificados entre todos los casos positivos previstos. es util cuando el coste de los falsos positivos es alto."
+  },
+  {
+    "text": "¿que es el accuracy?"
+  },
+  {
+    "text": "el accuracy es la proporcion de casos correctamente identificados entre todos los casos. es util cuando todas las clases son igualmente importantes."
+  },
+  {
+    "text": "¿que es la puntuacion f1?"
+  },
+  {
+    "text": "la puntuacion f1 es la media armonica de precision y sensibilidad. es una metrica util cuando las clases estan desbalanceadas, ya que ofrece una mejor medida de los casos clasificados incorrectamente que la precision."
+  },
+  {
+    "text": "¿que son los hiperparametros?"
+  },
+  {
+    "text": "los hiperparametros son variables de configuracion que se establecen antes de entrenar el modelo de ia. son fundamentales para gestionar el proceso de entrenamiento y determinar el rendimiento del modelo."
+  },
+  {
+    "text": "¿que es el ajuste de hiperparametros?"
+  },
+  {
+    "text": "el ajuste de hiperparametros es el proceso de identificar y seleccionar los valores optimos para los hiperparametros de un modelo. esto ayuda a minimizar la funcion de perdida y mejorar el rendimiento del modelo."
+  },
+  {
+    "text": "¿que son las maquinas de vectores de soporte?"
+  },
+  {
+    "text": "las maquinas de vectores de soporte (svm) son un algoritmo de clasificacion que busca separar los datos en diferentes clases utilizando un hiperplano. los hiperparametros clave incluyen el tipo de kernel y el parametro de margen."
+  },
+  {
+    "text": "¿que son los arboles de decision?"
+  },
+  {
+    "text": "los arboles de decision son un modelo de machine learning que toma decisiones dividiendo los datos en diferentes categorias basadas en condiciones. los hiperparametros clave incluyen la profundidad maxima del arbol y las muestras minimas necesarias para dividir un nodo."
+  },
+  {
+    "text": "¿que es el tamaño del lote?"
+  },
+  {
+    "text": "el tamaño del lote es el numero de muestras que el modelo procesa antes de actualizar sus pesos. los lotes mas pequeños ofrecen actualizaciones mas precisas, mientras que los lotes grandes mejoran la eficiencia computacional."
+  },
+  {
+    "text": "¿que es el numero de epochs?"
+  },
+  {
+    "text": "el numero de epochs determina cuantas veces el modelo pasa todo el conjunto de datos durante el entrenamiento. demasiadas epocas pueden causar sobreajuste, mientras que muy pocas pueden resultar en un modelo subajustado."
+  },
+  {
+    "text": "¿que es un lenguaje de programacion?"
+  },
+  {
+    "text": "un lenguaje de programacion es un conjunto de instrucciones que permiten a los desarrolladores escribir software y controlar el comportamiento de las computadoras. los lenguajes de programacion permiten la creacion de aplicaciones, sitios web y sistemas operativos."
+  },
+  {
+    "text": "¿que es la sintaxis en un lenguaje de programacion?"
+  },
+  {
+    "text": "la sintaxis en un lenguaje de programacion se refiere al conjunto de reglas que definen la estructura y la organizacion de las instrucciones que componen un programa. cada lenguaje tiene su propia sintaxis."
+  },
+  {
+    "text": "¿que es un lenguaje de programacion de alto nivel?"
+  },
+  {
+    "text": "un lenguaje de programacion de alto nivel es aquel que es facil de leer y escribir para los seres humanos, con sintaxis que se acerca al lenguaje natural. ejemplos de lenguajes de alto nivel son python, java y c++."
+  },
+  {
+    "text": "¿que es un lenguaje de programacion de bajo nivel?"
+  },
+  {
+    "text": "un lenguaje de programacion de bajo nivel es aquel que esta mas cerca del lenguaje de la maquina y proporciona menos abstraccion, lo que permite un control mas directo sobre el hardware. ejemplos de lenguajes de bajo nivel son el ensamblador y el lenguaje de maquina."
+  },
+  {
+    "text": "¿que es un compilador?"
+  },
+  {
+    "text": "un compilador es un programa que traduce el codigo fuente escrito en un lenguaje de programacion de alto nivel a codigo de maquina que puede ser ejecutado directamente por una computadora."
+  },
+  {
+    "text": "¿que es un interprete?"
+  },
+  {
+    "text": "un interprete es un programa que ejecuta un programa linea por linea, traduciendo y ejecutando el codigo en tiempo real, sin generar un archivo binario intermedio. ejemplos de lenguajes interpretados son python y javascript."
+  },
+  {
+    "text": "¿que es la programacion orientada a objetos?"
+  },
+  {
+    "text": "la programacion orientada a objetos (poo) es un paradigma de programacion que utiliza objetos para representar datos y metodos. cada objeto es una instancia de una clase, y los objetos pueden interactuar entre si. ejemplos de lenguajes que soportan poo son java, c++ y python."
+  },
+  {
+    "text": "¿que es una clase en programacion orientada a objetos?"
+  },
+  {
+    "text": "una clase en programacion orientada a objetos es una plantilla o modelo que define las propiedades (atributos) y comportamientos (metodos) que los objetos de esa clase tendran. es un concepto fundamental en la poo."
+  },
+  {
+    "text": "¿que es un objeto en programacion orientada a objetos?"
+  },
+  {
+    "text": "un objeto en programacion orientada a objetos es una instancia de una clase. los objetos contienen datos y metodos que definen sus comportamientos."
+  },
+  {
+    "text": "¿que es la herencia en programacion orientada a objetos?"
+  },
+  {
+    "text": "la herencia en programacion orientada a objetos es un mecanismo que permite que una clase herede propiedades y metodos de otra clase. esto promueve la reutilizacion de codigo y la creacion de jerarquias de clases."
+  },
+  {
+    "text": "¿que es el polimorfismo en programacion orientada a objetos?"
+  },
+  {
+    "text": "el polimorfismo es un concepto de la programacion orientada a objetos que permite que objetos de diferentes clases puedan ser tratados como objetos de una clase comun, generalmente a traves de la sobrecarga de metodos o la redefinicion de metodos."
+  },
+  {
+    "text": "¿que es la encapsulacion en programacion orientada a objetos?"
+  },
+  {
+    "text": "la encapsulacion es el concepto de ocultar los detalles internos de una clase y exponer solo las operaciones necesarias. esto protege los datos y asegura que el acceso a los mismos se haga de manera controlada."
+  },
+  {
+    "text": "¿que es el manejo de excepciones en programacion?"
+  },
+  {
+    "text": "el manejo de excepciones es un proceso que permite que los programas gestionen errores de manera controlada durante su ejecucion, en lugar de fallar abruptamente. se utiliza mediante estructuras como try, catch o finally."
+  },
+  {
+    "text": "¿que es un array?"
+  },
+  {
+    "text": "un array es una estructura de datos que almacena una coleccion de elementos del mismo tipo en una secuencia ordenada. los elementos se acceden mediante indices."
+  },
+  {
+    "text": "¿que es una funcion en programacion?"
+  },
+  {
+    "text": "una funcion es un bloque de codigo que realiza una tarea especifica y puede ser invocado en cualquier parte del programa. las funciones pueden recibir argumentos y devolver un valor."
+  },
+  {
+    "text": "¿que es una variable en programacion?"
+  },
+  {
+    "text": "una variable es un espacio de almacenamiento que contiene un valor. el valor de una variable puede cambiar a lo largo de la ejecucion del programa."
+  },
+  {
+    "text": "¿que es el tipado estatico?"
+  },
+  {
+    "text": "el tipado estatico es una caracteristica de ciertos lenguajes de programacion en la que el tipo de las variables se conoce en tiempo de compilacion. ejemplos de lenguajes con tipado estatico son java y c++."
+  },
+  {
+    "text": "¿que es el tipado dinamico?"
+  },
+  {
+    "text": "el tipado dinamico es una caracteristica de ciertos lenguajes de programacion en la que el tipo de las variables se determina en tiempo de ejecucion, lo que otorga mayor flexibilidad. ejemplos de lenguajes con tipado dinamico son python y javascript."
+  },
+  {
+    "text": "¿que es la recursion en programacion?"
+  },
+  {
+    "text": "la recursion es un proceso en el que una funcion se llama a si misma para resolver un problema. generalmente, se utiliza para dividir problemas complejos en subproblemas mas pequeños."
+  },
+  {
+    "text": "¿que es el codigo fuente?"
+  },
+  {
+    "text": "el codigo fuente es el conjunto de instrucciones escritas en un lenguaje de programacion que conforman un programa. este codigo es procesado por un compilador o interprete para generar un programa ejecutable."
+  },
+  {
+    "text": "¿que es un lenguaje de programacion compilado?"
+  },
+  {
+    "text": "un lenguaje de programacion compilado es un lenguaje cuyo codigo fuente debe ser traducido a un codigo de maquina ejecutable antes de que pueda ser ejecutado. ejemplos incluyen c, c++ y go."
+  },
+  {
+    "text": "¿que es un lenguaje de programacion interpretado?"
+  },
+  {
+    "text": "un lenguaje de programacion interpretado es aquel en el que el codigo fuente es ejecutado directamente por un interprete, sin necesidad de ser compilado previamente. ejemplos incluyen python, javascript y ruby."
+  },
+  {
+    "text": "¿que es el paradigma funcional?"
+  },
+  {
+    "text": "el paradigma funcional es un enfoque de programacion en el que los programas son construidos utilizando funciones puras y evitando los efectos secundarios. los lenguajes funcionales incluyen haskell, lisp y erlang."
+  },
+  {
+    "text": "¿que es el paradigma imperativo?"
+  },
+  {
+    "text": "el paradigma imperativo es un enfoque de programacion en el que se define una secuencia de instrucciones que cambian el estado del programa. ejemplos de lenguajes imperativos son c, java y python."
+  },
+  {
+    "text": "¿que es el paradigma declarativo?"
+  },
+  {
+    "text": "el paradigma declarativo es un enfoque de programacion en el que se especifican los resultados deseados sin definir explicitamente los pasos para alcanzarlos. los lenguajes declarativos incluyen sql y html."
+  },
+  {
+    "text": "¿que es php?"
+  },
+  {
+    "text": "php es un lenguaje de programacion de uso general, especialmente utilizado para el desarrollo de aplicaciones web. php es un lenguaje del lado del servidor que genera html dinamico."
+  },
+  {
+    "text": "¿que es html?"
+  },
+  {
+    "text": "html (hypertext markup language) es el lenguaje de marcado utilizado para estructurar y presentar contenido en la web."
+  },
+  {
+    "text": "¿que es css?"
+  },
+  {
+    "text": "css (cascading style sheets) es un lenguaje de diseño utilizado para describir la apariencia de un documento html, como colores, fuentes y disposicion."
+  },
+  {
+    "text": "¿que es un servidor?"
+  },
+  {
+    "text": "un servidor es una maquina o software que proporciona servicios, recursos o datos a otras computadoras (clientes) en una red."
+  },
+  {
+    "text": "¿que es una pagina web?"
+  },
+  {
+    "text": "una pagina web es un documento accesible a traves de la web que puede contener texto, imagenes, videos y otros recursos interactivos."
+  },
+  {
+    "text": "¿que es software?"
+  },
+  {
+    "text": "el software es el conjunto de programas y aplicaciones que permiten que una computadora funcione y realice tareas especificas."
+  },
+  {
+    "text": "¿que es hardware?"
+  },
+  {
+    "text": "el hardware se refiere a los componentes fisicos de una computadora o dispositivo, como el procesador, la memoria, el disco duro, etc."
+  },
+  {
+    "text": "¿que es un array?"
+  },
+  {
+    "text": "un array es una estructura de datos que puede almacenar multiples valores de un mismo tipo bajo un nombre comun."
+  },
+  {
+    "text": "¿que es una estructura de datos?"
+  },
+  {
+    "text": "una estructura de datos es una forma de organizar y almacenar datos de manera que puedan ser accesibles y manipulables de manera eficiente."
+  },
+  {
+    "text": "¿que son las cookies?"
+  },
+  {
+    "text": "las cookies son pequeños archivos de texto que los sitios web almacenan en el navegador del usuario para recordar informacion y mejorar la experiencia de navegacion."
+  },
+  {
+    "text": "¿que es una clase en programacion?"
+  },
+  {
+    "text": "una clase es un molde para crear objetos. las clases definen metodos y propiedades que los objetos instanciados de la clase compartiran."
+  },
+  {
+    "text": "¿que es un metodo?"
+  },
+  {
+    "text": "un metodo es una funcion asociada a un objeto o clase que define una accion o comportamiento que el objeto puede realizar."
+  },
+  {
+    "text": "¿que es una funcion?"
+  },
+  {
+    "text": "una funcion es un bloque de codigo diseñado para realizar una tarea especifica, y puede ser invocada para ejecutar dicha tarea cuando sea necesario."
+  },
+  {
+    "text": "¿que son las propiedades?"
+  },
+  {
+    "text": "las propiedades son caracteristicas o atributos de un objeto que definen su estado o sus caracteristicas."
+  },
+  {
+    "text": "¿que es un objeto?"
+  },
+  {
+    "text": "un objeto es una instancia de una clase que contiene datos (propiedades) y comportamientos (metodos) definidos por la clase."
+  },
+  {
+    "text": "¿que es instanciar?"
+  },
+  {
+    "text": "instanciar significa crear una instancia de una clase, es decir, crear un objeto a partir de esa clase."
+  },
+  {
+    "text": "¿que es la herencia?"
+  },
+  {
+    "text": "la herencia permite que una clase derive de otra, heredando sus metodos y propiedades. se utiliza para reutilizar el codigo y crear jerarquias de clases."
+  },
+  {
+    "text": "¿que es una variable?"
+  },
+  {
+    "text": "una variable es un espacio de almacenamiento que tiene un nombre y puede almacenar un valor que puede cambiar durante la ejecucion de un programa."
+  },
+  {
+    "text": "¿que es una constante?"
+  },
+  {
+    "text": "una constante es un valor fijo que no puede ser modificado despues de su inicializacion en un programa."
+  },
+  {
+    "text": "¿que es un ciclo for?"
+  },
+  {
+    "text": "un ciclo for es una estructura de control que repite un bloque de codigo un numero especifico de veces."
+  },
+  {
+    "text": "¿que es un bucle?"
+  },
+  {
+    "text": "un bucle es una estructura de control que repite una accion o conjunto de acciones multiples veces segun una condicion."
+  },
+  {
+    "text": "¿que es un if?"
+  },
+  {
+    "text": "el if es una estructura condicional que permite ejecutar un bloque de codigo solo si una condicion especificada es verdadera."
+  },
+  {
+    "text": "¿que es un else?"
+  },
+  {
+    "text": "el else es una parte de una estructura condicional que se ejecuta si la condicion del if es falsa."
+  },
+  {
+    "text": "¿que es un switch?"
+  },
+  {
+    "text": "un switch es una estructura de control que permite ejecutar diferentes bloques de codigo segun el valor de una expresion."
+  },
+  {
+    "text": "¿que es un contexto?"
+  },
+  {
+    "text": "el contexto es el entorno o conjunto de condiciones en las que se ejecuta un programa, funcion o una parte del codigo."
+  },
+  {
+    "text": "¿que es un error de compilacion?"
+  },
+  {
+    "text": "un error de compilacion es un problema detectado por el compilador al intentar convertir el codigo fuente en un archivo ejecutable, generalmente debido a errores de sintaxis o tipo."
+  },
+  {
+    "text": "¿que es una condicional?"
+  },
+  {
+    "text": "una condicional es una estructura de control que permite ejecutar un bloque de codigo solo si se cumple una condicion especifica, permitiendo decisiones en el flujo del programa."
+  },
+  {
+    "text": "¿que es java?"
+  },
+  {
+    "text": "java es un lenguaje de programacion orientado a objetos, de proposito general, desarrollado por sun microsystems (ahora parte de oracle). se destaca por su portabilidad, ya que el codigo java puede ejecutarse en cualquier dispositivo que tenga instalada la java virtual machine (jvm)."
+  },
+  {
+    "text": "¿que es la java virtual machine (jvm)?"
+  },
+  {
+    "text": "la java virtual machine (jvm) es una maquina virtual que permite que los programas escritos en java se ejecuten en cualquier dispositivo sin necesidad de reescribir el codigo para cada plataforma. la jvm interpreta el bytecode de java y lo convierte en instrucciones para la maquina."
+  },
+  {
+    "text": "¿que es el bytecode de java?"
+  },
+  {
+    "text": "el bytecode de java es un conjunto de instrucciones intermedias que java genera al compilar el codigo fuente. este bytecode puede ser ejecutado por cualquier jvm, permitiendo la portabilidad entre diferentes plataformas."
+  },
+  {
+    "text": "¿que es el recolector de basura en java?"
+  },
+  {
+    "text": "el recolector de basura en java es un proceso automatico que se encarga de liberar memoria eliminando objetos que ya no son utilizados por el programa. este proceso ayuda a evitar perdidas de memoria y a optimizar el rendimiento."
+  },
+  {
+    "text": "¿que es la herencia en java?"
+  },
+  {
+    "text": "la herencia en java es un mecanismo que permite a una clase adquirir propiedades y metodos de otra clase. esto permite la reutilizacion de codigo y la creacion de jerarquias de clases."
+  },
+  {
+    "text": "¿que es la interfaz en java?"
+  },
+  {
+    "text": "una interfaz en java es un tipo especial de clase abstracta que solo puede contener metodos abstractos (sin implementacion). las clases que implementan una interfaz deben proporcionar su propia implementacion para esos metodos."
+  },
+  {
+    "text": "¿que es una clase abstracta en java?"
+  },
+  {
+    "text": "una clase abstracta en java es una clase que no puede ser instanciada directamente. se utiliza como base para otras clases y puede contener metodos abstractos (sin implementacion) que las clases derivadas deben implementar."
+  },
+  {
+    "text": "¿que es el polimorfismo en java?"
+  },
+  {
+    "text": "el polimorfismo en java permite que un objeto sea tratado como una instancia de su clase base. esto se puede lograr mediante la sobrecarga de metodos (mismo nombre, diferentes parametros) o la sobrescritura de metodos (misma firma, diferente implementacion)."
+  },
+  {
+    "text": "¿que es un bloque de codigo?"
+  },
+  {
+    "text": "un bloque de codigo es un conjunto de instrucciones o declaraciones agrupadas, generalmente encerradas entre llaves `{}` en muchos lenguajes de programacion, que se ejecutan de forma conjunta."
+  },
+  {
+    "text": "¿que son las instrucciones?"
+  },
+  {
+    "text": "las instrucciones son comandos o expresiones dentro de un programa que indican al computador que accion debe realizar, como asignar valores, realizar calculos o imprimir informacion."
+  },
+  {
+    "text": "¿que son las declaraciones?"
+  },
+  {
+    "text": "las declaraciones son lineas de codigo que definen variables, funciones, clases u otros elementos en un programa, estableciendo su nombre, tipo o propiedades, pero sin necesariamente ejecutar una accion."
+  },
+  {
+    "text": "¿que es javascript?"
+  },
+  {
+    "text": "javascript es un lenguaje de programacion interpretado utilizado principalmente en el desarrollo web. permite la creacion de interactividad en las paginas web y se ejecuta en el navegador del usuario."
+  },
+  {
+    "text": "¿que es c++?"
+  },
+  {
+    "text": "c++ es un lenguaje de programacion de alto nivel que extiende c añadiendo caracteristicas de programacion orientada a objetos. es utilizado en sistemas operativos, aplicaciones de alto rendimiento y videojuegos."
+  },
+  {
+    "text": "¿que es go?"
+  },
+  {
+    "text": "go (o golang) es un lenguaje de programacion desarrollado por google, diseñado para ser simple, eficiente y facil de usar. se utiliza principalmente en sistemas de backend y servicios web."
+  },
+  {
+    "text": "¿que es python?"
+  },
+  {
+    "text": "python es un lenguaje de programacion de alto nivel, interpretado y de proposito general. es conocido por su simplicidad y legibilidad, lo que lo hace popular entre principiantes y expertos."
+  },
+  {
+    "text": "¿que es la sintaxis en python?"
+  },
+  {
+    "text": "la sintaxis de python es sencilla y legible, diseñada para facilitar la escritura de codigo limpio y comprensible. a diferencia de otros lenguajes, python no utiliza corchetes { } para delimitar bloques de codigo, sino que se basa en la indentacion."
+  },
+  {
+    "text": "¿que es la indentacion?"
+  },
+  {
+    "text": "la indentacion es el uso de espacios o tabulaciones al comienzo de las lineas de codigo para estructurarlo visualmente. ayuda a mejorar la legibilidad del codigo y a identificar bloques de codigo dentro de estructuras de control como condicionales, bucles o funciones."
+  },
+  {
+    "text": "¿que son las listas en python?"
+  },
+  {
+    "text": "las listas en python son colecciones ordenadas y mutables de elementos. pueden contener elementos de diferentes tipos de datos, y los elementos se acceden mediante indices."
+  },
+  {
+    "text": "¿que es un diccionario en python?"
+  },
+  {
+    "text": "un diccionario en python es una coleccion de pares clave-valor. las claves deben ser unicas, y los valores pueden ser de cualquier tipo de dato. los diccionarios permiten una busqueda eficiente y rapida."
+  },
+  {
+    "text": "¿que es una funcion en python?"
+  },
+  {
+    "text": "una funcion en python es un bloque de codigo que puede ser reutilizado. se define usando la palabra clave def, seguida del nombre de la funcion y los parametros entre parentesis. las funciones pueden devolver valores mediante la palabra clave return."
+  },
+  {
+    "text": "¿que son las expresiones lambda en python?"
+  },
+  {
+    "text": "las expresiones lambda en python son funciones anonimas de una sola linea. se definen con la palabra clave lambda, seguidas de los parametros y el cuerpo de la funcion. son utiles para funciones pequeñas y de uso puntual."
+  },
+  {
+    "text": "¿que es un diccionario en python?"
+  },
+  {
+    "text": "un diccionario en python es una estructura de datos que almacena pares clave-valor. se define entre llaves `{}`, por ejemplo: `mi_diccionario = {nombre: juan, edad: 30}`."
+  },
+  {
+    "text": "¿que es una tupla en python?"
+  },
+  {
+    "text": "una tupla en python es una estructura de datos similar a una lista, pero inmutable. se define entre parentesis `()`, por ejemplo: `mi_tupla = (1, 2, 3)`."
+  },
+  {
+    "text": "¿que es el self en python?"
+  },
+  {
+    "text": "en python, `self` es una referencia a la instancia actual de la clase. se usa en los metodos de una clase para referirse a los atributos y metodos del objeto."
+  },
+  {
+    "text": "¿que es el principio de indentacion en python?"
+  },
+  {
+    "text": "python utiliza la indentacion para definir los bloques de codigo. cada nivel de indentacion (espacios o tabulaciones) indica un bloque de codigo relacionado, como en los bucles o condicionales."
+  },
+  {
+    "text": "¿que es un modulo en python?"
+  },
+  {
+    "text": "un modulo en python es un archivo que contiene definiciones y declaraciones de python. se puede importar en otros programas para reutilizar codigo."
+  },
+  {
+    "text": "¿que es map?"
+  },
+  {
+    "text": "`map` es una funcion de programacion que aplica una operacion o funcion especifica a cada elemento de una coleccion (como una lista o un array) y devuelve un nuevo iterable con los resultados."
+  },
+  {
+    "text": "¿que es un while?"
+  },
+  {
+    "text": "un `while` es una estructura de control en programacion que ejecuta un bloque de codigo de manera repetitiva mientras se cumpla una condicion especificada. el bucle continua ejecutandose hasta que la condicion se evalue como falsa."
+  },
+  {
+    "text": "¿que es la sobrecarga de operadores en c++?"
+  },
+  {
+    "text": "la sobrecarga de operadores en c++ permite que los operadores estandar, como +, -, etc., se comporten de manera diferente segun el tipo de los operandos. esto permite hacer que las clases personalizadas tengan su propio comportamiento para estos operadores."
+  },
+  {
+    "text": "¿que es el manejo de memoria dinamica en c++?"
+  },
+  {
+    "text": "el manejo de memoria dinamica en c++ se realiza a traves de los operadores new y delete. new se utiliza para asignar memoria en el heap, y delete libera esa memoria cuando ya no es necesaria."
+  },
+  {
+    "text": "¿que es un puntero en c++?"
+  },
+  {
+    "text": "un puntero en c++ es una variable que almacena la direccion de memoria de otro objeto. los punteros permiten manipular directamente la memoria y son fundamentales para la creacion de estructuras de datos dinamicas y el manejo eficiente de recursos."
+  },
+  {
+    "text": "¿que son las plantillas (templates) en c++?"
+  },
+  {
+    "text": "las plantillas en c++ permiten crear funciones y clases genericas que pueden operar con diferentes tipos de datos sin necesidad de escribir varias versiones de la misma funcion o clase. son utiles para la programacion generica."
+  },
+  {
+    "text": "¿que es un constructor?"
+  },
+  {
+    "text": "un constructor es un metodo especial en la mayoria de los lenguajes de programacion orientados a objetos que se ejecuta automaticamente cuando se crea una instancia de una clase. su proposito es inicializar el objeto recien creado, estableciendo valores iniciales para sus atributos."
+  },
+  {
+    "text": "¿que es el dom en javascript?"
+  },
+  {
+    "text": "el dom (document object model) es una interfaz de programacion que permite a javascript interactuar con los elementos de una pagina web."
+  },
+  {
+    "text": "¿que son las promesas en javascript?"
+  },
+  {
+    "text": "las promesas en javascript son objetos que representan la eventual finalizacion (o fracaso) de una operacion asincronica. permiten escribir codigo asincronico de manera mas legible y manejable, usando los metodos then() y catch()."
+  },
+  {
+    "text": "¿que es la desestructuracion en javascript?"
+  },
+  {
+    "text": "la desestructuracion en javascript es una sintaxis que permite extraer valores de arreglos u objetos y asignarlos a variables de una manera mas concisa. se puede hacer con arreglos o con objetos."
+  },
+  {
+    "text": "¿que es el this en javascript?"
+  },
+  {
+    "text": "el this en javascript es una referencia al objeto sobre el cual se ejecuta el metodo o funcion. el valor de this depende del contexto de ejecucion: si se invoca dentro de un objeto, this se refiere a ese objeto."
+  },
+  {
+    "text": "¿que es el event loop en javascript?"
+  },
+  {
+    "text": "el event loop (bucle de eventos) es un mecanismo en javascript que gestiona la ejecucion de las operaciones asincronicas. permite que javascript maneje tareas como callbacks y promesas sin bloquear el hilo principal."
+  },
+  {
+    "text": "¿que es async?"
+  },
+  {
+    "text": "`async` es una palabra clave utilizada en muchos lenguajes de programacion (como python, javascript) para definir una funcion que se ejecutara de manera asincronica. esto significa que la funcion puede realizar operaciones que toman tiempo (como i/o o peticiones de red) sin bloquear la ejecucion del resto del codigo."
+  },
+  {
+    "text": "¿que es await?"
+  },
+  {
+    "text": "`await` es una palabra clave que se utiliza dentro de funciones `async` para pausar la ejecucion de la funcion hasta que se complete una operacion asincronica, como una promesa o una tarea, y luego continuar con el siguiente paso."
+  },
+  {
+    "text": "¿que es var?"
+  },
+  {
+    "text": "`var` es una palabra clave en javascript utilizada para declarar variables. las variables declaradas con `var` tienen un alcance (scope) global o de funcion, lo que puede llevar a comportamientos inesperados debido a su falta de alcance de bloque."
+  },
+  {
+    "text": "¿que es let?"
+  },
+  {
+    "text": "`let` es una palabra clave en javascript utilizada para declarar variables. a diferencia de `var`, `let` tiene un alcance de bloque, lo que significa que las variables declaradas con `let` solo estan disponibles dentro del bloque donde fueron declaradas (por ejemplo, dentro de un `if` o un `for`)."
+  },
+  {
+    "text": "¿que es go?"
+  },
+  {
+    "text": "go es un lenguaje de programacion de alto nivel, compilado y concurrente, desarrollado por google. se destaca por su simplicidad, velocidad de compilacion y capacidades de concurrencia mediante goroutines."
+  },
+  {
+    "text": "¿que son las goroutines en go?"
+  },
+  {
+    "text": "las goroutines en go son funciones o metodos que se ejecutan de manera concurrente. son ligeras y manejadas por el planificador de go, lo que permite ejecutar miles de goroutines simultaneamente sin un alto costo de rendimiento."
+  },
+  {
+    "text": "¿que es un canal (channel) en go?"
+  },
+  {
+    "text": "un canal en go es un mecanismo utilizado para comunicar goroutines entre si, permitiendo el paso de datos de manera segura entre ellas. los canales garantizan la sincronizacion y la transmision de datos sin que se necesiten locks."
+  },
+  {
+    "text": "¿que es la recoleccion de basura en go?"
+  },
+  {
+    "text": "go tiene un recolector de basura automatico que maneja la memoria de manera eficiente. el recolector de basura se ejecuta en segundo plano, limpiando la memoria de objetos no utilizados sin que el programador tenga que gestionarla manualmente."
+  },
+  {
+    "text": "¿que es la inferencia de tipos en go?"
+  },
+  {
+    "text": "la inferencia de tipos en go permite al compilador determinar el tipo de una variable basado en su valor sin necesidad de que el programador lo especifique explicitamente."
+  },
+  {
+    "text": "¿que es una interfaz en go?"
+  },
+  {
+    "text": "una interfaz en go es un conjunto de metodos que una estructura puede implementar. a diferencia de otros lenguajes, go no requiere declaracion explicita de implementacion, solo se requiere que los metodos de la interfaz esten presentes en la estructura."
+  },
+  {
+    "text": "¿que es el paquete fmt en go?"
+  },
+  {
+    "text": "el paquete fmt en go es utilizado para formatear y mostrar salida en la consola o para leer entradas del usuario. contiene funciones como fmt.println para imprimir datos y fmt.scanln para leer entradas."
+  },
+  {
+    "text": "¿como se gestionan los errores en go?"
+  },
+  {
+    "text": "en go, los errores se manejan explicitamente. las funciones que pueden fallar devuelven un valor de error como ultimo valor, y el programador debe verificar si ese valor es nil para determinar si ocurrio un error."
+  },
+  {
+    "text": "¿que es el modelo de concurrencia en go?"
+  },
+  {
+    "text": "go utiliza un modelo de concurrencia basado en goroutines y canales, permitiendo la ejecucion simultanea de funciones ligeras y la comunicacion entre ellas. este modelo es simple y eficiente para programas concurrentes."
+  },
+  {
+    "text": "¿que es la inicializacion de variables en go?"
+  },
+  {
+    "text": "en go, las variables se pueden inicializar explicitamente o implicitamente. si no se inicializan, se les asigna un valor por defecto segun su tipo (por ejemplo, 0 para enteros, nil para punteros, etc.)."
+  },
+  {
+    "text": "¿que es swift?"
+  },
+  {
+    "text": "swift es un lenguaje de programacion de alto nivel desarrollado por apple para la creacion de aplicaciones en sus plataformas (ios, macos, watchos, tvos). es un lenguaje moderno, rapido y seguro."
+  },
+  {
+    "text": "¿que es un optionals en swift?"
+  },
+  {
+    "text": "un optional en swift es un tipo que puede contener un valor o ser nil. los optionals permiten manejar la ausencia de valores de manera explicita y segura."
+  },
+  {
+    "text": "¿que es la inferencia de tipos en swift?"
+  },
+  {
+    "text": "la inferencia de tipos en swift permite que el compilador determine automaticamente el tipo de una variable a partir de su valor, sin necesidad de declarar explicitamente el tipo."
+  },
+  {
+    "text": "¿que es la seguridad de tipos en swift?"
+  },
+  {
+    "text": "swift tiene un sistema de tipos fuerte y estatico, lo que significa que el tipo de cada variable se conoce en tiempo de compilacion y no puede cambiar en tiempo de ejecucion."
+  },
+  {
+    "text": "¿que es un closure en swift?"
+  },
+  {
+    "text": "un closure en swift es un bloque de codigo que puede ser pasado y ejecutado en otro lugar. los closures son similares a las funciones, pero pueden capturar y almacenar referencias a las variables y constantes de su entorno."
+  },
+  {
+    "text": "¿que son las tuplas en swift?"
+  },
+  {
+    "text": "las tuplas en swift son tipos de datos compuestos que pueden contener multiples valores de diferentes tipos. son utiles para devolver multiples valores de una funcion."
+  },
+  {
+    "text": "¿que es el manejo de errores en swift?"
+  },
+  {
+    "text": "swift maneja los errores mediante el uso de try, catch y throw. las funciones que pueden generar errores se marcan con throws, y los errores se capturan usando do-try-catch."
+  },
+  {
+    "text": "¿que es una propiedad calculada en swift?"
+  },
+  {
+    "text": "una propiedad calculada en swift es una propiedad cuyo valor se calcula cada vez que se accede, en lugar de almacenarse directamente. se define usando una funcion get y, opcionalmente, set."
+  },
+  {
+    "text": "¿que son las extensiones en swift?"
+  },
+  {
+    "text": "las extensiones en swift permiten añadir nuevas funcionalidades a una clase, estructura, enumeracion o protocolo existente sin modificar su codigo original."
+  },
+  {
+    "text": "¿que es rust?"
+  },
+  {
+    "text": "rust es un lenguaje de programacion de sistemas que se enfoca en la seguridad, rendimiento y concurrencia. su sistema de tipos garantiza la seguridad en la memoria, eliminando problemas comunes como los desbordamientos de bufer."
+  },
+  {
+    "text": "¿que son los ownership en rust?"
+  },
+  {
+    "text": "el ownership (propiedad) en rust es un sistema que gestiona la memoria sin necesidad de un recolector de basura. cada variable tiene un propietario y, cuando el propietario sale de ambito, la memoria es automaticamente liberada."
+  },
+  {
+    "text": "¿que son los borrowings en rust?"
+  },
+  {
+    "text": "el borrowing (prestamo) en rust permite tomar prestada una referencia a un valor sin transferir su propiedad. existen dos tipos: mutable y no mutable. esto evita la duplicacion de datos y asegura la seguridad en la memoria."
+  },
+  {
+    "text": "¿que son los lifetimes en rust?"
+  },
+  {
+    "text": "los lifetimes en rust son un mecanismo para garantizar que las referencias a datos no sean usadas despues de que los datos sean liberados. los lifetimes ayudan al compilador a rastrear la duracion de las referencias."
+  },
+  {
+    "text": "¿que es una funcion match en rust?"
+  },
+  {
+    "text": "el match en rust es una construccion similar a un switch-case que permite hacer coincidir patrones de datos de manera exhaustiva. es util para trabajar con enumeraciones y otros tipos complejos."
+  },
+  {
+    "text": "¿que son las enums en rust?"
+  },
+  {
+    "text": "las enums (enumeraciones) en rust permiten definir tipos de datos que pueden tener diferentes variantes. esto es util para representar valores que pueden ser de varios tipos."
+  },
+  {
+    "text": "¿que son los modulos en rust?"
+  },
+  {
+    "text": "los modulos en rust son unidades de organizacion de codigo. permiten agrupar funciones, estructuras, enumeraciones y otros elementos relacionados dentro de un espacio de nombres."
+  },
+  {
+    "text": "¿como se manejan los errores en rust?"
+  },
+  {
+    "text": "rust maneja los errores utilizando el tipo result. este tipo tiene dos variantes: ok para indicar exito y err para indicar error. esto permite manejar los errores de manera explicita y segura."
+  },
+  {
+    "text": "¿que es el sistema de tipos en rust?"
+  },
+  {
+    "text": "rust tiene un sistema de tipos estatico y fuerte que garantiza la seguridad de la memoria en tiempo de compilacion. los tipos son verificados y las referencias se gestionan cuidadosamente para evitar errores comunes de manejo de memoria."
+  },
+  {
+    "text": "¿que es una estructura (struct) en rust?"
+  },
+  {
+    "text": "las estructuras en rust son tipos compuestos que permiten agrupar varios valores, que pueden ser de diferentes tipos, bajo un solo nombre. son utiles para modelar datos complejos."
+  },
+  {
+    "text": "¿que es el protocolo en swift?"
+  },
+  {
+    "text": "un protocolo en swift define un conjunto de metodos, propiedades y otros requisitos que un tipo debe adoptar para cumplir con ese protocolo. se pueden usar en clases, estructuras y enumeraciones."
+  },
+  {
+    "text": "¿como se maneja la memoria en swift?"
+  },
+  {
+    "text": "swift usa un sistema de conteo automatico de referencias (arc) para gestionar la memoria. cuando el conteo de referencias de un objeto llega a cero, la memoria se libera automaticamente."
+  },
+  {
+    "text": "¿que es un guard en swift?"
+  },
+  {
+    "text": "el guard en swift es una declaracion que se utiliza para comprobar condiciones en el flujo de control de un programa. si la condicion no se cumple, se ejecuta una accion de salida, como un return o break."
+  },
+  {
+    "text": "¿que es un closure en swift?"
+  },
+  {
+    "text": "un closure en swift es un bloque de codigo autocontenido que puede ser pasado y utilizado dentro del codigo. los closures pueden capturar y almacenar referencias a variables y constantes desde el contexto en el que fueron creados."
+  },
+  {
+    "text": "¿como se hace un downcasting en swift?"
+  },
+  {
+    "text": "el downcasting en swift se refiere a convertir una instancia de una clase base en una clase derivada. esto se puede hacer de manera segura con as? o as!."
+  },
+  {
+    "text": "¿que son las tuplas en swift?"
+  },
+  {
+    "text": "las tuplas en swift son estructuras de datos que agrupan varios valores en un solo compuesto. pueden contener valores de diferentes tipos y son utiles para devolver multiples valores desde una funcion."
+  },
+  {
+    "text": "¿que es un deinit en swift?"
+  },
+  {
+    "text": "el deinit en swift es un metodo especial que se llama cuando una instancia de una clase esta a punto de ser destruida. es util para liberar recursos o hacer limpieza."
+  },
+  {
+    "text": "¿que son los optional chaining en swift?"
+  },
+  {
+    "text": "el optional chaining en swift es un mecanismo que permite acceder a propiedades y metodos de un valor opcional de manera segura, devolviendo nil si el valor es nulo."
+  },
+  {
+    "text": "¿que son las enumeraciones en swift?"
+  },
+  {
+    "text": "las enumeraciones en swift permiten definir un conjunto de valores relacionados, como estados, opciones o categorias. son tipos de datos muy utiles para representar valores discretos."
+  },
+  {
+    "text": "¿que es un trait en rust?"
+  },
+  {
+    "text": "un trait en rust define un conjunto de metodos que un tipo debe implementar. los traits son similares a los protocolos en otros lenguajes y permiten la programacion orientada a interfaces."
+  },
+  {
+    "text": "¿que es la mutabilidad en rust?"
+  },
+  {
+    "text": "la mutabilidad en rust se refiere a la capacidad de modificar el valor de una variable. por defecto, las variables son inmutables, pero se pueden hacer mutables usando la palabra clave mut."
+  },
+  {
+    "text": "¿que es un result en rust?"
+  },
+  {
+    "text": "el tipo result en rust es usado para representar el resultado de una operacion que puede tener exito o fallar. tiene dos variantes: ok (exito) y err (error), lo que permite manejar los errores de manera explicita."
+  },
+  {
+    "text": "¿que es la safety en rust?"
+  },
+  {
+    "text": "la safety (seguridad) en rust se refiere a las garantias proporcionadas por el lenguaje para evitar errores comunes de manejo de memoria, como los punteros nulos o desbordamientos de bufer."
+  },
+  {
+    "text": "¿que es un pattern matching en rust?"
+  },
+  {
+    "text": "el pattern matching en rust es una caracteristica poderosa que permite comparar y hacer coincidir estructuras de datos con patrones. se utiliza comunmente con enums y es mas exhaustivo que los switch de otros lenguajes."
+  },
+  {
+    "text": "¿que son las closures en rust?"
+  },
+  {
+    "text": "las closures en rust son funciones anonimas que pueden capturar su entorno. pueden ser asignadas a variables, pasadas como argumentos o devueltas desde otras funciones."
+  },
+  {
+    "text": "¿que es el unsafe en rust?"
+  },
+  {
+    "text": "el unsafe en rust permite a los programadores escribir codigo que no sigue las garantias normales de seguridad del lenguaje. esto puede ser necesario en casos donde se requiere interaccion directa con la memoria."
+  },
+  {
+    "text": "¿que son las structs en rust?"
+  },
+  {
+    "text": "las structs en rust son tipos compuestos que agrupan varios valores bajo un solo nombre. las structs pueden tener diferentes tipos de datos y permiten modelar estructuras complejas."
+  },
+  {
+    "text": "¿que es un vector en rust?"
+  },
+  {
+    "text": "un vector en rust es una estructura de datos dinamica que almacena elementos en una secuencia. los vectores pueden cambiar de tamaño durante la ejecucion y se utilizan comunmente para trabajar con listas de datos."
+  },
+  {
+    "text": "¿como se gestionan las dependencias en rust?"
+  },
+  {
+    "text": "rust usa cargo como su sistema de gestion de paquetes. los proyectos de rust tienen un archivo cargo.toml que especifica las dependencias y configuraciones del proyecto."
+  },
+  {
+    "text": "hello"
+  },
+  {
+    "text": "hello! how can i help you?"
+  },
+  {
+    "text": "hello botsi"
+  },
+  {
+    "text": "hello! how can i help you?"
+  },
+  {
+    "text": "how are you?"
+  },
+  {
+    "text": "i'm fine! thank you for asking."
+  },
+  {
+    "text": "how are you?"
+  },
+  {
+    "text": "great, being a growing chatbot!"
+  },
+  {
+    "text": "what can you do?"
+  },
+  {
+    "text": "i can give you information about ai, machine learning and basic programming concepts, especially javascript, go, java, c++ and rust."
+  },
+  {
+    "text": "what can you do?"
+  },
+  {
+    "text": "i can give you information about ai, machine learning and basic programming concepts, especially javascript, go, java, c++ and rust."
+  },
+  {
+    "text": "how can you help me?"
+  },
+  {
+    "text": "i can give you information about ai, machine learning and basic programming concepts, especially javascript, go, java, c++ and rust."
+  },
+  {
+    "text": "what's your name?"
+  },
+  {
+    "text": "my name is botsi:)"
+  },
+  {
+    "text": "what's your name?"
+  },
+  {
+    "text": "my name is botsi:)"
+  },
+  {
+    "text": "goodbye"
+  },
+  {
+    "text": "see you later! have a great day:)."
+  },
+  {
+    "text": "goodbye botsi"
+  },
+  {
+    "text": "see you later! have a great day:)."
+  },
+  {
+    "text": "see you"
+  },
+  {
+    "text": "see you soon! take care of yourself."
+  },
+  {
+    "text": "take care"
+  },
+  {
+    "text": "bye! i look forward to talking to you soon."
+  },
+  {
+    "text": "see you soon"
+  },
+  {
+    "text": "see you soon! don't hesitate to come back if you need anything."
+  },
+  {
+    "text": "i say goodbye"
+  },
+  {
+    "text": "ok! may everything work out for you. until next time!"
+  },
+  {
+    "text": "what is machine learning?"
+  },
+  {
+    "text": "machine learning is a branch of artificial intelligence that allows machines to learn from data and improve their predictions or actions without being explicitly programmed. there are three forms of learning: supervised, unsupervised and reinforcement learning"
+  },
+  {
+    "text": "what is data?"
+  },
+  {
+    "text": "data in ai applications is used to train machine learning models, make predictions and improve decision-making"
+  },
+  {
+    "text": "what is artificial intelligence?"
+  },
+  {
+    "text": "artificial intelligence (ai) is the field of study that seeks to develop systems that can perform tasks that normally require human intelligence, such as learning and decision-making."
+  },
+  {
+    "text": "where is machine learning used?"
+  },
+  {
+    "text": "it is used in a wide variety of areas such as weather forecasting, data analysis, medical diagnosis, voice recognition, and much more."
+  },
+  {
+    "text": "what is machine learning?"
+  },
+  {
+    "text": "it is the scientific study of algorithms and statistical models for performing tasks using inference rather than explicit instructions."
+  },
+  {
+    "text": "what is reinforcement learning?"
+  },
+  {
+    "text": "it's a type of machine learning training where the agent interacts with their environment and learns to take actions with the objective of maximizing a reward."
+  },
+  {
+    "text": "what is transfer learning?"
+  },
+  {
+    "text": "it's an approach to machine learning where a model trained in a task is reused to improve the learning of a related but different task."
+  },
+  {
+    "text": "what is a classification model in machine learning?"
+  },
+  {
+    "text": "it's a model that predicts a category or class of a given entry. for example, classifying emails as spam or non-spam."
+  },
+  {
+    "text": "what is a regression model?"
+  },
+  {
+    "text": "it's a machine learning model that predicts continuous value, such as predicting the price of a house based on certain characteristics."
+  },
+  {
+    "text": "what is overfit in machine learning?"
+  },
+  {
+    "text": "this is when a model learns training data too well, capturing even noise, which reduces its ability to generalize with new data."
+  },
+  {
+    "text": "what is subsetting in machine learning?"
+  },
+  {
+    "text": "this is when a model fails to learn data patterns well enough, resulting in poor performance in both training and test data."
+  },
+  {
+    "text": "what is a confusion matrix?"
+  },
+  {
+    "text": "it is a table used to evaluate the performance of a classification model, showing correct and incorrect predictions classified into categories."
+  },
+  {
+    "text": "what are hyperparameters in machine learning?"
+  },
+  {
+    "text": "these are parameters that are not learned from data during training, but must be established before the training process, such as the learning rate or the number of layers in a neural network."
+  },
+  {
+    "text": "what is data preprocessing?"
+  },
+  {
+    "text": "it is the process of cleaning, transforming and organizing data before feeding it to a machine learning model to improve the quality of the model and its performance."
+  },
+  {
+    "text": "what is data normalization?"
+  },
+  {
+    "text": "it's a preprocessing technique that scales data to have a common range, usually between 0 and 1, to improve the performance of certain algorithms."
+  },
+  {
+    "text": "what is cross-validation in machine learning?"
+  },
+  {
+    "text": "it is a technique for evaluating the performance of a model by dividing the data set into several parts and training and testing the model in different combinations of these parts."
+  },
+  {
+    "text": "what is a machine learning algorithm?"
+  },
+  {
+    "text": "it's a set of instructions or steps that a model follows to learn from data and make predictions or make decisions."
+  },
+  {
+    "text": "what is big data?"
+  },
+  {
+    "text": "it is the extremely large and complex data set that cannot be processed with traditional methods due to its volume, speed or variety."
+  },
+  {
+    "text": "what are neural networks?"
+  },
+  {
+    "text": "they are a type of machine learning model inspired by the human brain, which is composed of nodes or neurons interconnected to perform classification, prediction and more tasks."
+  },
+  {
+    "text": "what is deep learning?"
+  },
+  {
+    "text": "it is a subfield of machine learning that uses deep neural networks, with multiple layers of nodes, to learn complex patterns in large volumes of data."
+  },
+  {
+    "text": "what is a classifier?"
+  },
+  {
+    "text": "it's a model or algorithm that assigns a category or label to an entry, such as classifying an email as spam or not spam."
+  },
+  {
+    "text": "what is a prediction model?"
+  },
+  {
+    "text": "it is a model that uses historical data to make predictions about future events, such as predicting the demand for a product or the climate."
+  },
+  {
+    "text": "what is sentiment analysis?"
+  },
+  {
+    "text": "it's a natural language processing (nlp) technique that analyzes the sentiment expressed in a text, such as determining if a comment is positive, negative, or neutral."
+  },
+  {
+    "text": "what is image recognition?"
+  },
+  {
+    "text": "it's a computer vision task that involves identifying objects or features within a digital image, such as detecting faces or identifying products in a store."
+  },
+  {
+    "text": "what is generative artificial intelligence?"
+  },
+  {
+    "text": "it's a type of ai that creates new data, such as generating text, images or music, based on previous examples."
+  },
+  {
+    "text": "what is natural language processing (nlp)?"
+  },
+  {
+    "text": "it is a field of artificial intelligence that deals with the interaction between machines and human language, allowing computers to understand and generate human language."
+  },
+  {
+    "text": "what is amazon sagemaker?"
+  },
+  {
+    "text": "it's an aws service that provides a platform for developing, training, and deploying machine learning models in the cloud."
+  },
+  {
+    "text": "what is amazon rekognition?"
+  },
+  {
+    "text": "it is an aws service that allows image and video analysis to identify objects, people, text and activities."
+  },
+  {
+    "text": "what is amazon polly?"
+  },
+  {
+    "text": "it's an aws text-to-speech service that uses machine learning to synthesize speech in multiple languages."
+  },
+  {
+    "text": "what is a language model?"
+  },
+  {
+    "text": "it is a type of machine learning model that is trained to understand and generate text in a coherent way, such as models used in chatbots or virtual assistants."
+  },
+  {
+    "text": "what is amazon lex?"
+  },
+  {
+    "text": "it's an aws service for building conversational interfaces using text and voice, such as chatbots and virtual assistants."
+  },
+  {
+    "text": "what is text analysis?"
+  },
+  {
+    "text": "it is a field within natural language processing that deals with analyzing and extracting useful information from texts, such as detecting themes, feelings or named entities."
+  },
+  {
+    "text": "what is time series analysis?"
+  },
+  {
+    "text": "it is a machine learning approach that is used to predict future values based on historical data ordered over time, such as the prediction of product demand."
+  },
+  {
+    "text": "what is amazon forecast?"
+  },
+  {
+    "text": "it's an aws service for generating time series forecasts, such as predicting sales or demand for products."
+  },
+  {
+    "text": "what is amazon comprehend?"
+  },
+  {
+    "text": "it's an aws service that uses machine learning to analyze text and extract information such as feelings, entities, and themes."
+  },
+  {
+    "text": "what is amazon translate?"
+  },
+  {
+    "text": "it's an aws machine translation service that translates text into multiple languages using machine learning models."
+  },
+  {
+    "text": "what is amazon codewhisperer?"
+  },
+  {
+    "text": "it's an aws service that helps developers generate code suggestions in real time, improving productivity and reducing development time."
+  },
+  {
+    "text": "what is a machine learning algorithm?"
+  },
+  {
+    "text": "it's a set of instructions or mathematical rules that a machine uses to learn from data and make decisions or make predictions."
+  },
+  {
+    "text": "what is a model in machine learning?"
+  },
+  {
+    "text": "a model is the result of training an algorithm with data. it's what you use to make predictions about new data."
+  },
+  {
+    "text": "what is a training set?"
+  },
+  {
+    "text": "it's a set of data that is used to train a machine learning model."
+  },
+  {
+    "text": "who created you?"
+  },
+  {
+    "text": "i was created by a team of students from the artificial intelligence course at cunoc xela: randy, pedro and alexis"
+  },
+  {
+    "text": "who are you?"
+  },
+  {
+    "text": "i'm just a chatbot created by students from the ai course"
+  },
+  {
+    "text": "who is the creator of artificial intelligence?"
+  },
+  {
+    "text": "ai doesn't have a single creator, but many scientists such as alan turing, john mccarthy and marvin minsky have been fundamental in its development."
+  },
+  {
+    "text": "how many countries are there in the world?"
+  },
+  {
+    "text": "there are currently 195 countries in the world, including 193 un member countries and 2 observer countries."
+  },
+  {
+    "text": "what is the fastest animal in the world?"
+  },
+  {
+    "text": "the cheetah is the fastest land animal, reaching speeds of up to 112 km/h."
+  },
+  {
+    "text": "did you know that cats can do pirouettes?"
+  },
+  {
+    "text": "yes! cats can rotate their bodies in the air, allowing them to land on their feet almost always."
+  },
+  {
+    "text": "why do programmers prefer coffee?"
+  },
+  {
+    "text": "because coffee is the only constant variable that doesn't change."
+  },
+  {
+    "text": "what is a bug?"
+  },
+  {
+    "text": "a bug is an error or failure in software that causes the program to not work properly."
+  },
+  {
+    "text": "did you know that programmers use strange names?"
+  },
+  {
+    "text": "yes, some programmers call their variables with names like foo or bar, by tradition."
+  },
+  {
+    "text": "what is a dataset?"
+  },
+  {
+    "text": "a dataset is a set of data used to train, test or validate a machine learning model."
+  },
+  {
+    "text": "what is a neural network?"
+  },
+  {
+    "text": "a neural network is a machine learning model inspired by the human brain, composed of interconnected nodes that simulate the behavior of neurons."
+  },
+  {
+    "text": "how do you measure the performance of a machine learning model?"
+  },
+  {
+    "text": "the performance of a model is measured using metrics such as precision, recall, f1-score or auc-roc, depending on the problem."
+  },
+  {
+    "text": "what is a perceptron?"
+  },
+  {
+    "text": "a perceptron is the simplest type of neural network, used for binary classification."
+  },
+  {
+    "text": "what's the difference between ai and machine learning?"
+  },
+  {
+    "text": "artificial intelligence is a broader field that includes machine learning, but also other areas such as natural language processing and computer vision."
+  },
+  {
+    "text": "can you tell me a joke?"
+  },
+  {
+    "text": "sure! why do programmers hate the beach? because it has too many bugs."
+  },
+  {
+    "text": "did you know that the first video game was created in 1958?"
+  },
+  {
+    "text": "yes, it's called tennis for two and it was created by william higinbotham."
+  },
+  {
+    "text": "what is artificial intelligence?"
+  },
+  {
+    "text": "artificial intelligence (ai) is the field of study that combines computer science with robust data sets to solve problems, seeking that machines perform tasks that normally require human intelligence, such as learning, reasoning or self-correction."
+  },
+  {
+    "text": "what is the history of artificial intelligence?"
+  },
+  {
+    "text": "the history of ai began in the 1930s with work by alan turing and emil post, who proposed the construction of automata capable of performing calculations. in 1956, john mccarthy coined the term artificial intelligence at the dartmouth summer research project on artificial intelligence conference, which marked the formal beginning of the field."
+  },
+  {
+    "text": "who was alan turing?"
+  },
+  {
+    "text": "alan turing was a mathematician and scientist who proposed the turing machine, a model of theoretical computing that laid the foundations of modern computing. he also created the turing test to evaluate whether a machine can mimic human behavior."
+  },
+  {
+    "text": "what is the turing test?"
+  },
+  {
+    "text": "the turing test, proposed by alan turing in 1950, consists of a test in which a human interacts with a computer and another person without knowing who is who. if the human cannot distinguish between the machine and the person, the machine passes the test."
+  },
+  {
+    "text": "what is deep learning?"
+  },
+  {
+    "text": "deep learning is a subset of machine learning that uses deep neural networks, inspired by the human brain, to solve complex problems such as image recognition, voice or natural language processing."
+  },
+  {
+    "text": "what is rpa?"
+  },
+  {
+    "text": "rpa (robotic process automation) is a technology that uses software robots or bots to automate repetitive, time-consuming manual tasks, such as data management or document processing."
+  },
+  {
+    "text": "what is logical programming?"
+  },
+  {
+    "text": "logical programming is a programming paradigm based on first-order logic. instead of specifying step by step how to perform a task, the relationships and conditions that must be met to obtain a result are described."
+  },
+  {
+    "text": "what is robotics?"
+  },
+  {
+    "text": "robotics is a technological discipline that combines several branches to design and create machines or robots programmed to perform automatic tasks or to simulate human or animal behavior."
+  },
+  {
+    "text": "when did the history of artificial intelligence begin?"
+  },
+  {
+    "text": "the history of artificial intelligence began in the 1940s, when the first ideas about machines that could simulate human thought began to be developed, with milestones such as the work of alan turing and the article by warren mccullough and walter pitts in 1943 on neural networks."
+  },
+  {
+    "text": "what is xcon?"
+  },
+  {
+    "text": "xcon (expert configurer) was a system created in 1978 by digital equipment corporation to configure orders for new computer systems, which marked a significant advance in the commercial application of artificial intelligence."
+  },
+  {
+    "text": "what is parry?"
+  },
+  {
+    "text": "parry, created in 1972 by psychiatrist kenneth colby, is a chatbot designed to simulate the behavior of a paranoid schizophrenic person. he was one of the first to attempt to model mental disorders using an artificial intelligence system."
+  },
+  {
+    "text": "what is the second winter of ai?"
+  },
+  {
+    "text": "the second winter of ai occurred in the late 1980s, when advances in artificial intelligence were less than expected and investments in the field declined, due to the lack of tangible results and the rise of alternative technologies."
+  },
+  {
+    "text": "who developed nettalk?"
+  },
+  {
+    "text": "nettalk was developed in 1985 by terry sejnowski and is a computer program that learns to pronounce words in a similar way as a child would, that is, by learning patterns and data."
+  },
+  {
+    "text": "when did deep blue win garry kasparov?"
+  },
+  {
+    "text": "deep blue, an ibm ai, defeated world chess champion garry kasparov in 1997, marking a milestone in the history of artificial intelligence by beating a human champion in a complex strategy game."
+  },
+  {
+    "text": "what is alphago?"
+  },
+  {
+    "text": "alphago is an artificial intelligence system developed by google deepmind that defeated the world go champion, lee sedol, in 2016. alphago is known for its advances in deep learning and the analysis of complex games."
+  },
+  {
+    "text": "how does machine learning work?"
+  },
+  {
+    "text": "in machine learning, algorithms are trained to find patterns and correlations in large data sets. as the algorithm receives more data, it improves its accuracy for making predictions or making decisions."
+  },
+  {
+    "text": "what are the types of learning in machine learning?"
+  },
+  {
+    "text": "there are three main types of learning in machine learning: 1) supervised, where algorithms learn from labeled data; 2) unsupervised, where algorithms search for patterns in unlabeled data; 3) reinforcement, where algorithms learn through trial and error, receiving rewards for correct decisions."
+  },
+  {
+    "text": "what is supervised learning?"
+  },
+  {
+    "text": "supervised learning is a type of learning in which algorithms receive labeled data, allowing them to learn to make predictions or make decisions based on the labels provided."
+  },
+  {
+    "text": "what is unsupervised learning?"
+  },
+  {
+    "text": "unsupervised learning is used when algorithms have no previous labels and must find patterns on their own, organizing data into groups or structures without human intervention."
+  },
+  {
+    "text": "what is reinforcement learning?"
+  },
+  {
+    "text": "reinforcement learning is a type of machine learning where algorithms learn from their own actions through a trial and error process, being rewarded for making correct decisions."
+  },
+  {
+    "text": "what are some machine learning applications?"
+  },
+  {
+    "text": "some machine learning applications include: google maps for traffic estimation, uber with its michelangelo platform to improve customer service, and meta, which uses machine learning to optimize advertising on its platforms."
+  },
+  {
+    "text": "how does google maps use machine learning?"
+  },
+  {
+    "text": "google maps uses machine learning combining real-time traffic data with historical patterns, allowing it to predict travel times and traffic conditions in real time."
+  },
+  {
+    "text": "what is michelangelo from uber?"
+  },
+  {
+    "text": "michelangelo is uber's internal machine learning platform that helps developers create models to improve company applications. an example of its use is the customer obsession ticket assistant (cota), which improves customer service."
+  },
+  {
+    "text": "how do you use meta machine learning?"
+  },
+  {
+    "text": "meta uses machine learning to improve the effectiveness of ads on its platforms. as people interact with ads, meta's machine learning system improves predictions about estimated action and ad quality."
+  },
+  {
+    "text": "what is data manipulation?"
+  },
+  {
+    "text": "data manipulation refers to the process of organizing, transforming and cleaning data to make it suitable for analysis and processing. it is comprised of several steps, such as data collection, protection, evaluation and visualization."
+  },
+  {
+    "text": "what is data collection?"
+  },
+  {
+    "text": "data collection consists of combining data from different sources into a single source that can feed our models. this process can be done through an etl (extraction, transformation and load) process."
+  },
+  {
+    "text": "what is data protection?"
+  },
+  {
+    "text": "data protection, also known as information security, is essential to prevent unauthorized access and protect data against possible corruption throughout its life cycle. it includes practices such as encryption, tokenization and key management."
+  },
+  {
+    "text": "what is data evaluation?"
+  },
+  {
+    "text": "data evaluation refers to ensuring that data extracted from various sources have a correct and unified format, so that analyses and studies of correlations and importance can be carried out on them."
+  },
+  {
+    "text": "what is data visualization?"
+  },
+  {
+    "text": "data visualization is the process of representing complex data using graphics or maps, making it easier to understand and allowing practical information to be extracted from raw data. visualization tools improve accuracy and automate visual communication."
+  },
+  {
+    "text": "what is github pages?"
+  },
+  {
+    "text": "github pages is a static website hosting service that publishes html, css and javascript files directly from a repository on github. there are three basic types of sites: project, user, and organization."
+  },
+  {
+    "text": "how do you publish a site on github pages?"
+  },
+  {
+    "text": "to publish a site on github pages, you must create a repository on github. <organization>for a user site, the repository must be called <username>.github.io, and for an organization site, the repository must be called .github.io."
+  },
+  {
+    "text": "what are the steps to deploy a page on github pages?"
+  },
+  {
+    "text": "the steps to deploy a page on github pages are: 1) initialize the repository; 2) update the `vite.config.js` file; 3) install the `gh-pages` package; 4) update `package.json`; 5) run the `run deploy` command."
+  },
+  {
+    "text": "what is the `gh-pages` package?"
+  },
+  {
+    "text": "the `gh-pages` package is a tool that allows you to easily deploy projects on github pages. it is used to automate the publication of static websites from a github repository."
+  },
+  {
+    "text": "how do neural networks work?"
+  },
+  {
+    "text": "neural networks work through nodes that operate as linear regression models. each node has inputs, weights, a bias, and an output. the inputs are multiplied by the weightings, and then go through an activation function to determine the output, which is passed to the next layer."
+  },
+  {
+    "text": "what is a feedforward neural network?"
+  },
+  {
+    "text": "a feedforward neural network is a basic type of neural network where information flows in a single direction from the input layer to the output layer, without feedback or cycles. each layer uses the output of the previous one as input for the next one."
+  },
+  {
+    "text": "what is a convolutional neural network?"
+  },
+  {
+    "text": "convolutional neural networks (cnn) are primarily used for image and video processing. they are organized in convolutional layers where each neuron is connected only to a local region of the previous layer, making it possible to detect specific characteristics, such as borders and patterns, regardless of their location."
+  },
+  {
+    "text": "what is the sigmoid function?"
+  },
+  {
+    "text": "the sigmoid function is a mathematical activation function with the form f (x) = 1/(1 + exp (-x)), whose output range is between 0 and 1. it's useful in binary classification problems, where the output must be 0 or 1."
+  },
+  {
+    "text": "what is the relu function?"
+  },
+  {
+    "text": "the relu (rectified linear unit) function is an activation function that is widely used in modern neural networks. its formula is f (x) = max (0, x), which means that for negative values the output is 0, and for positive values it is linear. it accelerates the learning process in deep neural networks."
+  },
+  {
+    "text": "what is the hyperbolic tangent function (tanh)?"
+  },
+  {
+    "text": "the hyperbolic tangent function (tanh) is similar to the sigmoid, but its output range is between -1 and 1. its formula is f (x) = (exp (x) - exp (-x))/(exp (x) + exp (-x)). it is useful in binary classification and regression problems where the outputs can be negative."
+  },
+  {
+    "text": "what is pattern recognition in neural networks?"
+  },
+  {
+    "text": "neural networks are useful for identifying patterns in large data sets. in voice recognition, networks can convert sound waves into text, and in image classification, they can recognize specific characteristics, such as shape and color, and classify images into categories."
+  },
+  {
+    "text": "how is the neural network used in natural language processing?"
+  },
+  {
+    "text": "neural networks are effective in human language processing. in machine translation, they learn to translate languages by analyzing language patterns. also in text generation, networks can create coherent and relevant content, such as articles or answers in search engines."
+  },
+  {
+    "text": "what is computer vision in neural networks?"
+  },
+  {
+    "text": "computer vision uses neural networks to identify objects in images and videos. this is useful for applications such as real-time detection, object tracking, and image classification. for example, in security cameras or in car analysis to determine brands or models."
+  },
+  {
+    "text": "how does volvo use augmented reality in neural networks?"
+  },
+  {
+    "text": "volvo uses augmented reality to obtain real-time information on parts, processes and tasks, improving the customer experience in showrooms. the neural network is also used to improve design and communication between operators."
+  },
+  {
+    "text": "how does bmw use augmented reality in its production?"
+  },
+  {
+    "text": "bmw uses augmented reality to evaluate production areas and test 3d processes. in addition, in job training, they use augmented reality glasses to train personnel in motor assembly units."
+  },
+  {
+    "text": "what are the applications of augmented reality in the automotive sector?"
+  },
+  {
+    "text": "augmented reality in the automotive sector improves the customer experience, as in bmw and volvo, by allowing them to view 3d models, obtain detailed product information and improve employee job training."
+  },
+  {
+    "text": "what is ai model training?"
+  },
+  {
+    "text": "ai model training is the process of feeding data to the algorithm, observing the results, and adjusting the model to improve its accuracy. algorithms learn to recognize patterns, understand the context and make decisions."
+  },
+  {
+    "text": "what is the retention method?"
+  },
+  {
+    "text": "the retention method is a training process where data is divided into three sets: training set, validation set and test set. the model is trained only with the training set, and the other sets are used to evaluate and adjust the model."
+  },
+  {
+    "text": "what is cross-validation of k iterations?"
+  },
+  {
+    "text": "cross-validation of k iterations is an approach where the training set is divided into k blocks. one of the blocks is used for validation and the others for training. this process is repeated for each of the blocks and the results are combined."
+  },
+  {
+    "text": "what is a machine learning algorithm?"
+  },
+  {
+    "text": "a machine learning algorithm is a set of rules or processes used by an ai system to perform tasks, such as discovering patterns in data or predicting values from a set of input variables."
+  },
+  {
+    "text": "what is xgboost?"
+  },
+  {
+    "text": "xgboost (extreme gradient boosting) is an algorithm based on decision trees that improves other methods such as random forest and gradient reinforcement. it works well with large data sets using several optimization methods."
+  },
+  {
+    "text": "what is the k-means algorithm?"
+  },
+  {
+    "text": "the k-means algorithm is a clustering method that divides a data set into k groups or clusters. the data is grouped so that the points within the same cluster are more similar to each other than to the points in other clusters."
+  },
+  {
+    "text": "what is model evaluation?"
+  },
+  {
+    "text": "model evaluation is the process of measuring and comparing the performance of models to determine their accuracy and effectiveness. it uses metrics such as accuracy, sensitivity, specificity and f1 score to evaluate how the model predicts new data."
+  },
+  {
+    "text": "what is the confusion matrix?"
+  },
+  {
+    "text": "the confusion matrix is a table that breaks down the number of real instances versus the predictions of a classifier. it helps calculate performance metrics such as precision and accuracy."
+  },
+  {
+    "text": "what is sensitivity?"
+  },
+  {
+    "text": "sensitivity is the probability that a result will be positive if the condition being evaluated actually exists. as sensitivity increases, the number of false negatives decreases."
+  },
+  {
+    "text": "what is specificity?"
+  },
+  {
+    "text": "specificity is the probability that the results will be negative when the condition being evaluated doesn't really exist. as specificity increases, the number of false positives decreases."
+  },
+  {
+    "text": "what is precision?"
+  },
+  {
+    "text": "accuracy is the measure of correctly identified positive cases among all expected positive cases. it's useful when the cost of false positives is high."
+  },
+  {
+    "text": "what is accuracy?"
+  },
+  {
+    "text": "accuracy is the proportion of correctly identified cases among all cases. it's useful when all classes are equally important."
+  },
+  {
+    "text": "what is the f1 score?"
+  },
+  {
+    "text": "the f1 score is the harmonic mean of precision and sensitivity. it's a useful metric when classes are out of balance, as it provides a better measure of incorrectly classified cases than accuracy."
+  },
+  {
+    "text": "what are hyperparameters?"
+  },
+  {
+    "text": "hyperparameters are configuration variables that are set before training the ai model. they are essential for managing the training process and determining model performance."
+  },
+  {
+    "text": "what is hyperparameter tuning?"
+  },
+  {
+    "text": "hyperparameter tuning is the process of identifying and selecting the optimal values for the hyperparameters of a model. this helps to minimize loss function and improve model performance."
+  },
+  {
+    "text": "what are support vector machines?"
+  },
+  {
+    "text": "support vector machines (svm) are a classification algorithm that seeks to separate data into different classes using a hyperplane. key hyperparameters include the kernel type and the margin parameter."
+  },
+  {
+    "text": "what are decision trees?"
+  },
+  {
+    "text": "decision trees are a machine learning model that makes decisions by dividing data into different categories based on conditions. key hyperparameters include the maximum depth of the tree and the minimum samples needed to divide a node."
+  },
+  {
+    "text": "what is the lot size?"
+  },
+  {
+    "text": "the batch size is the number of samples that the model processes before updating its weights. smaller batches provide more accurate updates, while larger batches improve computational efficiency."
+  },
+  {
+    "text": "what is the number of epochs?"
+  },
+  {
+    "text": "the number of epochs determines how many times the model passes the entire data set during training. too many epochs can cause overfitting, while too few can result in an underadjusted model."
+  },
+  {
+    "text": "what is a programming language?"
+  },
+  {
+    "text": "a programming language is a set of instructions that allow developers to write software and control the behavior of computers. programming languages allow the creation of applications, websites and operating systems."
+  },
+  {
+    "text": "what is syntax in a programming language?"
+  },
+  {
+    "text": "syntax in a programming language refers to the set of rules that define the structure and organization of the instructions that make up a program. each language has its own syntax."
+  },
+  {
+    "text": "what is a high-level programming language?"
+  },
+  {
+    "text": "a high-level programming language is one that is easy for human beings to read and write, with syntax that is close to natural language. examples of high-level languages are python, java and c++."
+  },
+  {
+    "text": "what is a low-level programming language?"
+  },
+  {
+    "text": "a low-level programming language is one that is closer to the machine language and provides less abstraction, allowing for more direct control over the hardware. examples of low-level languages are assembler and machine language."
+  },
+  {
+    "text": "what is a compiler?"
+  },
+  {
+    "text": "a compiler is a program that translates source code written in a high-level programming language into machine code that can be executed directly by a computer."
+  },
+  {
+    "text": "what is an interpreter?"
+  },
+  {
+    "text": "an interpreter is a program that executes a program line by line, translating and executing the code in real time, without generating an intermediate binary file. examples of interpreted languages are python and javascript."
+  },
+  {
+    "text": "what is object-oriented programming?"
+  },
+  {
+    "text": "object-oriented programming (oop) is a programming paradigm that uses objects to represent data and methods. each object is an instance of a class, and objects can interact with each other. examples of languages that support poo are java, c++ and python."
+  },
+  {
+    "text": "what is a class in object-oriented programming?"
+  },
+  {
+    "text": "a class in object-oriented programming is a template or model that defines the properties (attributes) and behaviors (methods) that the objects of that class will have. it is a fundamental concept in the oop."
+  },
+  {
+    "text": "what is an object in object-oriented programming?"
+  },
+  {
+    "text": "an object in object-oriented programming is an instance of a class. objects contain data and methods that define their behaviors."
+  },
+  {
+    "text": "what is inheritance in object-oriented programming?"
+  },
+  {
+    "text": "inheritance in object-oriented programming is a mechanism that allows a class to inherit properties and methods from another class. this promotes code reuse and the creation of class hierarchies."
+  },
+  {
+    "text": "what is polymorphism in object-oriented programming?"
+  },
+  {
+    "text": "polymorphism is a concept of object-oriented programming that allows objects of different classes to be treated as objects of a common class, usually through method overload or method redefinition."
+  },
+  {
+    "text": "what is encapsulation in object-oriented programming?"
+  },
+  {
+    "text": "encapsulation is the concept of hiding the internal details of a class and exposing only the necessary operations. this protects the data and ensures that access to it is done in a controlled manner."
+  },
+  {
+    "text": "what is exception handling in programming?"
+  },
+  {
+    "text": "exception handling is a process that allows programs to handle errors in a controlled manner during execution, rather than crashing abruptly. it is used through structures such as try, catch or finally."
+  },
+  {
+    "text": "what is an array?"
+  },
+  {
+    "text": "an array is a data structure that stores a collection of elements of the same type in an ordered sequence. the elements are accessed using indexes."
+  },
+  {
+    "text": "what is a programming function?"
+  },
+  {
+    "text": "a function is a block of code that performs a specific task and can be invoked anywhere in the program. functions can take arguments and return a value."
+  },
+  {
+    "text": "what is a variable in programming?"
+  },
+  {
+    "text": "a variable is a storage space that contains a value. the value of a variable can change during the execution of the program."
+  },
+  {
+    "text": "what is static typing?"
+  },
+  {
+    "text": "static typing is a feature of certain programming languages in which the type of variables is known at compile time. examples of statically typed languages are java and c++."
+  },
+  {
+    "text": "what is dynamic typing?"
+  },
+  {
+    "text": "dynamic typing is a feature of certain programming languages in which the type of variables is determined at run time, providing greater flexibility. examples of dynamically typed languages are python and javascript."
+  },
+  {
+    "text": "what is recursion in programming?"
+  },
+  {
+    "text": "recursion is a process in which a function calls itself to solve a problem. it is generally used to divide complex problems into smaller subproblems."
+  },
+  {
+    "text": "what is the source code?"
+  },
+  {
+    "text": "the source code is the set of instructions written in a programming language that make up a program. this code is processed by a compiler or interpreter to generate an executable program."
+  },
+  {
+    "text": "what is a compiled programming language?"
+  },
+  {
+    "text": "a compiled programming language is a language whose source code must be translated into executable machine code before it can be executed. examples include c, c++, and go."
+  },
+  {
+    "text": "what is an interpreted programming language?"
+  },
+  {
+    "text": "an interpreted programming language is one in which the source code is executed directly by an interpreter, without having to be compiled beforehand. examples include python, javascript, and ruby."
+  },
+  {
+    "text": "what is the functional paradigm?"
+  },
+  {
+    "text": "the functional paradigm is a programming approach in which programs are built using pure functions and avoiding side effects. functional languages include haskell, lisp, and erlang."
+  },
+  {
+    "text": "what is the imperative paradigm?"
+  },
+  {
+    "text": "the imperative paradigm is a programming approach that defines a sequence of instructions that change the state of the program. examples of imperative languages are c, java and python."
+  },
+  {
+    "text": "what is the declarative paradigm?"
+  },
+  {
+    "text": "the declarative paradigm is a programming approach in which the desired results are specified without explicitly defining the steps to achieve them. declarative languages include sql and html."
+  },
+  {
+    "text": "what is php?"
+  },
+  {
+    "text": "php is a general-purpose programming language, especially used for the development of web applications. php is a server-side language that generates dynamic html."
+  },
+  {
+    "text": "what is html?"
+  },
+  {
+    "text": "html (hypertext markup language) is the markup language used to structure and present content on the web."
+  },
+  {
+    "text": "what is css?"
+  },
+  {
+    "text": "css (cascading style sheets) is a design language used to describe the appearance of an html document, such as colors, fonts, and layout."
+  },
+  {
+    "text": "what is a server?"
+  },
+  {
+    "text": "a server is a machine or software that provides services, resources, or data to other computers (clients) on a network."
+  },
+  {
+    "text": "what is a web page?"
+  },
+  {
+    "text": "a web page is a document accessible through the web that can contain text, images, videos and other interactive resources."
+  },
+  {
+    "text": "what is software?"
+  },
+  {
+    "text": "software is the set of programs and applications that allow a computer to function and perform specific tasks."
+  },
+  {
+    "text": "what is hardware?"
+  },
+  {
+    "text": "hardware refers to the physical components of a computer or device, such as the processor, memory, hard drive, etc."
+  },
+  {
+    "text": "what is an array?"
+  },
+  {
+    "text": "an array is a data structure that can store multiple values of the same type under a common name."
+  },
+  {
+    "text": "what is a data structure?"
+  },
+  {
+    "text": "a data structure is a way of organizing and storing data so that it can be accessed and manipulated efficiently."
+  },
+  {
+    "text": "what are cookies?"
+  },
+  {
+    "text": "cookies are small text files that websites store in the user's browser to remember information and improve the browsing experience."
+  },
+  {
+    "text": "what is a class in programming?"
+  },
+  {
+    "text": "a class is a template for creating objects. classes define methods and properties that the objects instantiated in the class will share."
+  },
+  {
+    "text": "what is a method?"
+  },
+  {
+    "text": "a method is a function associated with an object or class that defines an action or behavior that the object can perform."
+  },
+  {
+    "text": "what is a function?"
+  },
+  {
+    "text": "a function is a block of code designed to perform a specific task, and can be invoked to execute that task when necessary."
+  },
+  {
+    "text": "what are properties?"
+  },
+  {
+    "text": "properties are characteristics or attributes of an object that define its state or characteristics."
+  },
+  {
+    "text": "what is an object?"
+  },
+  {
+    "text": "an object is an instance of a class that contains data (properties) and behaviors (methods) defined by the class."
+  },
+  {
+    "text": "what is instantiate?"
+  },
+  {
+    "text": "instantiate means creating an instance of a class, that is, creating an object from that class."
+  },
+  {
+    "text": "what is inheritance?"
+  },
+  {
+    "text": "inheritance allows one class to derive from another, inheriting its methods and properties. it is used to reuse code and create class hierarchies."
+  },
+  {
+    "text": "what is a variable?"
+  },
+  {
+    "text": "a variable is a storage space that has a name and can store a value that can change during the execution of a program."
+  },
+  {
+    "text": "what is a constant?"
+  },
+  {
+    "text": "a constant is a fixed value that cannot be modified after initialization in a program."
+  },
+  {
+    "text": "what is a for loop?"
+  },
+  {
+    "text": "a for loop is a control structure that repeats a block of code a specific number of times."
+  },
+  {
+    "text": "what is a loop?"
+  },
+  {
+    "text": "a loop is a control structure that repeats an action or set of actions multiple times depending on a condition."
+  },
+  {
+    "text": "what is an if?"
+  },
+  {
+    "text": "the if is a conditional structure that allows a block of code to be executed only if a specified condition is true."
+  },
+  {
+    "text": "what is an else?"
+  },
+  {
+    "text": "the else is a part of a conditional structure that is executed if the if condition is false."
+  },
+  {
+    "text": "what is a switch?"
+  },
+  {
+    "text": "a switch is a control structure that allows different blocks of code to be executed depending on the value of an expression."
+  },
+  {
+    "text": "what is a context?"
+  },
+  {
+    "text": "the context is the environment or set of conditions under which a program, function or part of the code is executed."
+  },
+  {
+    "text": "what is a compilation error?"
+  },
+  {
+    "text": "a compilation error is a problem detected by the compiler when trying to convert the source code into an executable file, usually due to syntax or type errors."
+  },
+  {
+    "text": "what is a conditional?"
+  },
+  {
+    "text": "a conditional is a control structure that allows a block of code to be executed only if a specific condition is met, allowing decisions in the program flow."
+  },
+  {
+    "text": "what is java?"
+  },
+  {
+    "text": "java is a general-purpose, object-oriented programming language developed by sun microsystems (now part of oracle). it stands out for its portability, since the java code can be executed on any device that has the java virtual machine (jvm) installed."
+  },
+  {
+    "text": "what is the java virtual machine (jvm)?"
+  },
+  {
+    "text": "the java virtual machine (jvm) is a virtual machine that allows programs written in java to run on any device without having to rewrite the code for each platform. the jvm interprets the java bytecode and converts it into instructions for the machine."
+  },
+  {
+    "text": "what is the java bytecode?"
+  },
+  {
+    "text": "the java bytecode is a set of intermediate instructions that java generates when compiling the source code. this bytecode can be executed by any jvm, allowing portability between different platforms."
+  },
+  {
+    "text": "what is the garbage collector in java?"
+  },
+  {
+    "text": "the garbage collector in java is an automatic process that frees up memory by deleting objects that are no longer used by the program. this process helps prevent memory loss and optimize performance."
+  },
+  {
+    "text": "what is inheritance in java?"
+  },
+  {
+    "text": "inheritance in java is a mechanism that allows a class to acquire properties and methods from another class. this allows the reuse of code and the creation of class hierarchies."
+  },
+  {
+    "text": "what is the interface in java?"
+  },
+  {
+    "text": "an interface in java is a special type of abstract class that can only contain abstract methods (without implementation). classes that implement an interface must provide their own implementation for those methods."
+  },
+  {
+    "text": "what is an abstract class in java?"
+  },
+  {
+    "text": "an abstract class in java is a class that cannot be instantiated directly. it is used as a base for other classes and may contain abstract methods (without implementation) that derived classes must implement."
+  },
+  {
+    "text": "what is polymorphism in java?"
+  },
+  {
+    "text": "polymorphism in java allows an object to be treated as an instance of its base class. this can be achieved by overloading methods (same name, different parameters) or overwriting methods (same signature, different implementation)."
+  },
+  {
+    "text": "what is a code block?"
+  },
+  {
+    "text": "a block of code is a set of instructions or grouped statements, usually enclosed in braces `{}` in many programming languages, that are executed together."
+  },
+  {
+    "text": "what are instructions?"
+  },
+  {
+    "text": "instructions are commands or expressions within a program that tell the computer what action it should perform, such as assigning values, performing calculations or printing information."
+  },
+  {
+    "text": "what are statements?"
+  },
+  {
+    "text": "statements are lines of code that define variables, functions, classes or other elements in a program, setting their name, type or properties, but without necessarily executing an action."
+  },
+  {
+    "text": "what is javascript?"
+  },
+  {
+    "text": "javascript is an interpreted programming language used primarily in web development. it allows the creation of interactivity on web pages and runs in the user's browser."
+  },
+  {
+    "text": "what is c++?"
+  },
+  {
+    "text": "c++ is a high-level programming language that extends c by adding object-oriented programming features. it is used in operating systems, high-performance applications and video games."
+  },
+  {
+    "text": "what is go?"
+  },
+  {
+    "text": "go (or golang) is a programming language developed by google, designed to be simple, efficient and easy to use. it is primarily used in backend systems and web services."
+  },
+  {
+    "text": "what is python?"
+  },
+  {
+    "text": "python is a high-level, interpreted, general-purpose programming language. it's known for its simplicity and readability, making it popular with beginners and experts alike."
+  },
+  {
+    "text": "what is syntax in python?"
+  },
+  {
+    "text": "python's syntax is simple and readable, designed to make it easier to write clean and understandable code. unlike other languages, python doesn't use square brackets {} to delimit blocks of code, but is based on indentation."
+  },
+  {
+    "text": "what is indentation?"
+  },
+  {
+    "text": "indentation is the use of spaces or tabs at the beginning of lines of code to visually structure it. it helps to improve code readability and to identify blocks of code within control structures such as conditionals, loops or functions."
+  },
+  {
+    "text": "what are lists in python?"
+  },
+  {
+    "text": "lists in python are ordered, mutable collections of elements. they can contain elements of different types of data, and the elements are accessed using indexes."
+  },
+  {
+    "text": "what is a dictionary in python?"
+  },
+  {
+    "text": "a python dictionary is a collection of key-value pairs. the keys must be unique, and the values can be of any type of data. dictionaries allow for an efficient and fast search."
+  },
+  {
+    "text": "what is a function in python?"
+  },
+  {
+    "text": "a python function is a block of code that can be reused. it is defined using the def keyword, followed by the name of the function and the parameters in parentheses. functions can return values using the return keyword."
+  },
+  {
+    "text": "what are lambda expressions in python?"
+  },
+  {
+    "text": "lambda expressions in python are anonymous single-line functions. they are defined with the keyword lambda, followed by the parameters and the body of the function. they are useful for small, one-time functions."
+  },
+  {
+    "text": "what is a dictionary in python?"
+  },
+  {
+    "text": "a dictionary in python is a data structure that stores key-value pairs. it is defined in braces `{}`, for example: `my_dictionary = {name: juan, age: 30} `."
+  },
+  {
+    "text": "what is a tuple in python?"
+  },
+  {
+    "text": "a tuple in python is a data structure similar to a list, but immutable. it is defined in parenthesis `()`, for example: `my_tuple = (1, 2, 3) `."
+  },
+  {
+    "text": "what is self in python?"
+  },
+  {
+    "text": "in python, `self` is a reference to the current instance of the class. it is used in the methods of a class to refer to the attributes and methods of the object."
+  },
+  {
+    "text": "what is the indentation principle in python?"
+  },
+  {
+    "text": "python uses indentation to define blocks of code. each level of indentation (spaces or tabs) indicates a related block of code, such as in loops or conditionals."
+  },
+  {
+    "text": "what is a module in python?"
+  },
+  {
+    "text": "a python module is a file that contains python definitions and statements. it can be imported into other programs to reuse code."
+  },
+  {
+    "text": "what is map?"
+  },
+  {
+    "text": "`map` is a programming function that applies a specific operation or function to each element of a collection (such as a list or array) and returns a new iterable with the results."
+  },
+  {
+    "text": "what is a while?"
+  },
+  {
+    "text": "a `while` is a programmatic control structure that executes a block of code repetitively while a specified condition is met. the loop continues to execute until the condition is evaluated as false."
+  },
+  {
+    "text": "what is operator overload in c++?"
+  },
+  {
+    "text": "operator overload in c++ allows standard operators, such as +, -, etc., to behave differently depending on the type of the operands. this allows custom classes to have their own behavior for these operators."
+  },
+  {
+    "text": "what is dynamic memory management in c++?"
+  },
+  {
+    "text": "dynamic memory management in c++ is performed using the new and delete operators. new is used to allocate memory in the heap, and delete releases that memory when it's no longer needed."
+  },
+  {
+    "text": "what is a pointer in c++?"
+  },
+  {
+    "text": "a pointer in c++ is a variable that stores the memory address of another object. pointers allow memory to be directly manipulated and are essential for the creation of dynamic data structures and the efficient management of resources."
+  },
+  {
+    "text": "what are templates in c++?"
+  },
+  {
+    "text": "c++ templates allow you to create generic functions and classes that can operate with different types of data without having to write several versions of the same function or class. they are useful for generic programming."
+  },
+  {
+    "text": "what is a constructor?"
+  },
+  {
+    "text": "a constructor is a special method in most object-oriented programming languages that is automatically executed when an instance of a class is created. its purpose is to initialize the newly created object, setting initial values for its attributes."
+  },
+  {
+    "text": "what is the dom in javascript?"
+  },
+  {
+    "text": "the dom (document object model) is a programming interface that allows javascript to interact with the elements of a web page."
+  },
+  {
+    "text": "what are promises in javascript?"
+  },
+  {
+    "text": "promises in javascript are objects that represent the possible completion (or failure) of an asynchronous operation. they allow you to write asynchronous code in a more readable and manageable way, using the then () and catch () methods."
+  },
+  {
+    "text": "what is destructuring in javascript?"
+  },
+  {
+    "text": "destructuring in javascript is a syntax that allows you to extract values from arrays or objects and assign them to variables in a more concise way. it can be done with arrangements or with objects."
+  },
+  {
+    "text": "what is this in javascript?"
+  },
+  {
+    "text": "this in javascript is a reference to the object on which the method or function is executed. the value of this depends on the execution context: if it is invoked inside an object, this refers to that object."
+  },
+  {
+    "text": "what is the event loop in javascript?"
+  },
+  {
+    "text": "the event loop is a javascript mechanism that manages the execution of asynchronous operations. it allows javascript to handle tasks such as callbacks and promises without blocking the main thread."
+  },
+  {
+    "text": "what is async?"
+  },
+  {
+    "text": "`async` is a keyword used in many programming languages (such as python, javascript) to define a function that will execute asynchronously. this means that the function can perform operations that take time (such as i/o or network requests) without blocking the execution of the rest of the code."
+  },
+  {
+    "text": "what is await?"
+  },
+  {
+    "text": "`await` is a keyword used within `async` functions to pause the execution of the function until an asynchronous operation, such as a promise or a task, is completed, and then continue with the next step."
+  },
+  {
+    "text": "what is var?"
+  },
+  {
+    "text": "`var` is a javascript keyword used to declare variables. variables declared with `var` have a global or function scope, which can lead to unexpected behavior due to their lack of block scope."
+  },
+  {
+    "text": "what is let?"
+  },
+  {
+    "text": "`let` is a javascript keyword used to declare variables. unlike `var`, `let` has a block scope, meaning that variables declared with `let` are only available within the block where they were declared (for example, inside an `if` or a `for`)."
+  },
+  {
+    "text": "what is go?"
+  },
+  {
+    "text": "go is a high-level, compiled and concurrent programming language developed by google. it stands out for its simplicity, compilation speed and concurrency capabilities using goroutines."
+  },
+  {
+    "text": "what are goroutines in go?"
+  },
+  {
+    "text": "goroutines in go are functions or methods that execute concurrently. they are lightweight and managed by the go planner, allowing you to run thousands of goroutines simultaneously without high performance costs."
+  },
+  {
+    "text": "what is a channel in go?"
+  },
+  {
+    "text": "a channel in go is a mechanism used to communicate goroutines with each other, allowing data to pass securely between them. the channels ensure synchronization and data transmission without the need for locks."
+  },
+  {
+    "text": "what is garbage collection in go?"
+  },
+  {
+    "text": "go has an automatic garbage collector that manages memory efficiently. the garbage collector runs in the background, clearing the memory of unused objects without the programmer having to manage it manually."
+  },
+  {
+    "text": "what is type inference in go?"
+  },
+  {
+    "text": "type inference in go allows the compiler to determine the type of a variable based on its value without the need for the programmer to specify it explicitly."
+  },
+  {
+    "text": "what is an interface in go?"
+  },
+  {
+    "text": "an interface in go is a set of methods that a structure can implement. unlike other languages, go does not require an explicit implementation declaration, only the interface methods are required to be present in the structure."
+  },
+  {
+    "text": "what is the fmt package in go?"
+  },
+  {
+    "text": "the fmt package in go is used to format and display console output or to read user input. it contains functions such as fmt.println for printing data and fmt.scanln for reading inputs."
+  },
+  {
+    "text": "how do you handle errors in go?"
+  },
+  {
+    "text": "in go, errors are explicitly handled. functions that can fail return an error value as their last value, and the programmer must check if that value is nil to determine if an error occurred."
+  },
+  {
+    "text": "what is the concurrency model in go?"
+  },
+  {
+    "text": "go uses a concurrency model based on goroutines and channels, allowing the simultaneous execution of lightweight functions and communication between them. this model is simple and efficient for concurrent programs."
+  },
+  {
+    "text": "what is variable initialization in go?"
+  },
+  {
+    "text": "in go, variables can be initialized explicitly or implicitly. if they are not initialized, they are assigned a default value depending on their type (for example, 0 for integers, nil for pointers, etc.)."
+  },
+  {
+    "text": "what is swift?"
+  },
+  {
+    "text": "swift is a high-level programming language developed by apple for creating applications on its platforms (ios, macos, watchos, tvos). it's a modern, fast and secure language."
+  },
+  {
+    "text": "what is an optionals in swift?"
+  },
+  {
+    "text": "an optional in swift is a type that can contain a value or be nil. optionals allow you to handle the absence of values explicitly and safely."
+  },
+  {
+    "text": "what is type inference in swift?"
+  },
+  {
+    "text": "type inference in swift allows the compiler to automatically determine the type of a variable from its value, without the need to explicitly declare the type."
+  },
+  {
+    "text": "what is type safety in swift?"
+  },
+  {
+    "text": "swift has a strong, static type system, meaning that the type of each variable is known at compile time and cannot change at run time."
+  },
+  {
+    "text": "what is a closure in swift?"
+  },
+  {
+    "text": "a closure in swift is a block of code that can be passed and executed elsewhere. closures are similar to functions, but they can capture and store references to variables and constants in their environment."
+  },
+  {
+    "text": "what are tuples in swift?"
+  },
+  {
+    "text": "tuples in swift are composite data types that can contain multiple values of different types. they are useful for returning multiple values from a function."
+  },
+  {
+    "text": "what is error handling in swift?"
+  },
+  {
+    "text": "swift handles errors using try, catch and throw. functions that can generate errors are marked with throws, and errors are caught using do-try-catch."
+  },
+  {
+    "text": "what is a calculated property in swift?"
+  },
+  {
+    "text": "a calculated property in swift is a property whose value is calculated each time it is accessed, instead of being stored directly. it is defined using a get function and, optionally, set."
+  },
+  {
+    "text": "what are extensions in swift?"
+  },
+  {
+    "text": "swift extensions allow you to add new functionality to an existing class, structure, enumeration or protocol without modifying its original code."
+  },
+  {
+    "text": "what is rust?"
+  },
+  {
+    "text": "rust is a system programming language that focuses on security, performance and concurrency. its type system ensures memory safety, eliminating common problems such as buffer overflows."
+  },
+  {
+    "text": "what are ownership in rust?"
+  },
+  {
+    "text": "ownership in rust is a system that manages memory without the need for a garbage collector. every variable has an owner and, when the owner leaves the scope, the memory is automatically freed."
+  },
+  {
+    "text": "what are borrowings in rust?"
+  },
+  {
+    "text": "borrowing in rust allows you to borrow a reference to a security without transferring your ownership. there are two types: mutable and non-mutable. this avoids duplication of data and ensures memory security."
+  },
+  {
+    "text": "what are lifetimes in rust?"
+  },
+  {
+    "text": "lifetimes in rust are a mechanism to ensure that references to data are not used after the data is released. lifetimes help the compiler track the duration of references."
+  },
+  {
+    "text": "what is a match function in rust?"
+  },
+  {
+    "text": "the match in rust is a switch-case-like construction that allows you to exhaustively match data patterns. it's useful for working with enumerations and other complex types."
+  },
+  {
+    "text": "what are enums in rust?"
+  },
+  {
+    "text": "the enums (enumerations) in rust allow you to define data types that can have different variants. this is useful for representing values that can be of various types."
+  },
+  {
+    "text": "what are modules in rust?"
+  },
+  {
+    "text": "modules in rust are units of code organization. they allow you to group functions, structures, enumerations and other related elements within a namespace."
+  },
+  {
+    "text": "how do you handle errors in rust?"
+  },
+  {
+    "text": "rust handles errors using the result type. this type has two variants: ok to indicate success and err to indicate error. this makes it possible to handle errors explicitly and securely."
+  },
+  {
+    "text": "what is the type system in rust?"
+  },
+  {
+    "text": "rust has a strong, static type system that ensures memory safety at compile time. types are verified and references are carefully managed to avoid common memory management errors."
+  },
+  {
+    "text": "what is a struct in rust?"
+  },
+  {
+    "text": "structures in rust are composite types that allow you to group several values, which can be of different types, under a single name. they are useful for modeling complex data."
+  },
+  {
+    "text": "what is the protocol in swift?"
+  },
+  {
+    "text": "a protocol in swift defines a set of methods, properties and other requirements that a type must adopt to comply with that protocol. they can be used in classes, structures, and enumerations."
+  },
+  {
+    "text": "how do you manage memory in swift?"
+  },
+  {
+    "text": "swift uses an automatic reference counting (arc) system to manage memory. when an object's reference count reaches zero, the memory is automatically freed."
+  },
+  {
+    "text": "what is a guard in swift?"
+  },
+  {
+    "text": "the guard in swift is a statement used to check conditions in the control flow of a program. if the condition is not met, an exit action, such as a return or break, is executed."
+  },
+  {
+    "text": "what is a closure in swift?"
+  },
+  {
+    "text": "a closure in swift is a self-contained block of code that can be passed and used within the code. closures can capture and store references to variables and constants from the context in which they were created."
+  },
+  {
+    "text": "how do you downcast in swift?"
+  },
+  {
+    "text": "downcasting in swift refers to converting an instance of a base class into a derived class. can this be done safely with as? not like that!."
+  },
+  {
+    "text": "what are tuples in swift?"
+  },
+  {
+    "text": "tuples in swift are data structures that group several values into a single compound. they can contain values of different types and are useful for returning multiple values from a function."
+  },
+  {
+    "text": "what is a deinit in swift?"
+  },
+  {
+    "text": "the deinit in swift is a special method that is called when an instance of a class is about to be destroyed. it's useful for freeing up resources or cleaning up."
+  },
+  {
+    "text": "what are optional chaining in swift?"
+  },
+  {
+    "text": "optional chaining in swift is a mechanism that allows you to access properties and methods of an optional value safely, returning nil if the value is null."
+  },
+  {
+    "text": "what are enumerations in swift?"
+  },
+  {
+    "text": "enumerations in swift allow you to define a set of related values, such as states, options or categories. these types of data are very useful for representing discrete values."
+  },
+  {
+    "text": "what is a trait in rust?"
+  },
+  {
+    "text": "a trait in rust defines a set of methods that a type must implement. traits are similar to protocols in other languages and allow interface-oriented programming."
+  },
+  {
+    "text": "what is mutability in rust?"
+  },
+  {
+    "text": "mutability in rust refers to the ability to modify the value of a variable. by default, variables are immutable, but they can be made mutable using the mut keyword."
+  },
+  {
+    "text": "what is a result in rust?"
+  },
+  {
+    "text": "the result type in rust is used to represent the result of an operation that can succeed or fail. it has two variants: ok (success) and err (error), which allows you to handle errors explicitly."
+  },
+  {
+    "text": "what is safety in rust?"
+  },
+  {
+    "text": "safety in rust refers to the guarantees provided by the language to avoid common memory management errors, such as null pointers or buffer overflows."
+  },
+  {
+    "text": "what is pattern matching in rust?"
+  },
+  {
+    "text": "pattern matching in rust is a powerful feature that allows you to compare and match data structures with patterns. it is commonly used with enums and is more comprehensive than other language switches."
+  },
+  {
+    "text": "what are closures in rust?"
+  },
+  {
+    "text": "closures in rust are anonymous functions that can capture your environment. they can be assigned to variables, passed as arguments, or returned from other functions."
+  },
+  {
+    "text": "what is unsafe in rust?"
+  },
+  {
+    "text": "the unsafe in rust allows programmers to write code that doesn't follow the language's normal security guarantees. this may be necessary in cases where direct interaction with memory is required."
+  },
+  {
+    "text": "what are structs in rust?"
+  },
+  {
+    "text": "structs in rust are composite types that group several values under a single name. structs can have different types of data and allow you to model complex structures."
+  },
+  {
+    "text": "what is a vector in rust?"
+  },
+  {
+    "text": "a vector in rust is a dynamic data structure that stores elements in a sequence. vectors can change size during execution and are commonly used to work with lists of data."
+  },
+  {
+    "text": "how do you manage dependencies in rust?"
+  },
+  {
+    "text": "rust uses cargo as its package management system. rust projects have a cargo.toml file that specifies the project's dependencies and settings."
+  },
+  {
+    "text": "¿como hago un bubble sort en python?"
+  },
+  {
+    "text": "aqui tienes un ejemplo de bubble sort en python:\n\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\n\nlista = [64, 34, 25, 12, 22, 11, 90]\nprint(bubble_sort(lista))\n```"
+  },
+  {
+    "text": "¿como hago un bubble sort en javascript?"
+  },
+  {
+    "text": "aqui tienes un ejemplo de bubble sort en javascript:\n\n```javascript\nfunction bubblesort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\nlet array = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(bubblesort(array));\n```"
+  },
+  {
+    "text": "¿como implemento un algoritmo de busqueda binaria en python?"
+  },
+  {
+    "text": "aqui tienes un ejemplo de busqueda binaria en python:\n\n```python\ndef binary_search(arr, x):\n    low, high = 0, len(arr) - 1\n    while low <= high:\n        mid = (low + high) // 2\n        if arr[mid] == x:\n            return mid\n        elif arr[mid] < x:\n            low = mid + 1\n        else:\n            high = mid - 1\n    return -1\n\narray = [1, 3, 5, 7, 9, 11]\nprint(binary_search(array, 5))\n```"
+  },
+  {
+    "text": "¿como implemento un algoritmo de busqueda binaria en javascript?"
+  },
+  {
+    "text": "aqui tienes un ejemplo de busqueda binaria en javascript:\n\n```javascript\nfunction binarysearch(arr, x) {\n    let low = 0, high = arr.length - 1;\n    while (low <= high) {\n        let mid = math.floor((low + high) / 2);\n        if (arr[mid] === x) return mid;\n        else if (arr[mid] < x) low = mid + 1;\n        else high = mid - 1;\n    }\n    return -1;\n}\n\nlet array = [1, 3, 5, 7, 9, 11];\nconsole.log(binarysearch(array, 5));\n```"
+  },
+  {
+    "text": "¿como implemento quicksort en python?"
+  },
+  {
+    "text": "aqui tienes un ejemplo de quicksort en python:\n\n```python\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quicksort(left) + middle + quicksort(right)\n\nlista = [3, 6, 8, 10, 1, 2, 1]\nprint(quicksort(lista))\n```"
+  },
+  {
+    "text": "¿como implemento quicksort en javascript?"
+  },
+  {
+    "text": "aqui tienes un ejemplo de quicksort en javascript:\n\n```javascript\nfunction quicksort(arr) {\n    if (arr.length <= 1) return arr;\n    let pivot = arr[math.floor(arr.length / 2)];\n    let left = arr.filter(x => x < pivot);\n    let middle = arr.filter(x => x === pivot);\n    let right = arr.filter(x => x > pivot);\n    return [...quicksort(left), ...middle, ...quicksort(right)];\n}\n\nlet array = [3, 6, 8, 10, 1, 2, 1];\nconsole.log(quicksort(array));\n```"
+  },
+  {
+    "text": "dame un ejemplo de quicksort "
+  },
+  {
+    "text": "ejmplo doble"
+  },
+  {
+    "text": "dame un ejemplo de quicksort en javascript"
+  },
+  {
+    "text": "aqui tienes un ejemplo de quicksort en javascript:\n\n```javascript\nfunction quicksort(arr) {\n    if (arr.length <= 1) return arr;\n    let pivot = arr[math.floor(arr.length / 2)];\n    let left = arr.filter(x => x < pivot);\n    let middle = arr.filter(x => x === pivot);\n    let right = arr.filter(x => x > pivot);\n    return [...quicksort(left), ...middle, ...quicksort(right)];\n}\n\nlet array = [3, 6, 8, 10, 1, 2, 1];\nconsole.log(quicksort(array));\n```"
+  },
+  {
+    "text": "dame un ejemplo de quicksort en python"
+  },
+  {
+    "text": "aqui tienes un ejemplo de quicksort en python:\n\n```python\nfunction quicksort(arr) {\n    if (arr.length <= 1) return arr;\n    let pivot = arr[math.floor(arr.length / 2)];\n    let left = arr.filter(x => x < pivot);\n    let middle = arr.filter(x => x === pivot);\n    let right = arr.filter(x => x > pivot);\n    return [...quicksort(left), ...middle, ...quicksort(right)];\n}\n\nlet array = [3, 6, 8, 10, 1, 2, 1];\nconsole.log(quicksort(array));\n```"
+  },
+  {
+    "text": "¿como implemento un algoritmo para encontrar el maximo comun divisor (mcd) en python?"
+  },
+  {
+    "text": "aqui tienes un ejemplo del calculo del mcd en python usando el algoritmo de euclides:\n\n```python\ndef mcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n\nprint(mcd(48, 18))\n```"
+  },
+  {
+    "text": "¿como implemento el mcd en javascript?"
+  },
+  {
+    "text": "aqui tienes un ejemplo del calculo del mcd en javascript:\n\n```javascript\nfunction mcd(a, b) {\n    while (b !== 0) {\n        let temp = b;\n        b = a % b;\n        a = temp;\n    }\n    return a;\n}\n\nconsole.log(mcd(48, 18));\n```"
+  },
+  {
+    "text": "¿como implemento el algoritmo de fibonacci en python?"
+  },
+  {
+    "text": "aqui tienes un ejemplo de la secuencia de fibonacci en python:\n\n```python\ndef fibonacci(n):\n    a, b = 0, 1\n    for _ in range(n):\n        print(a, end=' ')\n        a, b = b, a + b\n\nfibonacci(10)\n```"
+  },
+  {
+    "text": "¿como implemento el algoritmo de fibonacci en javascript?"
+  },
+  {
+    "text": "aqui tienes un ejemplo de la secuencia de fibonacci en javascript:\n\n```javascript\nfunction fibonacci(n) {\n    let a = 0, b = 1;\n    for (let i = 0; i < n; i++) {\n        console.log(a);\n        let temp = a;\n        a = b;\n        b = temp + b;\n    }\n}\n\nfibonacci(10);\n```"
+  },
+  {
+    "text": "¿que son los parametros en las funciones?"
+  },
+  {
+    "text": "los parametros en las funciones son valores que puedes pasarle a una funcion para que los utilice en su ejecucion. se definen dentro de los parentesis al declarar la funcion."
+  },
+  {
+    "text": "¿para que sirven los parametros en una funcion?"
+  },
+  {
+    "text": "los parametros en las funciones son valores que puedes pasarle a una funcion para que los utilice en su ejecucion. se definen dentro de los parentesis al declarar la funcion."
+  },
+  {
+    "text": "¿como se usan los parametros en funciones de javascript?"
+  },
+  {
+    "text": "los parametros en las funciones son valores que puedes pasarle a una funcion para que los utilice en su ejecucion. se definen dentro de los parentesis al declarar la funcion."
+  },
+  {
+    "text": "¿que hacen los parametros en una funcion?"
+  },
+  {
+    "text": "los parametros en las funciones son valores que puedes pasarle a una funcion para que los utilice en su ejecucion. se definen dentro de los parentesis al declarar la funcion."
+  },
+  {
+    "text": "¿como puedo escribir una funcion en javascript?"
+  },
+  {
+    "text": "una funcion en javascript se define utilizando la palabra clave `function`, seguida de un nombre, parentesis y un bloque de codigo entre llaves. por ejemplo: `function saludar() { console.log('hola'); }`."
+  },
+  {
+    "text": "¿como puedo escribir una funcion en js?"
+  },
+  {
+    "text": "una funcion en javascript se define utilizando la palabra clave `function`, seguida de un nombre, parentesis y un bloque de codigo entre llaves. por ejemplo: `function saludar() { console.log('hola'); }`."
+  },
+  {
+    "text": "¿puedes darme un ejemplo de funcion en javascript?"
+  },
+  {
+    "text": "claro, aqui tienes un ejemplo de una funcion que imprime un mensaje: `function saludar() { console.log('hola mundo'); }`."
+  },
+  {
+    "text": "¿puedes darme un ejemplo de funcion en js?"
+  },
+  {
+    "text": "claro, aqui tienes un ejemplo de una funcion que imprime un mensaje: `function saludar() { console.log('hola mundo'); }`."
+  },
+  {
+    "text": "dame un ejemplo de una funcion en javascript"
+  },
+  {
+    "text": "aqui tienes una funcion que no recibe parametros: `function mostrarfecha() { console.log(new date()); }`."
+  },
+  {
+    "text": "dame un ejemplo de una funcion en js"
+  },
+  {
+    "text": "aqui tienes una funcion que no recibe parametros: `function mostrarfecha() { console.log(new date()); }`."
+  },
+  {
+    "text": "genera una funcion en javascript sin parametros"
+  },
+  {
+    "text": "aqui tienes un ejemplo de una funcion sin parametros: `function despedir() { console.log('adios'); }`."
+  },
+  {
+    "text": "genera una funcion en js sin parametros"
+  },
+  {
+    "text": "aqui tienes un ejemplo de una funcion sin parametros: `function despedir() { console.log('adios'); }`."
+  },
+  {
+    "text": "¿como se define una funcion con parametros en javascript?"
+  },
+  {
+    "text": "para definir una funcion con parametros, debes incluir los parametros entre los parentesis. por ejemplo: `function saludar(nombre) { console.log('hola, ' + nombre); }`."
+  },
+  {
+    "text": "¿puedes darme un ejemplo de funcion con parametros en javascript?"
+  },
+  {
+    "text": "claro, aqui tienes una funcion que recibe un parametro y lo utiliza: `function multiplicar(a, b) { return a * b; }`."
+  },
+  {
+    "text": "genera una funcion en javascript que reciba un parametro."
+  },
+  {
+    "text": "aqui tienes un ejemplo de una funcion con un parametro: `function imprimirnombre(nombre) { console.log('tu nombre es: ' + nombre); }`."
+  },
+  {
+    "text": "dame un ejemplo de funcion en javascript con parametros."
+  },
+  {
+    "text": "aqui tienes un ejemplo de funcion con parametros: `function calcularedad(añonacimiento) { return 2024 - añonacimiento; }`."
+  },
+  {
+    "text": "dame una funcion en javascript con parametros."
+  },
+  {
+    "text": "aqui tienes un ejemplo de funcion con parametros: `function calcularedad(añonacimiento) { return 2024 - añonacimiento; }`."
+  },
+  {
+    "text": "dame una funcion en js con parametros."
+  },
+  {
+    "text": "aqui tienes un ejemplo de funcion con parametros: `function calcularedad(añonacimiento) { return 2024 - añonacimiento; }`."
+  },
+  {
+    "text": "¿como ejecutar una funcion sin parametros en js?"
+  },
+  {
+    "text": "para llamar a una funcion sin parametros, solo debes escribir su nombre seguido de parentesis. por ejemplo: `saludar();`."
+  },
+  {
+    "text": "¿como ejecutar una funcion en sin parametros en javascript?"
+  },
+  {
+    "text": "para llamar a una funcion sin parametros, solo debes escribir su nombre seguido de parentesis. por ejemplo: `saludar();`."
+  },
+  {
+    "text": "¿como invocar una funcion sin parametros en javascript?"
+  },
+  {
+    "text": "para invocar una funcion sin parametros, simplemente escribe su nombre y pon parentesis: `mostrarfecha();`."
+  },
+  {
+    "text": "¿como invocar una funcion sin parametros en js?"
+  },
+  {
+    "text": "para invocar una funcion sin parametros, simplemente escribe su nombre y pon parentesis: `mostrarfecha();`."
+  },
+  {
+    "text": "dame un ejemplo de como llamar una funcion sin parametros en javascript."
+  },
+  {
+    "text": "aqui tienes un ejemplo de llamada a una funcion sin parametros: `despedir();`."
+  },
+  {
+    "text": "dame un ejemplo de como llamar una funcion sin parametros en js."
+  },
+  {
+    "text": "aqui tienes un ejemplo de llamada a una funcion sin parametros: `despedir();`."
+  },
+  {
+    "text": "¿como invocar una funcion con parametros en javascript?"
+  },
+  {
+    "text": "para invocar una funcion con parametros, debes pasar los valores que espera en los parentesis. por ejemplo: `saludar('angela');`."
+  },
+  {
+    "text": "¿como invocar una funcion con parametros en js?"
+  },
+  {
+    "text": "para invocar una funcion con parametros, debes pasar los valores que espera en los parentesis. por ejemplo: `saludar('angle');`."
+  },
+  {
+    "text": "¿como ejecutar una funcion con parametros en javascript?"
+  },
+  {
+    "text": "para ejecutar una funcion que tiene parametros, debes pasar los valores que espera entre los parentesis. por ejemplo: `nombrefuncion(valor1, valor2);`."
+  },
+  {
+    "text": "¿como ejecutar una funcion con parametros en js?"
+  },
+  {
+    "text": "para ejecutar una funcion que tiene parametros, debes pasar los valores que espera entre los parentesis. por ejemplo: `nombrefuncion(valor1, valor2);`."
+  },
+  {
+    "text": "¿como llamar una funcion con parametros en javascript?"
+  },
+  {
+    "text": "si la funcion tiene varios parametros, puedes llamarla pasando los valores en el mismo orden en que fueron definidos, por ejemplo: `nombrefuncion(valor1, valor2, valor3);`."
+  },
+  {
+    "text": "¿como llamar una funcion con parametros en js?"
+  },
+  {
+    "text": "si la funcion tiene varios parametros, puedes llamarla pasando los valores en el mismo orden en que fueron definidos, por ejemplo: `nombrefuncion(valor1, valor2, valor3);`."
+  },
+  {
+    "text": "¿como se estructura un metodo en javascript?"
+  },
+  {
+    "text": "un metodo en javascript es una funcion asociada a un objeto. se define de la siguiente manera: `const objeto = { metodo: function() { console.log('mensaje'); } };`."
+  },
+  {
+    "text": "¿como se define un metodo en javascript?"
+  },
+  {
+    "text": "un metodo en javascript es una funcion que pertenece a un objeto. se puede definir de esta manera: `const objeto = { metodo() { console.log('hola!'); } };`."
+  },
+  {
+    "text": "¿que es un metodo en javascript y como se define?"
+  },
+  {
+    "text": "un metodo en javascript es una funcion asociada a un objeto. se define utilizando la sintaxis de una funcion dentro del objeto. ejemplo: `const objeto = { metodo() { console.log('mensaje desde el metodo'); } };`."
+  },
+  {
+    "text": "¿como crear un metodo en javascript?"
+  },
+  {
+    "text": "para crear un metodo en javascript, escribe una funcion dentro de un objeto. ejemplo: `const persona = { saludar: function() { console.log('hola!'); } };`."
+  },
+  {
+    "text": "¿como definir un metodo en un objeto en javascript?"
+  },
+  {
+    "text": "un metodo en un objeto se define como una funcion dentro de ese objeto. ejemplo: `const objeto = { decirhola() { console.log('hola mundo!'); } };`."
+  },
+  {
+    "text": "¿como se estructura un metodo en js?"
+  },
+  {
+    "text": "un metodo en javascript es una funcion asociada a un objeto. se define de la siguiente manera: `const objeto = { metodo: function() { console.log('mensaje'); } };`."
+  },
+  {
+    "text": "¿como se define un metodo en js?"
+  },
+  {
+    "text": "un metodo en javascript es una funcion que pertenece a un objeto. se puede definir de esta manera: `const objeto = { metodo() { console.log('hola!'); } };`."
+  },
+  {
+    "text": "¿que es un metodo en js?"
+  },
+  {
+    "text": "un metodo en javascript es una funcion asociada a un objeto. se define utilizando la sintaxis de una funcion dentro del objeto. ejemplo: `const objeto = { metodo() { console.log('mensaje desde el metodo'); } };`."
+  },
+  {
+    "text": "¿como crear un metodo en js?"
+  },
+  {
+    "text": "para crear un metodo en javascript, escribe una funcion dentro de un objeto. ejemplo: `const persona = { saludar: function() { console.log('hola!'); } };`."
+  },
+  {
+    "text": "¿como definir un metodo en un objeto en js?"
+  },
+  {
+    "text": "un metodo en un objeto se define como una funcion dentro de ese objeto. ejemplo: `const objeto = { decirhola() { console.log('hola mundo!'); } };`."
+  },
+  {
+    "text": "¿como se estructura una funcion en javascript?"
+  },
+  {
+    "text": "una funcion en javascript se define utilizando la palabra clave `function` seguida del nombre de la funcion y los parentesis. ejemplo: `function saludar() { console.log('hola mundo'); }`."
+  },
+  {
+    "text": "¿como se define una funcion en javascript?"
+  },
+  {
+    "text": "se define una funcion en javascript con la palabra clave `function`, seguida del nombre de la funcion y un bloque de codigo. ejemplo: `function mostrarmensaje() { console.log('mensaje mostrado'); }`."
+  },
+  {
+    "text": "¿que es una funcion en javascript y como se define?"
+  },
+  {
+    "text": "una funcion en javascript es un bloque de codigo que se puede ejecutar cuando se llama. se define de la siguiente manera: `function mifuncion() { console.log('ejemplo de funcion'); }`."
+  },
+  {
+    "text": "¿como crear una funcion en javascript?"
+  },
+  {
+    "text": "para crear una funcion en javascript, se utiliza la palabra clave `function`, seguida de su nombre y cuerpo. ejemplo: `function ejemplo() { console.log('funcion creada'); }`."
+  },
+  {
+    "text": "¿como se estructura una funcion en js?"
+  },
+  {
+    "text": "una funcion en javascript se define utilizando la palabra clave `function` seguida del nombre de la funcion y los parentesis. ejemplo: `function saludar() { console.log('hola mundo'); }`."
+  },
+  {
+    "text": "¿como se define una funcion en js?"
+  },
+  {
+    "text": "se define una funcion en javascript con la palabra clave `function`, seguida del nombre de la funcion y un bloque de codigo. ejemplo: `function mostrarmensaje() { console.log('mensaje mostrado'); }`."
+  },
+  {
+    "text": "¿que es una funcion en js y como se define?"
+  },
+  {
+    "text": "una funcion en javascript es un bloque de codigo que se puede ejecutar cuando se llama. se define de la siguiente manera: `function mifuncion() { console.log('ejemplo de funcion'); }`."
+  },
+  {
+    "text": "¿como crear una funcion en js?"
+  },
+  {
+    "text": "para crear una funcion en javascript, se utiliza la palabra clave `function`, seguida de su nombre y cuerpo. ejemplo: `function ejemplo() { console.log('funcion creada'); }`."
+  },
+  {
+    "text": "¿como se estructura una funcion flecha en javascript?"
+  },
+  {
+    "text": "una funcion flecha en javascript se define utilizando la sintaxis `() => {}`. ejemplo: `const saludar = () => { console.log('hola desde la funcion flecha'); };`."
+  },
+  {
+    "text": "¿como se define una funcion flecha en javascript?"
+  },
+  {
+    "text": "una funcion flecha se define con `() => {}`. ejemplo: `const multiplicar = (a, b) => { return a * b; };`."
+  },
+  {
+    "text": "¿que es una funcion flecha en javascript?"
+  },
+  {
+    "text": "una funcion flecha es una forma mas corta de escribir una funcion. se define con la sintaxis `() => {}`. ejemplo: `const sumar = (x, y) => x + y;`."
+  },
+  {
+    "text": "¿como crear una funcion flecha en javascript?"
+  },
+  {
+    "text": "para crear una funcion flecha, usa la sintaxis `() => {}`. ejemplo: `const restar = (a, b) => a - b;`."
+  },
+  {
+    "text": "¿como se estructura una funcion flecha en js?"
+  },
+  {
+    "text": "una funcion flecha en javascript se define utilizando la sintaxis `() => {}`. ejemplo: `const saludar = () => { console.log('hola desde la funcion flecha'); };`."
+  },
+  {
+    "text": "¿como se define una funcion flecha en js?"
+  },
+  {
+    "text": "una funcion flecha se define con `() => {}`. ejemplo: `const multiplicar = (a, b) => { return a * b; };`."
+  },
+  {
+    "text": "¿que es una funcion flecha en js?"
+  },
+  {
+    "text": "una funcion flecha es una forma mas corta de escribir una funcion. se define con la sintaxis `() => {}`. ejemplo: `const sumar = (x, y) => x + y;`."
+  },
+  {
+    "text": "¿como crear una funcion flecha en js?"
+  },
+  {
+    "text": "para crear una funcion flecha, usa la sintaxis `() => {}`. ejemplo: `const restar = (a, b) => a - b;`."
+  },
+  {
+    "text": "¿como se estructura una funcion anonima en javascript?"
+  },
+  {
+    "text": "una funcion anonima en javascript es una funcion que no tiene nombre y puede ser asignada a una variable. ejemplo: `const mifuncion = function() { console.log('funcion anonima ejecutada'); };`."
+  },
+  {
+    "text": "¿como se define una funcion anonima en javascript?"
+  },
+  {
+    "text": "una funcion anonima se define sin un nombre y se puede asignar a una variable. ejemplo: `const saludar = function() { console.log('hola desde funcion anonima'); };`."
+  },
+  {
+    "text": "¿que es una funcion anonima en javascript?"
+  },
+  {
+    "text": "una funcion anonima en javascript es una funcion sin nombre. se define generalmente asi: `const calculo = function(a, b) { return a + b; };`."
+  },
+  {
+    "text": "¿como crear una funcion anonima en javascript?"
+  },
+  {
+    "text": "para crear una funcion anonima en javascript, solo debes omitir el nombre de la funcion y asignarla a una variable. ejemplo: `const mostrarmensaje = function() { console.log('funcion anonima creada'); };`."
+  },
+  {
+    "text": "¿como se estructura una funcion anonima en js?"
+  },
+  {
+    "text": "una funcion anonima en javascript es una funcion que no tiene nombre y puede ser asignada a una variable. ejemplo: `const mifuncion = function() { console.log('funcion anonima ejecutada'); };`."
+  },
+  {
+    "text": "¿como se define una funcion anonima en js?"
+  },
+  {
+    "text": "una funcion anonima se define sin un nombre y se puede asignar a una variable. ejemplo: `const saludar = function() { console.log('hola desde funcion anonima'); };`."
+  },
+  {
+    "text": "¿que es una funcion anonima en js?"
+  },
+  {
+    "text": "una funcion anonima en javascript es una funcion sin nombre. se define generalmente asi: `const calculo = function(a, b) { return a + b; };`."
+  },
+  {
+    "text": "¿como crear una funcion anonima en js?"
+  },
+  {
+    "text": "para crear una funcion anonima en javascript, solo debes omitir el nombre de la funcion y asignarla a una variable. ejemplo: `const mostrarmensaje = function() { console.log('funcion anonima creada'); };`."
+  }
+]

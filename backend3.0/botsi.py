@@ -147,6 +147,7 @@ train()
 import tkinter as tk
 from tkinter import ttk, filedialog
 from datetime import datetime
+from tkinter import PhotoImage  # Para cargar iconos en los botones
 
 # Configuración principal
 root = tk.Tk()
@@ -180,13 +181,19 @@ notebook.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 # Diccionario para almacenar frames y textos de chat
 chats = {}
 
+# Cargar iconos
+new_chat_icon = PhotoImage(file="new_chat.png")  # Cambia la ruta de la imagen
+send_icon = PhotoImage(file="send_message.png")  # Cambia la ruta de la imagen
+save_chat_icon = PhotoImage(file="save.png")  # Cambia la ruta de la imagen
+close_icon = PhotoImage(file="close.png")  # Cambia la ruta de la imagen
+
 # Función para agregar un nuevo chat
 def agregar_chat():
     chat_id = f"Chat {len(chats) + 1}"
     frame = tk.Frame(notebook, bg=CHAT_BG)
     
-    # Crear el botón de cerrar
-    close_button = tk.Button(frame, text="X", bg="#FF5733", fg="#ffffff", font=("Helvetica", 10, "bold"), bd=0, command=lambda: cerrar_chat(chat_id))
+    # Crear el botón de cerrar con icono
+    close_button = tk.Button(frame, image=close_icon, bg="#FF5733", fg="#ffffff", font=("Helvetica", 10, "bold"), bd=0, command=lambda: cerrar_chat(chat_id))
     close_button.pack(side=tk.TOP, anchor="ne", padx=5, pady=5)
 
     notebook.add(frame, text=chat_id)
@@ -204,8 +211,8 @@ def agregar_chat():
         wrap=tk.WORD,
         yscrollcommand=scrollbar.set,
         bd=0,
-        padx=10,
-        pady=10,
+        padx=15,
+        pady=15,
         state="disabled",  # Iniciar en modo de solo lectura
     )
     chat_text.pack(fill=tk.BOTH, expand=True)
@@ -214,7 +221,7 @@ def agregar_chat():
     # Configurar etiquetas para el fondo de los mensajes
     chat_text.tag_configure("user", background=USER_BG, foreground=TEXT_COLOR, justify=tk.LEFT)
     chat_text.tag_configure("bot", background=BOT_BG, foreground=TEXT_COLOR, justify=tk.RIGHT)
-    chat_text.tag_configure("highlight", background="#FFCCCB")  # Resaltado en rojo claro
+    chat_text.tag_configure("highlight", background="#4899c8")  # Resaltado en rojo claro
 
     # Vincular el evento para resaltar la selección
     chat_text.bind("<B1-Motion>", resaltar_seleccion)
@@ -257,7 +264,6 @@ def enviar_mensaje(event=None):
         chat_text.yview(tk.END)
         entry.delete(0, tk.END)
 
-
 # Función para guardar el chat actual
 def guardar_chat():
     current_tab = notebook.tab(notebook.select(), "text")
@@ -296,19 +302,17 @@ def resaltar_seleccion(event):
         chat_text.tag_remove("highlight", "1.0", tk.END)
 
 # Frame izquierdo (botón de nuevo chat)
-left_frame = tk.Frame(root, bg=BG_COLOR, width=150)
-left_frame.pack(side=tk.LEFT, fill=tk.Y, padx=10, pady=10)
+left_frame = tk.Frame(root, bg=BG_COLOR)
+left_frame.pack(side=tk.LEFT, fill=tk.Y, padx=10, pady=5)
 
 new_chat_button = tk.Button(
     left_frame,
-    text="Nuevo Chat",
+    image=new_chat_icon,  # Icono para el nuevo chat
     bg=BUTTON_BG,
     fg=BUTTON_FG,
     font=("Helvetica", 12, "bold"),
     command=agregar_chat,
-    bd=0,
-    padx=5,
-    pady=5,
+    bd=0
 )
 new_chat_button.pack(side=tk.TOP, pady=10)
 
@@ -328,7 +332,7 @@ entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=10, pady=5)
 
 send_button = tk.Button(
     entry_frame,
-    text="Enviar",
+    image=send_icon,  # Icono para el botón de enviar
     bg=BUTTON_BG,
     fg=BUTTON_FG,
     font=("Helvetica", 12, "bold"),
@@ -341,7 +345,7 @@ send_button.pack(side=tk.RIGHT)
 
 save_chat_button = tk.Button(
     entry_frame,
-    text="Guardar Chat",
+    image=save_chat_icon,  # Icono para guardar chat
     bg=BUTTON_BG,
     fg=BUTTON_FG,
     font=("Helvetica", 12, "bold"),
