@@ -27,19 +27,25 @@
     "text": "¿Qué puedes hacer?"
   },
   {
-    "text": "Puedo darte información sobre IA, Machine Learning y con conceptos básicos sobre programación, especialmente sobre JavaScript, Go, Java, C++ y Rust."
+    "text": "Puedo darte información sobre IA, Machine Learning y conceptos básicos sobre programación, especialmente sobre JavaScript, Go, Java, C++ y Rust, así como darte ejemplos sobre JavaScript y Python sobre Puedo darte ejemplos sobre: \nFunciones especiales en programacion \nAlgoritmos de ordenamiento \nCondicionales como `if`, `if-else`, `switch` \nFunciones Random, variables, ciclos (for, while, do while), sintaxis de JavaScript y Python, promesas en Javascript, Arboles binarios, defincion de metodos y funciones, arreglos, comentarios, json, impresiones, pilas, colas, listas enlazadas"
   },
   {
     "text": "¿Qué sabes hacer?"
   },
   {
-    "text": "Puedo darte información sobre IA, Machine Learning y con conceptos básicos sobre programación, especialmente sobre JavaScript, Go, Java, C++ y Rust."
+    "text": "Puedo darte información sobre IA, Machine Learning y conceptos básicos sobre programación, especialmente sobre JavaScript, Go, Java, C++ y Rust, así como darte ejemplos sobre JavaScript y Python sobre Puedo darte ejemplos sobre: \nFunciones especiales en programacion \nAlgoritmos de ordenamiento \nCondicionales como `if`, `if-else`, `switch` \nFunciones Random, variables, ciclos (for, while, do while), sintaxis de JavaScript y Python, promesas en Javascript, Arboles binarios, defincion de metodos y funciones, arreglos, comentarios, json, impresiones, pilas, colas, listas enlazadas"
   },
   {
     "text": "¿En que puedes ayudarme?"
   },
   {
-    "text": "Puedo darte información sobre IA, Machine Learning y con conceptos básicos sobre programación, especialmente sobre JavaScript, Go, Java, C++ y Rust."
+    "text": "Puedo darte información sobre IA, Machine Learning y conceptos básicos sobre programación, especialmente sobre JavaScript, Go, Java, C++ y Rust, así como darte ejemplos sobre JavaScript y Python sobre Puedo darte ejemplos sobre: \nFunciones especiales en programacion \nAlgoritmos de ordenamiento \nCondicionales como `if`, `if-else`, `switch` \nFunciones Random, variables, ciclos (for, while, do while), sintaxis de JavaScript y Python, promesas en Javascript, Arboles binarios, defincion de metodos y funciones, arreglos, comentarios, json, impresiones, pilas, colas, listas enlazadas"
+  },
+  {
+    "text": "En que puedes ayudarme con codigo o algoritmos"
+  },
+  {
+    "text": "Puedo darte información sobre IA, Machine Learning y conceptos básicos sobre programación, especialmente sobre JavaScript, Go, Java, C++ y Rust, así como darte ejemplos sobre JavaScript y Python sobre Puedo darte ejemplos sobre: \nFunciones especiales en programacion \nAlgoritmos de ordenamiento \nCondicionales como `if`, `if-else`, `switch` \nFunciones Random, variables, ciclos (for, while, do while), sintaxis de JavaScript y Python, promesas en Javascript, Arboles binarios, defincion de metodos y funciones, arreglos, comentarios, json, impresiones, pilas, colas, listas enlazadas"
   },
   {
     "text": "¿Cómo te llamas?"
@@ -3324,232 +3330,119 @@
     "text": "Rust uses Cargo as its package management system. Rust projects have a Cargo.toml file that specifies the project's dependencies and settings."
   },
   {
-    "text": "¿Cómo hago un bubble sort en Python?"
-  },
-  {
-    "text": "Aquí tienes un ejemplo de bubble sort en Python:\n\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\n\nlista = [64, 34, 25, 12, 22, 11, 90]\nprint(bubble_sort(lista))\n```"
-  },
-  {
-    "text": "¿Cómo hago un bubble sort en JavaScript?"
-  },
-  {
-    "text": "Aquí tienes un ejemplo de bubble sort en JavaScript:\n\n```javascript\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\nlet array = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(bubbleSort(array));\n```"
-  },
-  {
-    "text": "¿Cómo implemento un algoritmo de búsqueda binaria en Python?"
-  },
-  {
-    "text": "Aquí tienes un ejemplo de búsqueda binaria en Python:\n\n```python\ndef binary_search(arr, x):\n    low, high = 0, len(arr) - 1\n    while low <= high:\n        mid = (low + high) // 2\n        if arr[mid] == x:\n            return mid\n        elif arr[mid] < x:\n            low = mid + 1\n        else:\n            high = mid - 1\n    return -1\n\narray = [1, 3, 5, 7, 9, 11]\nprint(binary_search(array, 5))\n```"
-  },
-  {
-    "text": "¿Cómo implemento un algoritmo de búsqueda binaria en JavaScript?"
-  },
-  {
-    "text": "Aquí tienes un ejemplo de búsqueda binaria en JavaScript:\n\n```javascript\nfunction binarySearch(arr, x) {\n    let low = 0, high = arr.length - 1;\n    while (low <= high) {\n        let mid = Math.floor((low + high) / 2);\n        if (arr[mid] === x) return mid;\n        else if (arr[mid] < x) low = mid + 1;\n        else high = mid - 1;\n    }\n    return -1;\n}\n\nlet array = [1, 3, 5, 7, 9, 11];\nconsole.log(binarySearch(array, 5));\n```"
-  },
-  {
-    "text": "¿Cómo implemento quicksort en Python?"
-  },
-  {
-    "text": "Aquí tienes un ejemplo de quicksort en Python:\n\n```python\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quicksort(left) + middle + quicksort(right)\n\nlista = [3, 6, 8, 10, 1, 2, 1]\nprint(quicksort(lista))\n```"
-  },
-  {
-    "text": "¿Cómo implemento quicksort en JavaScript?"
-  },
-  {
-    "text": "Aquí tienes un ejemplo de quicksort en JavaScript:\n\n```javascript\nfunction quickSort(arr) {\n    if (arr.length <= 1) return arr;\n    let pivot = arr[Math.floor(arr.length / 2)];\n    let left = arr.filter(x => x < pivot);\n    let middle = arr.filter(x => x === pivot);\n    let right = arr.filter(x => x > pivot);\n    return [...quickSort(left), ...middle, ...quickSort(right)];\n}\n\nlet array = [3, 6, 8, 10, 1, 2, 1];\nconsole.log(quickSort(array));\n```"
-  },
-  {
-    "text": "dame un ejemplo de quicksort "
-  },
-  {
-    "text": "ejmplo doble"
-  },
-  {
-    "text": "dame un ejemplo de quicksort en JavaScript"
-  },
-  {
-    "text": "Aquí tienes un ejemplo de quicksort en JavaScript:\n\n```javascript\nfunction quickSort(arr) {\n    if (arr.length <= 1) return arr;\n    let pivot = arr[Math.floor(arr.length / 2)];\n    let left = arr.filter(x => x < pivot);\n    let middle = arr.filter(x => x === pivot);\n    let right = arr.filter(x => x > pivot);\n    return [...quickSort(left), ...middle, ...quickSort(right)];\n}\n\nlet array = [3, 6, 8, 10, 1, 2, 1];\nconsole.log(quickSort(array));\n```"
-  },
-  {
-    "text": "dame un ejemplo de quicksort en python"
-  },
-  {
-    "text": "Aquí tienes un ejemplo de quicksort en python:\n\n```python\nfunction quickSort(arr) {\n    if (arr.length <= 1) return arr;\n    let pivot = arr[Math.floor(arr.length / 2)];\n    let left = arr.filter(x => x < pivot);\n    let middle = arr.filter(x => x === pivot);\n    let right = arr.filter(x => x > pivot);\n    return [...quickSort(left), ...middle, ...quickSort(right)];\n}\n\nlet array = [3, 6, 8, 10, 1, 2, 1];\nconsole.log(quickSort(array));\n```"
-  },
-  {
-    "text": "¿Cómo implemento un algoritmo para encontrar el máximo común divisor (MCD) en Python?"
-  },
-  {
-    "text": "Aquí tienes un ejemplo del cálculo del MCD en Python usando el algoritmo de Euclides:\n\n```python\ndef mcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n\nprint(mcd(48, 18))\n```"
-  },
-  {
-    "text": "¿Cómo implemento el MCD en JavaScript?"
-  },
-  {
-    "text": "Aquí tienes un ejemplo del cálculo del MCD en JavaScript:\n\n```javascript\nfunction mcd(a, b) {\n    while (b !== 0) {\n        let temp = b;\n        b = a % b;\n        a = temp;\n    }\n    return a;\n}\n\nconsole.log(mcd(48, 18));\n```"
-  },
-  {
-    "text": "¿Cómo implemento el algoritmo de Fibonacci en Python?"
-  },
-  {
-    "text": "Aquí tienes un ejemplo de la secuencia de Fibonacci en Python:\n\n```python\ndef fibonacci(n):\n    a, b = 0, 1\n    for _ in range(n):\n        print(a, end=' ')\n        a, b = b, a + b\n\nfibonacci(10)\n```"
-  },
-  {
-    "text": "¿Cómo implemento el algoritmo de Fibonacci en JavaScript?"
-  },
-  {
-    "text": "Aquí tienes un ejemplo de la secuencia de Fibonacci en JavaScript:\n\n```javascript\nfunction fibonacci(n) {\n    let a = 0, b = 1;\n    for (let i = 0; i < n; i++) {\n        console.log(a);\n        let temp = a;\n        a = b;\n        b = temp + b;\n    }\n}\n\nfibonacci(10);\n```"
-  },
-
-
-
-
-
-
-
-
-  {"text": "¿Qué son los parámetros en las funciones?"},
-  {
-    "text": "Los parámetros en las funciones son valores que puedes pasarle a una función para que los utilice en su ejecución. Se definen dentro de los paréntesis al declarar la función."
-  },
-  {
     "text": "¿Para qué sirven los parámetros en una función?"
   },
   {
     "text": "Los parámetros en las funciones son valores que puedes pasarle a una función para que los utilice en su ejecución. Se definen dentro de los paréntesis al declarar la función."
   },
   {
-    "text": "¿Cómo se usan los parámetros en funciones de JavaScript?"
+    "text": "¿Cómo se usan los parámetros en js?"
   },
   {
     "text": "Los parámetros en las funciones son valores que puedes pasarle a una función para que los utilice en su ejecución. Se definen dentro de los paréntesis al declarar la función."
   },
   {
-    "text": "¿Qué hacen los parámetros en una función?"
+    "text": "¿Cómo se usan los parámetros en funciones en js?"
   },
   {
     "text": "Los parámetros en las funciones son valores que puedes pasarle a una función para que los utilice en su ejecución. Se definen dentro de los paréntesis al declarar la función."
   },
-
-
-
   {
-    "text": "¿Cómo puedo escribir una función en JavaScript?"
+    "text": "¿Cómo escribir una función en JavaScript?"
   },
   {
     "text": "Una función en JavaScript se define utilizando la palabra clave `function`, seguida de un nombre, paréntesis y un bloque de código entre llaves. Por ejemplo: `function saludar() { console.log('Hola'); }`."
   },
   {
-    "text": "¿Cómo puedo escribir una función en js?"
+    "text": "¿Cómo escribir una función en js?"
   },
   {
     "text": "Una función en JavaScript se define utilizando la palabra clave `function`, seguida de un nombre, paréntesis y un bloque de código entre llaves. Por ejemplo: `function saludar() { console.log('Hola'); }`."
   },
-
-
-
   {
-    "text": "¿Puedes darme un ejemplo de función en JavaScript?"
+    "text": "¿Cómo implementar una función en JavaScript?"
+  },
+  {
+    "text": "Una función en JavaScript se define utilizando la palabra clave `function`, seguida de un nombre, paréntesis y un bloque de código entre llaves. Por ejemplo: `function saludar() { console.log('Hola'); }`."
+  },
+  {
+    "text": "¿Cómo implementar una función en js?"
+  },
+  {
+    "text": "Una función en JavaScript se define utilizando la palabra clave `function`, seguida de un nombre, paréntesis y un bloque de código entre llaves. Por ejemplo: `function saludar() { console.log('Hola'); }`."
+  },
+  {
+    "text": "Dame un ejemplo de función en JavaScript?"
   },
   {
     "text": "Claro, aquí tienes un ejemplo de una función que imprime un mensaje: `function saludar() { console.log('Hola Mundo'); }`."
   },
   {
-    "text": "¿Puedes darme un ejemplo de función en js?"
+    "text": "Dame un ejemplo de función en js"
   },
   {
     "text": "Claro, aquí tienes un ejemplo de una función que imprime un mensaje: `function saludar() { console.log('Hola Mundo'); }`."
   },
-
-
   {
-    "text": "Dame un ejemplo de una función en JavaScript"
-  },
-  {
-    "text": "Aquí tienes una función que no recibe parámetros: `function mostrarFecha() { console.log(new Date()); }`."
-  },
-  {
-    "text": "Dame un ejemplo de una función en js"
-  },
-  {
-    "text": "Aquí tienes una función que no recibe parámetros: `function mostrarFecha() { console.log(new Date()); }`."
-  },
-
-
-  {
-    "text": "Genera una función en JavaScript sin parámetros"
+    "text": "Genera una función sin parámetros en JavaScript"
   },
   {
     "text": "Aquí tienes un ejemplo de una función sin parámetros: `function despedir() { console.log('Adiós'); }`."
   },
   {
-    "text": "Genera una función en js sin parámetros"
+    "text": "Genera una función sin parámetros en js"
   },
   {
     "text": "Aquí tienes un ejemplo de una función sin parámetros: `function despedir() { console.log('Adiós'); }`."
   },
-
-
-
   {
-    "text": "¿Cómo se define una función con parámetros en JavaScript?"
+    "text": "¿Como implementar una función sin parámetros en js?"
   },
   {
-    "text": "Para definir una función con parámetros, debes incluir los parámetros entre los paréntesis. Por ejemplo: `function saludar(nombre) { console.log('Hola, ' + nombre); }`."
+    "text": "Aquí tienes un ejemplo de una función sin parámetros: `function despedir() { console.log('Adiós'); }`."
   },
   {
-    "text": "¿Puedes darme un ejemplo de función con parámetros en JavaScript?"
+    "text": "¿Como implementar una función sin parámetros en Javascript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de una función sin parámetros: `function despedir() { console.log('Adiós'); }`."
+  },
+  {
+    "text": "Dame una función con parámetros en JavaScript"
   },
   {
     "text": "Claro, aquí tienes una función que recibe un parámetro y lo utiliza: `function multiplicar(a, b) { return a * b; }`."
   },
   {
-    "text": "Genera una función en JavaScript que reciba un parámetro."
+    "text": "Dame una función con parámetros en js"
   },
   {
     "text": "Aquí tienes un ejemplo de una función con un parámetro: `function imprimirNombre(nombre) { console.log('Tu nombre es: ' + nombre); }`."
   },
-
-  
   {
-    "text": "Dame un ejemplo de función en JavaScript con parámetros."
+    "text": "¿Como generar una función con parámetros en JavaScript"
   },
   {
-    "text": "Aquí tienes un ejemplo de función con parámetros: `function calcularEdad(añoNacimiento) { return 2024 - añoNacimiento; }`."
+    "text": "Claro, aquí tienes una función que recibe un parámetro y lo utiliza: `function multiplicar(a, b) { return a * b; }`."
   },
   {
-    "text": "Dame una función en JavaScript con parámetros."
+    "text": "¿Como generar una función con parámetros en js"
   },
   {
-    "text": "Aquí tienes un ejemplo de función con parámetros: `function calcularEdad(añoNacimiento) { return 2024 - añoNacimiento; }`."
+    "text": "Aquí tienes un ejemplo de una función con un parámetro: `function imprimirNombre(nombre) { console.log('Tu nombre es: ' + nombre); }`."
   },
-  {
-    "text": "Dame una función en js con parámetros."
-  },
-  {
-    "text": "Aquí tienes un ejemplo de función con parámetros: `function calcularEdad(añoNacimiento) { return 2024 - añoNacimiento; }`."
-  },
-
-
-
-
   {
     "text": "¿Cómo ejecutar una función sin parámetros en js?"
   },
   {
     "text": "Para llamar a una función sin parámetros, solo debes escribir su nombre seguido de paréntesis. Por ejemplo: `saludar();`."
   },
-
   {
-    "text": "¿Cómo ejecutar una función en sin parámetros en JavaScript?"
+    "text": "¿Cómo ejecutar una función sin parámetros en JavaScript?"
   },
   {
     "text": "Para llamar a una función sin parámetros, solo debes escribir su nombre seguido de paréntesis. Por ejemplo: `saludar();`."
   },
-
-
-
   {
     "text": "¿Cómo invocar una función sin parámetros en Javascript?"
   },
@@ -3562,22 +3455,18 @@
   {
     "text": "Para invocar una función sin parámetros, simplemente escribe su nombre y pon paréntesis: `mostrarFecha();`."
   },
-
-  
   {
-    "text": "Dame un ejemplo de cómo llamar una función sin parámetros en JavaScript."
+    "text": "Dame un ejemplo de cómo llamar una función sin parámetros en JavaScript"
   },
   {
     "text": "Aquí tienes un ejemplo de llamada a una función sin parámetros: `despedir();`."
   },
   {
-    "text": "Dame un ejemplo de cómo llamar una función sin parámetros en js."
+    "text": "Dame un ejemplo de cómo llamar una función sin parámetros en js"
   },
   {
     "text": "Aquí tienes un ejemplo de llamada a una función sin parámetros: `despedir();`."
   },
-
-  
   {
     "text": "¿Cómo invocar una función con parámetros en JavaScript?"
   },
@@ -3590,8 +3479,6 @@
   {
     "text": "Para invocar una función con parámetros, debes pasar los valores que espera en los paréntesis. Por ejemplo: `saludar('Angle');`."
   },
-
-
   {
     "text": "¿Cómo ejecutar una función con parámetros en JavaScript?"
   },
@@ -3604,8 +3491,6 @@
   {
     "text": "Para ejecutar una función que tiene parámetros, debes pasar los valores que espera entre los paréntesis. Por ejemplo: `nombreFuncion(valor1, valor2);`."
   },
-
-
   {
     "text": "¿Cómo llamar una función con parámetros en JavaScript?"
   },
@@ -3618,26 +3503,11 @@
   {
     "text": "Si la función tiene varios parámetros, puedes llamarla pasando los valores en el mismo orden en que fueron definidos, por ejemplo: `nombreFuncion(valor1, valor2, valor3);`."
   },
-
-
-
   {
-    "text": "¿Cómo se estructura un método en JavaScript?"
-  },
-  {
-    "text": "Un método en JavaScript es una función asociada a un objeto. Se define de la siguiente manera: `const objeto = { metodo: function() { console.log('Mensaje'); } };`."
-  },
-  {
-    "text": "¿Cómo se define un método en JavaScript?"
+    "text": "¿Cómo se escribe un método en JavaScript?"
   },
   {
     "text": "Un método en JavaScript es una función que pertenece a un objeto. Se puede definir de esta manera: `const objeto = { metodo() { console.log('Hola!'); } };`."
-  },
-  {
-    "text": "¿Qué es un método en JavaScript y cómo se define?"
-  },
-  {
-    "text": "Un método en JavaScript es una función asociada a un objeto. Se define utilizando la sintaxis de una función dentro del objeto. Ejemplo: `const objeto = { metodo() { console.log('Mensaje desde el método'); } };`."
   },
   {
     "text": "¿Cómo crear un método en JavaScript?"
@@ -3646,68 +3516,10 @@
     "text": "Para crear un método en JavaScript, escribe una función dentro de un objeto. Ejemplo: `const persona = { saludar: function() { console.log('Hola!'); } };`."
   },
   {
-    "text": "¿Cómo definir un método en un objeto en JavaScript?"
-  },
-  {
-    "text": "Un método en un objeto se define como una función dentro de ese objeto. Ejemplo: `const objeto = { decirHola() { console.log('Hola Mundo!'); } };`."
-  },
-
-
-
-
-  {
-    "text": "¿Cómo se estructura un método en js?"
-  },
-  {
-    "text": "Un método en JavaScript es una función asociada a un objeto. Se define de la siguiente manera: `const objeto = { metodo: function() { console.log('Mensaje'); } };`."
-  },
-  {
-    "text": "¿Cómo se define un método en js?"
-  },
-  {
-    "text": "Un método en JavaScript es una función que pertenece a un objeto. Se puede definir de esta manera: `const objeto = { metodo() { console.log('Hola!'); } };`."
-  },
-  {
-    "text": "¿Qué es un método en js?"
-  },
-  {
-    "text": "Un método en JavaScript es una función asociada a un objeto. Se define utilizando la sintaxis de una función dentro del objeto. Ejemplo: `const objeto = { metodo() { console.log('Mensaje desde el método'); } };`."
-  },
-  {
-    "text": "¿Cómo crear un método en js?"
-  },
-  {
-    "text": "Para crear un método en JavaScript, escribe una función dentro de un objeto. Ejemplo: `const persona = { saludar: function() { console.log('Hola!'); } };`."
-  },
-  {
-    "text": "¿Cómo definir un método en un objeto en js?"
-  },
-  {
-    "text": "Un método en un objeto se define como una función dentro de ese objeto. Ejemplo: `const objeto = { decirHola() { console.log('Hola Mundo!'); } };`."
-  },
-
-
-  
-
-  
-
-  {
-    "text": "¿Cómo se estructura una función en JavaScript?"
-  },
-  {
-    "text": "Una función en JavaScript se define utilizando la palabra clave `function` seguida del nombre de la función y los paréntesis. Ejemplo: `function saludar() { console.log('Hola Mundo'); }`."
-  },
-  {
-    "text": "¿Cómo se define una función en JavaScript?"
+    "text": "¿Cómo se implementa una función en JavaScript?"
   },
   {
     "text": "Se define una función en JavaScript con la palabra clave `function`, seguida del nombre de la función y un bloque de código. Ejemplo: `function mostrarMensaje() { console.log('Mensaje mostrado'); }`."
-  },
-  {
-    "text": "¿Qué es una función en JavaScript y cómo se define?"
-  },
-  {
-    "text": "Una función en JavaScript es un bloque de código que se puede ejecutar cuando se llama. Se define de la siguiente manera: `function miFuncion() { console.log('Ejemplo de función'); }`."
   },
   {
     "text": "¿Cómo crear una función en JavaScript?"
@@ -3715,50 +3527,11 @@
   {
     "text": "Para crear una función en JavaScript, se utiliza la palabra clave `function`, seguida de su nombre y cuerpo. Ejemplo: `function ejemplo() { console.log('Función creada'); }`."
   },
-
-
-
-
-
-  {
-    "text": "¿Cómo se estructura una función en js?"
-  },
-  {
-    "text": "Una función en JavaScript se define utilizando la palabra clave `function` seguida del nombre de la función y los paréntesis. Ejemplo: `function saludar() { console.log('Hola Mundo'); }`."
-  },
-  {
-    "text": "¿Cómo se define una función en js?"
-  },
-  {
-    "text": "Se define una función en JavaScript con la palabra clave `function`, seguida del nombre de la función y un bloque de código. Ejemplo: `function mostrarMensaje() { console.log('Mensaje mostrado'); }`."
-  },
-  {
-    "text": "¿Qué es una función en js y cómo se define?"
-  },
-  {
-    "text": "Una función en JavaScript es un bloque de código que se puede ejecutar cuando se llama. Se define de la siguiente manera: `function miFuncion() { console.log('Ejemplo de función'); }`."
-  },
   {
     "text": "¿Cómo crear una función en js?"
   },
   {
     "text": "Para crear una función en JavaScript, se utiliza la palabra clave `function`, seguida de su nombre y cuerpo. Ejemplo: `function ejemplo() { console.log('Función creada'); }`."
-  },
-  
-  
-
-
-  {
-    "text": "¿Cómo se estructura una función flecha en JavaScript?"
-  },
-  {
-    "text": "Una función flecha en JavaScript se define utilizando la sintaxis `() => {}`. Ejemplo: `const saludar = () => { console.log('Hola desde la función flecha'); };`."
-  },
-  {
-    "text": "¿Cómo se define una función flecha en JavaScript?"
-  },
-  {
-    "text": "Una función flecha se define con `() => {}`. Ejemplo: `const multiplicar = (a, b) => { return a * b; };`."
   },
   {
     "text": "¿Qué es una función flecha en JavaScript?"
@@ -3772,20 +3545,6 @@
   {
     "text": "Para crear una función flecha, usa la sintaxis `() => {}`. Ejemplo: `const restar = (a, b) => a - b;`."
   },
-
-
-  {
-    "text": "¿Cómo se estructura una función flecha en js?"
-  },
-  {
-    "text": "Una función flecha en JavaScript se define utilizando la sintaxis `() => {}`. Ejemplo: `const saludar = () => { console.log('Hola desde la función flecha'); };`."
-  },
-  {
-    "text": "¿Cómo se define una función flecha en js?"
-  },
-  {
-    "text": "Una función flecha se define con `() => {}`. Ejemplo: `const multiplicar = (a, b) => { return a * b; };`."
-  },
   {
     "text": "¿Qué es una función flecha en js?"
   },
@@ -3797,22 +3556,6 @@
   },
   {
     "text": "Para crear una función flecha, usa la sintaxis `() => {}`. Ejemplo: `const restar = (a, b) => a - b;`."
-  },
-
-  
-
-
-  {
-    "text": "¿Cómo se estructura una función anónima en JavaScript?"
-  },
-  {
-    "text": "Una función anónima en JavaScript es una función que no tiene nombre y puede ser asignada a una variable. Ejemplo: `const miFuncion = function() { console.log('Función anónima ejecutada'); };`."
-  },
-  {
-    "text": "¿Cómo se define una función anónima en JavaScript?"
-  },
-  {
-    "text": "Una función anónima se define sin un nombre y se puede asignar a una variable. Ejemplo: `const saludar = function() { console.log('Hola desde función anónima'); };`."
   },
   {
     "text": "¿Qué es una función anónima en JavaScript?"
@@ -3826,21 +3569,6 @@
   {
     "text": "Para crear una función anónima en JavaScript, solo debes omitir el nombre de la función y asignarla a una variable. Ejemplo: `const mostrarMensaje = function() { console.log('Función anónima creada'); };`."
   },
-
-
-
-  {
-    "text": "¿Cómo se estructura una función anónima en js?"
-  },
-  {
-    "text": "Una función anónima en JavaScript es una función que no tiene nombre y puede ser asignada a una variable. Ejemplo: `const miFuncion = function() { console.log('Función anónima ejecutada'); };`."
-  },
-  {
-    "text": "¿Cómo se define una función anónima en js?"
-  },
-  {
-    "text": "Una función anónima se define sin un nombre y se puede asignar a una variable. Ejemplo: `const saludar = function() { console.log('Hola desde función anónima'); };`."
-  },
   {
     "text": "¿Qué es una función anónima en js?"
   },
@@ -3848,19 +3576,2808 @@
     "text": "Una función anónima en JavaScript es una función sin nombre. Se define generalmente así: `const calculo = function(a, b) { return a + b; };`."
   },
   {
-    "text": "¿Cómo crear una función anónima en js?"
+    "text": "¿Cómo implementar una función anónima en js?"
   },
   {
     "text": "Para crear una función anónima en JavaScript, solo debes omitir el nombre de la función y asignarla a una variable. Ejemplo: `const mostrarMensaje = function() { console.log('Función anónima creada'); };`."
+  },
+  {
+    "text": "¿Cómo escribir una función en Python?"
+  },
+  {
+    "text": "Una función en Python se define utilizando la palabra clave `def`, seguida de un nombre, paréntesis y dos puntos. Por ejemplo: `def saludar(): print('Hola')`."
+  },
+  {
+    "text": "¿Cómo implementar una función en Python?"
+  },
+  {
+    "text": "Una función en Python se define utilizando la palabra clave `def`, seguida de un nombre, paréntesis y dos puntos. Por ejemplo: `def saludar(): print('Hola')`."
+  },
+  {
+    "text": "Dame un ejemplo de una función en Python"
+  },
+  {
+    "text": "Aquí tienes una función que no recibe parámetros: `def mostrar_fecha(): print('Fecha:', __import__('datetime').datetime.now())`."
+  },
+  {
+    "text": "Generar una función en Python sin parámetros"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de una función sin parámetros: `def despedir(): print('Adiós')`."
+  },
+  {
+    "text": "¿Como implementar una función en Python sin parámetros?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de una función sin parámetros: `def despedir(): print('Adiós')`."
+  },
+  {
+    "text": "Genera una función con parámetros en Python"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de una función con un parámetro: `def imprimir_nombre(nombre): print('Tu nombre es:', nombre)`."
+  },
+  {
+    "text": "¿Como implementar una función con parámetros en Python"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de una función con un parámetro: `def imprimir_nombre(nombre): print('Tu nombre es:', nombre)`."
+  },
+  {
+    "text": "¿Cómo ejecutar una función en Python?"
+  },
+  {
+    "text": "Para llamar a una función, solo debes escribir su nombre seguido de paréntesis. Por ejemplo: `saludar()`. Si la función recibe parámetros, debes pasarlos entre los paréntesis."
+  },
+  {
+    "text": "¿Cómo ejecutar una función sin parámetros en Python?"
+  },
+  {
+    "text": "Para llamar a una función sin parámetros, solo debes escribir su nombre seguido de paréntesis. Por ejemplo: `saludar()`."
+  },
+  {
+    "text": "¿Cómo invocar una función con parámetros en Python?"
+  },
+  {
+    "text": "Para invocar una función con parámetros, debes pasar los valores entre los paréntesis. Por ejemplo: `saludar('Ángela')`."
+  },
+  {
+    "text": "¿Cómo implementar un arreglo en Python?"
+  },
+  {
+    "text": "Un ejemplo básico sería: `numeros = [10, 20, 30]`. Esto define un arreglo con tres elementos."
+  },
+  {
+    "text": "Genera un arreglo en Python"
+  },
+  {
+    "text": "En Python, puedes usar listas para crear arreglos. Por ejemplo: `mi_arreglo = [1, 2, 3]`."
+  },
+  {
+    "text": "¿Cómo agregar elementos a un arreglo en Python?"
+  },
+  {
+    "text": "Usa el método `append`. Ejemplo: `mi_arreglo.append(4)`."
+  },
+  {
+    "text": "¿Cómo agregar un valor a un arreglo en Python?"
+  },
+  {
+    "text": "Ejemplo: `frutas = ['manzana']; frutas.append('pera')`."
+  },
+  {
+    "text": "¿Cómo agregar elementos a un arreglo en Python?"
+  },
+  {
+    "text": "Ejemplo: `frutas = ['manzana']; frutas.append('pera')`."
+  },
+  {
+    "text": "¿Cómo eliminar un elemento de un arreglo en Python?"
+  },
+  {
+    "text": "Puedes usar `remove` para quitar un elemento específico: `mi_arreglo.remove(2)`."
+  },
+  {
+    "text": "¿Qué métodos existen para eliminar valores de un arreglo en Python?"
+  },
+  {
+    "text": "Puedes usar `pop` para eliminar por índice o `remove` para eliminar un valor. Ejemplo: `mi_arreglo.pop(0)`."
+  },
+  {
+    "text": "¿Cómo quitar un dato de un arreglo en Python?"
+  },
+  {
+    "text": "Ejemplo: `numeros = [10, 20, 30]; numeros.pop(1)` elimina el 20."
+  },
+  {
+    "text": "¿Cómo saber cuántos elementos tiene un arreglo en Python?"
+  },
+  {
+    "text": "Usa la función `len`. Ejemplo: `len(mi_arreglo)` devuelve el número de elementos."
+  },
+  {
+    "text": "¿Cómo calcular cuántos elementos tiene un arreglo en Python?"
+  },
+  {
+    "text": "Usa la función `len`. Ejemplo: `len(mi_arreglo)` devuelve el número de elementos."
+  },
+  {
+    "text": "¿Como obtener la longitud de un arreglo en Python?"
+  },
+  {
+    "text": "Usa `len`. Ejemplo: `len(['a', 'b', 'c'])` devuelve 3."
+  },
+  {
+    "text": "Calcular la cantidad de elementos en un arreglo en Python."
+  },
+  {
+    "text": "Ejemplo: `colores = ['rojo', 'verde']; print(len(colores))` devuelve 2."
+  },
+  {
+    "text": "¿Cómo recorrer los elementos de un arreglo en Python?"
+  },
+  {
+    "text": "Usa un bucle `for`. Ejemplo: `for x in mi_arreglo: print(x)`."
+  },
+  {
+    "text": "¿Como iterar un arreglo en Python?"
+  },
+  {
+    "text": "Ejemplo: `numeros = [1, 2, 3]; for n in numeros: print(n)`."
+  },
+  {
+    "text": "¿Cómo implementar un arreglo en JavaScript"
+  },
+  {
+    "text": "`const frutas = ['manzana', 'pera'];`"
+  },
+  {
+    "text": "Dame arreglo en JavaScript"
+  },
+  {
+    "text": "Ejemplo: `const frutas = ['manzana', 'pera'];`."
+  },
+  {
+    "text": "¿Cómo agregar datos a un arreglo en JavaScript?"
+  },
+  {
+    "text": "Usa `push`. Ejemplo: `arreglo.push('nuevo valor');`."
+  },
+  {
+    "text": "¿Como añadir valores a un arreglo en JavaScript?"
+  },
+  {
+    "text": "El método `push` te permite agregar elementos al final. Ejemplo: `colores.push('azul');`."
+  },
+  {
+    "text": "¿Como añadir elementos a un arreglo en JavaScript?"
+  },
+  {
+    "text": "El método `push` te permite agregar elementos al final. Ejemplo: `colores.push('azul');`."
+  },
+  {
+    "text": "¿Como insertar valores a un arreglo en JavaScript?"
+  },
+  {
+    "text": "El método `push` te permite agregar elementos al final. Ejemplo: `colores.push('azul');`."
+  },
+  {
+    "text": "¿Cómo eliminar un valor de un arreglo en JavaScript?"
+  },
+  {
+    "text": "Usa `splice`. Ejemplo: `arreglo.splice(1, 1);` para eliminar el segundo elemento."
+  },
+  {
+    "text": "¿Cómo quitar datos en un arreglo en JavaScript?"
+  },
+  {
+    "text": "Puedes usar `splice` o `pop`. Ejemplo: `mi_arreglo.pop();` elimina el último."
+  },
+  {
+    "text": "¿Cómo borrar elementos de un arreglo en JavaScript."
+  },
+  {
+    "text": "Ejemplo: `let frutas = ['manzana', 'pera']; frutas.pop();` quita 'pera'."
+  },
+  {
+    "text": "¿Cómo sé cuántos elementos tiene un arreglo en JavaScript?"
+  },
+  {
+    "text": "Usa `.length`. Ejemplo: `arreglo.length`."
+  },
+  {
+    "text": "¿Como calcular la cantidad de elementos en un arreglo en JavaScript?"
+  },
+  {
+    "text": "La propiedad `length` devuelve la longitud. Ejemplo: `const arreglo = [1, 2]; console.log(arreglo.length);`."
+  },
+  {
+    "text": "Dame un ejemplo para contar los datos de un arreglo en JavaScript."
+  },
+  {
+    "text": "Ejemplo: `let numeros = [10, 20, 30]; console.log(numeros.length);`."
+  },
+  {
+    "text": "¿Cómo recorrer los valores de un arreglo en JavaScript?"
+  },
+  {
+    "text": "Usa un bucle `for`. Ejemplo: `for (let i = 0; i < arreglo.length; i++) { console.log(arreglo[i]); }`."
+  },
+  {
+    "text": "¿Como implementar un arreglo en js?"
+  },
+  {
+    "text": "Ejemplo: `const frutas = ['manzana', 'pera'];`."
+  },
+  {
+    "text": "¿Cómo agregar datos a un arreglo en js?"
+  },
+  {
+    "text": "Usa `push`. Ejemplo: `arreglo.push('nuevo valor');`."
+  },
+  {
+    "text": "¿Cómo insertar datos a un arreglo en js?"
+  },
+  {
+    "text": "Usa `push`. Ejemplo: `arreglo.push('nuevo valor');`."
+  },
+  {
+    "text": "¿Cómo añadir valores a un arreglo en js?"
+  },
+  {
+    "text": "El método `push` te permite agregar elementos al final. Ejemplo: `colores.push('azul');`."
+  },
+  {
+    "text": "Agregar datos a un arreglo en js"
+  },
+  {
+    "text": "Ejemplo: `let numeros = [1, 2]; numeros.push(3);`."
+  },
+  {
+    "text": "¿Cómo eliminar un valor de un arreglo en js?"
+  },
+  {
+    "text": "Usa `splice`. Ejemplo: `arreglo.splice(1, 1);` para eliminar el segundo elemento."
+  },
+  {
+    "text": "¿Qué métodos existen para quitar datos en un arreglo en js?"
+  },
+  {
+    "text": "Puedes usar `splice` o `pop`. Ejemplo: `mi_arreglo.pop();` elimina el último."
+  },
+  {
+    "text": "¿Cómo borrar elementos de un arreglo en js?"
+  },
+  {
+    "text": "Ejemplo: `let frutas = ['manzana', 'pera']; frutas.pop();` quita 'pera'."
+  },
+  {
+    "text": "¿Cómo contar los elementos en un arreglo en js?"
+  },
+  {
+    "text": "Usa `.length`. Ejemplo: `arreglo.length`."
+  },
+  {
+    "text": "¿Cómo se escribe un comentario en Python?"
+  },
+  {
+    "text": "Usa el símbolo `#` para un comentario simple. Ejemplo: `# Este es un comentario`."
+  },
+  {
+    "text": "¿Qué símbolo se usa para escribir comentarios en Python?"
+  },
+  {
+    "text": "Para escribir un comentario, utiliza `#`. Ejemplo: `# Comentario en Python`."
+  },
+  {
+    "text": "Dame un ejemplo de un comentario en Python."
+  },
+  {
+    "text": "Ejemplo: `# Este es un ejemplo de comentario`."
+  },
+  {
+    "text": "¿Cómo escribir un comentario multilinea en Python?"
+  },
+  {
+    "text": "Usa `\"\"\"` o múltiples `#`. Ejemplo: `\"\"\" Este es un comentario de varias líneas \"\"\"`."
+  },
+  {
+    "text": "¿Cómo comentar más de una línea en Python?"
+  },
+  {
+    "text": "Puedes usar cadenas multilínea como comentarios: `\"\"\" Línea 1 \\n Línea 2 \"\"\"`."
+  },
+  {
+    "text": "¿Cómo comentar bloques de código en Python?"
+  },
+  {
+    "text": "Puedes usar múltiples `#` antes de cada línea o seleccionar el texto en tu editor y usar un atajo (como `Ctrl+/`)."
+  },
+  {
+    "text": "¿Cómo escribir un comentario en JavaScript?"
+  },
+  {
+    "text": "Usa `//` para un comentario simple. Ejemplo: `// Este es un comentario`."
+  },
+  {
+    "text": "¿Qué símbolo se usa para comentarios en JavaScript?"
+  },
+  {
+    "text": "Para comentarios simples, usa `//`. Ejemplo: `// Comentario en JS`."
+  },
+  {
+    "text": "Dame un ejemplo de un comentario en JavaScript."
+  },
+  {
+    "text": "Ejemplo: `// Este es un ejemplo de comentario`."
+  },
+  {
+    "text": "¿Cómo escribir comentario multilinea en JavaScript?"
+  },
+  {
+    "text": "Usa `/*` y `*/` para encerrar los comentarios. Ejemplo: `/* Línea 1 \\n Línea 2 */`."
+  },
+  {
+    "text": "¿Cómo comentar un bloque de código en JavaScript?"
+  },
+  {
+    "text": "Usa `/*` y `*/` para comentar múltiples líneas de código. Ejemplo: `/* bloque comentado */`."
+  },
+  {
+    "text": "¿Cómo escribir un comentario en js?"
+  },
+  {
+    "text": "Usa `//` para un comentario simple. Ejemplo: `// Este es un comentario`."
+  },
+  {
+    "text": "¿Qué símbolo se usa para comentarios en js?"
+  },
+  {
+    "text": "Para comentarios simples, usa `//`. Ejemplo: `// Comentario en JS`."
+  },
+  {
+    "text": "Dame un ejemplo de un comentario en js"
+  },
+  {
+    "text": "Ejemplo: `// Este es un ejemplo de comentario`."
+  },
+  {
+    "text": "¿Cómo escribir comentario multilinea en js?"
+  },
+  {
+    "text": "Usa `/*` y `*/` para encerrar los comentarios. Ejemplo: `/* Línea 1 \\n Línea 2 */`."
+  },
+  {
+    "text": "¿Qué se usa para escribir comentarios largos en js?"
+  },
+  {
+    "text": "Puedes usar comentarios multilínea: `/* Este es un comentario \\n de varias líneas */`."
+  },
+  {
+    "text": "¿Para qué sirven los comentarios?"
+  },
+  {
+    "text": "Ayudan a documentar el código y lo hacen más fácil de entender para los desarrolladores."
+  },
+  {
+    "text": "¿Por qué son importantes los comentarios?"
+  },
+  {
+    "text": "Son importantes porque explican la lógica detrás del código, facilitando su mantenimiento."
+  },
+  {
+    "text": "¿Cuál es el propósito de usar comentarios?"
+  },
+  {
+    "text": "El propósito es agregar contexto y explicaciones al código, sin alterar su ejecución."
+  },
+  {
+    "text": "¿Qué es un objeto en JavaScript?"
+  },
+  {
+    "text": "Un objeto en JavaScript es una colección de propiedades, donde cada propiedad es una clave con un valor. Ejemplo: `const persona = { nombre: 'Juan', edad: 30 };`."
+  },
+  {
+    "text": "Dame un ejemplo de un objeto en JavaScript."
+  },
+  {
+    "text": "Ejemplo: `const animal = { especie: 'perro', color: 'marrón' };`."
+  },
+  {
+    "text": "¿Cómo acceder a los atributos de un objeto en JavaScript?"
+  },
+  {
+    "text": "Usa la notación de punto o corchetes. Ejemplo: `obj.atributo` o `obj['atributo']`."
+  },
+  {
+    "text": "¿Cómo obtener un valor de un objeto en JavaScript?"
+  },
+  {
+    "text": "Puedes usar `obj.atributo` o `obj['atributo']`. Ejemplo: `const persona = { nombre: 'Juan' }; console.log(persona.nombre);`."
+  },
+  {
+    "text": "Dame un ejemplo de acceso a un atributo de un objeto en JavaScript."
+  },
+  {
+    "text": "Ejemplo: `const persona = { nombre: 'Juan', edad: 25 }; console.log(persona.nombre);`."
+  },
+  {
+    "text": "¿Cómo agregar un atributo a un objeto en JavaScript?"
+  },
+  {
+    "text": "Puedes agregar atributos con la notación de punto o corchetes. Ejemplo: `obj.nuevoAtributo = valor;` o `obj['nuevoAtributo'] = valor;`."
+  },
+  {
+    "text": "¿Cómo añadir una propiedad a un objeto en JavaScript?"
+  },
+  {
+    "text": "Usa `obj.propiedad = valor`. Ejemplo: `coche.color = 'rojo';`."
+  },
+  {
+    "text": "Dame un ejemplo de cómo agregar un atributo a un objeto en JavaScript."
+  },
+  {
+    "text": "Ejemplo: `const persona = {}; persona.nombre = 'Ana';`."
+  },
+  {
+    "text": "¿Cómo eliminar una propiedad de un objeto en JavaScript?"
+  },
+  {
+    "text": "Usa `delete`. Ejemplo: `delete obj.atributo;`."
+  },
+  {
+    "text": "¿Cómo quitar una propiedad de un objeto en JavaScript?"
+  },
+  {
+    "text": "Puedes eliminarlo con `delete obj.atributo`. Ejemplo: `delete coche.modelo;`."
+  },
+  {
+    "text": "Dame un ejemplo de cómo eliminar un atributo de un objeto en JavaScript."
+  },
+  {
+    "text": "Ejemplo: `const persona = { nombre: 'Juan' }; delete persona.nombre;`."
+  },
+  {
+    "text": "¿Cómo verificar si un objeto tiene una propiedad en JavaScript?"
+  },
+  {
+    "text": "Usa `hasOwnProperty`. Ejemplo: `obj.hasOwnProperty('atributo')`."
+  },
+  {
+    "text": "¿Cómo saber si un objeto tiene un atributo en JavaScript?"
+  },
+  {
+    "text": "Puedes usar `hasOwnProperty`. Ejemplo: `const persona = { nombre: 'Juan' }; console.log(persona.hasOwnProperty('nombre'));`."
+  },
+  {
+    "text": "Dame un ejemplo de cómo verificar si un objeto tiene una propiedad en JavaScript."
+  },
+  {
+    "text": "Ejemplo: `const coche = { marca: 'Toyota' }; console.log(coche.hasOwnProperty('marca'));`."
+  },
+  {
+    "text": "¿Qué es un objeto en js?"
+  },
+  {
+    "text": "Un objeto en JavaScript es una colección de propiedades, donde cada propiedad es una clave con un valor. Ejemplo: `const persona = { nombre: 'Juan', edad: 30 };`."
+  },
+  {
+    "text": "¿Cómo implementar un objeto en js?"
+  },
+  {
+    "text": "Se define usando llaves `{}`. Ejemplo: `const coche = { marca: 'Toyota', modelo: 'Corolla' };`."
+  },
+  {
+    "text": "Dame un ejemplo de un objeto en js."
+  },
+  {
+    "text": "Ejemplo: `const animal = { especie: 'perro', color: 'marrón' };`."
+  },
+  {
+    "text": "¿Cómo acceder a los atributos de un objeto en js?"
+  },
+  {
+    "text": "Usa la notación de punto o corchetes. Ejemplo: `obj.atributo` o `obj['atributo']`."
+  },
+  {
+    "text": "¿Cómo obtener un valor de un objeto en js?"
+  },
+  {
+    "text": "Puedes usar `obj.atributo` o `obj['atributo']`. Ejemplo: `const persona = { nombre: 'Juan' }; console.log(persona.nombre);`."
+  },
+  {
+    "text": "Dame un ejemplo de acceso a un atributo de un objeto en js."
+  },
+  {
+    "text": "Ejemplo: `const persona = { nombre: 'Juan', edad: 25 }; console.log(persona.nombre);`."
+  },
+  {
+    "text": "¿Cómo agregar un atributo a un objeto en js?"
+  },
+  {
+    "text": "Puedes agregar atributos con la notación de punto o corchetes. Ejemplo: `obj.nuevoAtributo = valor;` o `obj['nuevoAtributo'] = valor;`."
+  },
+  {
+    "text": "¿Cómo añadir una propiedad a un objeto en js?"
+  },
+  {
+    "text": "Usa `obj.propiedad = valor`. Ejemplo: `coche.color = 'rojo';`."
+  },
+  {
+    "text": "Dame un ejemplo de cómo agregar un atributo a un objeto en js."
+  },
+  {
+    "text": "Ejemplo: `const persona = {}; persona.nombre = 'Ana';`."
+  },
+  {
+    "text": "¿Cómo eliminar una propiedad de un objeto en js?"
+  },
+  {
+    "text": "Usa `delete`. Ejemplo: `delete obj.atributo;`."
+  },
+  {
+    "text": "¿Cómo quitar una propiedad de un objeto en js?"
+  },
+  {
+    "text": "Puedes eliminarlo con `delete obj.atributo`. Ejemplo: `delete coche.modelo;`."
+  },
+  {
+    "text": "Dame un ejemplo de cómo eliminar un atributo de un objeto en js."
+  },
+  {
+    "text": "Ejemplo: `const persona = { nombre: 'Juan' }; delete persona.nombre;`."
+  },
+  {
+    "text": "¿Cómo verificar si un objeto tiene una propiedad en js?"
+  },
+  {
+    "text": "Usa `hasOwnProperty`. Ejemplo: `obj.hasOwnProperty('atributo')`."
+  },
+  {
+    "text": "¿Cómo saber si un objeto tiene un atributo en js?"
+  },
+  {
+    "text": "Puedes usar `hasOwnProperty`. Ejemplo: `const persona = { nombre: 'Juan' }; console.log(persona.hasOwnProperty('nombre'));`."
+  },
+  {
+    "text": "Dame un ejemplo de cómo verificar si un objeto tiene una propiedad en js."
+  },
+  {
+    "text": "Ejemplo: `const coche = { marca: 'Toyota' }; console.log(coche.hasOwnProperty('marca'));`."
+  },
+  {
+    "text": "¿Qué es un objeto en Python?"
+  },
+  {
+    "text": "En Python, un objeto es una instancia de una clase. Representa datos y tiene atributos y métodos. Ejemplo: `class Persona: pass; p = Persona()`."
+  },
+  {
+    "text": "¿Cómo implementar un objeto en Python?"
+  },
+  {
+    "text": "Se define creando una instancia de una clase. Ejemplo: `class Coche: pass; mi_coche = Coche()`."
+  },
+  {
+    "text": "Dame un ejemplo de un objeto en Python."
+  },
+  {
+    "text": "Ejemplo: `class Animal: pass; perro = Animal()`."
+  },
+  {
+    "text": "¿Cómo acceder a los atributos de un objeto en Python?"
+  },
+  {
+    "text": "Usa la notación de punto. Ejemplo: `obj.atributo`."
+  },
+  {
+    "text": "¿Cómo obtener un atributo de un objeto en Python?"
+  },
+  {
+    "text": "Accede a un atributo usando `obj.atributo`. Ejemplo: `persona.nombre`."
+  },
+  {
+    "text": "Dame un ejemplo de acceso a un atributo en un objeto de Python."
+  },
+  {
+    "text": "Ejemplo: `class Persona: def __init__(self, nombre): self.nombre = nombre; p = Persona('Juan'); print(p.nombre)`."
+  },
+  {
+    "text": "¿Cómo agregar atributos a un objeto en Python?"
+  },
+  {
+    "text": "Puedes asignar un valor directamente usando `obj.atributo = valor`. Ejemplo: `obj.edad = 30`."
+  },
+  {
+    "text": "¿Cómo puedo modificar un atributo de un objeto en Python?"
+  },
+  {
+    "text": "Modifica un atributo directamente con `obj.atributo = nuevo_valor`. Ejemplo: `mi_objeto.nombre = 'Carlos'`."
+  },
+  {
+    "text": "Dame un ejemplo de cómo agregar un atributo a un objeto en Python."
+  },
+  {
+    "text": "Ejemplo: `class Persona: pass; p = Persona(); p.edad = 25`."
+  },
+  {
+    "text": "¿Cómo eliminar un atributo de un objeto en Python?"
+  },
+  {
+    "text": "Usa `del`. Ejemplo: `del obj.atributo`."
+  },
+  {
+    "text": "¿Cómo quitar un atributo de un objeto en Python?"
+  },
+  {
+    "text": "Puedes eliminarlo con `del obj.atributo`. Ejemplo: `del coche.color`."
+  },
+  {
+    "text": "Dame un ejemplo de cómo eliminar un atributo de un objeto en Python."
+  },
+  {
+    "text": "Ejemplo: `class Persona: pass; p = Persona(); p.nombre = 'Juan'; del p.nombre`."
+  },
+  {
+    "text": "¿Cómo saber si un objeto tiene un atributo en Python?"
+  },
+  {
+    "text": "Usa la función `hasattr(obj, 'atributo')`. Ejemplo: `hasattr(persona, 'nombre')`."
+  },
+  {
+    "text": "¿Cómo puedo verificar si un objeto tiene un atributo en Python?"
+  },
+  {
+    "text": "Puedes usar `hasattr`. Ejemplo: `hasattr(obj, 'atributo')`."
+  },
+  {
+    "text": "Dame un ejemplo de cómo verificar si un objeto tiene un atributo en Python."
+  },
+  {
+    "text": "Ejemplo: `class Persona: pass; p = Persona(); print(hasattr(p, 'nombre'))`."
+  },
+  {
+    "text": "¿Cómo imprimir un valor en la consola en JavaScript?"
+  },
+  {
+    "text": "Usa `console.log()`. Ejemplo: `console.log('Hola, mundo!');`."
+  },
+  {
+    "text": "¿Qué hace `console.log` en JavaScript?"
+  },
+  {
+    "text": "`console.log()` imprime valores en la consola del navegador o del entorno de ejecución. Ejemplo: `console.log(5);`."
+  },
+  {
+    "text": "¿Cómo imprimir el contenido de una variable en JavaScript?"
+  },
+  {
+    "text": "Puedes usar `console.log()`. Ejemplo: `let mensaje = 'Hola'; console.log(mensaje);`."
+  },
+  {
+    "text": "¿Cómo imprimir un objeto en consola en JavaScript?"
+  },
+  {
+    "text": "Usa `console.log()` para imprimir objetos. Ejemplo: `let persona = {nombre: 'Juan', edad: 30}; console.log(persona);`."
+  },
+  {
+    "text": "¿Cómo imprimir un valor en la consola en js?"
+  },
+  {
+    "text": "Usa `console.log()`. Ejemplo: `console.log('Hola, mundo!');`."
+  },
+  {
+    "text": "¿Qué hace `console.log()` en js?"
+  },
+  {
+    "text": "`console.log()` imprime valores en la consola del navegador o del entorno de ejecución. Ejemplo: `console.log(5);`."
+  },
+  {
+    "text": "¿Cómo imprimir el contenido de una variable en js?"
+  },
+  {
+    "text": "Puedes usar `console.log()`. Ejemplo: `let mensaje = 'Hola'; console.log(mensaje);`."
+  },
+  {
+    "text": "¿Cómo imprimir un objeto en consola en js?"
+  },
+  {
+    "text": "Usa `console.log()` para imprimir objetos. Ejemplo: `let persona = {nombre: 'Juan', edad: 30}; console.log(persona);`."
+  },
+  {
+    "text": "¿Que hace console.log?"
+  },
+  {
+    "text": "Usa `console.log()` para imprimir objetos. Ejemplo: `let persona = {nombre: 'Juan', edad: 30}; console.log(persona);`."
+  },
+  {
+    "text": "¿Cómo imprimir un valor en la consola en Python?"
+  },
+  {
+    "text": "Usa `print()`. Ejemplo: `print('Hola, mundo!')`."
+  },
+  {
+    "text": "¿Qué hace print en Python?"
+  },
+  {
+    "text": "Usa `print()`. Ejemplo: `print('Hola, mundo!')`."
+  },
+  {
+    "text": "¿Qué hace print en Python?"
+  },
+  {
+    "text": "`print()` imprime el valor dado en la consola. Ejemplo: `print(5)`."
+  },
+  {
+    "text": "¿Cómo imprimir el contenido de una variable en Python?"
+  },
+  {
+    "text": "Usa `print()`. Ejemplo: `mensaje = 'Hola'; print(mensaje)`."
+  },
+  {
+    "text": "¿Cómo imprimir un objeto en consola en Python?"
+  },
+  {
+    "text": "Usa `print()` para imprimir objetos. Ejemplo: `persona = {'nombre': 'Juan', 'edad': 30}; print(persona)`."
+  },
+  {
+    "text": "¿Qué es un algoritmo?"
+  },
+  {
+    "text": "Es un conjunto de instrucciones sistemáticas y previamente definidas que se utilizan para realizar una determinada tarea."
+  },
+  {
+    "text": "¿Qué es desarrollo web?"
+  },
+  {
+    "text": "El desarrollo web es la construcción y el mantenimiento de las páginas web que existen en internet."
+  },
+  {
+    "text": "¿Qué es internet?"
+  },
+  {
+    "text": "es la red que conecta e interrelaciona dispositivos electrónicos y redes de computadoras entre sí, de todo el mundo."
+  },
+  {
+    "text": "¿Qué es una pila?"
+  },
+  {
+    "text": "Una pila es una estructura de datos que sigue el principio LIFO (Last In, First Out), es decir, el último elemento en entrar es el primero en salir."
+  },
+  {
+    "text": "¿Qué elementos se pueden insertar en una pila?"
+  },
+  {
+    "text": "Puedes insertar cualquier tipo de elemento en una pila, como números, cadenas, objetos, etc."
+  },
+  {
+    "text": "¿Qué tipo de elementos se puden insertar en una pila?"
+  },
+  {
+    "text": "Puedes insertar cualquier tipo de elemento en una pila, como números, cadenas, objetos, etc."
+  },
+  {
+    "text": "¿Como implementar una pila en Javascript?"
+  },
+  {
+    "text": "Puedes implementar una pila en JavaScript utilizando un array y los métodos `push` y `pop`. Ejemplo: `const pila = []; pila.push(1); pila.push(2); pila.pop();`."
+  },
+  {
+    "text": "Como agregar elementos a una pila en Javascript?"
+  },
+  {
+    "text": "Usa el método `push`. Ejemplo: `pila.push(5);`."
+  },
+  {
+    "text": "¿Que hace el metodo push en una pila en Javascript?"
+  },
+  {
+    "text": "El método `push` agrega un elemento al final de la pila. Ejemplo: `pila.push(3);`."
+  },
+  {
+    "text": "¿Como quitar elementos de una pila en Javascript?"
+  },
+  {
+    "text": "Usa el método `pop`. Ejemplo: `pila.pop();`."
+  },
+  {
+    "text": "¿Como eliminar elementos de una pila en Javascript?"
+  },
+  {
+    "text": "Usa el método `pop`. Ejemplo: `pila.pop();`."
+  },
+  {
+    "text": "¿Como eliminar un elemento de una pila en Javascript?"
+  },
+  {
+    "text": "Usa el método `pop`. Ejemplo: `pila.pop();`."
+  },
+  {
+    "text": "¿Que hace el metodo pop en una pila en Javascript?"
+  },
+  {
+    "text": "El método `pop` elimina y devuelve el último elemento de la pila. Ejemplo: `let elemento = pila.pop();`."
+  },
+  {
+    "text": "¿Cómo saber si una pila está vacía en Javascript?"
+  },
+  {
+    "text": "Verifica la longitud del array. Ejemplo: `if (pila.length === 0) { console.log('La pila está vacía'); }`."
+  },
+  {
+    "text": "¿Cómo saber si una pila está llena en Javascript?"
+  },
+  {
+    "text": "En JavaScript, las pilas basadas en arrays no tienen un límite de tamaño, por lo que no se llenan."
+  },
+  {
+    "text": "¿Cómo recorrer una pila en Javascript?"
+  },
+  {
+    "text": "Puedes usar un bucle `for` o `forEach`. Ejemplo: `pila.forEach(elemento => console.log(elemento));`."
+  },
+  {
+    "text": "¿Cómo saber cuantos elementos tiene una pila en Javascript?"
+  },
+  {
+    "text": "Usa la propiedad `length` del array. Ejemplo: `console.log(pila.length);`."
+  },
+  {
+    "text": "¿Cómo obtener la longitud de una pila en Javascript?"
+  },
+  {
+    "text": "Usa `length`. Ejemplo: `console.log(pila.length);`."
+  },
+  {
+    "text": "¿Qué es una estructura de datos?"
+  },
+  {
+    "text": "Una estructura de datos es una forma de organizar y almacenar datos para que puedan ser accedidos y utilizados de manera eficiente."
+  },
+  {
+    "text": "¿Por qué son importantes las estructuras de datos?"
+  },
+  {
+    "text": "Son importantes porque permiten optimizar la manipulación y el acceso a los datos, lo que mejora la eficiencia de los algoritmos."
+  },
+  {
+    "text": "¿Qué tipo de estructuras de datos existen?"
+  },
+  {
+    "text": "Existen varios tipos de estructuras de datos, como arrays, listas enlazadas, pilas, colas, etc."
+  },
+  {
+    "text": "¿Qué tipo de estructura de datos existen?"
+  },
+  {
+    "text": "Existen varios tipos de estructuras de datos, como arrays, listas enlazadas, pilas, colas, etc."
+  },
+  {
+    "text": "¿Qué tipos de estructuras de datos existen?"
+  },
+  {
+    "text": "Existen varios tipos de estructuras de datos, como arrays, listas enlazadas, pilas, colas, etc."
+  },
+  {
+    "text": "¿Qué tipos de estructura de datos existen?"
+  },
+  {
+    "text": "Existen varios tipos de estructuras de datos, como arrays, listas enlazadas, pilas, colas, etc."
+  },
+  {
+    "text": "¿Cuál es la diferencia entre una pila y una cola?"
+  },
+  {
+    "text": "La diferencia principal es el orden en que se eliminan los elementos. En una pila, se elimina el último elemento que se agregó (LIFO), mientras que en una cola se elimina el primer elemento que se agregó (FIFO)."
+  },
+  {
+    "text": "¿Qué es una cola?"
+  },
+  {
+    "text": "Una cola es una estructura de datos que sigue el principio FIFO (First In, First Out), es decir, el primer elemento en entrar es el primero en salir."
+  },
+  {
+    "text": "¿Qué elementos se pueden insertar en una cola?"
+  },
+  {
+    "text": "Puedes insertar cualquier tipo de elemento en una cola, como números, cadenas, objetos, etc."
+  },
+  {
+    "text": "¿Qué tipo de elementos se pueden insertar en una cola?"
+  },
+  {
+    "text": "Puedes insertar cualquier tipo de elemento en una cola, como números, cadenas, objetos, etc."
+  },
+  {
+    "text": "¿Cómo implementar una cola en Javascript?"
+  },
+  {
+    "text": "Puedes implementar una cola en JavaScript utilizando un array y los métodos `push` y `shift`. Ejemplo: `const cola = []; cola.push(1); cola.push(2); cola.shift();`."
+  },
+  {
+    "text": "¿Cómo agregar elementos a una cola en Javascript?"
+  },
+  {
+    "text": "Usa el método `push`. Ejemplo: `cola.push(5);`."
+  },
+  {
+    "text": "¿Qué hace el método push en una cola en Javascript?"
+  },
+  {
+    "text": "El método `push` agrega un elemento al final de la cola. Ejemplo: `cola.push(3);`."
+  },
+  {
+    "text": "¿Cómo quitar elementos de una cola en Javascript?"
+  },
+  {
+    "text": "Usa el método `shift`. Ejemplo: `cola.shift();`."
+  },
+  {
+    "text": "¿Cómo eliminar elementos de una cola en Javascript?"
+  },
+  {
+    "text": "Usa el método `shift`. Ejemplo: `cola.shift();`."
+  },
+  {
+    "text": "¿Cómo eliminar un elemento de una cola en Javascript?"
+  },
+  {
+    "text": "Usa el método `shift`. Ejemplo: `cola.shift();`."
+  },
+  {
+    "text": "¿Qué hace el método shift en una cola en Javascript?"
+  },
+  {
+    "text": "El método `shift` elimina y devuelve el primer elemento de la cola. Ejemplo: `let elemento = cola.shift();`."
+  },
+  {
+    "text": "¿Cómo saber si una cola está vacía en Javascript?"
+  },
+  {
+    "text": "Verifica la longitud del array. Ejemplo: `if (cola.length === 0) { console.log('La cola está vacía'); }`."
+  },
+  {
+    "text": "¿Cómo saber si una cola está llena en Javascript?"
+  },
+  {
+    "text": "En JavaScript, las colas basadas en arrays no tienen un límite de tamaño, por lo que no se llenan."
+  },
+  {
+    "text": "¿Cómo recorrer una cola en Javascript?"
+  },
+  {
+    "text": "Puedes usar un bucle `for` o `forEach`. Ejemplo: `cola.forEach(elemento => console.log(elemento));`."
+  },
+  {
+    "text": "¿Cómo saber cuántos elementos tiene una cola en Javascript?"
+  },
+  {
+    "text": "Usa la propiedad `length` del array. Ejemplo: `console.log(cola.length);`."
+  },
+  {
+    "text": "¿Cómo obtener la longitud de una cola en Javascript?"
+  },
+  {
+    "text": "Usa `length`. Ejemplo: `console.log(cola.length);`."
+  },
+  {
+    "text": "¿Qué es una lista enlazada?"
+  },
+  {
+    "text": "Una lista enlazada es una estructura de datos formada por nodos que contienen un valor y una referencia al siguiente nodo."
+  },
+  {
+    "text": "¿Qué elementos se pueden insertar en una lista enlazada?"
+  },
+  {
+    "text": "Puedes insertar cualquier tipo de elemento en una lista enlazada, como números, cadenas, objetos, etc."
+  },
+  {
+    "text": "¿Qué tipo de elementos se pueden insertar en una lista enlazada?"
+  },
+  {
+    "text": "Puedes insertar cualquier tipo de elemento en una lista enlazada, como números, cadenas, objetos, etc."
+  },
+  {
+    "text": "¿Qué son los nodos en una lista enlazada?"
+  },
+  {
+    "text": "Los nodos son los elementos individuales de una lista enlazada que contienen un valor y una referencia al siguiente nodo."
+  },
+  {
+    "text": "¿Qué es un nodo en una lista enlazada?"
+  },
+  {
+    "text": "Los nodos son los elementos individuales de una lista enlazada que contienen un valor y una referencia al siguiente nodo."
+  },
+  {
+    "text": "¿Qué es la referencia en una lista enlazada?"
+  },
+  {
+    "text": "La referencia es el enlace que conecta un nodo con el siguiente nodo en una lista enlazada."
+  },
+  {
+    "text": "¿Qué valores puede tener un nodo en una lista enlazada?"
+  },
+  {
+    "text": "Un nodo puede contener cualquier tipo de valor, como números, cadenas, objetos, etc."
+  },
+  {
+    "text": "¿Qué valor puede tener un nodo en una lista enlazada?"
+  },
+  {
+    "text": "Un nodo puede contener cualquier tipo de valor, como números, cadenas, objetos, etc."
+  },
+  {
+    "text": "¿Cómo implementar una lista enlazada en Javascript?"
+  },
+  {
+    "text": "Puedes implementar una lista enlazada en JavaScript creando una clase `Nodo` y una clase `ListaEnlazada`. Ejemplo: `class Nodo { constructor(valor) { this.valor = valor; this.siguiente = null; } } class ListaEnlazada { constructor() { this.cabeza = null; } }`."
+  },
+  {
+    "text": "¿Por qué se inicializan las variables como null en una lista enlazada?"
+  },
+  {
+    "text": "Inicializar las variables como `null` establece un estado inicial claro. Por ejemplo, al inicializar `this.cabeza` como `null`, indicamos que la lista está vacía y no tiene nodos. Esto ayuda a evitar errores y permite verificar si la lista tiene elementos."
+  },
+  {
+    "text": "¿Qué hace la variable cabeza en una lista enlazada?"
+  },
+  {
+    "text": "`this.cabeza` es una referencia al primer nodo de la lista enlazada. Es el punto de entrada para recorrer la lista o realizar operaciones como agregar, eliminar o buscar nodos."
+  },
+  {
+    "text": "¿Qué es la variable siguiente en un nodo de una lista enlazada?"
+  },
+  {
+    "text": "El atributo `siguiente` en un nodo apunta al siguiente nodo en la lista. Si el nodo es el último, su valor será `null`, lo que indica el final de la lista."
+  },
+  {
+    "text": "¿Cómo funcionan los nodos en una lista enlazada?"
+  },
+  {
+    "text": "Un nodo es un elemento de la lista enlazada que contiene un valor y una referencia (`siguiente`) al próximo nodo. Por ejemplo: `class Nodo { constructor(valor) { this.valor = valor; this.siguiente = null; } }`."
+  },
+  {
+    "text": "¿Por qué el constructor de la clase Lista Enlazada está vacío?"
+  },
+  {
+    "text": "El constructor de la clase `ListaEnlazada` está vacío porque su propósito principal es inicializar la propiedad `this.cabeza` como `null`, indicando que la lista está vacía al principio. No necesita argumentos porque no se requiere ninguna configuración inicial más allá de esto."
+  },
+  {
+    "text": "¿Por qué self.siguiente se inicializa como None en la clase Nodo?"
+  },
+  {
+    "text": "`self.siguiente` se inicializa como `None` porque al crear un nuevo nodo, este no está conectado a ningún otro nodo todavía."
+  },
+  {
+    "text": "¿Qué hace self.cabeza en la clase Lista Enlazada?"
+  },
+  {
+    "text": "`self.cabeza` almacena el primer nodo de la lista enlazada. Si la lista está vacía, su valor es `None`."
+  },
+  {
+    "text": "¿Por qué el constructor de Lista Enlazada está vacío?"
+  },
+  {
+    "text": "El constructor de `ListaEnlazada` solo necesita inicializar `self.cabeza` como `None`, ya que la lista comienza vacía y no requiere parámetros adicionales."
+  },
+  {
+    "text": "¿Qué significa self.valor en la clase Nodo?"
+  },
+  {
+    "text": "`self.valor` almacena el dato que el nodo contiene. Puede ser de cualquier tipo, como un número o un texto."
+  },
+  {
+    "text": "¿Qué es self.siguiente en la clase Nodo?"
+  },
+  {
+    "text": "`self.siguiente` es una referencia al siguiente nodo en la lista enlazada. Si el nodo es el último, su valor es `None`."
+  },
+  {
+    "text": "¿Por qué self.siguiente se inicializa como None en la clase Nodo?"
+  },
+  {
+    "text": "`self.siguiente` se inicializa como `None` porque al crear un nuevo nodo, este no está conectado a ningún otro nodo todavía."
+  },
+  {
+    "text": "¿Qué hace self.cabeza en la clase Lista Enlazada?"
+  },
+  {
+    "text": "`self.cabeza` almacena el primer nodo de la lista enlazada. Si la lista está vacía, su valor es `None`."
+  },
+  {
+    "text": "¿Por qué el constructor de Lista Enlazada está vacío?"
+  },
+  {
+    "text": "El constructor de `ListaEnlazada` solo necesita inicializar `self.cabeza` como `None`, ya que la lista comienza vacía y no requiere parámetros adicionales."
+  },
+  {
+    "text": "¿Qué significa self.valor en la clase Nodo?"
+  },
+  {
+    "text": "`self.valor` almacena el dato que el nodo contiene. Puede ser de cualquier tipo, como un número o un texto."
+  },
+  {
+    "text": "¿Qué es self.siguiente en la clase Nodo?"
+  },
+  {
+    "text": "`self.siguiente` es una referencia al siguiente nodo en la lista enlazada. Si el nodo es el último, su valor es `None`."
+  },
+  {
+    "text": "¿Qué hace la clase Nodo en una lista enlazada en Javascript?"
+  },
+  {
+    "text": "La clase `Nodo` representa un elemento de la lista enlazada. Cada nodo contiene un valor y una referencia al siguiente nodo. Ejemplo: `class Nodo { constructor(valor) { this.valor = valor; this.siguiente = null; } }`."
+  },
+  {
+    "text": "¿Cómo agregar un nodo al final de una lista enlazada en Javascript?"
+  },
+  {
+    "text": "Para agregar un nodo al final de una lista enlazada, debes recorrer la lista hasta encontrar el último nodo y establecer su propiedad `siguiente` al nuevo nodo. Ejemplo: `add(valor) { const nuevoNodo = new Nodo(valor); if (!this.cabeza) { this.cabeza = nuevoNodo; return; } let actual = this.cabeza; while (actual.siguiente) { actual = actual.siguiente; } actual.siguiente = nuevoNodo; }`."
+  },
+  {
+    "text": "¿Cómo eliminar un nodo de una lista enlazada en Javascript?"
+  },
+  {
+    "text": "Para eliminar un nodo de una lista enlazada, necesitas recorrer la lista para encontrar el nodo anterior al que deseas eliminar y ajustar su propiedad `siguiente` para que apunte al siguiente nodo del nodo eliminado. Ejemplo: `remove(valor) { if (!this.cabeza) return; if (this.cabeza.valor === valor) { this.cabeza = this.cabeza.siguiente; return; } let actual = this.cabeza; while (actual.siguiente && actual.siguiente.valor !== valor) { actual = actual.siguiente; } if (actual.siguiente) { actual.siguiente = actual.siguiente.siguiente; } }`."
+  },
+  {
+    "text": "¿Cómo buscar un valor en una lista enlazada en Javascript?"
+  },
+  {
+    "text": "Para buscar un valor en una lista enlazada, debes recorrer la lista nodo por nodo y verificar si el valor coincide con el valor del nodo actual. Ejemplo: `find(valor) { let actual = this.cabeza; while (actual) { if (actual.valor === valor) return actual; actual = actual.siguiente; } return null; }`."
+  },
+  {
+    "text": "¿Qué ventajas tiene usar una lista enlazada?"
+  },
+  {
+    "text": "Las listas enlazadas tienen ventajas como: 1) Inserción y eliminación de elementos en tiempo constante si ya tienes la referencia del nodo; 2) No necesitas definir un tamaño inicial como en algunos arrays; 3) Útiles para implementar estructuras dinámicas como pilas y colas. Sin embargo, tienen la desventaja de ocupar más memoria debido a las referencias adicionales."
+  },
+  {
+    "text": "¿Cómo agregar elementos a una lista enlazada en Javascript?"
+  },
+  {
+    "text": "Para agregar un elemento, crea un nuevo nodo y actualiza las referencias. Ejemplo: `let nuevoNodo = new Nodo(5); nuevoNodo.siguiente = this.cabeza; this.cabeza = nuevoNodo;`."
+  },
+  {
+    "text": "¿Cómo quitar elementos de una lista enlazada en Javascript?"
+  },
+  {
+    "text": "Para quitar un elemento, actualiza las referencias del nodo anterior. Ejemplo: `this.cabeza = this.cabeza.siguiente;`."
+  },
+  {
+    "text": "¿Cómo recorrer una lista enlazada en Javascript?"
+  },
+  {
+    "text": "Puedes usar un bucle `while` para recorrer la lista. Ejemplo: `let actual = this.cabeza; while (actual !== null) { console.log(actual.valor); actual = actual.siguiente; }`."
+  },
+  {
+    "text": "¿Cómo saber cuántos elementos tiene una lista enlazada en Javascript?"
+  },
+  {
+    "text": "Recorre la lista y cuenta los nodos. Ejemplo: `let contador = 0; let actual = this.cabeza; while (actual !== null) { contador++; actual = actual.siguiente; } console.log(contador);`."
+  },
+  {
+    "text": "¿Cómo implementar una pila en Python?"
+  },
+  {
+    "text": "Puedes implementar una pila en Python utilizando una lista y los métodos `append` y `pop`. Ejemplo: `pila = [] pila.append(1) pila.append(2) pila.pop()`."
+  },
+  {
+    "text": "¿Cómo agregar elementos a una pila en Python?"
+  },
+  {
+    "text": "Usa el método `append`. Ejemplo: `pila.append(5)`."
+  },
+  {
+    "text": "¿Qué hace el método append en una pila en Python?"
+  },
+  {
+    "text": "El método `append` agrega un elemento al final de la pila. Ejemplo: `pila.append(3)`."
+  },
+  {
+    "text": "¿Cómo quitar elementos de una pila en Python?"
+  },
+  {
+    "text": "Usa el método `pop`. Ejemplo: `pila.pop()`."
+  },
+  {
+    "text": "¿Cómo eliminar elementos de una pila en Python?"
+  },
+  {
+    "text": "Usa el método `pop`. Ejemplo: `pila.pop()`."
+  },
+  {
+    "text": "¿Cómo eliminar un elemento de una pila en Python?"
+  },
+  {
+    "text": "Usa el método `pop`. Ejemplo: `pila.pop()`."
+  },
+  {
+    "text": "¿Qué hace el método pop en una pila en Python?"
+  },
+  {
+    "text": "El método `pop` elimina y devuelve el último elemento de la pila. Ejemplo: `elemento = pila.pop()`."
+  },
+  {
+    "text": "¿Cómo saber si una pila está vacía en Python?"
+  },
+  {
+    "text": "Verifica la longitud de la lista. Ejemplo: `if len(pila) == 0: print('La pila está vacía')`."
+  },
+  {
+    "text": "¿Cómo recorrer una pila en Python?"
+  },
+  {
+    "text": "Usa un bucle `for`. Ejemplo: `for elemento in pila: print(elemento)`."
+  },
+  {
+    "text": "¿Cómo saber cuántos elementos tiene una pila en Python?"
+  },
+  {
+    "text": "Usa la función `len`. Ejemplo: `print(len(pila))`."
+  },
+  {
+    "text": "Una cola es una estructura de datos que sigue el principio FIFO (First In, First Out), es decir, el primer elemento en entrar es el primero en salir."
+  },
+  {
+    "text": "¿Cómo implementar una cola en Python?"
+  },
+  {
+    "text": "Puedes implementar una cola en Python utilizando una lista y los métodos `append` y `pop(0)`. Ejemplo: `cola = [] cola.append(1) cola.append(2) cola.pop(0)`."
+  },
+  {
+    "text": "¿Cómo agregar elementos a una cola en Python?"
+  },
+  {
+    "text": "Usa el método `append`. Ejemplo: `cola.append(5)`."
+  },
+  {
+    "text": "¿Qué hace el método append en una cola en Python?"
+  },
+  {
+    "text": "El método `append` agrega un elemento al final de la cola. Ejemplo: `cola.append(3)`."
+  },
+  {
+    "text": "¿Cómo quitar elementos de una cola en Python?"
+  },
+  {
+    "text": "Usa el método `pop(0)`. Ejemplo: `cola.pop(0)`."
+  },
+  {
+    "text": "¿Cómo eliminar elementos de una cola en Python?"
+  },
+  {
+    "text": "Usa el método `pop(0)`. Ejemplo: `cola.pop(0)`."
+  },
+  {
+    "text": "¿Cómo eliminar un elemento de una cola en Python?"
+  },
+  {
+    "text": "Usa el método `pop(0)`. Ejemplo: `cola.pop(0)`."
+  },
+  {
+    "text": "¿Qué hace el método pop(0) en una cola en Python?"
+  },
+  {
+    "text": "El método `pop(0)` elimina y devuelve el primer elemento de la cola. Ejemplo: `elemento = cola.pop(0)`."
+  },
+  {
+    "text": "¿Cómo saber si una cola está vacía en Python?"
+  },
+  {
+    "text": "Verifica la longitud de la lista. Ejemplo: `if len(cola) == 0: print('La cola está vacía')`."
+  },
+  {
+    "text": "¿Cómo implementar una lista enlazada en Python?"
+  },
+  {
+    "text": "Puedes implementar una lista enlazada en Python creando una clase `Nodo` y una clase `ListaEnlazada`. Ejemplo: `class Nodo: def __init__(self, valor): self.valor = valor self.siguiente = None class ListaEnlazada: def __init__(self): self.cabeza = None`."
+  },
+  {
+    "text": "¿Qué hace la clase Nodo en una lista enlazada en Python?"
+  },
+  {
+    "text": "La clase `Nodo` representa un elemento de la lista enlazada. Cada nodo contiene un valor y una referencia al siguiente nodo. Ejemplo: `class Nodo: def __init__(self, valor): self.valor = valor self.siguiente = None`."
+  },
+  {
+    "text": "¿Cómo agregar un nodo al final de una lista enlazada en Python?"
+  },
+  {
+    "text": "Para agregar un nodo al final de una lista enlazada, recorre la lista hasta el último nodo y establece su referencia `siguiente` al nuevo nodo. Ejemplo: `def agregar(self, valor): nuevo_nodo = Nodo(valor) if not self.cabeza: self.cabeza = nuevo_nodo return actual = self.cabeza while actual.siguiente: actual = actual.siguiente actual.siguiente = nuevo_nodo`."
+  },
+  {
+    "text": "¿Qué significa self en Python?"
+  },
+  {
+    "text": "En Python, 'self' es una referencia al objeto actual de la clase. Es obligatorio en los métodos de instancia y permite acceder a los atributos y métodos del objeto. Por ejemplo: `class MiClase: def __init__(self, valor): self.valor = valor`."
+  },
+  {
+    "text": "¿Qué significa init en Python?"
+  },
+  {
+    "text": "El método '__init__' es el constructor de una clase en Python. Se llama automáticamente al crear una nueva instancia y se usa para inicializar los atributos del objeto. Ejemplo: `class MiClase: def __init__(self, valor): self.valor = valor`."
+  },
+  {
+    "text": "¿Qué es const en javascript?"
+  },
+  {
+    "text": "En JavaScript, `const` es una palabra clave que se utiliza para declarar una constante, es decir, una variable cuyo valor no puede cambiar una vez que se ha asignado. Ejemplo: `const PI = 3.14159;`."
+  },
+  {
+    "text": "¿Qué es let en javascript?"
+  },
+  {
+    "text": "En JavaScript, `let` es una palabra clave que se utiliza para declarar una variable con ámbito de bloque. La variable declarada con `let` solo es accesible dentro del bloque en el que se declaró. Ejemplo: `let numero = 5;`."
+  },
+  {
+    "text": "¿Qué es var en javascript?"
+  },
+  {
+    "text": "En JavaScript, `var` es una palabra clave que se utilizaba anteriormente para declarar variables. A diferencia de `let` y `const`, las variables declaradas con `var` tienen un ámbito de función o global, en lugar de un ámbito de bloque. Ejemplo: `var x = 10;`."
+  },
+  {
+    "text": "¿Cuál es la diferencia entre const, let y var en javascript?"
+  },
+  {
+    "text": "La diferencia principal entre `const`, `let` y `var` en JavaScript es el ámbito de las variables. `const` y `let` tienen un ámbito de bloque, lo que significa que solo son accesibles dentro del bloque en el que se declaran, mientras que `var` tiene un ámbito de función o global. Además, las variables declaradas con `const` no pueden ser reasignadas, mientras que las variables declaradas con `let` y `var` pueden ser reasignadas. Ejemplo: `const PI = 3.14159; let numero = 5; var x = 10;`."
+  },
+  {
+    "text": "¿Qué es una variable en programación?"
+  },
+  {
+    "text": "Una variable es un contenedor que se utiliza para almacenar valores, como números, cadenas, objetos, etc. en un programa. Las variables tienen un nombre y un valor que puede cambiar durante la ejecución del programa."
+  },
+  {
+    "text": "¿Cómo puedo declarar un número en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes declarar un número de diferentes maneras:\n\n```javascript\nlet numeroEntero = 10; // Número entero\nlet numeroDecimal = 3.14; // Número decimal (punto flotante)\nlet numeroNegativo = -5; // Número negativo\n\nconsole.log(numeroEntero, numeroDecimal, numeroNegativo);\n```"
+  },
+  {
+    "text": "¿Cómo puedo declarar un número en Python?"
+  },
+  {
+    "text": "En Python, puedes declarar un número de diferentes maneras:\n\n```python\nnumero_entero = 10 # Número entero\nnumero_decimal = 3.14 # Número decimal (flotante)\nnumero_negativo = -5 # Número negativo\n\nprint(numero_entero, numero_decimal, numero_negativo)\n```"
+  },
+  {
+    "text": "¿Cómo puedo crear una variable con un número decimal en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes crear una variable con un número decimal así:\n\n```javascript\nlet numeroDecimal = 3.14; // Número decimal\nconsole.log(numeroDecimal);\n```"
+  },
+  {
+    "text": "¿Cómo puedo crear una variable con un número decimal en Python?"
+  },
+  {
+    "text": "En Python, puedes crear una variable con un número decimal así:\n\n```python\nnumero_decimal = 3.14  # Número decimal\nprint(numero_decimal)\n```"
+  },
+  {
+    "text": "¿Cómo puedo definir una variable con una cadena de texto en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes definir una variable con una cadena de texto así:\n\n```javascript\nlet texto = \"Hola Mundo\"; // Cadena de texto\nconsole.log(texto);\n```"
+  },
+  {
+    "text": "¿Cómo puedo definir una variable con una cadena de texto en Python?"
+  },
+  {
+    "text": "En Python, puedes definir una variable con una cadena de texto así:\n\n```python\ntexto = \"Hola Mundo\"  # Cadena de texto\nprint(texto)\n```"
+  },
+  {
+    "text": "¿Cómo inicializo una variable con un valor negativo en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes inicializar una variable con un valor negativo así:\n\n```javascript\nlet numeroNegativo = -42; // Valor negativo\nconsole.log(numeroNegativo);\n```"
+  },
+  {
+    "text": "¿Cómo inicializo una variable con un valor negativo en Python?"
+  },
+  {
+    "text": "En Python, puedes inicializar una variable con un valor negativo así:\n\n```python\nnumero_negativo = -42  # Valor negativo\nprint(numero_negativo)\n```"
+  },
+  {
+    "text": "¿Cómo declaro una variable booleana en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes declarar una variable booleana así:\n\n```javascript\nlet esVerdad = true;  // Valor booleano verdadero\nlet esFalso = false; // Valor booleano falso\nconsole.log(esVerdad, esFalso);\n```"
+  },
+  {
+    "text": "¿Cómo declaro una variable booleana en Python?"
+  },
+  {
+    "text": "En Python, puedes declarar una variable booleana así:\n\n```python\nes_verdad = True  # Valor booleano verdadero\nes_falso = False  # Valor booleano falso\nprint(es_verdad, es_falso)\n```"
+  },
+  {
+    "text": "¿Cómo generar una variable con una fecha en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes definir una variable con una fecha utilizando el objeto `Date`:\n\n```javascript\nlet fechaActual = new Date(); // Fecha actual\nconsole.log(fechaActual);\n```"
+  },
+  {
+    "text": "¿Cómo generar una variable con una fecha en Python?"
+  },
+  {
+    "text": "En Python, puedes definir una variable con una fecha utilizando el módulo `datetime`:\n\n```python\nfrom datetime import datetime\nfecha_actual = datetime.now()  # Fecha actual\nprint(fecha_actual)\n```"
+  },
+  {
+    "text": "¿Cómo inicializo una variable con un arreglo en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes inicializar una variable con un arreglo así:\n\n```javascript\nlet arreglo = [1, 2, 3, 4, 5]; // Arreglo de números\nconsole.log(arreglo);\n```"
+  },
+  {
+    "text": "¿Cómo inicializo una variable con una lista en Python?"
+  },
+  {
+    "text": "En Python, puedes inicializar una variable con una lista así:\n\n```python\nlista = [1, 2, 3, 4, 5]  # Lista de números\nprint(lista)\n```"
+  },
+  {
+    "text": "¿Cómo generar un ciclo for en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo for en JavaScript:\n\n```javascript\nfor (let i = 0; i < 5; i++) {\n    console.log(\"Iteración\", i);\n}\n```\nEste ciclo imprime los números del 0 al 4."
+  },
+  {
+    "text": "¿Cómo generar un ciclo for en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo for en Python:\n\n```python\nfor i in range(5):\n    print(\"Iteración\", i)\n```\nEste ciclo imprime los números del 0 al 4."
+  },
+  {
+    "text": "¿Cómo generar un ciclo while en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo while en JavaScript:\n\n```javascript\nlet i = 0;\nwhile (i < 5) {\n    console.log(\"Iteración\", i);\n    i++;\n}\n```\nEste ciclo incrementa `i` y se detiene cuando llega a 5."
+  },
+  {
+    "text": "¿Cómo generar un ciclo while en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo while en Python:\n\n```python\ni = 0\nwhile i < 5:\n    print(\"Iteración\", i)\n    i += 1\n```\nEste ciclo incrementa `i` y se detiene cuando llega a 5."
+  },
+  {
+    "text": "¿Cómo puedo inicializar un número en js?"
+  },
+  {
+    "text": "En js, puedes inicializar un número de diferentes maneras:\n\n```javascript\nlet numeroEntero = 10; // Número entero\nlet numeroDecimal = 3.14; // Número decimal (punto flotante)\nlet numeroNegativo = -5; // Número negativo\n\nconsole.log(numeroEntero, numeroDecimal, numeroNegativo);\n```"
+  },
+  {
+    "text": "¿cómo puedo inicializar una variable con un número decimal en js?"
+  },
+  {
+    "text": "En js, puedes inicializar una variable con un número decimal así:\n\n```javascript\nlet numeroDecimal = 3.14; // Número decimal\nconsole.log(numeroDecimal);\n```"
+  },
+  {
+    "text": "¿cómo puedo inicializar una variable con una cadena de texto en js?"
+  },
+  {
+    "text": "En js, puedes inicializar una variable con una cadena de texto así:\n\n```javascript\nlet texto = \"Hola Mundo\"; // Cadena de texto\nconsole.log(texto);\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable con un valor negativo en js?"
+  },
+  {
+    "text": "En js, puedes inicializar una variable con un valor negativo así:\n\n```javascript\nlet numeroNegativo = -42; // Valor negativo\nconsole.log(numeroNegativo);\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable booleana en js?"
+  },
+  {
+    "text": "En js, puedes inicializar una variable booleana así:\n\n```javascript\nlet esVerdad = true;  // Valor booleano verdadero\nlet esFalso = false; // Valor booleano falso\nconsole.log(esVerdad, esFalso);\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable con una fecha en js?"
+  },
+  {
+    "text": "En js, puedes inicializar una variable con una fecha utilizando el objeto `Date`:\n\n```javascript\nlet fechaActual = new Date(); // Fecha actual\nconsole.log(fechaActual);\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable con un arreglo en js?"
+  },
+  {
+    "text": "En js, puedes inicializar una variable con un arreglo así:\n\n```javascript\nlet arreglo = [1, 2, 3, 4, 5]; // Arreglo de números\nconsole.log(arreglo);\n```"
+  },
+  {
+    "text": "¿Cómo generar un ciclo for en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo for en js:\n\n```javascript\nfor (let i = 0; i < 5; i++) {\n    console.log(\"Iteración\", i);\n}\n```\nEste ciclo imprime los números del 0 al 4."
+  },
+  {
+    "text": "¿Cómo generar un ciclo while en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo while en js:\n\n```javascript\nlet i = 0;\nwhile (i < 5) {\n    console.log(\"Iteración\", i);\n    i++;\n}\n```\nEste ciclo incrementa `i` y se detiene cuando llega a 5."
+  },
+  {
+    "text": "¿Cómo generar un ciclo do while en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo do while en js:\n\n```javascript\nlet i = 0;\ndo {\n    console.log(\"Iteración\", i);\n    i++;\n} while (i < 5);\n```\nEl ciclo ejecuta el bloque al menos una vez, inc genero si la condición no se cumple inicialmente."
+  },
+  {
+    "text": "¿Cómo puedo inicializar un número en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes inicializar un número de diferentes maneras:\n\n```javascript\nlet numeroEntero = 10; // Número entero\nlet numeroDecimal = 3.14; // Número decimal (punto flotante)\nlet numeroNegativo = -5; // Número negativo\n\nconsole.log(numeroEntero, numeroDecimal, numeroNegativo);\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar un número en Python?"
+  },
+  {
+    "text": "En Python, puedes inicializar un número de diferentes maneras:\n\n```python\nnumero_entero = 10 # Número entero\nnumero_decimal = 3.14 # Número decimal (flotante)\nnumero_negativo = -5 # Número negativo\n\nprint(numero_entero, numero_decimal, numero_negativo)\n```"
+  },
+  {
+    "text": "¿como puedo inicializar una variable con un número decimal en javascript?"
+  },
+  {
+    "text": "En JavaScript, puedes inicializar una variable con un número decimal así:\n\n```javascript\nlet numeroDecimal = 3.14; // Número decimal\nconsole.log(numeroDecimal);\n```"
+  },
+  {
+    "text": "¿como puedo inicializar una variable con un número decimal en python?"
+  },
+  {
+    "text": "En Python, puedes inicializar una variable con un número decimal así:\n\n```python\nnumero_decimal = 3.14  # Número decimal\nprint(numero_decimal)\n```"
+  },
+  {
+    "text": "¿como puedo inicializar una variable con una cadena de texto en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes inicializar una variable con una cadena de texto así:\n\n```javascript\nlet texto = \"Hola Mundo\"; // Cadena de texto\nconsole.log(texto);\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable con una cadena de texto en Python?"
+  },
+  {
+    "text": "En Python, puedes inicializar una variable con una cadena de texto así:\n\n```python\ntexto = \"Hola Mundo\"  # Cadena de texto\nprint(texto)\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable con un valor negativo en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes inicializar una variable con un valor negativo así:\n\n```javascript\nlet numeroNegativo = -42; // Valor negativo\nconsole.log(numeroNegativo);\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable con un valor negativo en Python?"
+  },
+  {
+    "text": "En Python, puedes inicializar una variable con un valor negativo así:\n\n```python\nnumero_negativo = -42  # Valor negativo\nprint(numero_negativo)\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable booleana en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes inicializar una variable booleana así:\n\n```javascript\nlet esVerdad = true;  // Valor booleano verdadero\nlet esFalso = false; // Valor booleano falso\nconsole.log(esVerdad, esFalso);\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable booleana en Python?"
+  },
+  {
+    "text": "En Python, puedes inicializar una variable booleana así:\n\n```python\nes_verdad = True  # Valor booleano verdadero\nes_falso = False  # Valor booleano falso\nprint(es_verdad, es_falso)\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable con una fecha en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes inicializar una variable con una fecha utilizando el objeto `Date`:\n\n```javascript\nlet fechaActual = new Date(); // Fecha actual\nconsole.log(fechaActual);\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable con una fecha en Python?"
+  },
+  {
+    "text": "En Python, puedes inicializar una variable con una fecha utilizando el módulo `datetime`:\n\n```python\nfrom datetime import datetime\nfecha_actual = datetime.now()  # Fecha actual\nprint(fecha_actual)\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable con un arreglo en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes inicializar una variable con un arreglo así:\n\n```javascript\nlet arreglo = [1, 2, 3, 4, 5]; // Arreglo de números\nconsole.log(arreglo);\n```"
+  },
+  {
+    "text": "¿Cómo puedo inicializar una variable con una lista (arreglo) en Python?"
+  },
+  {
+    "text": "En Python, puedes inicializar una variable con una lista (arreglo) así:\n\n```python\nlista = [1, 2, 3, 4, 5]  # Lista de números\nprint(lista)\n```"
+  },
+  {
+    "text": "¿Cómo generar un ciclo for en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo for en JavaScript:\n\n```javascript\nfor (let i = 0; i < 5; i++) {\n    console.log(\"Iteración\", i);\n}\n```\nEste ciclo imprime los números del 0 al 4."
+  },
+  {
+    "text": "¿Cómo generar un ciclo for en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo for en Python:\n\n```python\nfor i in range(5):\n    print(\"Iteración\", i)\n```\nEste ciclo imprime los números del 0 al 4."
+  },
+  {
+    "text": "¿Cómo generar un ciclo while en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo while en JavaScript:\n\n```javascript\nlet i = 0;\nwhile (i < 5) {\n    console.log(\"Iteración\", i);\n    i++;\n}\n```\nEste ciclo incrementa `i` y se detiene cuando llega a 5."
+  },
+  {
+    "text": "¿Cómo generar un ciclo while en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo while en Python:\n\n```python\ni = 0\nwhile i < 5:\n    print(\"Iteración\", i)\n    i += 1\n```\nEste ciclo incrementa `i` y se detiene cuando llega a 5."
+  },
+  {
+    "text": "¿Cómo generar un ciclo do while en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de un ciclo do while en JavaScript:\n\n```javascript\nlet i = 0;\ndo {\n    console.log(\"Iteración\", i);\n    i++;\n} while (i < 5);\n```\nEl ciclo ejecuta el bloque al menos una vez, inc genero si la condición no se cumple inicialmente."
+  },
+  {
+    "text": "¿Cómo usar un ciclo similar a do while en Python?"
+  },
+  {
+    "text": "Python no tiene un ciclo do while nativo, pero puedes simularlo con un while true y un break:\n\n```python\ni = 0\nwhile True:\n    print(\"Iteración\", i)\n    i += 1\n    if i >= 5:\n        break\n```\nEste ciclo también se ejecuta al menos una vez."
+  },
+  {
+    "text": "¿Cómo es la sintaxis básica en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de la sintaxis básica en JavaScript:\n\n```javascript\n// Declaración de una variable\nlet nombre = \"Juan\";\n\n// Declaración de una función\nfunction saludar(nombre) {\n    console.log(\"Hola, \" + nombre + \"!\");\n}\n\n// genero de condicionales\nif (nombre === \"Juan\") {\n    saludar(nombre);\n} else {\n    console.log(\"No te conozco\");\n}\n\n// genero de un ciclo\nfor (let i = 0; i < 3; i++) {\n    console.log(\"Iteración\", i);\n}\n```\nEste ejemplo muestra variables, funciones, condicionales y ciclos."
+  },
+  {
+    "text": "¿Cómo es la sintaxis básica en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de la sintaxis básica en Python:\n\n```python\n# Declaración de una variable\nnombre = \"Juan\"\n\n# Declaración de una función\ndef saludar(nombre):\n    print(f\"Hola, {nombre}!\")\n\n# genero de condicionales\nif nombre == \"Juan\":\n    saludar(nombre)\nelse:\n    print(\"No te conozco\")\n\n# genero de un ciclo\nfor i in range(3):\n    print(\"Iteración\", i)\n```\nEste ejemplo muestra variables, funciones, condicionales y ciclos."
+  },
+  {
+    "text": "¿Cuáles son las principales diferencias de sintaxis entre JavaScript y Python?"
+  },
+  {
+    "text": "Aquí hay un resumen de las principales diferencias:\n\n- **Declaración de variables:** En JavaScript, se usa `let`, `const`, o `var`. En Python, simplemente se asigna el valor.\n- **Funciones:** JavaScript usa `function`, mientras que Python usa `def`.\n- **Bloques de código:** JavaScript utiliza llaves `{}` para delimitar bloques, mientras que Python usa indentación.\n- **Condicionales:** En JavaScript, las condiciones terminan con `{}`, mientras que en Python terminan con `:` y usan indentación.\n- **Ciclos:** Ambos tienen `for` y `while`, pero su sintaxis varía considerablemente, por ejemplo, en Python, `for` usa iterables como `range()`."
+  },
+  {
+    "text": "¿Como implementar una promesa en javascript para manejar tareas asincronicas?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de implementación de promesas en JavaScript:\n\n```javascript\nfunction tareaAsincrona() {\n    return new Promise((resolve, reject) => {\n        const exito = Math.random() > 0.5;\n\n        setTimeout(() => {\n            if (exito) {\n                resolve(\"¡Tarea completada exitosamente!\");\n            } else {\n                reject(\"Hubo un error en la tarea.\");\n            }\n        }, 1000);\n    });\n}\n\n// Usar la promesa\nconst promesa = tareaAsincrona();\n\npromesa\n    .then(resultado => console.log(\"Éxito:\", resultado))\n    .catch(error => console.error(\"Error:\", error));\n```"
+  },
+  {
+    "text": "¿Como implementar promesas en javascript para manejar tareas asincronicas?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de implementación de promesas en JavaScript:\n\n```javascript\nfunction tareaAsincrona() {\n    return new Promise((resolve, reject) => {\n        const exito = Math.random() > 0.5;\n\n        setTimeout(() => {\n            if (exito) {\n                resolve(\"¡Tarea completada exitosamente!\");\n            } else {\n                reject(\"Hubo un error en la tarea.\");\n            }\n        }, 1000);\n    });\n}\n\n// Usar la promesa\nconst promesa = tareaAsincrona();\n\npromesa\n    .then(resultado => console.log(\"Éxito:\", resultado))\n    .catch(error => console.error(\"Error:\", error));\n```"
+  },
+  {
+    "text": "¿Qué es el algoritmo de Ackermann?"
+  },
+  {
+    "text": "El algoritmo de Ackermann es una función recursiva matemática que crece extremadamente rápido. Se define como:\n\nA(m, n) =\n    n + 1                    si m = 0\n    A(m - 1, 1)              si m > 0 y n = 0\n    A(m - 1, A(m, n - 1))    si m > 0 y n > 0\n\nEs utilizado en la teoría de la computación para analizar funciones recursivas y la complejidad computacional."
+  },
+  {
+    "text": "¿Como implementar Ackermann en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo básico de la función Ackermann en Python:\n\n```python\ndef ackermann(m, n):\n    if m == 0:\n        return n + 1\n    elif m > 0 and n == 0:\n        return ackermann(m - 1, 1)\n    else:\n        return ackermann(m - 1, ackermann(m, n - 1))\n\nprint(ackermann(3, 4))  # salida: 125\n```"
+  },
+  {
+    "text": "¿Cómo implementar Ackermann en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo básico de la función Ackermann en JavaScript:\n\n```javascript\nfunction ackermann(m, n) {\n    if (m === 0) {\n        return n + 1;\n    } else if (m > 0 && n === 0) {\n        return ackermann(m - 1, 1);\n    } else {\n        return ackermann(m - 1, ackermann(m, n - 1));\n    }\n}\n\nconsole.log(ackermann(3, 4));  // salida: 125\n```"
+  },
+  {
+    "text": "¿dame el caso de m = 0 para Ackermann en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes el caso particular de la función Ackermann en JavaScript cuando m = 0:\n\n```javascript\nfunction ackermann(m, n) {\n    if (m === 0) {\n        return n + 1;\n    }\n}\n\nconsole.log(ackermann(0, 4));  // salida: 5\n```"
+  },
+  {
+    "text": "¿Dame el caso de m = 0 para Ackermann en Python?"
+  },
+  {
+    "text": "Aquí tienes el caso particular de la función Ackermann en Python cuando m = 0:\n\n```python\ndef ackermann(m, n):\n    if m == 0:\n        return n + 1\n\nprint(ackermann(0, 4))  # salida: 5\n```"
+  },
+  {
+    "text": "¿Dame el caso de m > 0 y n = 0 para Ackermann en Python?"
+  },
+  {
+    "text": "Aquí tienes el caso particular de la función Ackermann en Python cuando m > 0 y n = 0:\n\n```python\ndef ackermann(m, n):\n    if m > 0 and n == 0:\n        return ackermann(m - 1, 1)\n\nprint(ackermann(3, 0))  # salida: 5\n```"
+  },
+  {
+    "text": "¿Dame el caso de m > 0 y n = 0 para Ackermann en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes el caso particular de la función Ackermann en JavaScript cuando m > 0 y n = 0:\n\n```javascript\nfunction ackermann(m, n) {\n    if (m > 0 && n === 0) {\n        return ackermann(m - 1, 1);\n    }\n    return n + 1;  // Caso base, solo como ejemplo\n}\n\nconsole.log(ackermann(3, 0));  // salida: 5\n```"
+  },
+  {
+    "text": "¿Dame el caso de m > 0 y n > 0 para Ackermann en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes el caso particular de la función Ackermann en JavaScript cuando m > 0 y n > 0:\n\n```javascript\nfunction ackermann(m, n) {\n    if (m > 0 && n > 0) {\n        return ackermann(m - 1, ackermann(m, n - 1));\n    }\n    return n + 1;  // Caso base, solo como ejemplo\n}\n\nconsole.log(ackermann(3, 2));  // salida: 29\n```"
+  },
+  {
+    "text": "¿Dame el caso de m > 0 y n > 0 para Ackermann en Python?"
+  },
+  {
+    "text": "Aquí tienes el caso particular de la función Ackermann en Python cuando m > 0 y n > 0:\n\n```python\ndef ackermann(m, n):\n    if m > 0 and n > 0:\n        return ackermann(m - 1, ackermann(m, n - 1))\n    return n + 1  # Caso base, solo como ejemplo\n\nprint(ackermann(3, 2))  # salida: 29\n```"
+  },
+  {
+    "text": "¿Cómo generar un arbol binario en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes el código para crear un árbol binario en JavaScript:\n\n```javascript\nclass Nodo {\n    constructor(valor) {\n        this.valor = valor;\n        this.izquierda = null;\n        this.derecha = null;\n    }\n}\n\nclass ArbolBinario {\n    constructor() {\n        this.raiz = null;\n    }\n\n    insertar(valor) {\n        let nuevoNodo = new Nodo(valor);\n        if (this.raiz === null) {\n            this.raiz = nuevoNodo;\n        } else {\n            this.insertarNodo(this.raiz, nuevoNodo);\n        }\n    }\n\n    insertarNodo(nodo, nuevoNodo) {\n        if (nuevoNodo.valor < nodo.valor) {\n            if (nodo.izquierda === null) {\n                nodo.izquierda = nuevoNodo;\n            } else {\n                this.insertarNodo(nodo.izquierda, nuevoNodo);\n            }\n        } else {\n            if (nodo.derecha === null) {\n                nodo.derecha = nuevoNodo;\n            } else {\n                this.insertarNodo(nodo.derecha, nuevoNodo);\n            }\n        }\n    }\n}\n\nlet arbol = new ArbolBinario();\narbol.insertar(10);\narbol.insertar(5);\narbol.insertar(15);\narbol.insertar(3);\nconsole.log(arbol);\n```"
+  },
+  {
+    "text": "¿Cómo generar un arbol binario en Python?"
+  },
+  {
+    "text": "Aquí tienes el código para crear un árbol binario en Python:\n\n```python\nclass Nodo:\n    def __init__(self, valor):\n        self.valor = valor\n        self.izquierda = None\n        self.derecha = None\n\nclass ArbolBinario:\n    def __init__(self):\n        self.raiz = None\n\n    def insertar(self, valor):\n        nuevo_nodo = Nodo(valor)\n        if self.raiz is None:\n            self.raiz = nuevo_nodo\n        else:\n            self.insertar_nodo(self.raiz, nuevo_nodo)\n\n    def insertar_nodo(self, nodo, nuevo_nodo):\n        if nuevo_nodo.valor < nodo.valor:\n            if nodo.izquierda is None:\n                nodo.izquierda = nuevo_nodo\n            else:\n                self.insertar_nodo(nodo.izquierda, nuevo_nodo)\n        else:\n            if nodo.derecha is None:\n                nodo.derecha = nuevo_nodo\n            else:\n                self.insertar_nodo(nodo.derecha, nuevo_nodo)\n\narbol = ArbolBinario()\narbol.insertar(10)\narbol.insertar(5)\narbol.insertar(15)\narbol.insertar(3)\nprint(arbol)\n```"
+  },
+  {
+    "text": "¿Cómo generar la clase nodo en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes el código para crear la clase Nodo en JavaScript:\n\nclass Nodo {\n    constructor(valor) {\n        this.valor = valor;\n        this.izquierda = null;\n        this.derecha = null;\n    }\n}"
+  },
+  {
+    "text": "¿Cómo generar el constructor de la clase arbol binario en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes el constructor de la clase ArbolBinario en JavaScript:\n\nclass ArbolBinario {\n    constructor() {\n        this.raiz = null;\n    }\n}"
+  },
+  {
+    "text": "¿Cómo generar el método insertar en la clase arbol binario en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes el método insertar en la clase ArbolBinario en JavaScript:\n\ninsertar(valor) {\n    let nuevoNodo = new Nodo(valor);\n    if (this.raiz === null) {\n        this.raiz = nuevoNodo;\n    } else {\n        this.insertarNodo(this.raiz, nuevoNodo);\n    }\n}"
+  },
+  {
+    "text": "¿Cómo insertar un nodo en la clase arbol binario en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes el método insertar_nodo en la clase ArbolBinario en JavaScript:\n\ninsertarNodo(nodo, nuevoNodo) {\n    if (nuevoNodo.valor < nodo.valor) {\n        if (nodo.izquierda === null) {\n            nodo.izquierda = nuevoNodo;\n        } else {\n            this.insertarNodo(nodo.izquierda, nuevoNodo);\n        }\n    } else {\n        if (nodo.derecha === null) {\n            nodo.derecha = nuevoNodo;\n        } else {\n            this.insertarNodo(nodo.derecha, nuevoNodo);\n        }\n    }\n}"
+  },
+  {
+    "text": "¿Cómo se utiliza la condición if (nuevoNodo.valor < nodo.valor) en el método insertar_nodo?"
+  },
+  {
+    "text": "Aquí tienes cómo se utiliza la condición if (nuevoNodo.valor < nodo.valor) en el método insertar_nodo en JavaScript:\n\nif (nuevoNodo.valor < nodo.valor) {\n    if (nodo.izquierda === null) {\n        nodo.izquierda = nuevoNodo;\n    } else {\n        this.insertarNodo(nodo.izquierda, nuevoNodo);\n    }\n} else {\n    if (nodo.derecha === null) {\n        nodo.derecha = nuevoNodo;\n    } else {\n        this.insertarNodo(nodo.derecha, nuevoNodo);\n    }\n}"
+  },
+  {
+    "text": "¿Cómo insertar varios nodos en el árbol binario?"
+  },
+  {
+    "text": "Aquí tienes el código para insertar varios nodos en el árbol binario:\n\nlet arbol = new ArbolBinario();\narbol.insertar(10);\narbol.insertar(5);\narbol.insertar(15);\narbol.insertar(3);\nconsole.log(arbol);"
+  },
+  {
+    "text": "¿Cómo generar la clase Nodo en Python?"
+  },
+  {
+    "text": "Aquí tienes el código para crear la clase Nodo en Python:\n\n```python\nclass Nodo:\n    def __init__(self, valor):\n        self.valor = valor\n        self.izquierda = None\n        self.derecha = None\n```"
+  },
+  {
+    "text": "¿Cómo generar el constructor de la clase arbol binario en Python?"
+  },
+  {
+    "text": "Aquí tienes el constructor de la clase ArbolBinario en Python:\n\n```python\nclass ArbolBinario:\n    def __init__(self):\n        self.raiz = None\n```"
+  },
+  {
+    "text": "¿Cómo generar el método insertar en la clase arbol binario en Python?"
+  },
+  {
+    "text": "Aquí tienes el método insertar en la clase ArbolBinario en Python:\n\n```python\n    def insertar(self, valor):\n        nuevo_nodo = Nodo(valor)\n        if self.raiz is None:\n            self.raiz = nuevo_nodo\n        else:\n            self.insertar_nodo(self.raiz, nuevo_nodo)\n```"
+  },
+  {
+    "text": "¿Cómo  insertar un nodo en la clase arbol binario en Python?"
+  },
+  {
+    "text": "Aquí tienes el método insertar_nodo en la clase ArbolBinario en Python:\n\n```python\n    def insertar_nodo(self, nodo, nuevo_nodo):\n        if nuevo_nodo.valor < nodo.valor:\n            if nodo.izquierda is None:\n                nodo.izquierda = nuevo_nodo\n            else:\n                self.insertar_nodo(nodo.izquierda, nuevo_nodo)\n        else:\n            if nodo.derecha is None:\n                nodo.derecha = nuevo_nodo\n            else:\n                self.insertar_nodo(nodo.derecha, nuevo_nodo)\n```"
+  },
+  {
+    "text": "¿Cómo se utiliza la condición if (nuevo_nodo.valor < nodo.valor) en el método insertar_nodo?"
+  },
+  {
+    "text": "Aquí tienes cómo se utiliza la condición if (nuevo_nodo.valor < nodo.valor) en el método insertar_nodo en Python:\n\n```python\n        if nuevo_nodo.valor < nodo.valor:\n            if nodo.izquierda is None:\n                nodo.izquierda = nuevo_nodo\n            else:\n                self.insertar_nodo(nodo.izquierda, nuevo_nodo)\n        else:\n            if nodo.derecha is None:\n                nodo.derecha = nuevo_nodo\n            else:\n                self.insertar_nodo(nodo.derecha, nuevo_nodo)\n```"
+  },
+  {
+    "text": "¿Cómo insertar varios nodos en el árbol binario?"
+  },
+  {
+    "text": "Aquí tienes el código para insertar varios nodos en el árbol binario en Python:\n\n```python\narbol = ArbolBinario()\narbol.insertar(10)\narbol.insertar(5)\narbol.insertar(15)\narbol.insertar(3)\nprint(arbol)\n```"
+  },
+  {
+    "text": "¿Cómo recorrer un árbol binario en orden in order en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes el recorrido en orden (in-order) de un árbol binario en JavaScript:\n\n```javascript\nfunction inOrder(nodo) {\n    if (nodo === null) return;\n    inOrder(nodo.izquierda);\n    console.log(nodo.valor);\n    inOrder(nodo.derecha);\n}\n\nlet arbol = new ArbolBinario();\narbol.insertar(10);\narbol.insertar(5);\narbol.insertar(15);\nconsole.log('Recorrido en orden:');\ninOrder(arbol.raiz);\n```"
+  },
+  {
+    "text": "¿Cómo recorrer un árbol binario en pre order en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes el recorrido en pre-order de un árbol binario en JavaScript:\n\n```javascript\nfunction preOrder(nodo) {\n    if (nodo === null) return;\n    console.log(nodo.valor);\n    preOrder(nodo.izquierda);\n    preOrder(nodo.derecha);\n}\n\nlet arbol = new ArbolBinario();\narbol.insertar(10);\narbol.insertar(5);\narbol.insertar(15);\nconsole.log('Recorrido en pre-order:');\npreOrder(arbol.raiz);\n```"
+  },
+  {
+    "text": "¿Cómo recorrer un árbol binario en post order en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes el recorrido en post-order de un árbol binario en JavaScript:\n\n```javascript\nfunction postOrder(nodo) {\n    if (nodo === null) return;\n    postOrder(nodo.izquierda);\n    postOrder(nodo.derecha);\n    console.log(nodo.valor);\n}\n\nlet arbol = new ArbolBinario();\narbol.insertar(10);\narbol.insertar(5);\narbol.insertar(15);\nconsole.log('Recorrido en post-order:');\npostOrder(arbol.raiz);\n```"
+  },
+  {
+    "text": "genera el metodo in order para recorrer un árbol binario en JavaScript"
+  },
+  {
+    "text": "```javascript\nfunction inOrder(nodo) {\n    if (nodo === null) return;\n    inOrder(nodo.izquierda);\n    console.log(nodo.valor);\n    inOrder(nodo.derecha);\n}\n```"
+  },
+  {
+    "text": "Inserciones inOrder en el árbol para javascript"
+  },
+  {
+    "text": "```javascript\nlet arbol = new ArbolBinario();\narbol.insertar(10);\narbol.insertar(5);\narbol.insertar(15);\n```"
+  },
+  {
+    "text": "genera el metodo pre order para recorrer un árbol binario en JavaScript"
+  },
+  {
+    "text": "```javascript\nfunction preOrder(nodo) {\n    if (nodo === null) return;\n    console.log(nodo.valor);\n    preOrder(nodo.izquierda);\n    preOrder(nodo.derecha);\n}\n```"
+  },
+  {
+    "text": "Inserciones preOrder en el árbol para javascript"
+  },
+  {
+    "text": "```javascript\nlet arbol = new ArbolBinario();\narbol.insertar(10);\narbol.insertar(5);\narbol.insertar(15);\n```"
+  },
+  {
+    "text": "genera el metodo post order para recorrer un árbol binario en JavaScript"
+  },
+  {
+    "text": "```javascript\nfunction postOrder(nodo) {\n    if (nodo === null) return;\n    postOrder(nodo.izquierda);\n    postOrder(nodo.derecha);\n    console.log(nodo.valor);\n}\n```"
+  },
+  {
+    "text": "Inserciones postOrder en el árbol para javascript:"
+  },
+  {
+    "text": "```javascript\nlet arbol = new ArbolBinario();\narbol.insertar(10);\narbol.insertar(5);\narbol.insertar(15);\n```"
+  },
+  {
+    "text": "¿como recorrer un árbol binario en orden in order en Python?"
+  },
+  {
+    "text": "Aquí tienes el recorrido en orden (in-order) de un árbol binario en Python:\n\n```python\ndef in_order(nodo):\n    if nodo is None:\n        return\n    in_order(nodo.izquierda)\n    print(nodo.valor)\n    in_order(nodo.derecha)\n\narbol = ArbolBinario()\narbol.insertar(10)\narbol.insertar(5)\narbol.insertar(15)\nprint('Recorrido en orden:')\nin_order(arbol.raiz)\n```"
+  },
+  {
+    "text": "¿como recorrer un árbol binario en pre order en Python?"
+  },
+  {
+    "text": "Aquí tienes el recorrido en pre-order de un árbol binario en Python:\n\n```python\ndef pre_order(nodo):\n    if nodo is None:\n        return\n    print(nodo.valor)\n    pre_order(nodo.izquierda)\n    pre_order(nodo.derecha)\n\narbol = ArbolBinario()\narbol.insertar(10)\narbol.insertar(5)\narbol.insertar(15)\nprint('Recorrido en pre-order:')\npre_order(arbol.raiz)\n```"
+  },
+  {
+    "text": "¿como recorrer un árbol binario en post order en Python?"
+  },
+  {
+    "text": "Aquí tienes el recorrido en post-order de un árbol binario en Python:\n\n```python\ndef post_order(nodo):\n    if nodo is None:\n        return\n    post_order(nodo.izquierda)\n    post_order(nodo.derecha)\n    print(nodo.valor)\n\narbol = ArbolBinario()\narbol.insertar(10)\narbol.insertar(5)\narbol.insertar(15)\nprint('Recorrido en post-order:')\npost_order(arbol.raiz)\n```"
+  },
+  {
+    "text": "genera el metodo in order para recorrer un árbol binario en Python"
+  },
+  {
+    "text": "```python\ndef in_order(nodo):\n    if nodo is None:\n        return\n    in_order(nodo.izquierda)\n    print(nodo.valor)\n    in_order(nodo.derecha)\n```"
+  },
+  {
+    "text": "Inserciones inorder en el árbol para python"
+  },
+  {
+    "text": "```python\narbol = ArbolBinario()\narbol.insertar(10)\narbol.insertar(5)\narbol.insertar(15)\n```"
+  },
+  {
+    "text": "genera el metodo pre order para recorrer un árbol binario en Python"
+  },
+  {
+    "text": "```python\ndef pre_order(nodo):\n    if nodo is None:\n        return\n    print(nodo.valor)\n    pre_order(nodo.izquierda)\n    pre_order(nodo.derecha)\n```"
+  },
+  {
+    "text": "Inserciones preOrder en el árbol de python"
+  },
+  {
+    "text": "```python\narbol = ArbolBinario()\narbol.insertar(10)\narbol.insertar(5)\narbol.insertar(15)\n```"
+  },
+  {
+    "text": "genera el metodo post order para recorrer un árbol binario en Python"
+  },
+  {
+    "text": "```python\ndef post_order(nodo):\n    if nodo is None:\n        return\n    post_order(nodo.izquierda)\n    post_order(nodo.derecha)\n    print(nodo.valor)\n```"
+  },
+  {
+    "text": "genera las inserciones post order en el árbol para python"
+  },
+  {
+    "text": "```python\narbol = ArbolBinario()\narbol.insertar(10)\narbol.insertar(5)\narbol.insertar(15)\n```"
+  },
+  {
+    "text": "¿Qué son las funciones especiales en programación?"
+  },
+  {
+    "text": "Las funciones especiales son métodos o funciones integradas en un lenguaje de programación que permiten realizar tareas específicas, como ordenar listas, cambiar mayúsculas y minúsculas en texto, o realizar cálculos matemáticos complejos."
+  },
+  {
+    "text": "¿Qué funciones especiales existen?"
+  },
+  {
+    "text": "Algunas funciones especiales en Python incluyen:  `sort`,  `length`, `lower`, `upper`. En JavaScript, funciones similares incluyen: `sort()`, `length`, `toLowerCase()`, `toUpperCase()`. También existen funciones más avanzadas como el cálculo de la función de Ackermann."
+  },
+  {
+    "text": "¿Qué es un ordenamiento?"
+  },
+  {
+    "text": "El ordenamiento es una operación fundamental en programación que consiste en organizar una secuencia de elementos (como números o cadenas de texto) en un orden específico, ya sea ascendente o descendente. El objetivo del ordenamiento es facilitar la búsqueda, mejorar la eficiencia de otros algoritmos, y permitir una visualización más organizada de los datos."
+  },
+  {
+    "text": "¿Cuáles son los algoritmos de ordenamiento más comunes?"
+  },
+  {
+    "text": "Algunos de los algoritmos de ordenamiento más comunes son: \n1. **Sort (Método integrado)**: Método comúnmente utilizado en lenguajes como Python y JavaScript, que organiza los elementos de un arreglo o lista. \n2. **Bubble Sort (Ordenamiento por burbuja)**: Compara y intercambia elementos adyacentes hasta ordenar completamente la lista. Tiene una complejidad de O(n²). \n3. **QuickSort (Ordenamiento rápido)**: Utiliza el enfoque de 'divide y vencerás' para ordenar eficientemente con una complejidad promedio de O(n log n)"
+  },
+  {
+    "text": "¿Qué es la función sort?"
+  },
+  {
+    "text": "La función `sort` es un método incorporado en Python y JavaScript utilizado para ordenar los elementos de una lista o arreglo. En Python, se usa con listas para ordenar sus elementos de menor a mayor por defecto, pero también se puede configurar para ordenarlos de manera descendente. En JavaScript, `sort` ordena los elementos de un arreglo como cadenas de texto por defecto, pero también se puede personalizar con una función de comparación."
+  },
+  {
+    "text": "¿Cómo generar un sort en python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de cómo ordenar en orden ascendente en Python:\n\n```python\nnumeros = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]\nnumeros.sort()\nprint(numeros)\n```"
+  },
+  {
+    "text": "¿Cómo implementar un sort en python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de cómo ordenar en orden descendente en Python:\n\n```python\nnumeros = [64, 34, 25, 12, 22, 11, 90]\nnumeros.sort(reverse=True)\nprint(numeros)\n```"
+  },
+  {
+    "text": "¿Cómo generar un sort en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de cómo ordenar en orden ascendente en JavaScript:\n\n```javascript\nlet numeros = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];\nnumeros.sort((a, b) => a - b);\nconsole.log(numeros);\n```"
+  },
+  {
+    "text": "¿Cómo implementar un sort en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de cómo ordenar en orden descendente en JavaScript:\n\n```javascript\nlet lista = [64, 34, 25, 12, 22, 11, 90];\nlista.sort((a, b) => b - a);\nconsole.log(lista);\n```"
+  },
+  {
+    "text": "¿Cómo generar un sort en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de cómo ordenar en orden ascendente en JavaScript:\n\n```javascript\nlet numeros = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];\nnumeros.sort((a, b) => a - b);\nconsole.log(numeros);\n```"
+  },
+  {
+    "text": "¿Cómo implementar un sort en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de cómo ordenar en orden descendente en JavaScript:\n\n```javascript\nlet lista = [64, 34, 25, 12, 22, 11, 90];\nlista.sort((a, b) => b - a);\nconsole.log(lista);\n```"
+  },
+  {
+    "text": "¿Qué es la función lower?"
+  },
+  {
+    "text": "La función `lower` en Python y JavaScript se utiliza para convertir todos los caracteres de una cadena a minúsculas. En Python, se usa como un método de cadenas para transformar el texto. En JavaScript, se usa de manera similar con el método `toLowerCase()` para lograr el mismo efecto."
+  },
+  {
+    "text": "¿Cómo generar un lower en  Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de cómo convertir una cadena a minúsculas en Python:\n\n```python\ntexto = 'HELLO WORLD'\ntexto_lower = texto.lower()\nprint(texto_lower)\n```"
+  },
+  {
+    "text": "¿Cómo generar un lower en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de cómo convertir una cadena a minúsculas en JavaScript:\n\n```javascript\nlet texto = 'HELLO WORLD';\nlet textoLower = texto.toLowerCase();\nconsole.log(textoLower);\n```"
+  },
+  {
+    "text": "¿Cómo generar un lower en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de cómo convertir una cadena a minúsculas en JavaScript:\n\n```javascript\nlet texto = 'HELLO WORLD';\nlet textoLower = texto.toLowerCase();\nconsole.log(textoLower);\n```"
+  },
+  {
+    "text": "¿Qué es la función upper?"
+  },
+  {
+    "text": "La función `upper` se utiliza para convertir todos los caracteres de una cadena a mayúsculas. En Python, se utiliza como un método de las cadenas. En JavaScript, se usa el método `toUpperCase()` para obtener el mismo resultado."
+  },
+  {
+    "text": "¿Cómo implementar un sort en python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo:  \ncomo convertir una cadena a mayúsculas:\n\n```python\ntexto = 'hello world'\ntexto_upper = texto.upper()\nprint(texto_upper)\n```"
+  },
+  {
+    "text": "¿Cómo implementar un upper en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo:  \ncomo convertir una cadena a mayúsculas en JavaScript:\n\n```javascript\nlet texto = 'hello world';\nlet textoUpper = texto.toUpperCase();\nconsole.log(textoUpper);\n```"
+  },
+  {
+    "text": "¿Cómo implementar un upper en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo:  \ncomo convertir una cadena a mayúsculas en JavaScript:\n\n```javascript\nlet texto = 'hello world';\nlet textoUpper = texto.toUpperCase();\nconsole.log(textoUpper);\n```"
+  },
+  {
+    "text": "¿Qué es la función length?"
+  },
+  {
+    "text": "La función `length` es utilizada para obtener la longitud de una cadena o un arreglo. En Python, se usa la función `len()`. En JavaScript, `length` es una propiedad incorporada que permite obtener la cantidad de elementos de una cadena o arreglo."
+  },
+  {
+    "text": "¿Cómo implementar la función length en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo: \ncomo obtener la longitud de una cadena en Python:\n\n```python\ntexto = 'Hola Mundo'\nlongitud = len(texto)\nprint(longitud)\n```"
+  },
+  {
+    "text": "¿Cómo implementar la funcion length en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo: \ncomo obtener la longitud de una cadena en JavaScript:\n\n```javascript\nlet texto = 'Hola Mundo';\nlet longitud = texto.length;\nconsole.log(longitud);\n```"
+  },
+  {
+    "text": "¿Cómo implementar la funcion length en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo: \ncomo obtener la longitud de una cadena en JavaScript:\n\n```javascript\nlet texto = 'Hola Mundo';\nlet longitud = texto.length;\nconsole.log(longitud);\n```"
+  },
+  {
+    "text": "¿Qué es Bubblesort?"
+  },
+  {
+    "text": "Bubble sort es un algoritmo de ordenamiento simple que compara elementos adyacentes y los intercambia si están en el orden incorrecto. Aquí tienes un ejemplo en Python:\n\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\n\nlista = [64, 34, 25, 12, 22, 11, 90]\nprint(bubble_sort(lista))\n```"
+  },
+  {
+    "text": "¿En qué puedo utilizar Bubblesort?"
+  },
+  {
+    "text": "Bubble sort es útil para ordenar pequeñas listas donde la simplicidad del algoritmo es una ventaja. Aquí tienes un ejemplo en JavaScript:\n\n```javascript\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\nlet array = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(bubbleSort(array));\n```"
+  },
+  {
+    "text": "¿Cómo implementar Bubblesort en Python?"
+  },
+  {
+    "text": "Claro, aquí tienes un ejemplo de ordenamiento burbuja en Python:\n\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\n\nlista = [5, 2, 9, 1, 5, 6]\nprint(bubble_sort(lista))\n```"
+  },
+  {
+    "text": "¿Cómo generar ordenamiento burbuja en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de bubble sort en Python:\n\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\n\nlista = [64, 34, 25, 12, 22, 11, 90]\nprint(bubble_sort(lista))\n```"
+  },
+  {
+    "text": "¿Cómo implementar un ordenamiento burbuja en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de ordenamiento burbuja en Python:\n\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\n\nlista = [100, 90, 80, 70, 60]\nprint(bubble_sort(lista))\n```"
+  },
+  {
+    "text": "¿Me podrías dar la parte de intercambio de dígitos en el algoritmo BubbleSort en Python?"
+  },
+  {
+    "text": "Por supuesto, aquí está el fragmento que realiza el intercambio de elementos:\n\n```python\narr[j], arr[j+1] = arr[j+1], arr[j]\n```"
+  },
+  {
+    "text": "¿Qué hace el algoritmo BubbleSort en la primera iteración en Python?"
+  },
+  {
+    "text": "En la primera iteración del algoritmo BubbleSort, el valor más grande de la lista es movido hacia el final de la lista. Esto sucede porque el algoritmo compara cada par de elementos adyacentes e intercambia aquellos que están en el orden incorrecto. \nPor ejemplo, para la lista `[64, 34, 25, 12, 22, 11, 90]`, después de la primera iteración, el resultado será:\n\n```python\n[64, 34, 25, 12, 22, 11, 90] -> [34, 64, 25, 12, 22, 11, 90] -> [34, 25, 64, 12, 22, 11, 90] -> ... -> [34, 25, 12, 22, 11, 64, 90]\n```\nEl `90` ha sido movido al final."
+  },
+  {
+    "text": "¿Cómo implementar bubble sort en JavaScript?"
+  },
+  {
+    "text": "Claro, aquí tienes el ordenamiento burbuja en JavaScript:\n\n```javascript\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\nlet numeros = [100, 90, 80, 70, 60];\nconsole.log(bubbleSort(numeros));\n```"
+  },
+  {
+    "text": "¿Cómo generar bubble sort en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de bubble sort en JavaScript:\n\n```javascript\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\nlet array = [5, 2, 9, 1, 5, 6];\nconsole.log(bubbleSort(array));\n```"
+  },
+  {
+    "text": "¿Cómo implementar un ordenamiento burbuja en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de bubble sort en JavaScript:\n\n```javascript\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\nlet array = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(bubbleSort(array));\n```"
+  },
+  {
+    "text": "¿Me podrías dar la parte de intercambio de dígitos en el algoritmo en JavaScript?"
+  },
+  {
+    "text": "El intercambio de elementos en bubble sort se realiza mediante una variable temporal para guardar un valor mientras se realiza el cambio. Aquí está el código específico:\n\njavascript\nlet temp = arr[j];\narr[j] = arr[j + 1];\narr[j + 1] = temp;\n"
+  },
+  {
+    "text": "¿Qué hace el algoritmo bubble sort en la primera iteración en JavaScript?"
+  },
+  {
+    "text": "En la primera iteración del algoritmo bubble sort, se compara cada par de elementos adyacentes en la lista, y el valor más grande se mueve hacia el final del arreglo. Por ejemplo, con la lista [64, 34, 25, 12, 22, 11, 90], el proceso sería:\n\njavascript\n[64, 34, 25, 12, 22, 11, 90] -> [34, 64, 25, 12, 22, 11, 90] -> [34, 25, 64, 12, 22, 11, 90] -> ... -> [34, 25, 12, 22, 11, 64, 90]\n\nComo resultado, el 90 se posiciona correctamente al final de la lista."
+  },
+  {
+    "text": "¿Cómo implementar bubble sort en js?"
+  },
+  {
+    "text": "Claro, aquí tienes el ordenamiento burbuja en JavaScript:\n\n```javascript\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\nlet numeros = [100, 90, 80, 70, 60];\nconsole.log(bubbleSort(numeros));\n```"
+  },
+  {
+    "text": "¿Cómo generar bubble sort en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de bubble sort en JavaScript:\n\n```javascript\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\nlet array = [5, 2, 9, 1, 5, 6];\nconsole.log(bubbleSort(array));\n```"
+  },
+  {
+    "text": "¿Cómo implementar un ordenamiento burbuja en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de bubble sort en JavaScript:\n\n```javascript\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                let temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n    return arr;\n}\n\nlet array = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(bubbleSort(array));\n```"
+  },
+  {
+    "text": "¿Me podrías dar la parte de intercambio de dígitos en el algoritmo en js?"
+  },
+  {
+    "text": "El intercambio de elementos en bubble sort se realiza mediante una variable temporal para guardar un valor mientras se realiza el cambio. Aquí está el código específico:\n\njavascript\nlet temp = arr[j];\narr[j] = arr[j + 1];\narr[j + 1] = temp;\n"
+  },
+  {
+    "text": "¿Qué hace el algoritmo bubble sort en la primera iteración en js?"
+  },
+  {
+    "text": "En la primera iteración del algoritmo bubble sort, se compara cada par de elementos adyacentes en la lista, y el valor más grande se mueve hacia el final del arreglo. Por ejemplo, con la lista [64, 34, 25, 12, 22, 11, 90], el proceso sería:\n\njavascript\n[64, 34, 25, 12, 22, 11, 90] -> [34, 64, 25, 12, 22, 11, 90] -> [34, 25, 64, 12, 22, 11, 90] -> ... -> [34, 25, 12, 22, 11, 64, 90]\n\nComo resultado, el 90 se posiciona correctamente al final de la lista."
+  },
+  {
+    "text": "¿Qué es la función sort?"
+  },
+  {
+    "text": "La función `sort()` es un método que ordena los elementos de una lista o arreglo en orden ascendente o descendente. Aquí tienes un ejemplo en Python:\n\n```python\nlista = [64, 34, 25, 12, 22, 11, 90]\nlista.sort()\nprint(lista)\n```"
+  },
+  {
+    "text": "¿Cómo funciona sort() en Python?"
+  },
+  {
+    "text": "En Python, `sort()` ordena los elementos de una lista en su lugar. Ejemplo en Python:\n\n```python\nnumeros = [64, 34, 25, 12, 22, 11, 90]\nnumeros.sort()\nprint(numeros)\n```"
+  },
+  {
+    "text": "¿Cómo generar un sort en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de `sort()` en Python:\n\n```python\nnumeros = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]\nnumeros.sort()\nprint(numeros)\n```"
+  },
+  {
+    "text": "¿Cómo implementar sort en Python?"
+  },
+  {
+    "text": "En Python, puedes usar `sort()` para ordenar en orden ascendente:\n\n```python\nnumeros = [64, 34, 25, 12, 22, 11, 90]\nnumeros.sort()\nprint(numeros)\n```"
+  },
+  {
+    "text": "¿Cómo crear sort Python?"
+  },
+  {
+    "text": "En Python, puedes usar `sort()` para ordenar en orden ascendente:\n\n```python\nnumeros = [64, 34, 25, 12, 22, 11, 90]\nnumeros.sort()\nprint(numeros)\n```"
+  },
+  {
+    "text": "¿Cómo generar sort en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de `sort()` en JavaScript:\n\n```javascript\nlet numeros = [64, 34, 25, 12, 22, 11, 90];\nnumeros.sort((a, b) => a - b);\nconsole.log(numeros);\n```"
+  },
+  {
+    "text": "¿Cómo implementar sort en JavaScript?"
+  },
+  {
+    "text": "Claro, aquí tienes un ejemplo de cómo usar `sort()` en JavaScript:\n\n```javascript\nlet lista = [5, 3, 8, 4, 2, 7];\nlista.sort((a, b) => a - b);\nconsole.log(lista);\n```"
+  },
+  {
+    "text": "¿Cómo crear sort JavaScript?"
+  },
+  {
+    "text": "En JavaScript, puedes ordenar en orden ascendente de la siguiente manera:\n\n```javascript\nlet lista = [64, 34, 25, 12, 22, 11, 90];\nlista.sort((a, b) => a - b);\nconsole.log(lista);\n```"
+  },
+  {
+    "text": "¿Cómo generar sort en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de `sort()` en JavaScript:\n\n```javascript\nlet numeros = [64, 34, 25, 12, 22, 11, 90];\nnumeros.sort((a, b) => a - b);\nconsole.log(numeros);\n```"
+  },
+  {
+    "text": "¿Cómo implementar sort en js?"
+  },
+  {
+    "text": "Claro, aquí tienes un ejemplo de cómo usar `sort()` en JavaScript:\n\n```javascript\nlet lista = [5, 3, 8, 4, 2, 7];\nlista.sort((a, b) => a - b);\nconsole.log(lista);\n```"
+  },
+  {
+    "text": "¿Cómo crear sort js?"
+  },
+  {
+    "text": "En JavaScript, puedes ordenar en orden ascendente de la siguiente manera:\n\n```javascript\nlet lista = [64, 34, 25, 12, 22, 11, 90];\nlista.sort((a, b) => a - b);\nconsole.log(lista);\n```"
+  },
+  {
+    "text": "¿Qué es QuickSort?"
+  },
+  {
+    "text": "QuickSort es un algoritmo de ordenamiento eficiente basado en la técnica de 'divide y vencerás'. Consiste en seleccionar un pivote, dividir el arreglo en dos subarreglos (uno con los elementos menores que el pivote y otro con los mayores) y aplicar recursivamente el mismo proceso a cada subarreglo. Es más eficiente que Bubble Sort y tiene un tiempo promedio de O(n log n)."
+  },
+  {
+    "text": "¿En qué puedo utilizar QuickSort?"
+  },
+  {
+    "text": "QuickSort es útil cuando se necesita un algoritmo de ordenamiento eficiente para grandes volúmenes de datos. A diferencia de Bubble Sort, que tiene un tiempo de ejecución peor para listas grandes, QuickSort es más rápido en general debido a su eficiencia con grandes listas."
+  },
+  {
+    "text": "¿Cómo generar un QuickSort en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de QuickSort en Python:\n\n```python\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]  # Tomamos el pivote (elemento central)\n    left = [x for x in arr if x < pivot]  # Elementos menores que el pivote\n    middle = [x for x in arr if x == pivot]  # Elementos iguales al pivote\n    right = [x for x in arr if x > pivot]  # Elementos mayores que el pivote\n    return quicksort(left) + middle + quicksort(right)\n\n# Ejemplo de uso\nlista = [64, 34, 25, 12, 22, 11, 90]\nprint(quicksort(lista))\n```"
+  },
+  {
+    "text": "¿Cómo implementar un QuickSort en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de QuickSort en Python:\n\n```python\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]  # Tomamos el pivote (elemento central)\n    left = [x for x in arr if x < pivot]  # Elementos menores que el pivote\n    middle = [x for x in arr if x == pivot]  # Elementos iguales al pivote\n    right = [x for x in arr if x > pivot]  # Elementos mayores que el pivote\n    return quicksort(left) + middle + quicksort(right)\n\nlista = [100, 90, 80, 70, 60]\nprint(quicksort(lista))\n```"
+  },
+  {
+    "text": "¿Cómo selecciona el pivote QuickSort en Python?"
+  },
+  {
+    "text": "Así es como QuickSort selecciona el pivote:\n\n```python\npivot = arr[len(arr) // 2]  # Tomamos el elemento central como pivote\n```"
+  },
+  {
+    "text": "¿Cómo agrupa QuickSort los elementos menores, iguales y mayores al pivote en python?"
+  },
+  {
+    "text": "El algoritmo los agrupa de esta manera:\n\n```python\nleft = [x for x in arr if x < pivot]  # Elementos menores que el pivote\nmiddle = [x for x in arr if x == pivot]  # Elementos iguales al pivote\nright = [x for x in arr if x > pivot]  # Elementos mayores que el pivote\n```"
+  },
+  {
+    "text": "¿Cómo generar un QuickSort en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de QuickSort en JavaScript:\n\n```javascript\nfunction quicksort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[Math.floor(arr.length / 2)]; // Tomamos el pivote (elemento central)\n    const left = arr.filter(x => x < pivot);  // Elementos menores que el pivote\n    const middle = arr.filter(x => x === pivot);  // Elementos iguales al pivote\n    const right = arr.filter(x => x > pivot);  // Elementos mayores que el pivote\n    return [...quicksort(left), ...middle, ...quicksort(right)];\n}\n\n// Ejemplo de uso\nlet lista = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(quicksort(lista));\n```"
+  },
+  {
+    "text": "¿Cómo implementar un QuickSort en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de QuickSort en JavaScript:\n\n```javascript\nfunction quicksort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[Math.floor(arr.length / 2)]; // Tomamos el pivote (elemento central)\n    const left = arr.filter(x => x < pivot);  // Elementos menores que el pivote\n    const middle = arr.filter(x => x === pivot);  // Elementos iguales al pivote\n    const right = arr.filter(x => x > pivot);  // Elementos mayores que el pivote\n    return [...quicksort(left), ...middle, ...quicksort(right)];\n}\n\n// Ejemplo de uso\nlet lista = [5, 2, 9, 1, 5, 6];\nconsole.log(quicksort(lista));\n```"
+  },
+  {
+    "text": "¿Cómo selecciona el pivote QuickSort en JavaScript?"
+  },
+  {
+    "text": "Así es como QuickSort selecciona el pivote:\n\n```javascript\nconst pivot = arr[Math.floor(arr.length / 2)]; // Tomamos el elemento central como pivote\n```"
+  },
+  {
+    "text": "¿Cómo agrupa QuickSort los elementos menores, iguales y mayores al pivote en JavaScript?"
+  },
+  {
+    "text": "El algoritmo los agrupa de esta manera:\n\n```javascript\nconst left = arr.filter(x => x < pivot);  // Elementos menores que el pivote\nconst middle = arr.filter(x => x === pivot);  // Elementos iguales al pivote\nconst right = arr.filter(x => x > pivot);  // Elementos mayores que el pivote\n```"
+  },
+  {
+    "text": "¿Cómo generar un QuickSort en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de QuickSort en JavaScript:\n\n```javascript\nfunction quicksort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[Math.floor(arr.length / 2)]; // Tomamos el pivote (elemento central)\n    const left = arr.filter(x => x < pivot);  // Elementos menores que el pivote\n    const middle = arr.filter(x => x === pivot);  // Elementos iguales al pivote\n    const right = arr.filter(x => x > pivot);  // Elementos mayores que el pivote\n    return [...quicksort(left), ...middle, ...quicksort(right)];\n}\n\n// Ejemplo de uso\nlet lista = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(quicksort(lista));\n```"
+  },
+  {
+    "text": "¿Cómo implementar un QuickSort en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de QuickSort en JavaScript:\n\n```javascript\nfunction quicksort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[Math.floor(arr.length / 2)]; // Tomamos el pivote (elemento central)\n    const left = arr.filter(x => x < pivot);  // Elementos menores que el pivote\n    const middle = arr.filter(x => x === pivot);  // Elementos iguales al pivote\n    const right = arr.filter(x => x > pivot);  // Elementos mayores que el pivote\n    return [...quicksort(left), ...middle, ...quicksort(right)];\n}\n\n// Ejemplo de uso\nlet lista = [5, 2, 9, 1, 5, 6];\nconsole.log(quicksort(lista));\n```"
+  },
+  {
+    "text": "¿Cómo selecciona el pivote QuickSort en js?"
+  },
+  {
+    "text": "Así es como QuickSort selecciona el pivote:\n\n```javascript\nconst pivot = arr[Math.floor(arr.length / 2)]; // Tomamos el elemento central como pivote\n```"
+  },
+  {
+    "text": "¿Cómo agrupa QuickSort los elementos menores, iguales y mayores al pivote en js?"
+  },
+  {
+    "text": "El algoritmo los agrupa de esta manera:\n\n```javascript\nconst left = arr.filter(x => x < pivot);  // Elementos menores que el pivote\nconst middle = arr.filter(x => x === pivot);  // Elementos iguales al pivote\nconst right = arr.filter(x => x > pivot);  // Elementos mayores que el pivote\n```"
+  },
+  {
+    "text": "¿Qué es el algoritmo de búsqueda lineal?"
+  },
+  {
+    "text": "El algoritmo de búsqueda lineal recorre todos los elementos de una lista uno por uno hasta encontrar el elemento que buscas. Si lo encuentra, retorna su índice, y si no lo encuentra, retorna -1."
+  },
+  {
+    "text": "¿Cómo implementar búsqueda lineal en Python?"
+  },
+  {
+    "text": "En Python, el algoritmo de búsqueda lineal se puede implementar de la siguiente manera:\n\n```python\ndef busqueda_lineal(lista, objetivo):\n    for i in range(len(lista)):\n        if lista[i] == objetivo:\n            return i  # Retorna el índice donde se encuentra el objetivo\n    return -1  # Si no se encuentra el objetivo, retorna -1\n\n# Ejemplo de uso\nmi_lista = [10, 20, 30, 40, 50]\nobjetivo = 30\nresultado = busqueda_lineal(mi_lista, objetivo)\n\nif resultado != -1:\n    print(f\"Elemento encontrado en el índice {resultado}\")\nelse:\n    print(\"Elemento no encontrado\")\n```"
+  },
+  {
+    "text": "¿Cómo obtener el índice de un elemento  usando búsqueda lineal en Python?"
+  },
+  {
+    "text": "Para obtener el índice de un elemento en Python usando búsqueda lineal, puedes usar el siguiente fragmento de código:\n\n```python\ndef busqueda_lineal(lista, objetivo):\n    for i in range(len(lista)):\n        if lista[i] == objetivo:\n            return i  # Retorna el índice donde se encuentra el objetivo\n    return -1  # Si no se encuentra el objetivo, retorna -1\n```"
+  },
+  {
+    "text": "¿Cómo recorrer una lista  dentro de una función de búsqueda lineal en Python?"
+  },
+  {
+    "text": "Para recorrer una lista en Python dentro de una función de búsqueda lineal, puedes usar un bucle `for` con `range(len(lista))` para acceder a cada elemento por su índice. Aquí tienes el fragmento del código:\n\n```python\nfor i in range(len(lista)):\n    if lista[i] == objetivo:\n        return i  # Retorna el índice donde se encuentra el objetivo\n```"
+  },
+  {
+    "text": "¿Cómo implementar búsqueda lineal en JavaScript?"
+  },
+  {
+    "text": "En JavaScript, el algoritmo de búsqueda lineal se puede implementar de la siguiente manera:\n\n```javascript\nfunction busquedaLineal(lista, objetivo) {\n    for (let i = 0; i < lista.length; i++) {\n        if (lista[i] === objetivo) {\n            return i;  // Retorna el índice donde se encuentra el objetivo\n        }\n    }\n    return -1;  // Si no se encuentra el objetivo, retorna -1\n}\n\n// Ejemplo de uso\nconst miLista = [10, 20, 30, 40, 50];\nconst objetivo = 30;\nconst resultado = busquedaLineal(miLista, objetivo);\n\nif (resultado !== -1) {\n    console.log(`Elemento encontrado en el índice ${resultado}`);\n} else {\n    console.log(\"Elemento no encontrado\");\n}```"
+  },
+  {
+    "text": "¿Cómo obtener el índice de un elemento usando búsqueda lineal en JavaScript?"
+  },
+  {
+    "text": "Para obtener el índice de un elemento en JavaScript usando búsqueda lineal, puedes usar el siguiente fragmento de código:\n\n```javascript\nfunction busquedaLineal(lista, objetivo) {\n    for (let i = 0; i < lista.length; i++) {\n        if (lista[i] === objetivo) {\n            return i;  // Retorna el índice donde se encuentra el objetivo\n        }\n    }\n    return -1;  // Si no se encuentra el objetivo, retorna -1\n}\n```"
+  },
+  {
+    "text": "¿Cómo recorrer una lista dentro de una función de búsqueda lineal en JavaScript?"
+  },
+  {
+    "text": "Para recorrer una lista en JavaScript dentro de una función de búsqueda lineal, puedes usar un bucle `for` que itere a través de los índices de la lista. Aquí tienes el fragmento del código:\n\n```javascript\nfor (let i = 0; i < lista.length; i++) {\n    if (lista[i] === objetivo) {\n        return i;  // Retorna el índice donde se encuentra el objetivo\n}\n}```"
+  },
+  {
+    "text": "¿Cómo implementar búsqueda lineal en js?"
+  },
+  {
+    "text": "En JavaScript, el algoritmo de búsqueda lineal se puede implementar de la siguiente manera:\n\n```javascript\nfunction busquedaLineal(lista, objetivo) {\n    for (let i = 0; i < lista.length; i++) {\n        if (lista[i] === objetivo) {\n            return i;  // Retorna el índice donde se encuentra el objetivo\n        }\n    }\n    return -1;  // Si no se encuentra el objetivo, retorna -1\n}\n\n// Ejemplo de uso\nconst miLista = [10, 20, 30, 40, 50];\nconst objetivo = 30;\nconst resultado = busquedaLineal(miLista, objetivo);\n\nif (resultado !== -1) {\n    console.log(`Elemento encontrado en el índice ${resultado}`);\n} else {\n    console.log(\"Elemento no encontrado\");\n}```"
+  },
+  {
+    "text": "¿Cómo obtener el índice de un elemento usando búsqueda lineal en js?"
+  },
+  {
+    "text": "Para obtener el índice de un elemento en JavaScript usando búsqueda lineal, puedes usar el siguiente fragmento de código:\n\n```javascript\nfunction busquedaLineal(lista, objetivo) {\n    for (let i = 0; i < lista.length; i++) {\n        if (lista[i] === objetivo) {\n            return i;  // Retorna el índice donde se encuentra el objetivo\n        }\n    }\n    return -1;  // Si no se encuentra el objetivo, retorna -1\n}\n```"
+  },
+  {
+    "text": "¿Cómo recorrer una lista dentro de una función de búsqueda lineal en js?"
+  },
+  {
+    "text": "Para recorrer una lista en JavaScript dentro de una función de búsqueda lineal, puedes usar un bucle `for` que itere a través de los índices de la lista. Aquí tienes el fragmento del código:\n\n```javascript\nfor (let i = 0; i < lista.length; i++) {\n    if (lista[i] === objetivo) {\n        return i;  // Retorna el índice donde se encuentra el objetivo\n}\n}```"
+  },
+  {
+    "text": "¿Qué es un set en Python?"
+  },
+  {
+    "text": "Un set es una colección desordenada y mutable de elementos únicos en Python. Los sets no permiten duplicados, no tienen un orden específico y son útiles para operaciones matemáticas como unión, intersección y diferencia."
+  },
+  {
+    "text": "¿Cómo puedo crear un set en Python?"
+  },
+  {
+    "text": "Puedes crear un set de las siguientes maneras:\n\n1. **Usando llaves `{}`**:\n```python\nmy_set = {1, 2, 3, 4, 5}\n```\n\n2. **Usando la función `set()`**:\n```python\nmy_set = set([1, 2, 3, 4, 5])  # Convierte una lista a set\n```\n\n**Nota**: Para crear un set vacío, usa `set()` y no `{}`, ya que `{}` crea un diccionario vacío."
+  },
+  {
+    "text": "¿Cómo puedo agregar elementos a un set?"
+  },
+  {
+    "text": "Puedes agregar elementos al set usando el método `add`. Si el elemento ya existe, no se añadirá nuevamente.\n```python\nmy_set = {1, 2, 3}\nmy_set.add(4)  # Agrega el elemento 4\nprint(my_set)  # Salida: {1, 2, 3, 4}\n```"
+  },
+  {
+    "text": "¿Cómo puedo eliminar elementos de un set?"
+  },
+  {
+    "text": "Puedes usar los métodos `remove` o `discard`. La diferencia es que `remove` genera un error si el elemento no existe, mientras que `discard` no lo hace.\n```python\nmy_set = {1, 2, 3}\nmy_set.remove(3)  # Elimina el elemento 3\nmy_set.discard(2)  # Elimina el elemento 2\nprint(my_set)  # Salida: {1}\n```"
+  },
+  {
+    "text": "¿Cómo puedo copiar un set en Python?"
+  },
+  {
+    "text": "Puedes copiar un set usando el método `copy`.\n```python\nmy_set = {1, 2, 3}\ncopied_set = my_set.copy()\nprint(copied_set)  # Salida: {1, 2, 3}\n```"
+  },
+  {
+    "text": "¿Cómo puedo vaciar un set en Python?"
+  },
+  {
+    "text": "Puedes eliminar todos los elementos de un set usando el método `clear`.\n```python\nmy_set = {1, 2, 3}\nmy_set.clear()\nprint(my_set)  # Salida: set()\n```"
+  },
+  {
+    "text": "¿Cómo comparar sets en Python?"
+  },
+  {
+    "text": "Puedes comparar sets para verificar si uno está contenido en otro o si es igual a otro usando los métodos `issubset` y `issuperset`.\n```python\nset1 = {1, 2, 3}\nset2 = {1, 2, 3, 4, 5}\nprint(set1.issubset(set2))  # Salida: True\nprint(set2.issuperset(set1))  # Salida: True\n```"
+  },
+  {
+    "text": "¿Cuál es la estructura de la condicional if en Python?"
+  },
+  {
+    "text": "```python\nif <condición>:\n    # Código a ejecutar si la condición es verdadera\n aqui```"
+  },
+  {
+    "text": "¿Ejemplos de un if en Python?"
+  },
+  {
+    "text": "Para Ver si un numero es positivo o negativo, \nver si una lista contiene un caracter especifico \nsi una lista esta vacia \nsi un numero es par"
+  },
+  {
+    "text": "¿Cómo ver si un número es positivo Python?"
+  },
+  {
+    "text": "Aqui un ejemplo de como verificar si un numero es positivo \n```python\nnumero = 10\nif numero > 0:\n    print('El número es positivo')\n```"
+  },
+  {
+    "text": "¿Cómo ver si un String contiene un carácter especifico en Python?"
+  },
+  {
+    "text": "Aquí un ejemplo de un ejemplo de cómo verificar si un string contiene un carácter específico \n```python\nmensaje = 'Hola Mundo'\nif 'H' in mensaje:\n    print('El mensaje contiene la letra H')\n```"
+  },
+  {
+    "text": "¿Cómo ver si una lista esta vacia en python?"
+  },
+  {
+    "text": "Aquí un ejemplo de cómo comprobar si una lista está vacía \n```python\nmi_lista = []\nif not mi_lista:\n    print('La lista está vacía')\n```"
+  },
+  {
+    "text": "¿Cuál es la estructura de la condicional if en JavaScript?"
+  },
+  {
+    "text": "```javascript\nif (<condición>) {\n    // Código a ejecutar si la condición es verdadera\n}```"
+  },
+  {
+    "text": "¿Ejemplos de un if en javascript?"
+  },
+  {
+    "text": "Para VER si un numero es positivo o negativo, \nver si una lista contiene un caracter especifico \nsi una lista esta vacia \nsi un numero es par"
+  },
+  {
+    "text": "¿Cómo ver si un número es positivo en JavaScript?"
+  },
+  {
+    "text": "Aqui un ejemplo de como verificar si un numero es positivo \n```javascript\nlet numero = 10;\nif (numero > 0) {\n    console.log('El número es positivo');\n}\n```"
+  },
+  {
+    "text": "¿Cómo ver si un String contiene un carácter especifico en JavaScript?"
+  },
+  {
+    "text": "Aquí un ejemplo de un ejemplo de cómo verificar si un string contiene un carácter específico \n```javascript\nlet mensaje = 'Hola Mundo';\nif (mensaje.includes('H')) {\n    console.log('El mensaje contiene la letra H');\n}\n```"
+  },
+  {
+    "text": "¿Cómo ver si una lista esta vacia en JavaScript?"
+  },
+  {
+    "text": "`Aquí un ejemplo de cómo comprobar si una lista está vacía \n``javascript\nlet lista = [];\nif (lista.length === 0) {\n    console.log('La lista está vacía');\n}\n```"
+  },
+  {
+    "text": "¿Cuál es la estructura de la condicional if en js?"
+  },
+  {
+    "text": "```javascript\nif (<condición>) {\n    // Código a ejecutar si la condición es verdadera\n}```"
+  },
+  {
+    "text": "¿Ejemplos de un if en js?"
+  },
+  {
+    "text": "Para VER si un numero es positivo o negativo, \nver si una lista contiene un caracter especifico \nsi una lista esta vacia \nsi un numero es par"
+  },
+  {
+    "text": "¿Cómo ver si un número es positivo en js?"
+  },
+  {
+    "text": "Aqui un ejemplo de como verificar si un numero es positivo \n```javascript\nlet numero = 10;\nif (numero > 0) {\n    console.log('El número es positivo');\n}\n```"
+  },
+  {
+    "text": "¿Cómo ver si un String contiene un carácter especifico en js?"
+  },
+  {
+    "text": "Aquí un ejemplo de un ejemplo de cómo verificar si un string contiene un carácter específico \n```javascript\nlet mensaje = 'Hola Mundo';\nif (mensaje.includes('H')) {\n    console.log('El mensaje contiene la letra H');\n}\n```"
+  },
+  {
+    "text": "¿Cómo ver si una lista esta vacia en js?"
+  },
+  {
+    "text": "`Aquí un ejemplo de cómo comprobar si una lista está vacía \n``javascript\nlet lista = [];\nif (lista.length === 0) {\n    console.log('La lista está vacía');\n}\n```"
+  },
+  {
+    "text": "¿Cuál es la estructura de la condicional if-else en Python?"
+  },
+  {
+    "text": "```python\nif <condición>:\n    # Código a ejecutar si la condición es verdadera\nelse:\n    # Código a ejecutar si la condición es falsa\n```"
+  },
+  {
+    "text": "¿Ejemplos de la estructura if-else en Python?"
+  },
+  {
+    "text": "Puedes Implementar if-else en los siguientes casos \n\nver si un numero es positivo o negativo  \nver si una persona es mayor o menor de edad \nsi un numero es par"
+  },
+  {
+    "text": "¿Cómo implementar si un número es positivo en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo para ver si un número es positivo o negativo \n```python\nnumero = -3\nif numero > 0:\n    print('El número es positivo')\nelse:\n    print('El número es negativo')\n```"
+  },
+  {
+    "text": "¿Cómo implementar si una lista está vacía en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo para ver si una lista esta vacía o tiene elementos \n```python\nmi_lista = [1, 2, 3]\nif mi_lista:\n    print('La lista tiene elementos')\nelse:\n    print('La lista está vacía')\n```"
+  },
+  {
+    "text": "¿Cómo implementar si una persona es mayor o menor de edad en Python?"
+  },
+  {
+    "text": "Aquí tienes una funcion para ver si una persona es mayor o menor de edad \n```python\nedad = 17\nif edad >= 18:\n    print('Es mayor de edad')\nelse:\n    print('Es menor de edad')\n```"
+  },
+  {
+    "text": "¿Cómo implementar si un número es par en Python?"
+  },
+  {
+    "text": "Aquí tienes una función para ver si un número es par o inpar: \n```python\nnumero = 7\nif numero % 2 == 0:\n    print('El número es par')\nelse:\n    print('El número es impar')\n```"
+  },
+  {
+    "text": "¿Cuál es la estructura de la condicional if-else en JavaScript?"
+  },
+  {
+    "text": "```javascript\nif (<condición>) {\n    // Código a ejecutar si la condición es verdadera\n} else {\n    // Código a ejecutar si la condición es falsa\n}```"
+  },
+  {
+    "text": "¿Ejemplos de la estructura if-else en JavaScript?"
+  },
+  {
+    "text": "Puedes Implementar if-else en los siguientes casos \nPara ver si un numero es positivo o negativo \nver si una persona es mayor o menor de edad \nsi un numero es par"
+  },
+  {
+    "text": "¿Cómo implementar si un número es positivo en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo para ver si un número es positivo o negativo \n```javascript\nlet numero = -3;\nif (numero > 0) {\n    console.log('El número es positivo');\n} else {\n    console.log('El número es negativo');\n}\n```"
+  },
+  {
+    "text": "¿Cómo implementar si una lista está vacía en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo para ver si una lista esta vacía o tiene elementos \n```javascript\nlet lista = [1, 2, 3];\nif (lista.length > 0) {\n    console.log('La lista tiene elementos');\n} else {\n    console.log('La lista está vacía');\n}\n```"
+  },
+  {
+    "text": "¿Cómo implementar si una persona es mayor o menor de edad en JavaScript?"
+  },
+  {
+    "text": "```javascript\nlet edad = 17;\nif (edad >= 18) {\n    console.log('Es mayor de edad');\n} else {\n    console.log('Es menor de edad');\n}\n```"
+  },
+  {
+    "text": "¿Cómo implementar si un número es par en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes una funcion para verificar si un número es par o inpar```javascript\nlet numero = 7;\nif (numero % 2 === 0) {\n    console.log('El número es par');\n} else {\n    console.log('El número es impar');\n}\n```"
+  },
+  {
+    "text": "¿Cuál es la estructura de la condicional if-else en js?"
+  },
+  {
+    "text": "```javascript\nif (<condición>) {\n    // Código a ejecutar si la condición es verdadera\n} else {\n    // Código a ejecutar si la condición es falsa\n}```"
+  },
+  {
+    "text": "¿Ejemplos de la estructura if-else en js?"
+  },
+  {
+    "text": "Puedes Implementar if-else en los siguientes casos \nPara ver si un numero es positivo o negativo \nver si una persona es mayor o menor de edad \nsi un numero es par"
+  },
+  {
+    "text": "¿Cómo implementar si un número es positivo en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo para ver si un número es positivo o negativo \n```javascript\nlet numero = -3;\nif (numero > 0) {\n    console.log('El número es positivo');\n} else {\n    console.log('El número es negativo');\n}\n```"
+  },
+  {
+    "text": "¿Cómo implementar si una lista está vacía en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo para ver si una lista esta vacía o tiene elementos \n```javascript\nlet lista = [1, 2, 3];\nif (lista.length > 0) {\n    console.log('La lista tiene elementos');\n} else {\n    console.log('La lista está vacía');\n}\n```"
+  },
+  {
+    "text": "¿Cómo implementar si una persona es mayor o menor de edad en js?"
+  },
+  {
+    "text": "```javascript\nlet edad = 17;\nif (edad >= 18) {\n    console.log('Es mayor de edad');\n} else {\n    console.log('Es menor de edad');\n}\n```"
+  },
+  {
+    "text": "¿Cómo implementar si un número es par en js?"
+  },
+  {
+    "text": "Aquí tienes una funcion para verificar si un número es par o inpar```javascript\nlet numero = 7;\nif (numero % 2 === 0) {\n    console.log('El número es par');\n} else {\n    console.log('El número es impar');\n}\n```"
+  },
+  {
+    "text": "¿Cuál es la estructura de la condicional Switch en Python?"
+  },
+  {
+    "text": "python no tiene una estructura switch en cambio usa match \n```python\nmatch <variable>:\n    case <valor1>:\n        # Código a ejecutar si la variable es igual a valor1\n    case <valor2>:\n        # Código a ejecutar si la variable es igual a valor2\n    case _:\n        # Código a ejecutar si no coincide con ningún valor\n```"
+  },
+  {
+    "text": "¿Ejemplos de match en Python?"
+  },
+  {
+    "text": "Para verificar un día de la semana \nClasificar calificacion de un estudiante \nverificar el tipo de mascota \nClasificar colores"
+  },
+  {
+    "text": "¿Cómo verificar un día de la semana  en Python?"
+  },
+  {
+    "text": "Ejemplo de cómo usar un match para verificar un día de la semana \n```python\ndia = 'Lunes'\nmatch dia:\n    case 'Lunes':\n        print('Hoy es lunes')\n    case 'Martes':\n        print('Hoy es martes')\n    case _:  # Default\n        print('Día no reconocido')\n```"
+  },
+  {
+    "text": "¿Cómo verificar clasificaciones de un estudiante Python?"
+  },
+  {
+    "text": "Ejemplo de cómo usar un match para clasificar la calificación de un estudiante \n```python\ncalificacion = 90\nmatch calificacion:\n    case calificacion if calificacion >= 90:\n        print('Excelente')\n    case calificacion if 70 <= calificacion < 90:\n        print('Bueno')\n    case _:  # Default\n        print('Necesita mejorar')\n```"
+  },
+  {
+    "text": "¿Cómo verificar el tipo de mascota en Python?"
+  },
+  {
+    "text": "Ejemplo de cómo usar un macth para verificar el tipo de mascota \n```python\nmascota = 'Perro'\nmatch mascota:\n    case 'Perro':\n        print('Es un perro')\n    case 'Gato':\n        print('Es un gato')\n    case _:  # Default\n        print('Otro tipo de mascota')\n```"
+  },
+  {
+    "text": "¿Dame un ejemplo de cómo usar un match para clasificar colores en Python?"
+  },
+  {
+    "text": "Ejemplo de como usar match para clasificar colores \n```python\ncolor = 'Rojo'\nmatch color:\n    case 'Rojo':\n        print('Es un color cálido')\n    case 'Azul':\n        print('Es un color frío')\n    case _:  # Default\n        print('Color no reconocido')\n```"
+  },
+  {
+    "text": "¿Cuál es la estructura de la condicional Switch en JavaScript?"
+  },
+  {
+    "text": "```javascript\nswitch (<variable>) {\n    case <valor1>:\n        // Código a ejecutar si la variable es igual a valor1\n        break;\n    case <valor2>:\n        // Código a ejecutar si la variable es igual a valor2\n        break;\n    default:\n        // Código a ejecutar si no coincide con ningún valor\n}```"
+  },
+  {
+    "text": "¿Ejemplos de Switch en JavaScript?"
+  },
+  {
+    "text": "Para Verficar \nun día de la semana \ncalificacion de un estudiante \nverificar el tipo de mascota \nClasificar  colores"
+  },
+  {
+    "text": "¿Cómo verificar un día de la semana en JavaScript?"
+  },
+  {
+    "text": "Ejemplo de cómo usar un switch para verificar un día de la semana \n```javascript\nlet dia = 'Lunes';\nswitch (dia) {\n    case 'Lunes':\n        console.log('Hoy es lunes');\n        break;\n    case 'Martes':\n        console.log('Hoy es martes');\n        break;\n    default:\n        console.log('Día no reconocido');\n}\n```"
+  },
+  {
+    "text": "¿Cómo verificar clasificaciones de un estudiante en JavaScript?"
+  },
+  {
+    "text": "Ejemplo de cómo usar un match para clasificar la calificación de un estudiante \n```javascript\nlet calificacion = 90;\nswitch (true) {\n    case calificacion >= 90:\n        console.log('Excelente');\n        break;\n    case calificacion >= 70:\n        console.log('Bueno');\n        break;\n    default:\n        console.log('Necesita mejorar');\n}\n```"
+  },
+  {
+    "text": "¿Cómo verificar el tipo de mascota en  JavaScript?"
+  },
+  {
+    "text": "Ejemplo de como usar switch para verificar el tipo de mascota \n```javascript\nlet mascota = 'Perro';\nswitch (mascota) {\n    case 'Perro':\n        console.log('Es un perro');\n        break;\n    case 'Gato':\n        console.log('Es un gato');\n        break;\n    default:\n        console.log('Otro tipo de mascota');\n}\n```"
+  },
+  {
+    "text": "¿Cómo clasificar colores en JavaScript?"
+  },
+  {
+    "text": "Ejemplo de como usar switch para clasficar colores \n```javascript\nlet color = 'Rojo';\nswitch (color) {\n    case 'Rojo':\n        console.log('Es un color cálido');\n        break;\n    case 'Azul':\n        console.log('Es un color frío');\n        break;\n    default:\n        console.log('Color no reconocido');\n}\n```"
+  },
+  {
+    "text": "¿Cuál es la estructura de la condicional Switch en js?"
+  },
+  {
+    "text": "```javascript\nswitch (<variable>) {\n    case <valor1>:\n        // Código a ejecutar si la variable es igual a valor1\n        break;\n    case <valor2>:\n        // Código a ejecutar si la variable es igual a valor2\n        break;\n    default:\n        // Código a ejecutar si no coincide con ningún valor\n}```"
+  },
+  {
+    "text": "¿Ejemplos de Switch en js?"
+  },
+  {
+    "text": "Para Verficar \nun día de la semana \ncalificacion de un estudiante \nverificar el tipo de mascota \nClasificar  colores"
+  },
+  {
+    "text": "¿Cómo verificar un día de la semana en js?"
+  },
+  {
+    "text": "Ejemplo de cómo usar un switch para verificar un día de la semana \n```javascript\nlet dia = 'Lunes';\nswitch (dia) {\n    case 'Lunes':\n        console.log('Hoy es lunes');\n        break;\n    case 'Martes':\n        console.log('Hoy es martes');\n        break;\n    default:\n        console.log('Día no reconocido');\n}\n```"
+  },
+  {
+    "text": "¿Cómo verificar clasificaciones de un estudiante en js?"
+  },
+  {
+    "text": "Ejemplo de cómo usar un match para clasificar la calificación de un estudiante \n```javascript\nlet calificacion = 90;\nswitch (true) {\n    case calificacion >= 90:\n        console.log('Excelente');\n        break;\n    case calificacion >= 70:\n        console.log('Bueno');\n        break;\n    default:\n        console.log('Necesita mejorar');\n}\n```"
+  },
+  {
+    "text": "¿Cómo verificar el tipo de mascota en  js?"
+  },
+  {
+    "text": "Ejemplo de como usar switch para verificar el tipo de mascota \n```javascript\nlet mascota = 'Perro';\nswitch (mascota) {\n    case 'Perro':\n        console.log('Es un perro');\n        break;\n    case 'Gato':\n        console.log('Es un gato');\n        break;\n    default:\n        console.log('Otro tipo de mascota');\n}\n```"
+  },
+  {
+    "text": "¿Cómo clasificar colores en js?"
+  },
+  {
+    "text": "Ejemplo de como usar switch para clasficar colores \n```javascript\nlet color = 'Rojo';\nswitch (color) {\n    case 'Rojo':\n        console.log('Es un color cálido');\n        break;\n    case 'Azul':\n        console.log('Es un color frío');\n        break;\n    default:\n        console.log('Color no reconocido');\n}\n```"
+  },
+  {
+    "text": "¿Qué es función random en Python?"
+  },
+  {
+    "text": "La función `random` en Python se utiliza para generar números aleatorios. Es parte del módulo `random` de la librería estándar, y se usa para obtener valores de manera aleatoria dentro de un rango determinado. Existen varias funciones dentro del módulo `random`, como `randint()`, `random()`, `choice()`, entre otras."
+  },
+  {
+    "text": "¿Ejemplos de random en Python?"
+  },
+  {
+    "text": "Puedes usar la función `random` en una variedad de situaciones donde necesites generar datos aleatorios, como: \nlanzar un dado \nseleccionar un ítem de una lista \nSimular sorteos"
+  },
+  {
+    "text": "¿Cómo lanzar un dado en Python?"
+  },
+  {
+    "text": "Aquí tiene un ejemplo de como simular el lanzamiento de un dado \n```python\nimport random\nresultado = random.randint(1, 6)\nprint('El resultado del dado es:', resultado)  # Salida: Un número aleatorio entre 1 y 6```"
+  },
+  {
+    "text": "¿Cómo seleccionar un ítem aleatorio de una lista en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de como seleccionar un item aleatorio \n```python\nimport random\ncolores = ['rojo', 'azul', 'verde', 'amarillo']\ncolor_aleatorio = random.choice(colores)\nprint('El color seleccionado es:', color_aleatorio)  # Salida: Un color aleatorio de la lista```"
+  },
+  {
+    "text": "¿Cómo simular sorteos en Python?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de como simular sorteos generando aleatorios \n```python\nimport random\nparticipantes = ['Ana', 'Luis', 'Pedro', 'María']\npremiado = random.choice(participantes)\nprint('El ganador del sorteo es:', premiado)  # Salida: Un nombre aleatorio de la lista```"
+  },
+  {
+    "text": "¿Qué es función random en JavaScript?"
+  },
+  {
+    "text": "La función `random` en JavaScript se utiliza para generar números aleatorios. Es parte del objeto `Math`, y se usa para obtener valores aleatorios dentro de un rango determinado. Por ejemplo, `Math.random()` genera un número aleatorio entre 0 y 1."
+  },
+  {
+    "text": "¿Ejemplos de random en JavaScript?"
+  },
+  {
+    "text": "Puedes usar la función `random` en una variedad de situaciones donde necesites generar datos aleatorios, como: \n- lanzar un dado \n- seleccionar un ítem de una lista \n- generar contraseñas aleatorias \n- Simular sorteos"
+  },
+  {
+    "text": "¿Cómo lanzar un dado en JavaScript?"
+  },
+  {
+    "text": "Aquí tiene un ejemplo de como simular el lanzamiento de un dado \n```javascript\nlet resultado = Math.floor(Math.random() * 6) + 1;\nconsole.log('El resultado del dado es:', resultado);  // Salida: Un número aleatorio entre 1 y 6```"
+  },
+  {
+    "text": "¿Cómo seleccionar un ítem aleatorio de una lista en JavaScript?"
+  },
+  {
+    "text": "Aqui tienes un ejemplo de como seleccionar un item aleatorio \n```javascript\nlet colores = ['rojo', 'azul', 'verde', 'amarillo'];\nlet colorAleatorio = colores[Math.floor(Math.random() * colores.length)];\nconsole.log('El color seleccionado es:', colorAleatorio);  // Salida: Un color aleatorio de la lista```"
+  },
+  {
+    "text": "¿Cómo simular sorteos en JavaScript?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de como simular un sorteo generando aleatorios en javascript: \n```javascript\nlet participantes = ['Ana', 'Luis', 'Pedro', 'María'];\nlet premiado = participantes[Math.floor(Math.random() * participantes.length)];\nconsole.log('El ganador del sorteo es:', premiado);  // Salida: Un nombre aleatorio de la lista```"
+  },
+  {
+    "text": "¿Qué es función random en js?"
+  },
+  {
+    "text": "La función `random` en JavaScript se utiliza para generar números aleatorios. Es parte del objeto `Math`, y se usa para obtener valores aleatorios dentro de un rango determinado. Por ejemplo, `Math.random()` genera un número aleatorio entre 0 y 1."
+  },
+  {
+    "text": "¿Ejemplos de random en js?"
+  },
+  {
+    "text": "Puedes usar la función `random` en una variedad de situaciones donde necesites generar datos aleatorios, como: \n- lanzar un dado \n- seleccionar un ítem de una lista \n- generar contraseñas aleatorias \n- Simular sorteos"
+  },
+  {
+    "text": "¿Cómo lanzar un dado en js?"
+  },
+  {
+    "text": "Aquí tiene un ejemplo de como simular el lanzamiento de un dado \n```javascript\nlet resultado = Math.floor(Math.random() * 6) + 1;\nconsole.log('El resultado del dado es:', resultado);  // Salida: Un número aleatorio entre 1 y 6```"
+  },
+  {
+    "text": "¿Cómo seleccionar un ítem aleatorio de una lista en js?"
+  },
+  {
+    "text": "Aqui tienes un ejemplo de como seleccionar un item aleatorio \n```javascript\nlet colores = ['rojo', 'azul', 'verde', 'amarillo'];\nlet colorAleatorio = colores[Math.floor(Math.random() * colores.length)];\nconsole.log('El color seleccionado es:', colorAleatorio);  // Salida: Un color aleatorio de la lista```"
+  },
+  {
+    "text": "¿Cómo simular sorteos en js?"
+  },
+  {
+    "text": "Aquí tienes un ejemplo de como simular un sorteo generando aleatorios en javascript: \n```javascript\nlet participantes = ['Ana', 'Luis', 'Pedro', 'María'];\nlet premiado = participantes[Math.floor(Math.random() * participantes.length)];\nconsole.log('El ganador del sorteo es:', premiado);  // Salida: Un nombre aleatorio de la lista```"
   }
-
-
-
-
-  
-  
-
-
-
-
 ]
