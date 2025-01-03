@@ -152,7 +152,7 @@ train()
 import tkinter as tk
 from tkinter import ttk, filedialog
 from datetime import datetime
-from tkinter import PhotoImage  # Para cargar iconos en los botones
+from tkinter import PhotoImage 
 
 # Configuración principal
 root = tk.Tk()
@@ -168,8 +168,8 @@ BUTTON_BG = "#00adb5"
 BUTTON_FG = "#ffffff"
 CHAT_BG = "#30475e"
 CHAT_ENTRY_BG = "#1c1e21"
-USER_BG = "#00adb5"  # Fondo para los mensajes del usuario
-BOT_BG = "#1c1e21"  # Fondo para los mensajes del bot
+USER_BG = "#00adb5" 
+BOT_BG = "#1c1e21" 
 
 # Centrar ventana
 screen_width = root.winfo_screenwidth()
@@ -187,10 +187,10 @@ notebook.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 chats = {}
 
 # Cargar iconos
-new_chat_icon = PhotoImage(file="new_chat.png")  # Cambia la ruta de la imagen
-send_icon = PhotoImage(file="send_message.png")  # Cambia la ruta de la imagen
-save_chat_icon = PhotoImage(file="save.png")  # Cambia la ruta de la imagen
-close_icon = PhotoImage(file="close.png")  # Cambia la ruta de la imagen
+new_chat_icon = PhotoImage(file="new_chat.png") 
+send_icon = PhotoImage(file="send_message.png")
+save_chat_icon = PhotoImage(file="save.png")  
+close_icon = PhotoImage(file="close.png")
 
 # Función para agregar un nuevo chat
 def agregar_chat():
